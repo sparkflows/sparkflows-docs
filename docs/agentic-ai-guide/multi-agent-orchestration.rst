@@ -2,7 +2,7 @@ Agent Orchestration
 ===================
 
 Agent Orchestration is the canvas. You use it when a process has structure of its
-own — branches, approvals, several specialists, or steps that must happen in a
+own - branches, approvals, several specialists, or steps that must happen in a
 fixed order.
 
 If a single well-instructed agent with a few tools would do, build it in
@@ -73,7 +73,7 @@ The node palette
 Building a flow
 ---------------
 
-#. **Start with Input.** Define the parameters the run receives — for the
+#. **Start with Input.** Define the parameters the run receives - for the
    Purchase Order Approver that is a single ``po_id``, pre-filled with
    ``PO-2004`` so the example can be run immediately.
 
@@ -85,7 +85,7 @@ Building a flow
 #. **Connect them** by dragging from one node's output anchor to the next node's
    input.
 #. **Double-click any node** to configure it.
-#. **Finish with Output.** Every path — including rejection paths — should reach
+#. **Finish with Output.** Every path - including rejection paths - should reach
    one.
 #. **Click Execute** to run, and **Save** to keep it.
 
@@ -112,7 +112,7 @@ canvas, Sparkflows asks where it should come from:
    * - Choice
      - What happens
    * - **From a saved agent** *(recommended)*
-     - Pick any agent in the project and this node becomes a **copy** of it —
+     - Pick any agent in the project and this node becomes a **copy** of it -
        its instructions, model, knowledge and tools come with it. You can still
        change anything afterwards.
    * - **Create a new one**
@@ -135,15 +135,15 @@ then reuse it on the canvas once it behaves.
 
    The node is a **copy**, not a live link. Editing the saved agent afterwards
    does not change orchestrations that already used it, and editing the node
-   does not change the saved agent. That is usually what you want — it stops an
-   edit in one place quietly breaking a process somewhere else — but it does
+   does not change the saved agent. That is usually what you want - it stops an
+   edit in one place quietly breaking a process somewhere else - but it does
    mean a genuine fix has to be applied in both.
 
 The Agent Node
 --------------
 
 An Agent Node is one LLM call. It carries its own model settings, its own
-prompt and its own tools — a node's tools are not shared with its neighbours.
+prompt and its own tools - a node's tools are not shared with its neighbours.
 
 Double-click it and the configuration opens on six tabs.
 
@@ -163,15 +163,15 @@ Double-click it and the configuration opens on six tabs.
    * - **Agent Instruction**
      - What this node does, plus its ``AGENTS.md`` source.
    * - **Workflow Configuration**
-     - Saved workflows this node may run — see
+     - Saved workflows this node may run - see
        :doc:`/agentic-ai-guide/workflows-as-tools`.
    * - **Context**
      - Additional standing context for this node.
    * - **Skills Registry**
-     - Reusable ``.md`` rules from **this project's** registry — see
+     - Reusable ``.md`` rules from **this project's** registry - see
        :doc:`/agentic-ai-guide/skills`.
    * - **MCP Registry**
-     - Tools from MCP servers — see :doc:`/agentic-ai-guide/mcp-servers`.
+     - Tools from MCP servers - see :doc:`/agentic-ai-guide/mcp-servers`.
 
 .. tip::
 
@@ -183,8 +183,8 @@ Double-click it and the configuration opens on six tabs.
 Writing the instruction
 ~~~~~~~~~~~~~~~~~~~~~~~
 
-Give each node **one job**, and — when something downstream has to branch on
-the result — make it emit a marker the next node can test.
+Give each node **one job**, and - when something downstream has to branch on
+the result - make it emit a marker the next node can test.
 
 .. figure:: ../_assets/agentic-ai-guide/orchestration/agent-node-instruction.png
    :alt: Agent Instruction tab showing a marker-emitting prompt
@@ -212,14 +212,14 @@ Adding tools to a node
 ~~~~~~~~~~~~~~~~~~~~~~
 
 Use the **+ Tool** chip on the node, or **Add tools** in the Tools group. For
-each tool you also decide **who supplies each argument** — the agent at call
+each tool you also decide **who supplies each argument** - the agent at call
 time, or a fixed value you pin. See :doc:`/agentic-ai-guide/tools-actions`.
 
 The Supervisor node
 -------------------
 
 A Supervisor is an agent whose job is delegation. Its LLM looks at the request
-and delegates to one — or a few — of the downstream agent nodes it is connected
+and delegates to one - or a few - of the downstream agent nodes it is connected
 to. **Only the chosen specialists run.**
 
 .. figure:: ../_assets/agentic-ai-guide/orchestration/supervisor.png
@@ -254,7 +254,7 @@ Configuration
    * - **LLM Config**
      - Connection, temperature, top P, max tokens.
    * - **Prompt**
-     - The system prompt — what the Supervisor is coordinating, and what each
+     - The system prompt - what the Supervisor is coordinating, and what each
        specialist is good at.
    * - **Skills Registry**
      - Skills applied to the Supervisor itself. See
@@ -263,7 +263,7 @@ Configuration
 .. important::
 
    The Supervisor can only delegate well if its prompt says what each specialist
-   is **for**. Naming them is not enough — describe the cases each one handles.
+   is **for**. Naming them is not enough - describe the cases each one handles.
    A Supervisor that picks badly is almost always a Supervisor that was never
    told the difference between its options.
 
@@ -287,7 +287,7 @@ interchangeable.
      - The destinations are collaborators
 
 If you only need to sort a request into one of several lanes, use a
-:doc:`Router </agentic-ai-guide/control-flow>` — it is simpler and cheaper.
+:doc:`Router </agentic-ai-guide/control-flow>` - it is simpler and cheaper.
 Reach for a Supervisor when the coordination itself needs judgement.
 
 When a fixed path is better than either
@@ -307,7 +307,7 @@ into a new node.
 Parameters
 ----------
 
-**Add Parameters** in the toolbar defines values the whole flow can read —
+**Add Parameters** in the toolbar defines values the whole flow can read -
 thresholds, environment names, endpoints. Put your approval threshold here rather
 than typing ``10000`` into a Condition, and you can change it in one place
 instead of hunting through nodes.
@@ -316,8 +316,8 @@ Testing an orchestration
 ------------------------
 
 Build and test **incrementally**. Place Input, one Agent Node and Output, and run
-it. Confirm that works, then insert the next node. The alternative — laying out
-twelve nodes and pressing Execute — tells you only that something, somewhere,
+it. Confirm that works, then insert the next node. The alternative - laying out
+twelve nodes and pressing Execute - tells you only that something, somewhere,
 failed.
 
 Use the **Executions** tab to inspect past runs: the inputs, the path taken, the

@@ -29,7 +29,7 @@ Human Approval
 --------------
 
 The Human Approval node is a gate. When a run reaches it, the run **stops** and
-waits — it shows as **Interrupted** and nothing further happens until a person
+waits - it shows as **Interrupted** and nothing further happens until a person
 answers. When somebody approves or rejects, the run picks up where it left off
 and continues down either the **Approved (A)** or the **Rejected (R)** branch.
 
@@ -60,7 +60,7 @@ The pattern that works has three parts:
 .. caution::
 
    Do not put an approval gate in front of everything. An approval that fires on
-   every run is a queue, not a control — people start approving without reading,
+   every run is a queue, not a control - people start approving without reading,
    and you have added latency while removing nothing. Gate the exceptions.
 
 Adding the node
@@ -84,10 +84,10 @@ Adding the node
       * - Anchor
         - Wire it to
       * - **Approved (A)**
-        - The action that should only happen after sign-off — send the email,
+        - The action that should only happen after sign-off - send the email,
           place the order, post the transaction.
       * - **Rejected (R)**
-        - The fallback — log the decision, notify the requester, or route to an
+        - The fallback - log the decision, notify the requester, or route to an
           edit/retry step.
 
    .. figure:: ../_assets/agentic-ai-guide/hitl/approval-anchors.png
@@ -111,19 +111,19 @@ Double-click the node.
      - What to put in it
    * - **Title** *(required)*
      - Short heading shown to the approver when the run stops. Keep it
-       action-oriented — ``Approve purchase order``, ``Confirm customer
+       action-oriented - ``Approve purchase order``, ``Confirm customer
        refund``.
    * - **Prompt to Approver**
      - The longer message. Explain what the upstream node produced and exactly
-       what decision is being asked for. Reference the values the reviewer needs
-       — an amount, a draft, a validator's assessment — so the person can decide
+       what decision is being asked for. Reference the values the reviewer needs -
+       an amount, a draft, a validator's assessment - so the person can decide
        without leaving the screen.
 
 Show the agent's own answer in the prompt
 -----------------------------------------
 
 The prompt is not just static text. Write ``${<node number>.<field>}`` and
-Sparkflows substitutes that node's output before the reviewer sees it — so the
+Sparkflows substitutes that node's output before the reviewer sees it - so the
 approver reads the agent's actual words, not a description of them.
 
 The node number is the one in the blue circle on the canvas, and ``analysis`` is
@@ -148,7 +148,7 @@ At run time that becomes:
    * - Reference
      - What it pulls in
    * - ``${2.analysis}``
-     - Node 2's answer — the usual one.
+     - Node 2's answer - the usual one.
    * - ``${2.confidence}``
      - Any other field that node published.
    * - ``${order_id}``
@@ -206,7 +206,7 @@ What the reviewer actually does
 An approval is answered from the **run**, not from the builder. This is the
 whole flow, from the reviewer's side.
 
-**Step 1 — Find the waiting run.** On **Agents → Executions**, a run sitting at
+**Step 1 - Find the waiting run.** On **Agents → Executions**, a run sitting at
 a gate shows the status **Interrupted**. It stays there until somebody answers
 it, and it survives a restart.
 
@@ -214,25 +214,25 @@ it, and it survives a restart.
    :alt: The Executions tab with two runs showing the Interrupted status
    :width: 100%
 
-**Step 2 — Open it.** An Interrupted row has three actions. The middle one is
-**Resume Paused Run** *(boxed above)* — on a finished run the same position says
+**Step 2 - Open it.** An Interrupted row has three actions. The middle one is
+**Resume Paused Run** *(boxed above)* - on a finished run the same position says
 **Rerun** instead, so the icon tells you whether a run is waiting for you.
 Either **Resume Paused Run** or **View Execution** takes you to the same place.
 
 The run opens with an **approval panel** at the top, carrying the node's title,
-the prompt you wrote, and two boxes — one for comments that travel with an
+the prompt you wrote, and two boxes - one for comments that travel with an
 approval, one for the reason that travels with a rejection.
 
 Everything the reviewer needs to judge is on the same page: scroll down and the
 **Node Outputs** panel shows what each earlier step produced, including the
 agent's own recommendation.
 
-**Step 3 — Answer it.** Type a comment or a reason, then click **Approve** or
-**Reject**. The run resumes immediately from where it stopped — it does not
-start again — and continues down the **Approved (A)** or **Rejected (R)**
+**Step 3 - Answer it.** Type a comment or a reason, then click **Approve** or
+**Reject**. The run resumes immediately from where it stopped - it does not
+start again - and continues down the **Approved (A)** or **Rejected (R)**
 branch.
 
-**Step 4 — The decision is part of the record.** The approval step keeps the
+**Step 4 - The decision is part of the record.** The approval step keeps the
 outcome and the comment, so months later the run still says who decided what,
 and why.
 
@@ -267,7 +267,7 @@ What waiting actually means
      - The run continues from the node it stopped at. Earlier steps are not
        repeated, so nothing is charged or sent twice.
    * - **Who can answer**
-     - Anyone who can open the run. Approval is not routed to a named person —
+     - Anyone who can open the run. Approval is not routed to a named person -
        if that matters, tell the right person with an
        :doc:`Email Notification </agentic-ai-guide/node-reference>`.
 
@@ -337,22 +337,22 @@ down A to the "place order" step; on reject, down R to "notify requester".
      - Rejected (R)
      - Routes back to the Agent to redraft
 
-That second pattern — reject loops back to redraft — is worth copying. It turns
+That second pattern - reject loops back to redraft - is worth copying. It turns
 a rejection into an improvement rather than a dead end.
 
 Human Input
 -----------
 
 **Human Input** is the conversational pause. It stops the run, shows the person
-whatever the step before it said, and hands their reply — exactly as typed — to
+whatever the step before it said, and hands their reply - exactly as typed - to
 the step after it.
 
 .. note::
 
    Human Input **carries no configuration at all** and does no interpretation.
    It does not extract fields, validate, or decide business actions.
-   Understanding the reply — a part request, a yes/no, a selection, a
-   confirmation — is the **agent's job on the next turn**.
+   Understanding the reply - a part request, a yes/no, a selection, a
+   confirmation - is the **agent's job on the next turn**.
 
 So the quality of a Human Input step is decided by the node that speaks *before*
 it and the agent that reads the answer *after* it. Make the upstream message say
@@ -368,7 +368,7 @@ In a chat assistant
 
 This is the node that makes an agent conversational. When the run reaches it,
 the question appears in the chat window and any choices the agent offered become
-buttons the person can click — they can also just type an answer.
+buttons the person can click - they can also just type an answer.
 
 .. figure:: ../_assets/agentic-ai-guide/hitl/human-input-chat.png
    :alt: A chat assistant asking whether to show alternative parts, with yes and no buttons

@@ -7,7 +7,7 @@ This page is a map. Building an agent in Sparkflows means working through the
 steps below, and each one has a page of its own.
 
 If you are starting from nothing, go straight to
-:doc:`/agentic-ai-guide/quickstart` — it does steps 1 to 6 with a worked example
+:doc:`/agentic-ai-guide/quickstart` - it does steps 1 to 6 with a worked example
 in about ten minutes.
 
 The steps
@@ -34,7 +34,7 @@ The steps
      - Connect the credentials it needs
      - :doc:`/agentic-ai-guide/connections`
    * - 5
-     - Add tools — connectors, built-in tools, MCP
+     - Add tools - connectors, built-in tools, MCP
      - :doc:`/agentic-ai-guide/tools-actions`,
        :doc:`/agentic-ai-guide/mcp-servers`
    * - 6
@@ -48,7 +48,7 @@ The steps
      - :doc:`/agentic-ai-guide/skills`,
        :doc:`/agentic-ai-guide/context-agents-md`
    * - 9
-     - Build the process — branches and multiple agents
+     - Build the process - branches and multiple agents
      - :doc:`/agentic-ai-guide/multi-agent-orchestration`,
        :doc:`/agentic-ai-guide/control-flow`
    * - 10

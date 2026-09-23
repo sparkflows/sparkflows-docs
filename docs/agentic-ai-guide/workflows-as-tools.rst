@@ -1,7 +1,7 @@
 Using Workflows as Agent Tools
 ==============================
 
-A workflow is a visual data pipeline — read, join, filter, aggregate, score,
+A workflow is a visual data pipeline - read, join, filter, aggregate, score,
 write. Any workflow you have already built can be handed to an agent as a tool it
 can call.
 
@@ -40,13 +40,13 @@ Step 1: Build the workflow
       :alt: The Electronics-Check-Inventory workflow: a CSV read, a SQL step and Print N Rows
       :width: 85%
 
-      The shipped **Electronics-Check-Inventory** workflow — read the parts
+      The shipped **Electronics-Check-Inventory** workflow - read the parts
       CSV, filter it with SQL, return the rows. Three nodes, exact and
       repeatable. This is the workflow the *Parts Finder* agent calls as a
       tool.
 
 #. Note the **parameters** it expects. These become the arguments the agent has
-   to supply, so give them names an agent can guess correctly — ``customer_id``
+   to supply, so give them names an agent can guess correctly - ``customer_id``
    and ``month``, not ``p1`` and ``p2``.
 
 .. important::
@@ -62,7 +62,7 @@ In Agent Studio
 ~~~~~~~~~~~~~~~
 
 #. Open the **Tools** group.
-#. Expand **Workflows** — *"Let this agent run a saved workflow."*
+#. Expand **Workflows** - *"Let this agent run a saved workflow."*
 #. Select the workflow.
 #. Map its parameters.
 
@@ -95,7 +95,7 @@ You have two options:
 
    The **Workflow Execution** node runs the workflow **without involving an
    LLM**. If a step's only job is to call one workflow once and surface its
-   result, use this node — wrapping that in an Agent Node spends a model call
+   result, use this node - wrapping that in an Agent Node spends a model call
    to do nothing.
 
    It also takes **Timeout** and **Retry attempts**, which an Agent Node
@@ -125,7 +125,7 @@ This is the same contract an Agent Node publishes, which is why a downstream
    fields['status'] == 'approved'
    'OVERDUE' in analysis
 
-So a workflow can drive a branch directly, with no agent in between — the
+So a workflow can drive a branch directly, with no agent in between - the
 cheapest and most predictable way to route on a computed value.
 
 .. caution::
@@ -181,9 +181,9 @@ fragment.
 When not to use a workflow
 --------------------------
 
-* **For a single REST call** — use the ``REST API Client`` built-in tool.
-* **For reading one table** — use ``Read JDBC``.
-* **For something the connector already does** — check the 53 connectors first;
+* **For a single REST call** - use the ``REST API Client`` built-in tool.
+* **For reading one table** - use ``Read JDBC``.
+* **For something the connector already does** - check the 53 connectors first;
   ServiceNow alone exposes 111 operations.
 
 Next: control the flow

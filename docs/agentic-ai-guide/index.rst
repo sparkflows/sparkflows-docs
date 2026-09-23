@@ -1,7 +1,7 @@
 Agentic AI Guide
 ================
 
-Build, orchestrate, govern and deploy enterprise AI agents in Sparkflows —
+Build, orchestrate, govern and deploy enterprise AI agents in Sparkflows -
 agents that reason over your data, call your systems, run your workflows, and
 pause for a human when the decision warrants it.
 
@@ -23,19 +23,19 @@ Quick start
 
     :doc:`/agentic-ai-guide/connections`
 
-    Step 1 — create the model connection every agent needs.
+    Step 1 - create the model connection every agent needs.
 
     ---
 
     :doc:`/agentic-ai-guide/quickstart`
 
-    Step 2 — build a working, tool-using agent in about ten minutes.
+    Step 2 - build a working, tool-using agent in about ten minutes.
 
     ---
 
     :doc:`/agentic-ai-guide/chat`
 
-    Step 3 — turn that agent into a chatbot your colleagues can use.
+    Step 3 - turn that agent into a chatbot your colleagues can use.
 
 Where you build
 ---------------
@@ -82,7 +82,7 @@ be allowed to do.
 
     :doc:`/agentic-ai-guide/workflows-as-tools`
 
-    Let an agent run a saved workflow — the right home for exact, repeatable
+    Let an agent run a saved workflow - the right home for exact, repeatable
     logic.
 
     ---
@@ -119,7 +119,7 @@ Shape how agents behave
 
     :doc:`/agentic-ai-guide/context-agents-md`
 
-    ``AGENTS.md`` — the standing context every agent should know.
+    ``AGENTS.md`` - the standing context every agent should know.
 
     ---
 
@@ -141,7 +141,7 @@ Build real processes
 
     :doc:`/agentic-ai-guide/control-flow`
 
-    Condition, Router and Guardrails — the nodes that decide where a run goes.
+    Condition, Router and Guardrails - the nodes that decide where a run goes.
 
     ---
 

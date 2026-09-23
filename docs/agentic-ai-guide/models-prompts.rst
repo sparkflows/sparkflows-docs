@@ -9,11 +9,11 @@ Choosing a model connection
 
 Open the **Model** group in Agent Studio, or the **LLM Config** tab of an Agent
 Node, and pick a **Connection**. Connections are created once by an
-administrator — see :doc:`/user-guide/connection/gen-ai-connection/index`.
+administrator - see :doc:`/user-guide/connection/gen-ai-connection/index`.
 
 .. figure:: ../_assets/agentic-ai-guide/agent-studio/model.png
    :alt: Model group with connection and generation settings
-   :width: 680px
+   :width: 652px
 
 Generation settings
 -------------------
@@ -27,7 +27,7 @@ Generation settings
      - What it does
    * - **Temperature**
      - ``0.7``
-     - Randomness. Low values make the agent repeat itself across runs — which
+     - Randomness. Low values make the agent repeat itself across runs - which
        is what you want for anything you will check.
    * - **Top P**
      - ``1.0``
@@ -35,7 +35,7 @@ Generation settings
        results hard to reason about.
    * - **Max Tokens**
      - ``500``
-     - Ceiling on response length. This default is short — raise it for drafting
+     - Ceiling on response length. This default is short - raise it for drafting
        or long summaries, or answers get cut off mid-sentence.
    * - **Timeout (seconds)**
      - ``180``
@@ -123,7 +123,7 @@ The Improve button
 ~~~~~~~~~~~~~~~~~~
 
 **Improve**, above the Instructions box, expands a rough draft into a fuller
-prompt. It is a good way to get from three words to a first draft — then edit it
+prompt. It is a good way to get from three words to a first draft - then edit it
 down. Generated prompts tend towards generic politeness, and the specific rules
 are the ones doing the work.
 
@@ -143,7 +143,7 @@ What does not belong in Instructions
    * - Long reference material
      - :doc:`/agentic-ai-guide/rag-knowledge`
    * - Credentials or API keys
-     - :doc:`/agentic-ai-guide/connections` — **never** in prompt text
+     - :doc:`/agentic-ai-guide/connections` - **never** in prompt text
    * - A description of five different jobs
      - Separate agents, coordinated by a
        :doc:`Supervisor </agentic-ai-guide/multi-agent-orchestration>`
@@ -154,7 +154,7 @@ Iterating
 Change **one thing at a time** and re-run the same query. Keep a realistic query
 in the Input box as your regression test. When you change instructions and the
 agent gets better at one thing and worse at another, you want to know which edit
-did it — and that is only possible if you made one.
+did it - and that is only possible if you made one.
 
 Next: shared instructions
 -------------------------

@@ -1,7 +1,7 @@
 Context & AGENTS.md
 ===================
 
-``AGENTS.md`` is a single Markdown file of standing context applied to an agent —
+``AGENTS.md`` is a single Markdown file of standing context applied to an agent -
 the background facts that are true no matter what the agent is being asked to do.
 
 Configure it in the **Context** group in Agent Studio.
@@ -57,7 +57,7 @@ Use ``inline`` only for a short exception that belongs to one agent. Use
 Where the setting lives
 -----------------------
 
-The same setting appears in two places, under two different names — worth
+The same setting appears in two places, under two different names - worth
 knowing, because people hunt for it:
 
 .. list-table::
@@ -126,8 +126,8 @@ Standing facts about your organisation and its systems:
 
 What does **not** belong:
 
-* Task instructions — those go in the agent's Instructions.
-* Reusable procedures — those are :doc:`/agentic-ai-guide/skills`.
+* Task instructions - those go in the agent's Instructions.
+* Reusable procedures - those are :doc:`/agentic-ai-guide/skills`.
 * Anything secret. This is prompt text, not a credential store; secrets belong
   in :doc:`/agentic-ai-guide/connections`.
 

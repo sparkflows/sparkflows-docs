@@ -1,7 +1,7 @@
 Schedule Agents
 ===============
 
-A scheduled agent runs on a timetable with nobody watching it — a morning triage
+A scheduled agent runs on a timetable with nobody watching it - a morning triage
 pass, a nightly reconciliation, a weekly report. Everything else about the agent
 stays the same; you are only deciding *when* it runs and *who hears about it*.
 
@@ -32,17 +32,17 @@ Before you schedule anything
 Steps
 -----
 
-Scheduling runs an agent on a timetable with nobody watching — a morning triage
+Scheduling runs an agent on a timetable with nobody watching - a morning triage
 pass, a nightly reconciliation, a weekly report.
 
-**Step 1 — Open the Schedule dialog.** On the **Agents** page, click the **⋮**
+**Step 1 - Open the Schedule dialog.** On the **Agents** page, click the **⋮**
 menu at the end of the agent's row and choose **Schedule**.
 
 .. figure:: ../_assets/agentic-ai-guide/schedule/agent-menu.png
    :alt: The row menu on the Agents page with Schedule highlighted
    :width: 560px
 
-**Step 2 — Set the timetable.** The **General** tab is where the schedule
+**Step 2 - Set the timetable.** The **General** tab is where the schedule
 itself lives.
 
 .. figure:: ../_assets/agentic-ai-guide/schedule/agent-dialog.png
@@ -61,17 +61,17 @@ itself lives.
      - Optional. Leave both empty to run from now until you stop it.
    * - **Frequency**
      - ``Minute``, ``Hourly``, ``Daily``, ``Weekly``, ``Monthly`` or
-       ``Cron Expression``. Picking one reveals the fields it needs — ``Daily``
+       ``Cron Expression``. Picking one reveals the fields it needs - ``Daily``
        asks for an hour, a minute and a time zone.
    * - **Time Zone**
      - The zone the time is read in. Check this; it is the most common reason a
        job runs at the wrong hour.
 
 Sparkflows shows the **Expected Next Execution Time** as you change the
-settings. Read it before you submit — it is the quickest way to catch a
+settings. Read it before you submit - it is the quickest way to catch a
 timezone or frequency mistake.
 
-**Step 3 — Say who hears about it.** The **Email** tab takes an address for
+**Step 3 - Say who hears about it.** The **Email** tab takes an address for
 successful runs and an address for failures.
 
 .. figure:: ../_assets/agentic-ai-guide/schedule/agent-email.png
@@ -84,7 +84,7 @@ successful runs and an address for failures.
    and a nightly job that has been failing quietly for three weeks is worse than
    no job at all.
 
-**Step 4 — Supply any inputs.** The **Parameters** tab takes the key/value pairs
+**Step 4 - Supply any inputs.** The **Parameters** tab takes the key/value pairs
 the agent needs. A scheduled run has nobody to ask, so every parameter the agent
 expects must have a value here or a default on the node.
 
@@ -92,7 +92,7 @@ expects must have a value here or a default on the node.
    :alt: The Parameters tab with an empty key and value row
    :width: 816px
 
-**Step 5 — Submit.** Click **Submit**. The schedule appears on the
+**Step 5 - Submit.** Click **Submit**. The schedule appears on the
 **Schedules** tab, where you can edit it, delete it, or switch it on and off
 with the toggle in **Actions**.
 

@@ -2,7 +2,7 @@ Step 3: Turn an Agent into a Chatbot
 ====================================
 
 A saved agent is useful to you. A **chat assistant** makes it useful to
-everyone else — colleagues get a chat window, not a builder screen.
+everyone else - colleagues get a chat window, not a builder screen.
 
 It takes about a minute and needs nothing new: you point an assistant at the
 agent you built in :doc:`/agentic-ai-guide/quickstart`.
@@ -14,21 +14,21 @@ agent you built in :doc:`/agentic-ai-guide/quickstart`.
 Use the right menu entry
 ------------------------
 
-In the project sidebar click **Chat**, then open the **arrow next to Create
-Chat Assistant** and choose **Create Agentic Chat Assistant**.
+In the project sidebar click **Chat**, then click **Create Chat** and choose
+**Create Agentic Chat Assistant**.
 
 .. figure:: ../_assets/agentic-ai-guide/chat/01-create-agentic.png
-   :alt: The Create Chat Assistant dropdown showing Create Agentic Chat Assistant
-   :width: 520px
+   :alt: The Create Chat menu open, with Create Agentic Chat Assistant highlighted
+   :width: 440px
 
 .. important::
 
    This is the entry point that matters, and it is easy to miss.
 
-   * **Create Agentic Chat Assistant** — backed by one of your saved agents. It
+   * **Create Agentic Chat Assistant** - backed by one of your saved agents. It
      inherits that agent's instructions, model, knowledge and tools. **This is
      the one you want.**
-   * **Create Chat Assistant** (the plain button) — a standalone chatbot that
+   * **Create Chat Assistant** - a standalone chatbot that
      you configure separately with its own connection and vector database. It
      knows nothing about your agents.
 
@@ -38,8 +38,8 @@ Point it at your agent
 Fill in three fields.
 
 .. figure:: ../_assets/agentic-ai-guide/chat/02-create-with-agents.png
-   :alt: The Create Chat Assistant with Agents dialog with an agent selected
-   :width: 812px
+   :alt: The Create Chat Assistant with Agents dialog pointed at the Employee Benefits Assistant
+   :width: 810px
 
 .. list-table::
    :header-rows: 1
@@ -50,26 +50,27 @@ Fill in three fields.
    * - **Name**
      - What users see at the top of the chat.
    * - **Description**
-     - What it is for. Worth writing — it is how people choose which assistant
+     - What it is for. Worth writing - it is how people choose which assistant
        to open.
    * - **Select Agent**
      - The saved agent that answers. The dropdown lists every agent in the
-       project *(boxed)*.
+       project.
 
-Click **Create**. The assistant appears on the Chat page.
+Click **Create**. The assistant appears on the Chat page - click its name to
+open it.
 
 Talk to it
 ----------
 
 Open the assistant and type a question. Each answer comes from a real run of
-the agent behind it — same instructions, same tools, same guardrails.
+the agent behind it - same instructions, same tools, same guardrails.
 
 .. figure:: ../_assets/agentic-ai-guide/chat/03-conversation.png
-   :alt: Three-turn conversation with the Company FAQ Chatbot
-   :width: 95%
+   :alt: The Benefits Help Desk answering two leave questions from the FAQ and declining a question about parking
+   :width: 100%
 
-   The **Company FAQ Agent** from :doc:`/agentic-ai-guide/quickstart`, answering
-   as a chatbot.
+   The **Employee Benefits Assistant** from :doc:`/agentic-ai-guide/quickstart`,
+   now answering as the Benefits Help Desk.
 
 Read what that conversation proves:
 
@@ -79,24 +80,29 @@ Read what that conversation proves:
 
    * - Question
      - What it shows
-   * - *How many annual leave days do I get?*
-     - The agent read the CSV and answered in the exact shape its instructions
-       asked for — an answer line and an owner.
-   * - *How do I claim expenses?*
-     - Same format on a different row. The format is reliable, not a fluke.
-   * - *What is the parking policy?*
-     - **Not in the FAQ.** It replied *"That is not in the FAQ. Please ask the
-       People Team"* instead of inventing an answer.
+   * - *How many annual leave days do I receive each year?*
+     - The agent read the FAQ and answered from it - 25 days, public holidays on
+       top.
+   * - *Can I carry unused leave into next year?*
+     - A follow-up on the same topic, answered from the same file.
+   * - *What is the parking policy at the office?*
+     - **Not in the FAQ.** It said so and pointed to People Operations instead
+       of inventing an answer.
 
 That third answer is the one to care about. An agent that admits what it does
 not know is the difference between a tool people trust and one they quietly
-stop using — and you get it by writing the rule into the instructions, as the
+stop using - and you get it by writing the rule into the instructions, as the
 quickstart does.
+
+.. note::
+
+   Unlike the **Chat** tab inside Agent Studio, a chat assistant is for real
+   use: it is what you share with colleagues.
 
 Topics
 ------
 
-The left panel holds **topics** — separate conversation threads against the
+The left panel holds **topics** - separate conversation threads against the
 same assistant. Use the **+** to start one per subject so history stays
 readable.
 
@@ -127,13 +133,13 @@ Which agents make good assistants
      - Jobs that should run on a schedule, not on request
 
 For a process with branches or approvals, build it on the canvas and expose
-that instead — see :doc:`/agentic-ai-guide/multi-agent-orchestration`.
+that instead - see :doc:`/agentic-ai-guide/multi-agent-orchestration`.
 
 .. note::
 
    **A Human Input node works well in chat.** When the agent needs something
    from the person mid-run, the question appears in the conversation with the
-   choices as buttons — see
+   choices as buttons - see
    :doc:`/agentic-ai-guide/human-in-the-loop`.
 
    A **Human Approval** gate is different: it is answered from the run view on
@@ -143,5 +149,5 @@ that instead — see :doc:`/agentic-ai-guide/multi-agent-orchestration`.
 Next: go deeper
 ---------------
 
-:doc:`/agentic-ai-guide/multi-agent-orchestration` — reusing a saved agent as
+:doc:`/agentic-ai-guide/multi-agent-orchestration` - reusing a saved agent as
 one node in a larger process.

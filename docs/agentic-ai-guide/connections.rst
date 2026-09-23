@@ -2,7 +2,7 @@ Step 1: Create a Connection
 ===========================
 
 Before you can build an agent you need at least one thing: a **connection to a
-language model**. A connection is a stored credential — agents reference it by
+language model**. A connection is a stored credential - agents reference it by
 name, and the platform supplies the secret at run time.
 
 That separation is the point. You can share an agent without sharing a
@@ -36,7 +36,7 @@ Connectors are grouped by what they are for. For an agent's model, choose the
    :alt: Add Connection wizard, LLM category selected, showing the model providers
    :width: 85%
 
-   The **LLM** filter (boxed) narrows the list to model providers — Anthropic,
+   The **LLM** filter (boxed) narrows the list to model providers - Anthropic,
    AzureOpenAI, Bedrock, Gemini, OpenAI and VertexPalmAPI.
 
 The other categories are for the rest of what agents reach:
@@ -52,7 +52,7 @@ The other categories are for the rest of what agents reach:
    * - **Storage**
      - Databases and file stores an agent reads or writes.
    * - **Vector DB**
-     - Pinecone, FAISS, Milvus, Weaviate — needed for
+     - Pinecone, FAISS, Milvus, Weaviate - needed for
        :doc:`Knowledge / RAG </agentic-ai-guide/rag-knowledge>`.
    * - **API**
      - HTTP endpoints.
@@ -83,7 +83,7 @@ this:
      - ``Token`` for an API key, or ``Client Credentials`` for app-based auth.
    * - **Connection Name**
      - What builders will see in the agent's model dropdown. Make it
-       recognisable — ``AzureOpenAI-gpt4.1`` beats ``conn2``.
+       recognisable - ``AzureOpenAI-gpt4.1`` beats ``conn2``.
    * - **Azure Endpoint URL**
      - Your Azure OpenAI resource URL.
    * - **Model Name**
@@ -111,7 +111,7 @@ The last step shows everything back to you before you commit it.
 .. important::
 
    Always test. A connection that saves cleanly but was never tested will fail
-   later inside an agent run, where the error is much harder to read — you will
+   later inside an agent run, where the error is much harder to read - you will
    be looking at a failed agent, not a failed credential.
 
 Secrets are shown as ``••••••`` in the preview and the footer confirms
@@ -150,7 +150,7 @@ Which connections agents need
      - Needed for
      - Detailed setup
    * - **LLM**
-     - Every agent — the **Model** field.
+     - Every agent - the **Model** field.
      - :doc:`/user-guide/connection/gen-ai-connection/index`
    * - **Storage**
      - ``Read JDBC``, Snowflake, Salesforce, SharePoint tools.

@@ -2,7 +2,7 @@ Knowledge & RAG
 ===============
 
 Knowledge grounds an agent in **your** documents. Without it, an agent answers
-from whatever the model absorbed during training — which is generic, undated, and
+from whatever the model absorbed during training - which is generic, undated, and
 knows nothing about your business. With it, the agent reads your material before
 it answers.
 
@@ -23,7 +23,7 @@ When to use Knowledge
 
    * - Use Knowledge when
      - Use something else when
-   * - The answer lives in documents — policies, manuals, contracts
+   * - The answer lives in documents - policies, manuals, contracts
      - The answer lives in a system of record → use a **tool**
    * - The corpus is too large to paste into a prompt
      - It is a page of standing facts → use :doc:`AGENTS.md
@@ -34,7 +34,7 @@ When to use Knowledge
 .. important::
 
    Knowledge is for *documents*. If the question is "what is this customer's
-   balance?", that is a database or an API — give the agent a tool. Agents that
+   balance?", that is a database or an API - give the agent a tool. Agents that
    retrieve stale document copies of live data are a common and avoidable
    mistake.
 
@@ -78,15 +78,15 @@ Use an existing Pinecone knowledge base
 
 This is the common case: somebody has already indexed the documents, and you
 want your agent to search that index. You need four things from whoever built
-it — the **connection**, the **index name**, the **namespace**, and the
+it - the **connection**, the **index name**, the **namespace**, and the
 **embedding model and dimension** they used.
 
-**Step 1 — Switch retrieval on.** Open the **Context** tab on an Agent Node (or
+**Step 1 - Switch retrieval on.** Open the **Context** tab on an Agent Node (or
 the **Knowledge** group in Agent Studio) and set **Knowledge Base (RAG)** to
 ``true``. Choose **Vector Database** ``pinecone`` and **Knowledge Source**
 ``existing_vector_db``.
 
-**Step 2 — Pick the connection.** The **Pinecone Connection** dropdown lists
+**Step 2 - Pick the connection.** The **Pinecone Connection** dropdown lists
 every Pinecone connection configured in your workspace. Choose the one that
 holds the index you want.
 
@@ -96,11 +96,11 @@ holds the index you want.
 
 .. note::
 
-   No Pinecone connections in the list? Somebody has to create one first — see
+   No Pinecone connections in the list? Somebody has to create one first - see
    :doc:`/agentic-ai-guide/connections`. The API key lives in the connection and
    nowhere else; never put it in an agent field or a Markdown file.
 
-**Step 3 — Point it at the right index.** Fill in the index name, the namespace,
+**Step 3 - Point it at the right index.** Fill in the index name, the namespace,
 and the embedding settings that were used when the documents were stored.
 
 .. figure:: ../_assets/agentic-ai-guide/knowledge/agent-node-pinecone.png
@@ -130,16 +130,16 @@ and the embedding settings that were used when the documents were stored.
      - ``none`` to start. ``lexical`` and ``hosted`` re-order the retrieved
        chunks before the agent sees them.
 
-**Step 4 — Save and ask a question you know the answer to.** If the agent
+**Step 4 - Save and ask a question you know the answer to.** If the agent
 answers from general knowledge instead of your documents, the retrieval returned
-nothing — check the namespace first, then the index name.
+nothing - check the namespace first, then the index name.
 
 .. important::
 
    Index, namespace, embedding model and dimension must all match the workflow
    that stored the documents. A wrong namespace returns no documents; a
    mismatched embedding model returns poor matches. Neither one produces an
-   error — both produce a vague answer.
+   error - both produce a vague answer.
 
 The settings
 ------------
@@ -162,7 +162,7 @@ The settings
      - The partition inside the index. The clean way to keep departments or
        tenants apart in one database.
    * - **Top K**
-     - How many chunks to retrieve. Defaults to ``3``. Start low — irrelevant
+     - How many chunks to retrieve. Defaults to ``3``. Start low - irrelevant
        chunks crowd out the relevant one and cost tokens.
    * - **Embedding Model / Deployment**
      - Must be the **same model the index was built with**, e.g.
@@ -211,7 +211,7 @@ use it. Add this to the instructions:
    from general knowledge. Quote the source for each claim.
 
 Without that, a model given weak passages will fall back on training data and
-produce a confident, plausible, unsourced answer — the single most damaging
+produce a confident, plausible, unsourced answer - the single most damaging
 failure mode in enterprise RAG.
 
 Troubleshooting

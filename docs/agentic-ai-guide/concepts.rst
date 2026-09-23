@@ -42,9 +42,9 @@ This matters because it tells you where to look when an agent misbehaves:
    * - Agent answers the wrong question
      - Instructions, or the Input query
    * - Agent invents facts
-     - Knowledge — it had nothing real to read
+     - Knowledge - it had nothing real to read
    * - Agent knows the answer but cannot act
-     - Tools — the operation was never ticked
+     - Tools - the operation was never ticked
    * - Agent calls the right tool with wrong arguments
      - Instructions, or the tool's own description
    * - Answer is right but unusable downstream
@@ -63,7 +63,7 @@ The five words
    own tools and prompt. A Condition is a branch. Human Approval is a pause.
 
 **Tool**
-   Something the agent is *allowed to do* — post a Slack message, read a JDBC
+   Something the agent is *allowed to do* - post a Slack message, read a JDBC
    table, create a ServiceNow incident, run one of your saved workflows. Tools
    are the difference between an agent that talks and an agent that works.
 
@@ -73,7 +73,7 @@ The five words
 
 **Run**
    One execution of an agent, with its inputs, its tool calls, its approvals, and
-   its output — all recorded, all replayable from the Executions tab.
+   its output - all recorded, all replayable from the Executions tab.
 
 Agent Studio or Agent Orchestration?
 ------------------------------------

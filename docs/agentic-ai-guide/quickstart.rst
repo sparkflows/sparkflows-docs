@@ -1,13 +1,13 @@
 Step 2: Your First Agent
 ========================
 
-This builds a working agent in **Agent Studio** — the form-based way to make a
+This builds a working agent in **Agent Studio** - the form-based way to make a
 single agent. No canvas, no wiring. About ten minutes.
 
 Before you start
 ----------------
 
-Three things need to exist. If you are brand new, do them in this order — each
+Three things need to exist. If you are brand new, do them in this order - each
 takes a minute or two.
 
 .. list-table::
@@ -31,8 +31,8 @@ takes a minute or two.
 
 .. note::
 
-   Only step 2 is truly specific to agents. If a colleague has already set up
-   the workspace, you may find all three are done and you can start below.
+   Only the LLM connection is specific to agents. If a colleague has already
+   set up the workspace, all three may be done and you can start below.
 
 .. contents:: On this page
    :local:
@@ -72,52 +72,66 @@ In a project that already has agents, the same choices live behind the
    :alt: The Create Agents button opened, showing Agent Studio and Agent Orchestration
    :width: 55%
 
-   **1** Create Agents · **2** Agent Studio, for a single agent ·
-   **3** Agent Orchestration, for a canvas.
+   **Agent Studio** for a single agent, **Agent Orchestration** for a canvas.
 
 The Agent Studio screen
 -----------------------
 
-Click **Single agent** and Agent Studio opens as two panels.
+Click **Single agent** and Agent Studio opens.
 
 .. figure:: ../_assets/agentic-ai-guide/quickstart/03-studio-empty.png
-   :alt: Agent Studio with the behaviour panel on the left and the configuration panel on the right
-   :width: 90%
+   :alt: A new agent in Agent Studio with the Build, Chat and Runs tabs across the top
+   :width: 100%
 
-   **Left:** who the agent is. **Right:** what it is allowed to do, in nine
-   collapsible groups.
+Across the top are three tabs, and this walkthrough uses all of them:
+
+.. list-table::
+   :header-rows: 1
+   :widths: 16 84
+
+   * - Tab
+     - What you do there
+   * - **Build**
+     - Configure the agent. **Left:** who it is. **Right:** what it may do, in
+       nine collapsible groups.
+   * - **Chat**
+     - Talk to it while you build. Nothing is recorded.
+   * - **Runs**
+     - Run it for real and read exactly what it did.
 
 Name it and tell it what it does
 --------------------------------
 
-#. Type a name at the top — ``Company FAQ Agent``.
-#. **Description**: *Answers staff questions from our FAQ sheet.*
-#. **Category** is optional, and it is what groups agents in the list once you
-   have fifty of them.
+The example in this walkthrough is an **Employee Benefits Assistant** that
+answers staff questions from a company FAQ sheet.
+
+#. Type a name at the top - ``Employee Benefits Assistant``.
+#. **Description**: *Answers employee questions about leave, benefits, and
+   expense policies.*
+#. **Category**: ``People Operations``. It is optional, and it is what groups
+   agents in the list once you have fifty of them.
 #. Replace the default **Instructions**:
 
    .. code-block:: text
 
-      You answer staff questions about company policy.
+      You are the Employee Benefits Assistant. Answer employee questions
+      about leave, benefits, and expense policies using the approved FAQ.
+      Be concise, practical, and clear. If the answer is not in the
+      available information, say so and direct the employee to People
+      Operations.
 
-      Always read the FAQ file before answering. Quote the FAQ wording
-      where you can.
-
-      If the FAQ does not cover the question, say "That is not in the
-      FAQ" and suggest who to ask. Never guess.
+#. Open the **Input** group and type a question you know the answer to -
+   *How many annual leave days do I receive each year?* This is the query
+   **Run** uses, so keep it realistic.
 
 .. figure:: ../_assets/agentic-ai-guide/quickstart/04-instructions.png
-   :alt: Agent Studio with a name, instructions and a test query filled in
-   :width: 85%
-
-   The shipped *Parts Finder* example filled in the same way: a name, a
-   one-line instruction, and a real query in the **Input** group ready for
-   **Run**.
+   :alt: The Build tab with the agent's name, description, category, instructions and a test question filled in
+   :width: 100%
 
 Why this wording and not the default *"You are a helpful AI agent"*:
 
 * It says **what the agent is**, not what it should be like.
-* It says **always read the file** — otherwise the model will answer from
+* It says **use the approved FAQ** - otherwise the model will answer from
   memory and sound perfectly confident doing it.
 * It says what to do when it **does not know**. Agents invent answers mostly
   because nobody told them "I don't know" was allowed.
@@ -125,7 +139,7 @@ Why this wording and not the default *"You are a helpful AI agent"*:
 .. tip::
 
    The **Improve** button above the box expands a rough draft into a fuller
-   prompt. Use it to get from three words to a first draft, then cut it back —
+   prompt. Use it to get from three words to a first draft, then cut it back -
    generated prompts drift towards generic politeness, and the specific rules
    are what actually change behaviour.
 
@@ -136,10 +150,10 @@ An agent with no tools can only talk. Open the **Tools** group and click
 **Add tools**.
 
 .. figure:: ../_assets/agentic-ai-guide/quickstart/06-tool-picker.png
-   :alt: The Add a tool picker with the three tool sources boxed
-   :width: 90%
+   :alt: The Add a tool picker open on Built In, with Read CSV among the tiles
+   :width: 100%
 
-The boxed rail is where tools come from:
+The left rail is where tools come from:
 
 .. list-table::
    :header-rows: 1
@@ -150,10 +164,10 @@ The boxed rail is where tools come from:
      - What it is
    * - **Connectors**
      - 53
-     - External systems — Salesforce, ServiceNow, Slack, Jira, GitHub…
+     - External systems - Salesforce, ServiceNow, Slack, Jira, GitHub…
    * - **Built In**
      - 37
-     - Tools that ship with the platform — ``Read CSV``, ``Read JDBC``,
+     - Tools that ship with the platform - ``Read CSV``, ``Read JDBC``,
        ``REST API Client``, ``Web Scraper``…
    * - **Your connections**
      - varies
@@ -162,11 +176,13 @@ The boxed rail is where tools come from:
 For this agent:
 
 #. Click **Built In** in the left rail.
-#. Find **Read CSV** and click it.
-#. Choose the FAQ file you uploaded in *Before you start*.
-#. Click **Add to agent**.
+#. Click the **Read CSV** tile.
 
-Sparkflows then asks **who fills in the tool's settings**:
+Sparkflows asks **who fills in the tool's settings**:
+
+.. figure:: ../_assets/agentic-ai-guide/tools/agent-decides.png
+   :alt: The choice between Agent decides and Fixed settings for the Read CSV tool
+   :width: 315px
 
 .. list-table::
    :header-rows: 1
@@ -175,16 +191,18 @@ Sparkflows then asks **who fills in the tool's settings**:
    * - Choice
      - Use it when
    * - **Agent decides**
-     - The value changes per request — a ticket number, a search phrase.
+     - The value changes per request - a ticket number, a search phrase.
    * - **Fixed settings**
      - The value must never change. A file path is exactly this case, so
        choose **Fixed settings** here.
 
-Enter the path to your FAQ file and click **Save**.
+Choose **Fixed settings**. The tool's settings open: click **Browse File
+System**, pick the FAQ file you uploaded in *Before you start*, and click
+**Save**.
 
 .. figure:: ../_assets/agentic-ai-guide/quickstart/05-tool-settings.png
-   :alt: Read CSV settings with a fixed file path
-   :width: 95%
+   :alt: Read CSV settings with the path to the company FAQ file filled in
+   :width: 100%
 
    ``Read CSV`` with its path fixed. The agent can read this file and no other.
 
@@ -193,11 +211,11 @@ the two modes later.
 
 .. figure:: ../_assets/agentic-ai-guide/quickstart/06-tool-added.png
    :alt: The Tools group with Read CSV attached and Fixed selected
-   :width: 675px
+   :width: 652px
 
 .. tip::
 
-   Give the tool a description that says **which** file it reads — *"Reads the
+   Give the tool a description that says **which** file it reads - *"Reads the
    staff FAQ sheet"*, not *"Reads a CSV"*. The model chooses its tools by
    reading those descriptions, and a vague one is the most common reason an
    agent ignores a tool. See
@@ -210,42 +228,65 @@ Open the **Model** group and pick the **Connection** you made in
 :doc:`/agentic-ai-guide/connections`.
 
 Leave **Temperature** at ``0.7`` for now. For answering from a document, ``0.2``
-gives steadier results — see :doc:`/agentic-ai-guide/models-prompts`.
+gives steadier results - see :doc:`/agentic-ai-guide/models-prompts`.
 
 .. figure:: ../_assets/agentic-ai-guide/quickstart/07-model.png
-   :alt: The Model group with the AZURE_FOUNDRY connection selected
-   :width: 660px
+   :alt: The Model group with a connection selected
+   :width: 652px
 
-Run it
-------
+Try it in Chat
+--------------
 
-Click **Run** in the top bar. The run page opens and executes.
+Click the **Chat** tab and talk to the agent. Nothing here is recorded, so ask
+as many questions as you like.
 
-.. figure:: ../_assets/agentic-ai-guide/quickstart/08-run-result.png
-   :alt: A completed run showing the input, the tool call and the answer
-   :width: 95%
+.. figure:: ../_assets/agentic-ai-guide/agent-studio/chat-conversation.png
+   :alt: A three-turn chat: two answers from the FAQ and a polite refusal for a question about the share price
+   :width: 100%
 
-   A real run of this agent. **COMPLETED**, 3 steps, one tool call.
-
-Read it left to right:
+Ask three kinds of question:
 
 .. list-table::
    :header-rows: 1
-   :widths: 22 78
+   :widths: 30 36 34
 
-   * - Panel
-     - What it tells you
-   * - **Node Outputs**
-     - Every step. Step 1 is the question, step 2 is the agent — note the
-       ``read_csv`` chip with ``STATUS success``, which proves it actually read
-       the file — and step 3 is the answer.
-   * - **Execution Timeline**
-     - The same run as a sequence, with timings. Useful when a run is slow and
-       you want to know which step ate the time.
+   * - Ask
+     - Example
+     - You want
+   * - Something the FAQ answers
+     - *How many annual leave days do I receive each year?*
+     - The FAQ's answer, not a general one
+   * - A follow-up
+     - *Can I carry unused leave into next year?*
+     - An answer that stays on topic
+   * - Something it should refuse
+     - *What is the company stock price today?*
+     - A clear "I don't have that", pointing to People Operations
 
-The answer came back as *"Answer: 25 days per year plus public holidays. Leave
-resets on 1 April. Owner: People Team"* — the exact shape the instructions
-asked for.
+Click **3 steps** under an answer to check it really read the file - you
+should see a ``read_csv`` step.
+
+.. figure:: ../_assets/agentic-ai-guide/agent-studio/chat-steps.png
+   :alt: A chat reply expanded to show its steps, including the read_csv call
+   :width: 100%
+
+If an answer is wrong, go back to **Build**, change the instructions, and click
+**Ask again** on the reply. You do not need to save first - Chat always uses what
+is on the Build tab.
+
+Run it for real
+---------------
+
+When the answers look right, click **Run** in the top bar. The agent executes
+properly and the result opens on the **Runs** tab. Unlike Chat, this run is
+kept.
+
+.. figure:: ../_assets/agentic-ai-guide/agent-studio/runs-result.png
+   :alt: The Runs tab with a completed run, its result, and the Read csv tool it used
+   :width: 100%
+
+   The result names the tool it used - *Used Read csv* - and **What it did**
+   lists the call.
 
 Check three things, in this order:
 
@@ -257,43 +298,45 @@ Check three things, in this order:
      - Question
      - If the answer is no
    * - 1
-     - Is there a tool chip with ``STATUS success``?
-     - It answered from memory. Add *"Always read the FAQ file before
-       answering."*
+     - Does **What it did** list the ``Read csv`` tool?
+     - It answered from memory. Add *"Always read the FAQ before answering."*
    * - 2
-     - Does the answer match the FAQ wording?
+     - Does the answer match the FAQ?
      - Add *"Quote the FAQ wording."*
    * - 3
      - Does it admit when the FAQ has no answer?
-     - Ask something the FAQ does not cover and see. Tighten the refusal rule.
+     - Ask something the FAQ does not cover. Tighten the refusal rule.
+
+The **Steps**, **Timeline** and **Logs** tabs under the run summary go deeper -
+see :ref:`agent-studio-runs`.
 
 .. caution::
 
-   **If the run fails with a formatting error, or the Execute button is
-   missing, check the Model group first.** An agent saved without a
-   **Connection** selected fails in ways that look like a bug in your prompt.
-   It is the most common setup mistake, and the error message does not point
-   at it.
-
+   **If Chat shows** *No model connection is selected* **or a run fails with a
+   formatting error, check the Model group first.** An agent without a
+   **Connection** fails in ways that look like a bug in your prompt, and it is
+   the most common setup mistake.
 
 Save it
 -------
 
-Click **Create Agent**. It now appears in the Agents list.
+Click **Create Agent**. It now appears in the Agents list, as a **Single
+Agent**.
 
 .. figure:: ../_assets/agentic-ai-guide/quickstart/09-saved.png
-   :alt: The saved agent in the agents list
-   :width: 90%
+   :alt: The saved Employee Benefits Assistant at the top of the agents list
+   :width: 100%
 
 What you just built
 -------------------
 
-On the canvas, that same agent is two boxes: an **Input** and an **Agent Node**
-with one tool attached.
+Open the agent from the list with the pencil icon and you see the same agent on
+the canvas: an **Input**, an **Agent Node** with one tool attached, and an
+**Output**.
 
 .. figure:: ../_assets/agentic-ai-guide/quickstart/10-faq-agent-canvas.png
-   :alt: The Company FAQ agent shown on the canvas: Input feeding an Agent Node with a Read CSV tool
-   :width: 70%
+   :alt: The Employee Benefits Assistant on the canvas: Input, an Agent Node with a Read CSV tool, and Output
+   :width: 680px
 
    The ``Read CSV`` chip under the node is the tool you added.
 

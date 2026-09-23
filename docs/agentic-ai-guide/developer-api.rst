@@ -1,84 +1,13 @@
 Developer & API
 ===============
 
-Sparkflows is designed to support visual development while still allowing developers to extend the platform when a use case requires custom logic or integration. APIs, code processors, and custom components can complement visual workflows rather than replacing them.
+Run any saved agent from your own systems over the Agent REST API - start a run,
+poll its status, answer an approval, and read the result.
 
-Developers can use programmatic interfaces to trigger workflows, integrate deployed agents with external applications, build custom processors or tools, and add Python, SQL, or JavaScript logic where supported.
+.. contents:: On this page
+   :local:
+   :depth: 1
 
-Developer documentation should clearly separate stable public APIs from internal implementation details and provide authentication, request/response, error handling, and working examples for supported extension points.
-
-Steps to Extend Sparkflows
---------------------------
-
-Extend Sparkflows using APIs, code, and custom components by working through the following steps.
-
-Step 1: Identify the Extension Requirement
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-Identify the integration, custom logic, or development requirement that cannot be addressed through the visual workflow alone.
-
-Step 2: Select the Extension Point
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-Choose the appropriate API, code processor, custom processor, custom tool, or other supported extension point.
-
-Step 3: Configure API Authentication
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-Configure the authentication required for applications calling Sparkflows APIs.
-
-Step 4: Invoke Agents & Workflows
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-Use supported APIs to invoke deployed agents and workflows programmatically where exposed.
-
-Step 5: Add Custom Code
-~~~~~~~~~~~~~~~~~~~~~~~
-
-Extend workflows with Python, SQL, or JavaScript where supported.
-
-Step 6: Build Custom Processors
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-Create reusable organization-specific processors for custom workflow logic.
-
-Step 7: Create Custom Tools
-~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-Create agent tools for proprietary systems and capabilities.
-
-Step 8: Integrate External APIs
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-Connect third-party and internal services through supported interfaces.
-
-Step 9: Configure Webhooks & Events
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-Integrate workflows with events where supported.
-
-Step 10: Define Request & Response Handling
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-Use supported API payload structures and handle request and response data appropriately.
-
-Step 11: Handle Errors
-~~~~~~~~~~~~~~~~~~~~~~
-
-Implement appropriate handling for API and runtime errors.
-
-Step 12: Test & Troubleshoot
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-Validate the extension with minimal requests or workflows and diagnose API, code, and extension issues.
-
-Next Step
----------
-
-Once the required APIs, code, or custom components have been tested, integrate them into the broader agent or workflow and continue to Evaluate to validate the resulting behavior.
-
-Triggering an Agent from the REST API
--------------------------------------
 
 Any agent saved in Sparkflows can be executed from outside the UI through the Agent REST API. All agent endpoints are served under the base path ``/api/v1/agents``.
 
@@ -98,7 +27,7 @@ Pass the Sparkflows access token on every call in the ``token`` header. The toke
     token: <sparkflows_access_token>
 
 Execute the Agent
-~~~~~~~~~~~~~~~~~
+-----------------
 
 Start a new agent run.
 
@@ -166,7 +95,7 @@ The values to retain from this response are:
 The call is asynchronous. It returns as soon as the run has been accepted by the agent engine.
 
 Poll the Run Status
-~~~~~~~~~~~~~~~~~~~
+-------------------
 
 ::
 
@@ -227,7 +156,7 @@ This endpoint reports the state in lower case. Compare it case-insensitively rat
 The **Code** column is the numeric ``status`` stored on the execution record, which is what the ``/api/v1/agent-executions`` endpoints return.
 
 Resume a Paused Run (Human-in-the-Loop)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+---------------------------------------
 
 When the agent contains a Human Approval or Human Input node, the run pauses and reports an interrupted status. The run is continued by posting the decision or the requested input.
 
@@ -250,7 +179,7 @@ When the agent is waiting on a Human Input node instead of an approval, the repl
     -d '{"text": "Ship it to the billing address on file"}'
 
 Cancel a Run
-~~~~~~~~~~~~
+------------
 
 ::
 
@@ -263,7 +192,7 @@ An example request:
     curl -X POST --header 'Accept: application/json' --header 'token: <sparkflows_access_token>' 'http://hostname:8080/api/v1/agents/118/runs/5f2a9c1e-88b4-42d7-9c33-6a1b0d4f7e21/cancel'
 
 Read Executions and Results
-~~~~~~~~~~~~~~~~~~~~~~~~~~~
+---------------------------
 
 The execution history and the stored outputs of a run are available through the agent execution APIs.
 
@@ -285,7 +214,7 @@ The execution history and the stored outputs of a run are available through the 
      - Get the stored results produced by an execution.
 
 Passing Parameters Before a Run
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-------------------------------
 
 Agents that reference workflow parameters can have those parameters set before the run is started. This is the same mechanism used by analytic apps.
 
@@ -294,7 +223,7 @@ Agents that reference workflow parameters can have those parameters set before t
     curl -X POST --header 'Content-Type: application/json' --header 'token: <sparkflows_access_token>' -d '{"startDate": "2026-01-01", "region": "EMEA"}' 'http://hostname:8080/api/v1/agents/updateParameters/118'
 
 Error Handling
-~~~~~~~~~~~~~~
+--------------
 
 The execute endpoint validates the request before it reaches the agent engine and returns a message that names the problem.
 
@@ -318,7 +247,7 @@ The execute endpoint validates the request before it reaches the agent engine an
 Errors reported by the agent engine on resume are propagated with the engine's own message, so the cause stays visible to the caller.
 
 Complete Example in Python
-~~~~~~~~~~~~~~~~~~~~~~~~~~
+--------------------------
 
 The example below triggers an agent, polls until the run completes, approves any human-approval step, and prints the outputs.
 
@@ -387,7 +316,8 @@ The example below triggers an agent, polls until the run completes, approves any
     print(json.dumps(status.get("outputs"), indent=2))
 
 
-Next Step
----------
+Next: watch the runs
+--------------------
 
-Once the required APIs, code, or custom components have been tested, integrate them into the broader agent or workflow and continue to Evaluate to validate the resulting behavior.
+Runs started over the API appear on **Agents → Executions** like any other, with
+the same token and step detail - see :doc:`/agentic-ai-guide/monitor-govern`.

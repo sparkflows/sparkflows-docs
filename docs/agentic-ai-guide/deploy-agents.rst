@@ -59,9 +59,9 @@ What travels with the agent and what does not:
    * - Travels
      - Does not travel
    * - Instructions, tool selections, node layout, parameters
-     - Connection credentials — these must exist in the target environment
+     - Connection credentials - these must exist in the target environment
    * - Output formats and schemas
-     - Knowledge indexes — these must be built there
+     - Knowledge indexes - these must be built there
    * - Skills attached by reference
      - Anything scoped to the source project only
 

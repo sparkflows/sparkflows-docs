@@ -3,7 +3,7 @@ MCP Servers
 
 Model Context Protocol (MCP) is an open standard for exposing tools to AI
 agents. Connect an MCP server to Sparkflows and its tools become actions your
-agents can take — no connector required.
+agents can take - no connector required.
 
 This page uses a real **GitHub** MCP connection, which exposes 45 tools, as the
 worked example.
@@ -22,7 +22,7 @@ When to use MCP
    * - Situation
      - Use
    * - The system is one of the 53 connectors
-     - The connector — already configured and governed
+     - The connector - already configured and governed
    * - The system has an MCP server
      - **MCP**
    * - Your team already exposes internal tooling over MCP
@@ -52,7 +52,7 @@ Step 1: Connect the server
 #. Open **MCP Servers** (or the **MCP Registry** tab) and click **Add MCP
    Server**.
 #. Pick the server from **MCP Connection**. The list shows the MCP connections
-   configured in your workspace — here, ``Github``.
+   configured in your workspace - here, ``Github``.
 #. Click **Fetch Tools**.
 
 .. figure:: ../_assets/agentic-ai-guide/mcp/add-server.png
@@ -66,12 +66,12 @@ Step 1: Connect the server
    * - #
      - What it is
    * - 1
-     - **MCP Connection** — which server to talk to.
+     - **MCP Connection** - which server to talk to.
    * - 2
-     - **Fetch Tools** — asks the server what it can do. Nothing appears until
+     - **Fetch Tools** - asks the server what it can do. Nothing appears until
        you click it.
    * - 3
-     - The selection counter — ``2 of 45 selected``. GitHub alone offers 45
+     - The selection counter - ``2 of 45 selected``. GitHub alone offers 45
        tools; the counter is your reminder that you are choosing, not
        accepting.
    * - 4
@@ -81,7 +81,7 @@ Step 1: Connect the server
 Step 2: Choose the tools
 ------------------------
 
-Fetching gives you the full list with a filter box — ``add_comment_to_pending_review``,
+Fetching gives you the full list with a filter box - ``add_comment_to_pending_review``,
 ``add_issue_comment``, ``create_branch``, ``create_or_update_file`` and forty
 more. Tick only the ones this agent needs.
 
@@ -89,7 +89,7 @@ more. Tick only the ones this agent needs.
 
    45 tools is not a shopping list. An agent given every GitHub tool can delete
    branches and rewrite files; an agent given ``add_issue_comment`` can comment
-   on an issue. Tick the smallest set that does the job — the header chip
+   on an issue. Tick the smallest set that does the job - the header chip
    (``Github  2 action(s)``) tells you at a glance how much power you handed
    over.
 
@@ -102,9 +102,9 @@ page.
 Expand a ticked tool and you get its **Action description (shown to the model)**
 and its **Arguments** table. For every argument you choose **who provides it**:
 
-.. figure:: ../_assets/agentic-ai-guide/tools/agent-decides.png
-   :alt: Prompt asking whether the agent decides a tool's settings or you fix them
-   :width: 320px
+.. figure:: ../_assets/agentic-ai-guide/mcp/arguments.png
+   :alt: An MCP action expanded to show its description and an argument set to Agent decides
+   :width: 100%
 
 
 .. list-table::

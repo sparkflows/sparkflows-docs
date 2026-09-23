@@ -1,7 +1,7 @@
 Monitor & Govern
 ================
 
-Agents change behaviour without anyone editing them — a model is updated, a
+Agents change behaviour without anyone editing them - a model is updated, a
 connected system changes its data, the questions people ask drift. Monitoring is
 how you notice.
 
@@ -26,7 +26,7 @@ tabs.
    * - **Executions**
      - What ran, when, and whether it worked.
    * - **Schedules**
-     - What runs unattended — see :doc:`/agentic-ai-guide/schedule-agents`.
+     - What runs unattended - see :doc:`/agentic-ai-guide/schedule-agents`.
    * - **Analytics**
      - How much it is all being used, and what it is costing in tokens.
 
@@ -48,13 +48,13 @@ What to watch
      - A connection expired, or a system changed
    * - Run duration
      - Executions
-     - More tool calls per run — often a prompt regression
+     - More tool calls per run - often a prompt regression
    * - Approval rate
      - Approval history
      - The agent's judgement drifting from your reviewers'
    * - Rejections
      - Approval history
-     - The most valuable signal you have — see below
+     - The most valuable signal you have - see below
 
 Approvals as a quality metric
 -----------------------------
@@ -65,12 +65,12 @@ someone qualified to judge.
 
 Track the rejection rate over time:
 
-* **Rising** — something changed. Find out what before it reaches the cases
+* **Rising** - something changed. Find out what before it reaches the cases
   that are not gated.
-* **Near zero for a long time** — either the agent is genuinely reliable, or
+* **Near zero for a long time** - either the agent is genuinely reliable, or
   reviewers have stopped reading. Both are worth knowing, and they need
   different responses.
-* **Clustered** — if rejections concentrate on one category, that is a rule the
+* **Clustered** - if rejections concentrate on one category, that is a rule the
   agent has not been told.
 
 .. tip::
@@ -85,7 +85,7 @@ Check what a run cost in tokens
 Token consumption is the running cost of an agent, and it is visible at three
 levels of detail.
 
-**Across the project — the Analytics tab.** **Total tokens consumed** is the
+**Across the project - the Analytics tab.** **Total tokens consumed** is the
 headline; the split underneath is input versus output.
 
 .. figure:: ../_assets/agentic-ai-guide/monitor/analytics-tokens.png
@@ -105,7 +105,7 @@ time, so you can see a cost trend rather than a single number.
    :alt: The Token usage panel with a tokens-in and tokens-out breakdown and a chart over time
    :width: 100%
 
-**Per agent — the Agent fleet card.** Each agent carries its own run counts and
+**Per agent - the Agent fleet card.** Each agent carries its own run counts and
 **Tokens used**.
 
 .. figure:: ../_assets/agentic-ai-guide/monitor/analytics-fleet-tokens.png
@@ -115,22 +115,22 @@ time, so you can see a cost trend rather than a single number.
 .. tip::
 
    Tokens in almost always dwarf tokens out. If input tokens climb without the
-   work changing, look at what you are putting *into* the prompt — knowledge
+   work changing, look at what you are putting *into* the prompt - knowledge
    chunks, skills and ``AGENTS.md`` all ride along on every call.
 
 Read a single run
 -----------------
 
-**Step 1 — Open the run.** On the **Executions** tab, click the eye icon on the
+**Step 1 - Open the run.** On the **Executions** tab, click the eye icon on the
 run you want.
 
 .. figure:: ../_assets/agentic-ai-guide/monitor/executions-list.png
    :alt: The Executions tab with the view icon on a completed run highlighted
    :width: 100%
 
-**Step 2 — Read the totals, then the steps.** The strip at the top of **Node
+**Step 2 - Read the totals, then the steps.** The strip at the top of **Node
 Outputs** gives the whole run: steps, duration, tokens, LLM calls and tool
-calls. Every step then carries its own row — model, LLM calls, prompt tokens,
+calls. Every step then carries its own row - model, LLM calls, prompt tokens,
 completion tokens, total tokens, cached tokens and iteration.
 
 .. figure:: ../_assets/agentic-ai-guide/monitor/execution-tokens.png
@@ -144,7 +144,7 @@ completion tokens, total tokens, cached tokens and iteration.
    * - Metric
      - What it tells you
    * - **PROMPT**
-     - Tokens sent to the model — instructions, context, knowledge and history.
+     - Tokens sent to the model - instructions, context, knowledge and history.
    * - **COMPLETION**
      - Tokens the model wrote back.
    * - **TOKENS**
@@ -155,15 +155,15 @@ completion tokens, total tokens, cached tokens and iteration.
      - How many times the step went back to the model. A step that iterates
        more than you expected is usually a tool-calling loop.
 
-**Step 3 — Open the raw JSON when the summary is not enough.** Click **View
-JSON** on any step to see exactly what it produced — the tool it called, the
+**Step 3 - Open the raw JSON when the summary is not enough.** Click **View
+JSON** on any step to see exactly what it produced - the tool it called, the
 arguments it passed, and what came back.
 
 .. figure:: ../_assets/agentic-ai-guide/monitor/execution-json.png
    :alt: A step expanded to its raw JSON, showing the tool call, its arguments and its result
    :width: 930px
 
-**Step 4 — Use Debug for the whole run at once.** The **Execution Timeline**
+**Step 4 - Use Debug for the whole run at once.** The **Execution Timeline**
 panel has a **Timeline** and a **Debug** view. Debug expands every node into its
 tool calls, arguments, results, metrics and node output, with **Copy run JSON**
 to take the lot away.
@@ -174,10 +174,10 @@ to take the lot away.
 
 .. tip::
 
-   **Problems** filters the timeline to just the steps that went wrong — the
+   **Problems** filters the timeline to just the steps that went wrong - the
    fastest way into a run that failed.
 
-Traces answer "why did it do that?" — the only question that matters when an
+Traces answer "why did it do that?" - the only question that matters when an
 agent surprises you.
 
 .. note::
@@ -221,7 +221,7 @@ A monthly review worth doing
    * - ☐
      - A sample of rejected approvals, and what rule would have prevented them.
    * - ☐
-     - Agents nobody has run in 90 days — retire them.
+     - Agents nobody has run in 90 days - retire them.
    * - ☐
      - Ticked operations on your highest-traffic agents, re-justified.
    * - ☐

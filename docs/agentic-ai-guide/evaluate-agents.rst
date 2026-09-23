@@ -27,7 +27,7 @@ the same starting point every time you change something.
 Reading a run
 -------------
 
-Check these in order. The order matters — a formatting problem is irrelevant if
+Check these in order. The order matters - a formatting problem is irrelevant if
 the agent never called the tool.
 
 .. list-table::
@@ -51,7 +51,7 @@ the agent never called the tool.
      - Set an **Output Format** JSON schema rather than asking in prose.
    * - 5
      - Is the content actually right?
-     - Now you have a real quality question — see below.
+     - Now you have a real quality question - see below.
 
 .. figure:: ../_assets/agentic-ai-guide/evaluate/run-trace.png
    :alt: A run showing tool calls and the final output
@@ -74,7 +74,7 @@ the recorded path shows which side of each Condition the run went down.
 The Analytics tab
 -----------------
 
-**Analytics** aggregates across runs — volumes, success and failure rates,
+**Analytics** aggregates across runs - volumes, success and failure rates,
 trends over time. Use it to notice that something changed, then use Executions
 to find out what.
 
@@ -119,7 +119,7 @@ Decide the bar before you measure, and make it about consequences:
 * **For a summariser**, a wrong nuance is survivable. Aim for useful.
 * **For anything feeding a Condition**, the extracted value must be right every
   time, because a wrong value routes the whole case wrongly.
-* **For anything that writes to a system**, correctness is not enough — put a
+* **For anything that writes to a system**, correctness is not enough - put a
   :doc:`human approval gate </agentic-ai-guide/human-in-the-loop>` in front of
   it and measure how often reviewers disagree with the agent. That
   disagreement rate is the most honest quality metric you have.

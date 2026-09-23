@@ -17,15 +17,15 @@ because that decides both the cost and the predictability of your flow.
      - Use it for
    * - **Condition**
      - **T** / **F**
-     - No — deterministic
+     - No - deterministic
      - A rule: a threshold, a status, a keyword.
    * - **Router**
      - One per route, plus **fallback**
-     - Yes — semantic
+     - Yes - semantic
      - Sorting by meaning, when no plain rule exists.
    * - **Guardrails**
      - **A** / **B**
-     - No — rule-based
+     - No - rule-based
      - Blocking unsafe or malformed text.
 
 .. contents:: On this page
@@ -37,7 +37,7 @@ Condition
 
 The Condition node sends the run down the **True (T)** or **False (F)** branch
 based on a single expression evaluated against the running state. It makes no
-LLM call, so the decision is deterministic — the right tool whenever a plain
+LLM call, so the decision is deterministic - the right tool whenever a plain
 rule decides the path.
 
 .. figure:: ../_assets/agentic-ai-guide/control-flow/condition-node.png
@@ -79,7 +79,7 @@ allowed.
    * - ``status == 'approved'``
      - Exact status match. Anything else goes False.
    * - ``'URGENT' in classifier.analysis``
-     - Keyword in an upstream agent's answer — a common way to escalate.
+     - Keyword in an upstream agent's answer - a common way to escalate.
    * - ``confidence >= 0.85 or iteration >= 3``
      - A typical loop-exit guard: confident enough, **or** tried enough times.
 
@@ -89,7 +89,7 @@ Two real examples
 Both of these come from agents that ship with the product.
 
 **Purchase Order Approver.** An upstream Agent Node is told to end its answer
-with literal markers — ``po_found=``, ``high_value=``, ``has_contract=`` — and
+with literal markers - ``po_found=``, ``high_value=``, ``has_contract=`` - and
 its instructions finish with *"The markers drive downstream routing."* The
 Condition then reads:
 
@@ -133,13 +133,13 @@ Errors route False
 
 .. caution::
 
-   If the expression raises **any** error — for example a referenced field does
-   not exist — the run goes down the **False** branch rather than failing
+   If the expression raises **any** error - for example a referenced field does
+   not exist - the run goes down the **False** branch rather than failing
    the run.
 
    This is convenient and dangerous in equal measure. A typo in a field name
    does not stop the run; it produces one that always takes the False path. If a
-   Condition seems never to fire, check the field name first — the node's entry
+   Condition seems never to fire, check the field name first - the node's entry
    in the run detail records the error alongside the branch it took, so you can
    tell "the rule was not met" apart from "the expression could not be
    evaluated". See :doc:`/agentic-ai-guide/monitor-govern`.
@@ -158,7 +158,7 @@ present and always named the same thing. See
 
    Run the upstream agent at a low **temperature** when a Condition depends on
    its output. At ``0.7``, identical inputs can produce a field one day and omit
-   it the next — and by the rule above, the omission silently routes False.
+   it the next - and by the rule above, the omission silently routes False.
 
 Router
 ------
@@ -175,7 +175,7 @@ expression can answer it.
    :width: 75%
 
    A Router configured with three routes. Each route adds its own output
-   anchor — ``BI`` Billing, ``TE`` Technical, ``AC`` Account — and ``FB``
+   anchor - ``BI`` Billing, ``TE`` Technical, ``AC`` Account - and ``FB``
    (fallback) is always there. A freshly placed Router has **FB** only; the
    named anchors appear as you add routes.
 
@@ -215,7 +215,7 @@ Open the node and go to the **Routes** tab. Each row is one route: a short
 
 .. note::
 
-   The **fallback** anchor is always present — you do not create it. Wire it.
+   The **fallback** anchor is always present - you do not create it. Wire it.
    Real inputs stop fitting your categories sooner than you expect, and a
    fallback that leads nowhere turns an unusual question into a silent dead end.
 
@@ -279,7 +279,7 @@ output, or both.
 
    Guardrails fail **open**. If a check cannot run, the text goes down
    **Allowed** and the reason is recorded on the run rather than the run being
-   stopped. That is deliberate — a guardrail must never dead-end a flow — but it
+   stopped. That is deliberate - a guardrail must never dead-end a flow - but it
    means guardrails are a filter, not a gate. Anything that genuinely must not
    happen without a person belongs behind a
    :doc:`Human Approval </agentic-ai-guide/human-in-the-loop>` node.
@@ -303,8 +303,8 @@ The Purchase Order Approver example uses the simplest useful arrangement:
          └─ F  → Agent Node (post to ERP) → Output
 
 Read it aloud and it is just the business rule: *check the order, check the
-vendor, and if it is big, ask a manager first.* That is the standard to aim for
-— someone who has never opened Sparkflows should be able to read your canvas and
+vendor, and if it is big, ask a manager first.* That is the standard to aim for -
+someone who has never opened Sparkflows should be able to read your canvas and
 describe the process.
 
 Next: every node in detail

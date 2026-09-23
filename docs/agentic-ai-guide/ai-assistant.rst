@@ -25,7 +25,7 @@ What it can build
      - You get back
    * - A **data workflow**
      - A workflow on the Workflows page
-     - A chain of ordinary processors — read, clean, aggregate, write
+     - A chain of ordinary processors - read, clean, aggregate, write
    * - An **agent**
      - An agent on the Agents page
      - An agent flow with Input, Agent, Condition, notification and Output nodes
@@ -75,7 +75,7 @@ Fill in the dialog
      - A sentence on what this assistant is for. Useful once there is more
        than one.
    * - **Gen AI Connection** *(required)*
-     - The model connection the assistant runs on. It must already exist — see
+     - The model connection the assistant runs on. It must already exist - see
        :doc:`/agentic-ai-guide/connections`.
    * - **Generation Mode**
      - ``Default`` or ``Skill Files``. See below.
@@ -99,7 +99,7 @@ deployment needs.
 .. tip::
 
    Use **Skill Files** with a GPT-5-class deployment at 150K tokens per minute
-   for one comfortable user. Use **Default** if your deployment is smaller —
+   for one comfortable user. Use **Default** if your deployment is smaller -
    results are simpler, but it still works.
 
 Connect an MCP server (optional)
@@ -125,7 +125,7 @@ means the model connection works and the assistant is ready to use.
    :width: 825px
 
 Then click **Save**. To change an assistant later, click the pencil in the
-**Actions** column — the same dialog opens as **Update AI Assistant**.
+**Actions** column - the same dialog opens as **Update AI Assistant**.
 
 .. figure:: ../_assets/agentic-ai-guide/ai-assistant/update-dialog.png
    :alt: The Update AI Assistant dialog for an existing assistant
@@ -135,7 +135,7 @@ Where the skill files come from
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 The **Skills** tab on the same page shows the built-in skill bundles that ship
-with Sparkflows — one per thing the assistant can build. You cannot edit or
+with Sparkflows - one per thing the assistant can build. You cannot edit or
 delete these.
 
 .. figure:: ../_assets/agentic-ai-guide/ai-assistant/skill-files.png
@@ -149,7 +149,7 @@ that entity everywhere. Delete it to go back to the built-in bundle.
 .. note::
 
    These are the assistant's own skill bundles and are separate from the
-   project skills your agents use at run time — see
+   project skills your agents use at run time - see
    :doc:`/agentic-ai-guide/skills`.
 
 .. _ai-assistant-where:
@@ -165,7 +165,7 @@ toolbar. A chat panel opens down the right-hand side.
    :width: 100%
 
 You do not have to invent a prompt. The **ⓘ** button in the panel header opens
-**Sample Prompts** — a library of ready-made requests you can copy and adjust.
+**Sample Prompts** - a library of ready-made requests you can copy and adjust.
 
 .. figure:: ../_assets/agentic-ai-guide/ai-assistant/panel-header.png
    :alt: The assistant panel header with the sample prompts button highlighted
@@ -207,7 +207,7 @@ Click **… and N more steps – click to view** on a prompt to read all of it, 
 
 .. tip::
 
-   Paste the sample into the input box and edit it — change the file path, the
+   Paste the sample into the input box and edit it - change the file path, the
    table name or the column names to match your data. The samples are written
    as a numbered list of steps, and that shape works well for your own prompts
    too.
@@ -216,7 +216,7 @@ Step 3: Build a data workflow
 -----------------------------
 
 Open a workflow, click **AI Assistant**, and paste a prompt. The example below
-is the **Sample data: aggregate and rank** sample, used as-is — it works
+is the **Sample data: aggregate and rank** sample, used as-is - it works
 anywhere because it generates its own rows instead of reading a file.
 
 .. figure:: ../_assets/agentic-ai-guide/ai-assistant/wf-prompt.png
@@ -231,7 +231,7 @@ what it did, step by step.
    :width: 630px
 
 Click **Preview** to see the flow before it touches your canvas. Every box is
-an ordinary Sparkflows processor — **Create Dataset**, **Add bucket**, **Add
+an ordinary Sparkflows processor - **Create Dataset**, **Add bucket**, **Add
 amount**, **Aggregate by bucket**, **Sort by total_amount desc**, **Print
 Result**.
 
@@ -256,7 +256,7 @@ add or remove steps, then **Save** and **Execute** as usual.
 .. caution::
 
    When a prompt names a file, the assistant cannot know your path. It builds
-   the node anyway and tells you what is missing — look for the **settings
+   the node anyway and tells you what is missing - look for the **settings
    still need you** box in its reply, then fill those fields in before you run.
 
 Step 4: Build an agent
@@ -265,7 +265,7 @@ Step 4: Build an agent
 The same assistant is in the agent editor. Create an agent
 (**Agents → Create Agents → Agent Orchestration**) and click **AI Assistant**.
 
-The sample prompts change to agent topics — building an agent, order
+The sample prompts change to agent topics - building an agent, order
 operations, finance, human in the loop, IT service and more.
 
 .. figure:: ../_assets/agentic-ai-guide/ai-assistant/agent-sample-prompts.png
@@ -300,11 +300,11 @@ classifies the ticket, a **Condition** that splits urgent from routine, an
 
    The assistant builds the *shape* of the agent. You still finish it:
 
-   * pick the model on the Agent node — see
+   * pick the model on the Agent node - see
      :doc:`/agentic-ai-guide/models-prompts`;
-   * add the tools it needs — the node shows **no tools yet** until you do, see
+   * add the tools it needs - the node shows **no tools yet** until you do, see
      :doc:`/agentic-ai-guide/tools-actions`;
-   * check the condition and the notification settings — see
+   * check the condition and the notification settings - see
      :doc:`/agentic-ai-guide/control-flow`.
 
 Step 5: Build an analytics app from a database table
@@ -314,7 +314,7 @@ Go to **Applications → Create Application**. Two things matter before you
 prompt anything.
 
 #. Give the app a **Name**.
-#. Pick the database under **Select JDBC Connection** — for example a Postgres
+#. Pick the database under **Select JDBC Connection** - for example a Postgres
    connection. This is what tells the assistant which tables it may read.
 
 Then click **AI Assistant**.
@@ -340,7 +340,7 @@ always see which database you are pointing at.
 
 .. tip::
 
-   If you do not know the table names, ask first — *"List the tables available
+   If you do not know the table names, ask first - *"List the tables available
    in the selected connection."* The assistant reads the database and answers,
    and then you can name the table you want.
 

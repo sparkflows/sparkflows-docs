@@ -49,15 +49,15 @@ That has three practical consequences:
        agent here.
    * - Click **Fetch Skills**
      - You see only the skills in **this project**. An empty list means none
-       have been uploaded here yet — not that none exist anywhere.
+       have been uploaded here yet - not that none exist anywhere.
    * - Need the same rule in another project
      - Upload the file there as well. There is no cross-project registry.
 
 .. caution::
 
    Because each project holds its own copy, the same skill can drift apart
-   across projects. Keep the canonical ``.md`` file somewhere you control —
-   a Git repository is ideal — and re-upload from there when it changes,
+   across projects. Keep the canonical ``.md`` file somewhere you control -
+   a Git repository is ideal - and re-upload from there when it changes,
    rather than editing copies project by project.
 
 .. tip::
@@ -113,7 +113,7 @@ and click **Save to Registry** so other agents in the project can use it too.
 .. tip::
 
    The **Name** is what you will pick from later, so make it say what the skill
-   decides — ``ticket-severity-rules`` rather than ``rules-v2``.
+   decides - ``ticket-severity-rules`` rather than ``rules-v2``.
 
 Fetch a skill that already exists
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -126,7 +126,7 @@ Fetch a skill that already exists
    :alt: Fetch Skills used in Agent Studio to pull a skill from the project registry
    :width: 690px
 
-Fetching reuses the registry item — it does not make a second copy, so editing
+Fetching reuses the registry item - it does not make a second copy, so editing
 the skill once updates it for every agent that uses it.
 
 .. figure:: ../_assets/agentic-ai-guide/skills/fetch-picker.png
@@ -135,7 +135,7 @@ the skill once updates it for every agent that uses it.
 
 When the picker says **Every registry skill is already added to this agent**,
 there is nothing left to fetch. If it says the registry is empty, upload the
-first ``.md`` file — and remember the registry belongs to *this* project.
+first ``.md`` file - and remember the registry belongs to *this* project.
 
 Writing a skill file
 --------------------
@@ -165,7 +165,7 @@ What makes a skill work:
 .. tip::
 
    Skills work best when they are rules the model would otherwise get subtly
-   wrong — rounding, date handling, tone, when to refuse. General advice the
+   wrong - rounding, date handling, tone, when to refuse. General advice the
    model already follows adds tokens without changing behaviour.
 
 Skills, Context and Instructions

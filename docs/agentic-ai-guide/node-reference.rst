@@ -5,14 +5,14 @@ Every node you can place on the Agent Orchestration canvas: what it is for, what
 its configuration looks like, and the one thing people usually get wrong about
 it.
 
-The groups below are in the order you meet them when you build a flow — where
+The groups below are in the order you meet them when you build a flow - where
 the run starts and ends, then the thinking, then the branching, then the systems
 it reaches, then the small utilities.
 
 .. tip::
 
    Open any node and you will find **Details** and **Examples** tabs next to its
-   name. The product ships its own reference for every node — worth reading when
+   name. The product ships its own reference for every node - worth reading when
    a field is not obvious.
 
 .. contents:: On this page
@@ -51,7 +51,7 @@ Input
      - What to put in it
    * - **User Input**
      - The question or instruction the run starts from. Fill it in even for
-       agents that will be called by API — it is what makes the agent runnable
+       agents that will be called by API - it is what makes the agent runnable
        in one click.
    * - **Additional Parameter / Value**
      - Named inputs the rest of the flow can read, such as ``ticket_id``. The
@@ -88,7 +88,7 @@ when you want specific, named outputs:
      - ``analysis`` (the answer), ``tool_calls``, ``confidence``, ``status`` or
        ``iteration``.
 
-**Usually gets wrong:** naming an output and then picking the wrong part —
+**Usually gets wrong:** naming an output and then picking the wrong part -
 ``tool_calls`` where ``analysis`` was meant. Run it once and read what comes
 back.
 
@@ -115,7 +115,7 @@ response for the nodes after it.
    * - **Content Type**
      - ``application/json``, form-encoded or plain text.
    * - **Header Names / Values**
-     - One row per header — this is where an API key header goes.
+     - One row per header - this is where an API key header goes.
    * - **HTTP Body**
      - The request body, for the methods that take one.
    * - **Extract Field**
@@ -124,7 +124,7 @@ response for the nodes after it.
      - How long to wait. Default 30.
 
 **Use it when** a system has an API but no connector. If a connector exists,
-use that instead — see :doc:`/agentic-ai-guide/tools-actions`.
+use that instead - see :doc:`/agentic-ai-guide/tools-actions`.
 
 Agentic
 -------
@@ -150,20 +150,20 @@ Its configuration is split across six tabs.
    * - Tab
      - What lives there
    * - **LLM Configuration**
-     - The model connection and generation settings — **Temperature**,
+     - The model connection and generation settings - **Temperature**,
        **Top P**, **Max Tokens**, **Timeout**, **Max Tool Rounds**, **Output
        Format** and an optional **Save Path**.
    * - **Agent Instruction**
      - What this node is for, in plain words.
    * - **Workflow Configuration**
-     - Saved workflows this node may run as tools —
+     - Saved workflows this node may run as tools -
        :doc:`/agentic-ai-guide/workflows-as-tools`.
    * - **Context**
-     - Knowledge and retrieval — :doc:`/agentic-ai-guide/rag-knowledge`.
+     - Knowledge and retrieval - :doc:`/agentic-ai-guide/rag-knowledge`.
    * - **Skills Registry**
-     - Reusable instruction files — :doc:`/agentic-ai-guide/skills`.
+     - Reusable instruction files - :doc:`/agentic-ai-guide/skills`.
    * - **MCP Registry**
-     - Tools from MCP servers — :doc:`/agentic-ai-guide/mcp-servers`.
+     - Tools from MCP servers - :doc:`/agentic-ai-guide/mcp-servers`.
 
 .. tip::
 
@@ -191,7 +191,7 @@ from the shipped Purchase Order Approver, and it is worth copying the shape:
    DO NOT add other lines. The markers drive downstream routing.
 
 Notice what it does: it calls one tool, once, and then emits **machine-readable
-markers**. That last line explains why — a downstream
+markers**. That last line explains why - a downstream
 :doc:`Condition </agentic-ai-guide/control-flow>` tests
 ``'high_value=true' in analysis``. This is the contract that makes an
 orchestration reliable.
@@ -203,7 +203,7 @@ Supervisor
 ~~~~~~~~~~
 
 **What it is.** An agent whose job is delegation. Its model reads the request and
-delegates to one — or a few — of the Agent Nodes attached to it. Only the chosen
+delegates to one - or a few - of the Agent Nodes attached to it. Only the chosen
 specialists run.
 
 .. figure:: ../_assets/agentic-ai-guide/nodes/supervisor.png
@@ -211,7 +211,7 @@ specialists run.
    :width: 100%
 
 The **Supervisor Instruction** is the whole job. Name each specialist and say
-*when* it should be chosen — the Supervisor can only choose well if it knows what
+*when* it should be chosen - the Supervisor can only choose well if it knows what
 each one handles.
 
 On the canvas the specialists attach to the port on the underside of the node:
@@ -270,7 +270,7 @@ expression. No model call.
    :width: 95%
 
 **Usually gets wrong:** a mistyped field name. A Condition that errors routes
-**False**, so a typo looks like a rule that never fires — the run detail records
+**False**, so a typo looks like a rule that never fires - the run detail records
 the error next to the branch it took.
 
 Router
@@ -287,13 +287,13 @@ down the matching route. A **fallback** route is always present.
 **Use it when** no plain expression can answer "which of these is this about?".
 
 **Usually gets wrong:** route descriptions written as labels. Describe the
-*cases* that belong on the route and give example queries — that is what the
+*cases* that belong on the route and give example queries - that is what the
 model matches against.
 
 Guardrails
 ~~~~~~~~~~
 
-**What it is.** Rule-based safety checks — PII, prompt injection, banned words,
+**What it is.** Rule-based safety checks - PII, prompt injection, banned words,
 length. Routes **Allowed (A)** or **Blocked (B)**. No model call, so it is fast
 and free.
 
@@ -311,7 +311,7 @@ and free.
      - ``block`` stops the text, ``redact`` masks it and continues, ``flag``
        lets it through and records it.
    * - **Check PII**
-     - Look for personal data — card numbers, emails, phone numbers.
+     - Look for personal data - card numbers, emails, phone numbers.
    * - **Check Prompt Injection**
      - Look for attempts to override the agent's instructions.
    * - **Check Banned Words** / **Banned Words**
@@ -350,7 +350,7 @@ step produced and captures their raw reply.
    :alt: The Human Input node dialog, which has no settings
    :width: 100%
 
-**It has no configuration at all** — and it does no interpretation either.
+**It has no configuration at all** - and it does no interpretation either.
 Understanding the reply is the next agent's job.
 
 Integrations
@@ -400,7 +400,7 @@ Email Notification
 type; ``ai`` has the model draft the message.
 
 **Use it** on the **Approved** branch of an approval, or to tell someone a
-scheduled run failed — see :doc:`/agentic-ai-guide/schedule-agents`.
+scheduled run failed - see :doc:`/agentic-ai-guide/schedule-agents`.
 
 Read Email
 ~~~~~~~~~~
@@ -432,7 +432,7 @@ messages to the rest of the flow.
 Data-Ops
 --------
 
-These shape data between steps without a model call — cheap, exact, and worth
+These shape data between steps without a model call - cheap, exact, and worth
 using instead of asking a model to do the same thing.
 
 Filter
@@ -445,7 +445,7 @@ Filter
    :width: 100%
 
 Write a plain expression in **Condition**. Switch **AI evaluation** to ``true``
-only when the test is a judgement a rule cannot express — it costs a model call
+only when the test is a judgement a rule cannot express - it costs a model call
 per record.
 
 Sort
@@ -469,7 +469,7 @@ Limit
    :alt: Limit node with Max Items set to 10
    :width: 100%
 
-Useful directly after a Sort — "the ten oldest open tickets" is a Sort followed
+Useful directly after a Sort - "the ten oldest open tickets" is a Sort followed
 by a Limit, and it costs nothing.
 
 Documentation
@@ -478,7 +478,7 @@ Documentation
 Sticky Note
 ~~~~~~~~~~~
 
-**What it is.** A note on the canvas. It has no dialog — you type straight into
+**What it is.** A note on the canvas. It has no dialog - you type straight into
 it.
 
 .. figure:: ../_assets/agentic-ai-guide/nodes/sticky-note.png

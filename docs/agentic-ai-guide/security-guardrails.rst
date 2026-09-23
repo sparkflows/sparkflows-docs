@@ -53,7 +53,7 @@ Connections exist at Global, Group and Project scope. A project-scoped
 credential for a production system means only agents in that project can reach
 it. See :doc:`/agentic-ai-guide/connections`.
 
-Never put credentials in prompt text — not in Instructions, not in a skill, not
+Never put credentials in prompt text - not in Instructions, not in a skill, not
 in ``AGENTS.md``.
 
 Layer 3: Guardrails
@@ -117,35 +117,35 @@ Choosing the violation mode
      - The request should not proceed at all. The safe default.
    * - ``redact``
      - The request is legitimate but contains something that must not reach the
-       model — a customer's phone number in a support question, for instance.
+       model - a customer's phone number in a support question, for instance.
    * - ``flag``
      - You are still learning what trips. Run in ``flag`` for a week, read what
        it caught, then switch to ``block`` once you trust the rules.
 
 .. note::
 
-   ``redact`` can only apply to things that can be masked — **PII** and
+   ``redact`` can only apply to things that can be masked - **PII** and
    **banned words**. A prompt-injection attempt or an over-length query has
    nothing to redact, so those still block even in ``redact`` mode. Only
    ``flag`` lets everything through.
 
 Write a refusal message a person can act on. *"Your request was blocked by a
 guardrail. Please revise and try again"* is the default; *"This assistant
-cannot accept customer account numbers — describe the issue without them"*
+cannot accept customer account numbers - describe the issue without them"*
 tells the user what to do differently.
 
 .. note::
 
    Guardrails are a filter, not a guarantee. They reduce the rate of bad
    requests reaching the model. They do not make an over-permissioned agent
-   safe — only layers 1, 2 and 4 do that.
+   safe - only layers 1, 2 and 4 do that.
 
 On the canvas
 ~~~~~~~~~~~~~
 
 The **Guardrails** node applies the same checks partway through a flow, with
 **Allowed (A)** and **Blocked (B)** anchors. Use it when the thing being
-checked is produced mid-run — a drafted reply that must not contain customer
+checked is produced mid-run - a drafted reply that must not contain customer
 data, say. Wiring **B** back to a **Human Input** node gives the person a
 chance to revise rather than simply being refused. See
 :doc:`/agentic-ai-guide/control-flow`.
@@ -155,7 +155,7 @@ Layer 4: Human approval
 
 For anything that spends money, changes a record of account, or reaches a
 customer, put a :doc:`Human Approval </agentic-ai-guide/human-in-the-loop>` gate
-in front of it — gated by a Condition so it fires on the cases that warrant it
+in front of it - gated by a Condition so it fires on the cases that warrant it
 rather than on every run.
 
 Data handling

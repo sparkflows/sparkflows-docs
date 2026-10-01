@@ -164,9 +164,9 @@ When additional information is available, the row displays a notes count. Click 
 
 The notes are grouped as follows:
 
-- **Converted** — Nodes replaced by their Databricks equivalents.
-- **Switched to run on Databricks** — Nodes that were kept as they were, with their **Run on** setting changed.
-- **Added** — Nodes introduced during the conversion, such as a cluster to run on.
-- **Needs your attention** — EMR settings that do not have a Databricks equivalent and require review.
+- **Converted:** Nodes replaced by their Databricks equivalents.
+- **Switched to run on Databricks:** Nodes that were kept as they were, with their **Run on** setting changed.
+- **Added:** Nodes introduced during the conversion, such as a cluster to run on.
+- **Needs your attention:** EMR settings that do not have a Databricks equivalent and require review.
 
 .. note:: A conversion that reports warnings is still saved. The warnings indicate what could not be carried over, not that the pipeline was rejected. Review the warnings before running the converted pipeline.

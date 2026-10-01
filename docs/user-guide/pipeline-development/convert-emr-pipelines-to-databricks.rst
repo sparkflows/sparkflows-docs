@@ -33,19 +33,17 @@ Before starting the conversion, make sure the following requirements are in plac
 
 **Note:** A Databricks Runtime version must also be selected. An EMR release label does not map to a Databricks runtime, so this is the one setting that cannot be determined automatically during the conversion.
 
-Option 1: Convert the Pipeline from the Pipeline Editor
+Convert the Pipeline from the Pipeline Editor
 ----------------------------------------------
 
 Use this option when working with a single pipeline and when the converted pipeline needs to be reviewed on the canvas before saving.
 
 Step 1: Open the Pipeline
 ++++++++++++++++++++++++++++
-
 Open the pipeline in the Pipeline editor.
 
 Step 2: Select Convert EMR to Databricks
 ++++++++++++++++++++++++++++++++++++++++++
-
 Click the **⋮ (more actions)** button on the editor toolbar and select **Convert EMR to Databricks**.
 
 .. figure:: ../../_assets/user-guide/pipeline/convert-emr-to-databricks/emr-to-data-btn.png
@@ -54,15 +52,11 @@ Click the **⋮ (more actions)** button on the editor toolbar and select **Conve
 
 Step 3: Review the Conversion Details
 +++++++++++++++++++++++++++++++++++++++++++
-
 The conversion dialog displays what the conversion will change, the Databricks connection that was resolved, and the cluster settings to be applied.
 
 Step 4: Select the Databricks Runtime Version
 ++++++++++++++++++++++++++++++++++++++++++++++++++
-
-Choose a **Databricks Runtime Version**.
-
-Optionally, select the **Driver Type**, **Worker Type**, and worker counts.
+Choose a **Databricks Runtime Version**. Optionally, select the **Driver Type**, **Worker Type**, and worker counts.
 
 .. figure:: ../../_assets/user-guide/pipeline/convert-emr-to-databricks/emr-to-data-btn-click.png
    :alt: Converted Pipeline
@@ -70,7 +64,6 @@ Optionally, select the **Driver Type**, **Worker Type**, and worker counts.
 
 Step 5: Convert the Pipeline
 ++++++++++++++++++++++++++++++++
-
 Click **Convert**. The converted pipeline is displayed on the canvas.
 
 .. figure:: ../../_assets/user-guide/pipeline/convert-emr-to-databricks/emr-to-data-after-convert.png
@@ -84,24 +77,21 @@ Review the converted pipeline and click **Save** to keep the changes.
 
 .. note:: Nothing is written until the pipeline is saved. If the conversion is not required, leave the pipeline without saving. The pipeline remains unchanged. A failed conversion does not change the canvas.
 
-Option 2: Convert Uploaded Pipeline Files
+Convert Uploaded Pipeline Files
 ---------------------------------
-
 Use this option when converting multiple pipelines or when the pipelines are available as exported JSON files.
 
 Unlike the Pipeline editor, this option does not display the converted pipeline on a canvas. Each converted pipeline is saved as a new pipeline in the project, while the original pipelines remain unchanged.
 
 Running the Conversion
-++++++++++++++++++++++++++
+-----------------------------
 
 Step 1: Navigate to the Pipelines Page
 ++++++++++++++++++++++++++++++++++++++++
-
 Go to the **Pipelines** page of the project.
 
 Step 2: Select Convert EMR
------------------------------
-
+++++++++++++++++++++++++++++++
 Click **Convert EMR** on the toolbar next to **Import**.
 
 .. figure:: ../../_assets/user-guide/pipeline/convert-emr-to-databricks/pipelist-emr-todata-btn.png
@@ -109,27 +99,23 @@ Click **Convert EMR** on the toolbar next to **Import**.
    :width: 60%
 
 Step 3: Upload the Pipeline JSON Files
------------------------------------------
-
+++++++++++++++++++++++++++++++++++++++++++
 Drop the pipeline JSON files into the upload area, or click **browse** to select them.
 
 Several files can be converted at the same time.
 
 Step 4: Check the Pipeline Name Suffix
-----------------------------------------
-
++++++++++++++++++++++++++++++++++++++++++++++
 Check the suffix in **Added to each converted pipeline’s name**.
 
 The default suffix is **" - Databricks"**.
 
 Step 5: Select the Databricks Runtime Version
-------------------------------------------------
-
+++++++++++++++++++++++++++++++++++++++++++++++++++++
 Choose the **Databricks Runtime Version** and, if required, the machine types.
 
 Step 6: Convert and Import
------------------------------
-
++++++++++++++++++++++++++++++++++
 Click **Convert and Import**.
 
 .. figure:: ../../_assets/user-guide/pipeline/convert-emr-to-databricks/emr-to-data-upload-modal.png
@@ -142,7 +128,6 @@ Click **Convert and Import**.
 
 Why the Name Suffix Matters
 ----------------------------
-
 Pipeline files usually come from pipelines that are still in the project. The files are exported before they are converted.
 
 Saving a converted pipeline with the original name would conflict with the existing pipeline, and the import would be refused.
@@ -153,7 +138,6 @@ Clear the suffix only if the original pipelines are not in the project.
 
 Reading the Conversion Report
 ------------------------------
-
 When the batch conversion is complete, a report opens.
 
 The counts at the top provide an overview of the conversion results, and each file is listed in a separate row.

@@ -33,7 +33,7 @@ Before starting the conversion, make sure the following requirements are in plac
 
 **Note:** A Databricks Runtime version must also be selected. An EMR release label does not map to a Databricks runtime, so this is the one setting that cannot be determined automatically during the conversion.
 
-Convert the Pipeline from the Pipeline Editor
+Option 1: Convert the Pipeline from the Pipeline Editor
 ----------------------------------------------
 
 Use this option when working with a single pipeline and when the converted pipeline needs to be reviewed on the canvas before saving.
@@ -77,14 +77,15 @@ Review the converted pipeline and click **Save** to keep the changes.
 
 .. note:: Nothing is written until the pipeline is saved. If the conversion is not required, leave the pipeline without saving. The pipeline remains unchanged. A failed conversion does not change the canvas.
 
-Convert Uploaded Pipeline Files
+Option 2: Convert Uploaded Pipeline Files
 ---------------------------------
 Use this option when converting multiple pipelines or when the pipelines are available as exported JSON files.
 
 Unlike the Pipeline editor, this option does not display the converted pipeline on a canvas. Each converted pipeline is saved as a new pipeline in the project, while the original pipelines remain unchanged.
 
-Running the Conversion
------------------------------
+**Running the Conversion**
++++++++++++++++++++++++++++++
+
 
 Step 1: Navigate to the Pipelines Page
 ++++++++++++++++++++++++++++++++++++++++

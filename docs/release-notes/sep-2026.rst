@@ -1,0 +1,51 @@
+Version 3.3.41 - September, 2026
+========================================
+
+New Features
+------------------------
+
+Converting EMR Pipelines to Databricks
+++++++++++++++++++++++++++++++++++++++
+
+* **EMR Pipeline Conversion:** AWS EMR nodes in a pipeline can now be converted to their Databricks equivalents. This allows pipelines built with EMR to be moved to Databricks without rebuilding them manually. Node names, positions, and connections are preserved.
+
+* **Pipeline Editor Conversion:** An open pipeline can be converted directly from the Pipeline editor.
+
+* **Pipeline JSON Conversion:** One or more pipeline JSON files can be uploaded from the Pipelines list and converted to Databricks.
+
+Pipeline Status Report Node
++++++++++++++++++++++++++++
+
+* **Pipeline Status Report:** The Pipeline Status Report Node sends an email with the status of every task in a pipeline and every pipeline it triggered. An execution ID can be added to get the status of a specific execution, or the ``${fire.ple.id}`` macro can be used to get the execution ID of the current pipeline execution.
+
+Enhancements
+-------------------
+
+Co-Pilot
+++++++++
+
+* **Live Execution Steps:** Copilot now displays live execution steps when using skill-file mode, providing greater visibility into the execution process and improving the overall user experience.
+
+* **Improved Response Window:** The Copilot response window has been updated with improved UI/UX.
+
+Workflow Execution
+++++++++++++++++++
+
+* **Redesigned Execution Results:** The Workflow Execution Results page has been redesigned with a left sidebar that brings all run-related information into one place. Results, Configuration, Logs, Metrics, Job Details, and View Executions can now be accessed from the same page.
+
+* **Execution Details:** The execution page now displays the Execution ID and workflow name, along with quick access to Re-run Job and Edit Workflow. The header also displays the workflow name, status, workflow ID, start time, duration, and application ID.
+
+* **Result Views and Actions:** The results section now provides Full Result and Result views, along with Refresh and Export PDF options.
+
+* **Redesigned Execute Workflow Page:** The Execute Workflow page has been redesigned to bring setup, progress tracking, and results into a single view. It displays the workflow name, READY status, Debug toggle, Execute and Back buttons, and an Overall Progress card showing completed nodes, progress percentage, and the active node.
+
+* **Node Queue:** A searchable Node Queue now lists each node and its status. The main area provides Configuration, Results, and Logs tabs.
+
+* **Execution Status:** A sticky footer displays the overall status, node counts, a Logs Shortcut, and an Execute button.
+
+* **Interactive Execution:** Clicking the play button on a node now displays the execution flow and results at the bottom of the page.
+
+Connection Page
+++++++++++++++
+
+* **Updated Connection Page:** The Add Connection page has been upgraded with an updated interface. 

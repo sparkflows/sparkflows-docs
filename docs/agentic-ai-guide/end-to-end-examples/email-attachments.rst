@@ -11,8 +11,12 @@ summary in a Google Sheet. Learn how a loop processes one document at a time.
 
 Set up :doc:`../google-connectors-setup`, an LLM connection, a training Drive
 folder and a Sheet tab with headers ``file_name``, ``drive_id`` and ``summary``.
-Use two non-sensitive text PDFs in messages with a unique test subject.
-Choose an engine-writable folder for downloaded attachments.
+Download the :download:`practice workshop brief <samples/practice-workshop.pdf>`
+and :download:`practice checklist <samples/practice-checklist.pdf>`. Put one
+PDF in each message in a training mailbox, with a unique subject such as
+``docs-practice-attachments-2026-10-06``. Keep these messages and the Drive
+folder separate from production. Choose an engine-writable folder for the
+downloaded attachments.
 
 1.2 The flow
 ------------
@@ -32,9 +36,16 @@ Append rows → return to Loop**. Connect the loop's **D** outlet to **Output**.
 
 #. **Download attachments.** Add App Action, choose **Gmail → Download
    attachments**, select your Google connection and search for the unique
-   test subject. Set **File types** to ``pdf`` and a small email limit.
+   subject above. Set **File types** to ``pdf`` and a small email limit.
    Set **Save into folder** to the training folder on the engine. This is not
    a folder in your browser or Google Drive.
+
+   .. figure:: ../../_assets/agentic-ai-guide/app-actions/gmail-download.png
+      :alt: Actual Gmail Download attachments settings showing PDF filtering, the engine folder and overwrite behavior
+      :width: 100%
+
+      This is the action's configuration form, not evidence that a mailbox was
+      connected or that files were downloaded.
 #. **Limit and loop.** Keep two attachment records. Configure Loop Over Items
    with **Items per round = 1** and **Max items = 2**. Its **L** outlet starts
    the body. Inspect the attachment sample for its local file path and name.
@@ -55,6 +66,13 @@ Append rows → return to Loop**. Connect the loop's **D** outlet to **Output**.
 #. **Append and return.** Choose **Google Sheets → Append rows**, select the
    spreadsheet and tab, and use the arriving mapped row. Choose header
    matching. Connect this write back to the Loop, not directly to Output.
+
+   .. figure:: ../../_assets/agentic-ai-guide/app-actions/sheets-append.png
+      :alt: Actual Google Sheets Append rows form showing the prepared filename, summary and Drive ID fields and the DocumentLog tab
+      :width: 100%
+
+      Match the three incoming field names to the Sheet's header row. This is
+      a configuration screenshot; the example has not written a row.
 #. **Finish.** Wire **D** to Output and return the collected write results.
 
 1.4 Suggested instructions

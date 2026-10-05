@@ -33,11 +33,10 @@ Connectors are grouped by what they are for. For an agent's model, choose the
 **LLM** category.
 
 .. figure:: ../_assets/agentic-ai-guide/connections/01-add-connection.png
-   :alt: Add Connection wizard, LLM category selected, showing the model providers
+   :alt: Add Connection wizard with the LLM category selected
    :width: 85%
 
-   The **LLM** filter (boxed) narrows the list to model providers - Anthropic,
-   AzureOpenAI, Bedrock, Gemini, OpenAI and VertexPalmAPI.
+   Select **LLM** to narrow the list to connections used by agents.
 
 The other categories are for the rest of what agents reach:
 
@@ -64,12 +63,10 @@ The other categories are for the rest of what agents reach:
 Step 2: Fill in the details
 ---------------------------
 
-Each connector asks for what it needs. An Azure OpenAI connection looks like
-this:
-
-.. figure:: ../_assets/agentic-ai-guide/connections/02-configure.png
-   :alt: The AzureOpenAI connection form
-   :width: 80%
+Each connector asks for the settings it needs. For an Azure OpenAI connection,
+the form includes the endpoint, deployment name, API version and credential.
+Your administrator supplies these values; do not copy them from a screenshot
+or another environment.
 
    Endpoint URLs are blurred here; yours will show your own resource.
 
@@ -82,12 +79,12 @@ this:
    * - **Authentication Type**
      - ``Token`` for an API key, or ``Client Credentials`` for app-based auth.
    * - **Connection Name**
-     - What builders will see in the agent's model dropdown. Make it
-       recognisable - ``AzureOpenAI-gpt4.1`` beats ``conn2``.
+     - What builders will see in the agent's model dropdown. Use a clear name,
+       such as ``support-assistant-model``.
    * - **Azure Endpoint URL**
      - Your Azure OpenAI resource URL.
    * - **Model Name**
-     - The deployment, e.g. ``gpt-4.1``.
+     - The deployment identifier supplied by your administrator.
    * - **Api Version**
      - e.g. ``2025-01-01-preview``.
    * - **Token**
@@ -99,11 +96,8 @@ this:
 Step 3: Test, then save
 -----------------------
 
-The last step shows everything back to you before you commit it.
-
-.. figure:: ../_assets/agentic-ai-guide/connections/03-test-save.png
-   :alt: Preview and Save step with a successful connection test
-   :width: 85%
+The final step shows the settings you entered. Review them, test the
+connection, then save it.
 
    Click **Test Connection** (boxed) before saving. A green *Successfully
    Connected* means the credential works.

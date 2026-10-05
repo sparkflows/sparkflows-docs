@@ -59,7 +59,7 @@ Fill in the dialog
 ~~~~~~~~~~~~~~~~~~
 
 .. figure:: ../_assets/agentic-ai-guide/ai-assistant/add-dialog.png
-   :alt: The Add AI Assistant dialog with name, description and Gen AI connection filled in
+   :alt: The Add AI Assistant dialog's name and description fields
    :width: 830px
 
 .. list-table::
@@ -69,8 +69,8 @@ Fill in the dialog
    * - Field
      - What to enter
    * - **Name** *(required)*
-     - What users see in the assistant panel, for example ``Azure OpenAI
-       Copilot``. Pick something people will recognise.
+     - What users see in the assistant panel, for example ``Meeting Prep
+       Assistant``. Pick something people will recognise.
    * - **Description**
      - A sentence on what this assistant is for. Useful once there is more
        than one.
@@ -88,19 +88,13 @@ Choose the Generation Mode
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 **Skill Files** gives the assistant a detailed, Sparkflows-specific reference
-while it builds, so it picks better processors and fills in more settings on
-its own. It costs more tokens per run, so the dialog spells out what the model
-deployment needs.
+while it builds, so it can choose processors and fill in settings more
+accurately. It uses more context than **Default**; check that your configured
+connection has enough capacity for the way your team plans to use it.
 
 .. figure:: ../_assets/agentic-ai-guide/ai-assistant/generation-mode.png
-   :alt: The Skill Files generation mode with its tokens-per-minute guidance
+   :alt: The Generation Mode selector set to Skill Files
    :width: 830px
-
-.. tip::
-
-   Use **Skill Files** with a GPT-5-class deployment at 150K tokens per minute
-   for one comfortable user. Use **Default** if your deployment is smaller -
-   results are simpler, but it still works.
 
 Connect an MCP server (optional)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -126,10 +120,6 @@ means the model connection works and the assistant is ready to use.
 
 Then click **Save**. To change an assistant later, click the pencil in the
 **Actions** column - the same dialog opens as **Update AI Assistant**.
-
-.. figure:: ../_assets/agentic-ai-guide/ai-assistant/update-dialog.png
-   :alt: The Update AI Assistant dialog for an existing assistant
-   :width: 830px
 
 Where the skill files come from
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

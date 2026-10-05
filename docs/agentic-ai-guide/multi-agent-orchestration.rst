@@ -140,7 +140,7 @@ Double-click it and the configuration opens on six tabs, with the records that
 reach it on the left.
 
 .. figure:: ../_assets/agentic-ai-guide/nodes/agent-llm.png
-   :alt: Agent Node LLM Configuration tab, with the fields of the current ticket on the left
+   :alt: Agent Node execution settings for temperature, token limit, timeout, tool rounds and output format
    :width: 100%
 
 .. list-table::

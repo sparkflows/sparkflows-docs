@@ -1,3 +1,5 @@
+:orphan:
+
 Set Up Salesforce, Jira and Slack
 =================================
 

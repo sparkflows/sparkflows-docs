@@ -223,7 +223,7 @@ mean one LLM request.
 Its configuration is split across six tabs.
 
 .. figure:: ../_assets/agentic-ai-guide/nodes/agent-llm.png
-   :alt: Agent Node LLM Configuration tab - connection azure-gpt51, temperature 0.1, max tokens 400, max tool rounds 4, output format json with a JSON schema; the ticket fields arrive on the left
+   :alt: Agent Node execution settings for temperature, token limit, timeout, tool rounds and output format
    :width: 100%
 
 .. list-table::
@@ -428,12 +428,16 @@ messages to the rest of the flow.
 REST API Client
 ~~~~~~~~~~~~~~~
 
-**What it is.** Makes an HTTP request from inside the flow and publishes the
-response for the nodes after it.
+**What it is.** Sends an HTTP request from a fixed point in the flow. The
+request settings stay explicit; a model does not choose the URL or method.
 
-.. figure:: ../_assets/agentic-ai-guide/nodes/rest-api-client.png
-   :alt: REST API Client calling an exchange-rate API with GET, JSON content type, headers, body and extract field
+.. figure:: ../_assets/agentic-ai-guide/tutorials/finance-briefing/request.png
+   :alt: REST API Client step with a GET request to the tutorial's local rate fixture, Rows from left blank, and Test this step
    :width: 100%
+
+   The URL is a practice endpoint in the app's request field, not a browser
+   address bar. Use an endpoint reachable from the machine running the Agent
+   engine.
 
 .. list-table::
    :header-rows: 1
@@ -451,10 +455,24 @@ response for the nodes after it.
      - One row per header - this is where an API key header goes.
    * - **HTTP Body**
      - The request body, for the methods that take one.
-   * - **Extract Field**
-     - Pull one field out of the response instead of passing the whole thing on.
+   * - **Rows from (optional)**
+     - A dotted path into the JSON response. If it points to a list, each list
+       item becomes a row; leave it empty to pass the whole response as one row.
    * - **Timeout (s)**
-     - How long to wait. Default 30.
+     - Under **Advanced settings**; how long to wait. Default 30 seconds.
+
+**Test a GET before saving.** The test sends that HTTP request, shows the
+response rows and makes their fields available to later steps. It does not run
+the whole flow. A reference such as ``${inputs.access_token}`` can use a sample
+from the Input node or a value from the agent's latest run. A runtime-only
+secret is sent to the endpoint but is not shown or saved in the test sample.
+The test sample also masks credential-like values in the response.
+
+Only **GET** requests are sent by the pre-save test. For ``POST``, ``PUT``,
+``PATCH`` or ``DELETE``, save the step and verify its fields after a deliberate
+run against a test system; these methods can change data. A request that needs
+a value available only at runtime can also be saved without a test. Its fields
+become available after the first run.
 
 **Use it when** a system has an API but no app. If an app exists, use an App
 Action - it handles sign-in and paging for you.

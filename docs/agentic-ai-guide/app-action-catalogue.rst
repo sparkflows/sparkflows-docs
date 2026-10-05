@@ -1,3 +1,5 @@
+:orphan:
+
 App Action Lookup
 ==================
 
@@ -5,12 +7,12 @@ Use this page when you know the app and want to find an action. For your
 first connection, start with :doc:`app-setup`; for a complete flow, use
 :doc:`end-to-end-examples/index`.
 
-This lookup follows the available App definitions in the October 5, 2026
-documentation baseline. Action names follow the current app picker; database
-reads use **List rows**. The required inputs below are in addition to the
-connection. Some actions also need an
-optional target or filter for your particular use case; open its Details
-before running it.
+This lookup follows the 17 App definitions marked available in the October 5,
+2026 documentation baseline. Action names follow the current app picker;
+database reads use **List rows**. The required inputs below are in addition to
+the connection. Where a row says **See the action details**, the required
+fields depend on the selected resource or operation; open **Details** in the
+picker to see those fields and any optional target or filter before saving.
 
 .. warning::
 

@@ -1,3 +1,5 @@
+:orphan:
+
 Set Up Microsoft 365 Apps
 =========================
 

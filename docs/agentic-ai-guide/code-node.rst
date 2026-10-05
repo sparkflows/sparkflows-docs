@@ -146,14 +146,14 @@ Press **Translate to JavaScript** above the editor, pick a model connection,
 and press **Translate**.
 
 .. figure:: ../_assets/agentic-ai-guide/code-node/translate-strip.png
-   :alt: The translate strip above the editor - Translate Python to JavaScript, a model choice, Translate and Cancel
+   :alt: The translate strip above the editor with language choices, a model connection selector, Translate and Cancel
    :width: 100%
 
 The step switches to the other language with the translation in its editor.
 Your original script is kept, and **Undo** puts everything back.
 
 .. figure:: ../_assets/agentic-ai-guide/code-node/javascript.png
-   :alt: After translation - Language JavaScript, the note Translated from Python with azure-gpt51 with Undo and Translate again, and the JavaScript main function
+   :alt: The translated JavaScript editor with a review notice, Undo and Translate again
    :width: 100%
 
    The translation keeps the ``main`` function, the comments and the results. Read it before you run it.

@@ -37,11 +37,12 @@ That connection chooses the provider and model/deployment; this is not the
 database or mailbox connection used by an App Action.
 
 .. figure:: ../_assets/agentic-ai-guide/agent-node/model-v5.png
-   :alt: Current Agent Node configuration showing its model connection, generation limits and text output format
+   :alt: Agent Node generation settings for sampling, response limits and text output, cropped to exclude provider and connection details
 
-   **1** Select the model connection. **2** Set a suitable answer budget and
-   timeout. **3** Choose the output format. These are saved example settings,
-   not required values for every model.
+   **1** Set sampling controls. **2** Bound the answer size and runtime.
+   **3** Choose text or schema-backed JSON. These are example settings, not
+   required values for every model. Provider and connection details are
+   intentionally excluded from this screenshot.
 
 .. list-table::
    :header-rows: 1

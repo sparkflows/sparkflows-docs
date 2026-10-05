@@ -1,3 +1,5 @@
+:orphan:
+
 Connect an App and Try Your First Action
 ========================================
 
@@ -132,12 +134,3 @@ If the first read fails
 
 Once the read works, continue with :doc:`app-actions`. Keep the full
 :doc:`app-action-catalogue` for lookup, not as a checklist to learn by heart.
-
-.. toctree::
-   :hidden:
-
-   google-connectors-setup
-   microsoft-connectors-setup
-   business-connectors-setup
-   database-connectors-setup
-   app-action-catalogue

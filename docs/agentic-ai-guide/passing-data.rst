@@ -74,6 +74,12 @@ connect a wire, execute that node or change which records arrive here.
 read whatever is wired before it: the message (``userQuery``) and the named
 values of the :doc:`Trigger </agentic-ai-guide/triggers>`.
 
+When testing a REST API Client, the request can use an Input-node sample or a
+value from the latest run to fill a reference such as
+``${inputs.access_token}``. A runtime-only token is sent with the request, but
+is not displayed or saved in the test sample. Treat it as a real credential:
+send it only to the intended trusted endpoint.
+
 Click a field instead of typing it
 ----------------------------------
 

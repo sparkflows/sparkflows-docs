@@ -68,7 +68,7 @@ and keeps the ones that match. Use it when the rule is about meaning ("the
 customer is waiting on money"), not about a field's value.
 
 .. figure:: ../_assets/agentic-ai-guide/data-steps/filter-ai.png
-   :alt: Filter in AI mode with the description The customer is waiting on money - a wrong invoice, a refund, or a billing problem - a model, temperature 0 and at most 200 records
+   :alt: Filter in AI mode with a plain-language description, temperature 0 and a 200-record limit
    :width: 100%
 
    **Improve** rewrites your description into a sharper one. **Records to evaluate, at most** caps the cost.

@@ -10,9 +10,9 @@ Use an App Action for the steps that must always happen. Give an
 :doc:`Agent Node <agent-node>` a tool instead when choosing whether and how
 to call it is part of the model's task.
 
-**First time connecting an app?** Follow :doc:`app-setup` first. For a complete
-flow, choose one of the :doc:`end-to-end-examples/index`. The
-:doc:`app-action-catalogue` lists individual actions when you need a lookup.
+**First time connecting an app?** Start with the short setup path on this
+page; you do not need to study every connector. For a complete flow, choose
+one of the :doc:`end-to-end-examples/index`.
 
 .. figure:: ../_assets/agentic-ai-guide/app-actions/lookup-v5.png
    :alt: PostgreSQL App Action details with a customer key mapped from the current loop record
@@ -20,7 +20,7 @@ flow, choose one of the :doc:`end-to-end-examples/index`. The
 
    A configured database lookup: choose the connection and table, then map
    the current customer's key. The flow runs this fixed action when it reaches
-   the node. See :doc:`database-connectors-setup` to build your first lookup.
+   the node. See **Databases** below for the available database operations.
 
 .. contents:: On this page
    :local:
@@ -57,34 +57,77 @@ make an upstream model's answer factual or safe.
 
 **Start small:** Trigger → one read-only App Action → Output. Add a write
 only after the returned fields make sense. You do not need a model connection
-for this first flow. Follow :doc:`database-connectors-setup` for the complete
-database setup and all eleven available database actions.
+for this first flow.
 
-The apps
---------
+Connect and verify once
+-----------------------
 
-.. list-table::
+#. Open **Administration → Global/Group Connections**, or the project's
+   **Connections** page (:doc:`/agentic-ai-guide/connections`), and choose
+   **Add Connection**.
+#. Select the connection type below, enter credentials in that form (never in
+   a prompt or flow note), then **Test Connection** and save.
+#. Reuse the saved connection in each action that needs it. Authentication
+   does not grant access to every mailbox, site, table or operation; your app
+   administrator must grant those permissions separately.
+
+.. list-table:: Start with the app family you need
    :header-rows: 1
-   :widths: 30 70
+   :widths: 34 31 35
 
-   * - Group
-     - Apps
-   * - Microsoft 365
-     - Outlook Mail, Outlook Calendar, SharePoint, OneDrive, Microsoft Teams
-   * - Google Workspace
-     - Gmail, Google Calendar, Google Drive, Google Sheets, Google Docs
-   * - CRM, chat and tickets
-     - Salesforce, Slack, Jira
-   * - Databases
-     - MySQL, PostgreSQL, SQL Server
-   * - Web
-     - Web Search, public page/feed reads and HTTP requests
+   * - App family
+     - Connection to select
+     - A safe first action
+   * - **Google Workspace** — Gmail, Calendar, Drive, Sheets and Docs
+     - **Google**; enable only the APIs and read/write scopes needed for the
+       chosen apps.
+     - Gmail **List messages** with a small limit, or Google Drive **List
+       files** in a training folder. The same connection can serve Gmail,
+       Sheets, Docs, Calendar and Drive.
+   * - **Microsoft 365** — Outlook Mail/Calendar, OneDrive, Teams and SharePoint
+     - **Microsoft Graph** for Outlook, Calendar, OneDrive and Teams. SharePoint
+       also accepts **SharePoint**.
+     - Read a few emails or events first. Graph app credentials do not act as
+       a signed-in person; ordinary Teams message posting needs delegated
+       access, which the standard wizard does not supply.
+   * - **Business apps** — Salesforce, Jira and Slack
+     - The matching provider credentials. Slack has no dedicated connection
+       type in this build; ask an administrator to provision a supported one.
+     - List a few Salesforce records or search one Jira test project. Check
+       provider permissions before attempting a write.
+   * - **Databases** — PostgreSQL, MySQL and SQL Server
+     - The matching database connection or a compatible **JDBC** connection.
+     - List schemas or tables, then load at most five rows from a training
+       table. The generic **SQL Database** app is not available yet.
+   * - **Web** — Web Search, public pages and feeds
+     - **Serper** for searches; no connection for public page and feed reads.
+     - Start with one short search query. A public URL must also be reachable
+       from the Sparkflows server.
 
-Most apps use a connection you create once under the project's **Connections**
-page (:doc:`/agentic-ai-guide/connections`). The databases also accept a generic
-JDBC connection to the same database. Web searches use Serper; public page and
-feed reads do not require a connection. See :doc:`app-setup` for the exceptions
-and the first read to try for each app.
+**Build the action:** add **App Action** → choose the app → choose the
+operation → select its saved connection → fill in the target and inputs.
+For a read, click **Load the fields** and check the sample before wiring a
+write. For an appending write, match the incoming field names to the sheet or
+table columns. See the selected-step screenshots below; they show setup, not
+proof that an external connection or write succeeded.
+
+.. figure:: ../_assets/agentic-ai-guide/app-actions/gmail-download.png
+   :alt: Current Gmail Download attachments settings for filtering PDF files, saving to a folder, and choosing per-email folders and overwrite behavior
+   :width: 100%
+
+   **Gmail example:** choose a connection before testing or loading fields.
+   Restrict the search and file types, choose a controlled folder, then decide
+   whether repeated names are overwritten, kept or skipped. The screenshot is
+   a configuration example; it has no connection selected and was not run.
+
+.. figure:: ../_assets/agentic-ai-guide/app-actions/sheets-append.png
+   :alt: Current Google Sheets Append rows action showing incoming file_name, summary and drive_id fields, a training spreadsheet placeholder and DocumentLog tab
+   :width: 100%
+
+   **Google Sheets example:** the incoming record contains ``file_name``,
+   ``summary`` and ``drive_id``. Replace the training placeholder with your
+   spreadsheet id and use a tab whose header names match those fields. This
+   saved example was not connected or executed.
 
 Add an App Action in three steps
 --------------------------------
@@ -152,20 +195,22 @@ a Filter or a prompt can name.
 Writing to an app
 -----------------
 
-A write sends the records arriving on its input to the app. With **Fields to
-set** left empty, every arriving row is written as it is - each column becomes
-the field of the same name. That is the right choice after a Filter, a Loop or a
-database read whose columns already match.
+A write sends the records arriving on its input to the app. With **Rows to
+write (JSON)** left empty, it uses the rows from the previous step. Leave
+**Fields to set** empty when the column names already match; after a Filter, a
+Loop or a database read, each arriving column is sent as the field of the same
+name.
 
 .. figure:: ../_assets/agentic-ai-guide/app-actions/write-details.png
    :alt: PostgreSQL Insert or update rows by key into sf_learn_triage, key column ticket_id, with no fields set so the arriving rows are written
    :width: 100%
 
-To write one record that you compose yourself, add fields. The chips offer the
-fields the app expects (for an email: **To**, **Cc**, **Bcc**, **Subject**,
-**Body**); type a value, or click in the box and then click a field on the left
-to insert a reference such as ``${10.analysis}``. **What will be sent** shows
-the exact request.
+To shape the outgoing record, add **Fields to set**. The chips offer the fields
+the app expects (for an email: **To**, **Cc**, **Bcc**, **Subject**, **Body**);
+type a value, or click in the box and then click a field on the left to insert
+a reference such as ``${10.analysis}``. To supply a complete record yourself,
+use **Rows to write (JSON)** with one object or an array of objects. **What
+will be sent** shows the exact request.
 
 .. figure:: ../_assets/agentic-ai-guide/app-actions/fields-to-set.png
    :alt: Outlook Mail Send a message with Fields to set to, subject and body; the body holds ${10.analysis} from the Agent Node that wrote the digest
@@ -289,7 +334,19 @@ Limits worth knowing
    * - A preview (Load the fields, Explore)
      - A small sample; it is a preview.
    * - A write while you configure it
-     - Nothing is written until the agent runs.
+     - Canvas previews skip data-changing actions by default. Turn on **Write
+       when run from the canvas** to perform them during a canvas run. Full and
+       scheduled runs perform configured changes; use a test destination when
+       checking a write or send.
+
+.. important::
+
+   **Refresh Schema** and **Explore** are read-only. A canvas **Run** also
+   skips configured writes by default and marks them ``result_status =
+   skipped``. If you enable **Write when run from the canvas**, that canvas
+   run makes the real change. A full or scheduled run performs configured
+   changes regardless of this preview setting. Keep the option off unless you
+   intentionally need to test a write, and use a test destination first.
 
 For a large table or bulk processing, use a workflow designed for that
 dataset and execution engine. Check which database/JDBC and other nodes
@@ -302,7 +359,30 @@ Next
 :doc:`/agentic-ai-guide/passing-data` explains **What arrives here** and the
 ``${...}`` references in detail.
 
-.. toctree::
-   :hidden:
+.. raw:: html
 
-   app-setup
+   <details class="tutorial-details"><summary>Need an administrator setup reference?</summary>
+
+.. list-table:: Optional connector references
+   :header-rows: 1
+   :widths: 25 75
+
+   * - When you need…
+     - Open this reference
+   * - Google OAuth APIs, scopes and refresh-token setup
+     - :doc:`Google Workspace <google-connectors-setup>`
+   * - Microsoft Graph app registration and permission notes
+     - :doc:`Microsoft 365 <microsoft-connectors-setup>`
+   * - Salesforce, Jira or Slack credentials and constraints
+     - :doc:`Business apps <business-connectors-setup>`
+   * - Database connection fields, keys and all eleven database actions
+     - :doc:`Database actions <database-connectors-setup>`
+   * - Required inputs for a particular app operation
+     - :doc:`App Action lookup <app-action-catalogue>`
+
+.. raw:: html
+
+   </details>
+
+These technical references open only when needed and are not separate entries
+under App Actions in the sidebar.

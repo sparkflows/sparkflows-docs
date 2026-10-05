@@ -112,51 +112,31 @@ rules. The separate App Actions section covers connected-system reads and writes
 
     Your own logic in Python or JavaScript, with one-click translation.
 
-App Actions: setup and reference
---------------------------------
+App Actions
+-----------
 
-Use this section independently of the tutorials. Start with the shared
-read → map → test pattern, then open only the app family you need.
+Use one practical guide for choosing an app, setting up its connection,
+mapping a fixed operation and checking the result. Open a deeper setup note
+only when a connector needs extra administrator steps.
 
 .. panels::
     :container: container-lg pb-3
 
     :doc:`/agentic-ai-guide/app-actions`
 
-    Choose a fixed action, map its inputs, check its results and handle
-    failures. No model decides whether the configured action runs.
+    Choose the app, connect it, map a fixed operation and check its results.
+    Connector-specific screenshots and setup notes are grouped on this page.
 
-    ---
-
-    :doc:`/agentic-ai-guide/app-setup`
-
-    Pick your app, set up its connection and verify one small read. Includes
-    Google Workspace, Microsoft 365, business apps, databases and web search.
-
-    ---
-
-    :doc:`/agentic-ai-guide/database-connectors-setup`
-
-    PostgreSQL, MySQL and SQL Server: connection setup, all eleven row/query
-    actions, keys, results and safe retries.
-
-    ---
-
-    :doc:`/agentic-ai-guide/app-action-catalogue`
-
-    Find an individual action, its required inputs and whether it reads or
-    changes data. Keep this lookup handy; you do not need to read it in order.
-
-Build a complete example
--------------------------
+End-to-End Tutorials
+--------------------
 
 .. panels::
     :container: container-lg pb-3
 
     :doc:`/agentic-ai-guide/end-to-end-examples/index`
 
-    Eight business tasks, one page per flow. Start with a manual test, connect
-    the nodes, inspect the result, then add automation when it works.
+    Eight end-to-end business flows. Start with a manual test, connect the
+    nodes, inspect the result, then add automation when it works.
 
 Give agents something to do
 ---------------------------

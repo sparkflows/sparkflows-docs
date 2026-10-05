@@ -55,8 +55,7 @@ Detailed informations can be found here : https://docs.sparkflows.io/en/latest/r
 
 * Login with:: 
 
-    admin/admin, analyst/analyst or business/business
-
+    admin/admin
     
 .. note::  Three user accounts come preconfigured with Sparkflows.
 

@@ -12,6 +12,7 @@ Deployment Overview
 -------------------
 
 Compare the available Sparkflows deployment models and choose the option that best fits your requirements.
+
 Linux VM Deployment
 -------------------
 

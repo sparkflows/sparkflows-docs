@@ -23,26 +23,28 @@ Docker Deployment
 
 Deploy Sparkflows using Docker. This is a recommended option for local development, testing, and container-based deployments on virtual machines or cloud environments.
 
-Kubernetes Deployment
----------------------
+macOS Installation
+------------------------------
 
-Deploy Sparkflows on Kubernetes for scalable, highly available, and enterprise-grade environments.
-
+Set up Sparkflows on macOS.
 
 Windows Deployment
 ------------------
 
 Install and run Sparkflows in Windows-based environments.
 
-macOS Installation
-------------------------------
-
-Set up Sparkflows on macOS.
 
 Cloud Deployment
 ----------------
 
 Deploy Sparkflows in cloud environments such as AWS, Azure, and GCP. This section covers cloud-specific deployment considerations and configuration.
+
+
+Kubernetes Deployment
+---------------------
+
+Deploy Sparkflows on Kubernetes for scalable, highly available, and enterprise-grade environments.
+
 
 Air-Gapped / Offline Deployment
 -------------------------------

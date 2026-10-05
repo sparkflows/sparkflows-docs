@@ -1,7 +1,54 @@
 Installation and Upgrade
 ========================
 
-Sparkflows can be installed using one of the below binaries and installers as the need be.
+Deploy Sparkflows on a laptop, virtual machine, cloud environment, Docker, or Kubernetes. This guide helps you choose the appropriate deployment model, install Sparkflows, configure the platform, secure the environment, and operate Sparkflows in production.
+
+Choose Your Deployment Option
+=============================
+
+Before installing Sparkflows, choose the deployment model that best fits your environment, use case, scalability, and operational requirements.
+
+Deployment Overview
+-------------------
+
+Compare the available Sparkflows deployment models and choose the option that best fits your requirements.
+
+Docker Deployment
+-----------------
+
+Deploy Sparkflows using Docker. This is a recommended option for local development, testing, and container-based deployments on virtual machines or cloud environments.
+
+Kubernetes Deployment
+---------------------
+
+Deploy Sparkflows on Kubernetes for scalable, highly available, and enterprise-grade environments.
+
+Linux VM Deployment
+-------------------
+
+Install and run Sparkflows directly on a Linux virtual machine or physical server.
+
+Windows Deployment
+------------------
+
+Install and run Sparkflows in Windows-based environments.
+
+macOS / Developer Installation
+------------------------------
+
+Set up Sparkflows on macOS for development, demonstrations, testing, and evaluation purposes.
+
+Cloud Deployment
+----------------
+
+Deploy Sparkflows in cloud environments such as AWS, Azure, and GCP. This section covers cloud-specific deployment considerations and configuration.
+
+Air-Gapped / Offline Deployment
+-------------------------------
+
+Install and operate Sparkflows in environments without direct internet access. This section covers offline installation packages, dependencies, container images, and other required artifacts.
+
+
 
 .. panels::
    :container: container-lg pb-3

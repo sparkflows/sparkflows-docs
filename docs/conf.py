@@ -90,7 +90,7 @@ language = None
 exclude_patterns = ['processors/*','_assets/processors/']
 
 # The name of the Pygments (syntax highlighting) style to use.
-pygments_style = 'sphinx'
+pygments_style = 'github-dark'
 
 # If true, `todo` and `todoList` produce output, else they produce nothing.
 todo_include_todos = True
@@ -107,7 +107,9 @@ todo_include_todos = True
 # further.  For a list of options available for each theme, see the
 # documentation.
 # https://sphinx-rtd-theme.readthedocs.io/en/stable/configuring.html#confval-sticky_navigation
-html_theme_options = {'sticky_navigation': False, 'titles_only': True, 'collapse_navigation': False, 'display_version': False, 'navigation_depth': 5}
+html_theme_options = {'sticky_navigation': False, 'titles_only': True, 'collapse_navigation': False, 'display_version': False, 'navigation_depth': 5,
+                      # sphinx_rtd_theme 3.x replaced display_version with these
+                      'version_selector': False, 'language_selector': False}
 
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
@@ -126,11 +128,11 @@ html_js_files = [
 ]
 
 def setup(app):
-    # app.add_stylesheet('css/custom.css')
-    app.add_css_file('css/custom_02.css')
+    app.add_css_file('css/custom.css')
     app.add_css_file('css/agentic-tutorials.css')
 
 html_logo = 'logo.svg';
+html_show_sphinx = False
 # Custom sidebar templates, must be a dictionary that maps document names
 # to template names.
 #

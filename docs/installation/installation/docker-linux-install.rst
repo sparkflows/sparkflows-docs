@@ -14,19 +14,6 @@ Prerequisites
     
         sudo usermod -aG docker ${USER}
     
-* Install AWS CLI if running docker on EC2 for Ubuntu::
-
-      sudo apt install awscli -y
-
-
-* Install AWS CLI if running docker on EC2 for RHEL/CentOS::
-
-      yum install awscli -y
-
-* If running Docker on EC2 instance, via AWS CLI one need to update the number of hops to 2 instead of the default value of 1 which is set for EC2 instance using the command below. Replace the actual instance ID value in the command below inplace of `i-0fe0xxxxxxxxxxx`::
-
-   aws ec2 modify-instance-metadata-options --instance-id i-0fe0xxxxxxxxxxx --http-tokens required --http-endpoint enabled --http-put-response-hop-limit 2
-
 Installation Steps
 ---------------------------
 
@@ -41,6 +28,7 @@ Installation Steps
 
     docker pull sparkflows/fire:py_${SPARK_VERSION}_${RELEASE_VERSION}
 
+Detailed informations can be found here : https://docs.sparkflows.io/en/latest/release-notes/binaries.html
 
 * Start the docker image using the ``docker run`` command below. The local mount directory is ``(/home/username/sparkflows)`` in the below docker run command. Please update it to directory structure on your machine. Reduce/Increase the memory allocated (Eg: Using ``-m 8g`` will allocate 8GB to the Sparkflows container) to a lower value depending on the RAM on the machine. We recommend 16GB or above::
     
@@ -67,15 +55,12 @@ Installation Steps
 
 * Login with:: 
 
-    admin/admin, analyst/analyst or business/business
-
+    admin/admin
     
 .. note::  Three user accounts come preconfigured with Sparkflows.
 
            * admin/admin
-           * analyst/analyst
-           * business/business
-    
+               
     You may change these usernames and passwords in Sparkflows as an admin under the menu Administration/Users 
 
 Override the Keystore file

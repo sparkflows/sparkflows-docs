@@ -64,6 +64,64 @@ Three places, same engine. Pick the one that fits what you are making.
     **Describe it and let it build.** Workflows, agents and analytics apps from
     plain-English instructions.
 
+Automate with apps and data
+---------------------------
+
+Fixed steps that always run the same way: start on a schedule or an event, read
+and write your business apps and files, and shape the records in between.
+
+.. panels::
+    :container: container-lg pb-3
+
+    :doc:`/agentic-ai-guide/triggers`
+
+    How a run starts - by hand, on a schedule, when something happens in an
+    app, when a file arrives, or from another system.
+
+    ---
+
+    :doc:`/agentic-ai-guide/app-actions`
+
+    Read and write Salesforce, Microsoft 365, Google Workspace, Slack, Jira and
+    databases as fixed steps.
+
+    ---
+
+    :doc:`/agentic-ai-guide/passing-data`
+
+    See what reaches each step and use earlier values with a click.
+
+    ---
+
+    :doc:`/agentic-ai-guide/data-steps`
+
+    Filter, Sort, Limit, Set Fields, Remove Duplicates, Summarize, Split Out,
+    Merge and Loop Over Items.
+
+    ---
+
+    :doc:`/agentic-ai-guide/files`
+
+    Read and write CSV, Excel, JSON, PDFs, images and zips, on disk or in the
+    cloud.
+
+    ---
+
+    :doc:`/agentic-ai-guide/code-node`
+
+    Your own logic in Python or JavaScript, with one-click translation.
+
+Connect your apps
+-----------------
+
+.. panels::
+    :container: container-lg pb-3
+
+    :doc:`/agentic-ai-guide/google-connectors-setup`
+
+    Create the Google Cloud credentials for Gmail, Sheets, Docs, Calendar and
+    Drive, with only the permissions you need.
+
 Give agents something to do
 ---------------------------
 
@@ -204,6 +262,23 @@ For developers
    agent-studio.rst
    multi-agent-orchestration.rst
    ai-assistant.rst
+
+.. toctree::
+   :hidden:
+   :caption: Automate with apps and data
+
+   triggers.rst
+   app-actions.rst
+   passing-data.rst
+   data-steps.rst
+   files.rst
+   code-node.rst
+
+.. toctree::
+   :hidden:
+   :caption: Connect your apps
+
+   google-connectors-setup.rst
 
 .. toctree::
    :hidden:

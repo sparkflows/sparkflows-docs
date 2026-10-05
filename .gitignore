@@ -4,3 +4,5 @@ docs/_static/.DS_Store
 
 .venv/
 .tools/
+
+build/

@@ -90,7 +90,7 @@ language = None
 exclude_patterns = ['processors/*','_assets/processors/']
 
 # The name of the Pygments (syntax highlighting) style to use.
-pygments_style = 'sphinx'
+pygments_style = 'github-dark'
 
 # If true, `todo` and `todoList` produce output, else they produce nothing.
 todo_include_todos = True
@@ -126,10 +126,10 @@ html_js_files = [
 ]
 
 def setup(app):
-    # app.add_stylesheet('css/custom.css')
-    app.add_css_file('css/custom_02.css')
+    app.add_css_file('css/custom.css')
 
 html_logo = 'logo.svg';
+html_show_sphinx = False
 # Custom sidebar templates, must be a dictionary that maps document names
 # to template names.
 #

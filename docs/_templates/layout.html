@@ -2,9 +2,12 @@
 {% block extrahead  %}
 <nav class="navbar">
      <div class="navbar-container container-nav">
-          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
-          <a href="https://www.sparkflows.io/" class="logo"><img src="{{ pathto('_static/logo.svg', 1) }}"  alt="{{ _('Logo') }}"/></a>
-          
+          <i data-toggle="wy-nav-top" class="fa fa-bars" aria-label="Toggle navigation"></i>
+          <a href="https://www.sparkflows.io/" class="logo">
+               <img src="{{ pathto('_static/logo-light.svg', 1) }}"  alt="{{ _('Logo') }}"/>
+               <span class="docs-badge">Docs</span>
+          </a>
+
          <ul class="menu-items">
              <li><a href="{{pathto(master_doc)}}" class="nav-link active">Documentation</a></li>
              <li><a href="https://www.sparkflows.io/blog" class="nav-link">Blogs</a></li>
@@ -13,6 +16,7 @@
          <div class="search-input">
           {% include "searchbox.html" %}
          </div>
+         <a href="https://www.sparkflows.io/download" class="nav-cta">Download</a>
      </div>
  </nav>
     {{ super() }}

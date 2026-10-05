@@ -252,6 +252,8 @@ a:hover { color: var(--sf-navy); }
 .icon.icon-home .logo, .wy-side-nav-search img.logo { display: none; }
 .wy-side-nav-search > div.version { color: var(--sf-text-3); }
 .wy-side-nav-search div[role=search] { display: none; }
+/* RTD theme 3.x version/language picker; only one version is published */
+.wy-side-nav-search .switch-menus { display: none; }
 .wy-side-nav-search input[type='text'] {
     border: 1px solid var(--sf-border);
     border-radius: 8px;

@@ -1,7 +1,9 @@
 Tools & Connectors
 ==================
 
-Tools are what separate an agent that talks from an agent that works. This page
+Tools are what separate an agent that talks from an agent that works. A tool is
+something the **model decides** to use. When a step must always happen exactly
+as set, use a fixed :doc:`App Action </agentic-ai-guide/app-actions>` instead. This page
 covers the tool picker, the three places tools come from, and how to choose
 operations without handing an agent more power than it needs.
 
@@ -12,12 +14,13 @@ operations without handing an agent more power than it needs.
 Where tools come from
 ---------------------
 
-Click **Add tools** in the Tools group of Agent Studio - or on any Agent Node on
-the canvas - and the picker opens with three sources in the left rail.
+Click **Add tools** in the Tools group of Agent Studio - or **+ Tool** on any
+Agent Node on the canvas - and the picker opens with three sources in the left
+rail.
 
 .. figure:: ../_assets/agentic-ai-guide/tools/picker.png
-   :alt: The Add a tool picker with the three sources and the category list
-   :width: 90%
+   :alt: The Add a tool picker with source filters (1), categories (2), and a connector tile showing resources, operations and connection status (3)
+   :width: 100%
 
 .. list-table::
    :header-rows: 1
@@ -27,9 +30,10 @@ the canvas - and the picker opens with three sources in the left rail.
      - Count
      - What it is
    * - **Connectors**
-     - 53
-     - External systems - Salesforce, ServiceNow, Slack, Jira, GitHub and more.
-       Each one is a single node that expands into named operations.
+     - 55
+     - External systems - Salesforce, Slack, Jira, SharePoint, Gmail, Microsoft
+       Teams, the Google apps, the databases and more. Each one is a single node
+       that expands into named operations.
    * - **Built In**
      - 37
      - Tools that ship with the platform: read and write CSV/JSON/Parquet/JDBC,
@@ -47,13 +51,21 @@ Connectors
 
 Each connector tile shows three numbers that are worth reading before you click.
 
-* **Resources** - the object types the connector exposes. ServiceNow has 13
-  (incidents, changes, users, and so on).
+* **Resources** - the object types the connector exposes. Jira Cloud has 8
+  (issues, comments, attachments, worklogs, projects, sprints, and so on).
 * **Operations** - the individual calls available across those resources.
-  ServiceNow has 111.
-* **connected** - a green badge meaning a credential already exists for it. No
-  badge means you can still add the tool, but it will not run until someone
-  creates the connection. See :doc:`/agentic-ai-guide/connections`.
+  Jira Cloud has 28.
+* **connected** - a badge meaning a connection for it already exists; it is not
+  proof that the credentials or every operation have been tested. Available
+  connectors are shown before unavailable ones. A tile marked **Coming soon** is greyed out and
+  cannot be added yet.
+
+.. figure:: ../_assets/agentic-ai-guide/tools/coming-soon.png
+   :alt: Search for GitHub showing its disabled Coming soon tile
+   :width: 704px
+
+   Search can find a planned connector even when it cannot be added. Use an
+   available connector for the tutorial, such as Jira Cloud.
 
 Adding a connector tool
 ~~~~~~~~~~~~~~~~~~~~~~~
@@ -65,8 +77,8 @@ finds it wherever it lives.
 The connector opens on a two-step screen.
 
 .. figure:: ../_assets/agentic-ai-guide/tools/operations.png
-   :alt: Salesforce connector showing the connection step, the tool-shape choice and the operation grid
-   :width: 95%
+   :alt: The Jira Cloud connector before it is connected - the connection and Test connection (1), how the agent should see it (2), and the operation grid, locked until the test passes (3)
+   :width: 100%
 
 **Step 1 - Connect.** Choose the connection holding the credentials, then click
 **Test connection**. Nothing below unlocks until the test passes, which is
@@ -114,8 +126,8 @@ the columns by what they do:
    * - **WRITE**
      - ``create``, ``update``, ``upsert``, ``delete``
    * - **Actions this system has**
-     - Operations peculiar to that system - ``addNote``, ``addComment``,
-       ``addToCampaign`` for Salesforce.
+     - Operations peculiar to that system - ``transition``, ``assign``,
+       ``changelog`` for Jira.
 
 Connecting opens the grid with a sensible pack already ticked. Review it rather
 than accepting it: the default is a reasonable starting point, not a decision
@@ -125,22 +137,24 @@ Finally, click **Add to agent**. Everything you ticked from one connector
 collapses into **one node** on the canvas - ticking twelve Salesforce operations
 does not give you twelve boxes.
 
-Worked example: giving an agent GitHub
---------------------------------------
+Worked example: giving an agent Jira
+------------------------------------
 
-Here is the whole thing end to end on one real connector.
+Here is the whole thing end to end on one real connector: an agent that drafts
+replies to urgent tickets, allowed to look issues up in Jira.
 
-**1. Find it.** Open **Add tools** and pick the **GitHub** tile - or type
-``github`` in the search box. The tile tells you what you are getting before you
-click: **7 resources**, **31 operations**.
+**1. Find it.** On the Agent Node, click **+ Tool** and pick the **Jira Cloud**
+tile - or type ``jira`` in the search box. The tile tells you what you are
+getting before you click: **8 resources**, **28 operations**, and that a
+connection already exists.
 
-.. figure:: ../_assets/agentic-ai-guide/connectors/picker-github.png
-   :alt: The Add a tool picker with the GitHub connector tile highlighted
+.. figure:: ../_assets/agentic-ai-guide/connectors/picker-jira.png
+   :alt: The connector tiles with Jira Cloud highlighted, showing 8 resources, 28 operations and connected
    :width: 100%
 
-**2. Connect and test.** Choose the connection that holds the GitHub credentials
-and click **Test connection**. Nothing below unlocks until the tick turns green,
-so a wrong token is caught here rather than at run time.
+**2. Connect and test.** Choose the connection that holds the Jira credentials
+and click **Test connection**. Nothing below unlocks until it shows
+**Connected**, so a wrong token is caught here rather than at run time.
 
 .. note::
 
@@ -148,25 +162,28 @@ so a wrong token is caught here rather than at run time.
    dropdown lists every connection in the project and tells you so - pick the one
    that actually holds that system's credentials.
 
-.. figure:: ../_assets/agentic-ai-guide/connectors/github-connected.png
-   :alt: The GitHub connector connected, showing the tool count and the permission grid
+.. figure:: ../_assets/agentic-ai-guide/connectors/jira-connected.png
+   :alt: Jira Cloud connected, with the badge showing 13 tools, the one-tool-per-operation note and the permission grid
    :width: 100%
 
-**3. Tick what the agent may do.** One tick is exactly one tool. Reads sit left
-of the divider, writes right of it, and each system's own actions - ``comment``,
-``addLabels``, ``merge``, ``listBranches`` - sit on the right.
+   Connected. The grid opens with the safe **Look things up** pack already ticked - 13 tools, all reads.
 
-.. figure:: ../_assets/agentic-ai-guide/connectors/github-operations.png
-   :alt: The GitHub permission grid with read operations ticked across issues, pull requests and repositories
+**3. Tick what the agent may do.** One tick is exactly one tool. Reads sit left
+of the divider, writes right of it, and Jira's own actions - ``transition``,
+``assign``, ``listTransitions``, ``changelog`` - sit on the right. Click a verb
+to take its whole column, or a resource to take its whole row.
+
+.. figure:: ../_assets/agentic-ai-guide/connectors/jira-operations.png
+   :alt: The Jira permission grid with get, list and search ticked for issues, and reads for comments, attachments and worklogs
    :width: 100%
 
 You do not have to tick them one by one. **Start from a pack** on the right
 applies a sensible set in one click, and the counter above it tells you whether
 the agent is still a size a model can choose from reliably.
 
-.. figure:: ../_assets/agentic-ai-guide/connectors/github-packs.png
-   :alt: The tools counter and the starter packs from Look things up to Full control
-   :width: 372px
+.. figure:: ../_assets/agentic-ai-guide/connectors/jira-packs.png
+   :alt: The tools counter showing 13 named tools, Good size, 13 reads and 0 writes, and the packs Look things up, Read anything, Read create and comment, Full control and Clear
+   :width: 340px
 
 .. list-table::
    :header-rows: 1
@@ -176,16 +193,16 @@ the agent is still a size a model can choose from reliably.
      - Tools
      - What it allows
    * - **Look things up**
-     - 14
+     - 13
      - Read verbs on the busiest resources. The safe default.
    * - **Read anything**
-     - 17
+     - 18
      - Every read on every resource, no writes at all.
    * - **Read, create and comment**
-     - 23
+     - 21
      - All reads, plus create and comment. No update or delete.
    * - **Full control**
-     - 31
+     - 28
      - Everything including delete. Every write stays approval-gated.
    * - **Clear**
      - 0
@@ -195,15 +212,16 @@ the agent is still a size a model can choose from reliably.
 
    Start at **Look things up** and add only what the agent turns out to need.
    It is far easier to grant one more operation later than to work out which of
-   thirty-one caused a surprise.
+   twenty-eight caused a surprise.
 
-**4. Add it.** Click **Add to agent**. All fourteen tools arrive as **one node**
-on the canvas, joined to the Agent node by a dashed tool link - the badge shows
-how many tools it carries.
+**4. Add it.** Click **Add to agent**. All thirteen tools arrive as **one node**
+on the canvas, joined to the Agent Node by a dashed tool link (**T1**). The
+badge shows how many tools it carries, and the Agent Node lists it under its
+name.
 
-.. figure:: ../_assets/agentic-ai-guide/connectors/github-on-canvas.png
-   :alt: The GitHub connector node attached to the agent node, badged with 14 tools
-   :width: 100%
+.. figure:: ../_assets/agentic-ai-guide/connectors/jira-on-canvas.png
+   :alt: The Jira Cloud connector node badged 13 tools, joined to the Draft the reply Agent Node by the dashed tool link T1
+   :width: 560px
 
 Click that node at any time to change what the agent may do; the grid reopens
 exactly as you left it.
@@ -216,8 +234,8 @@ Choosing operations: the rule that matters
    **Tick the fewest operations that let the agent finish its job.**
 
    Every ticked operation is a real action on a real system. An agent that can
-   only ``Get Incident`` cannot close the wrong ticket, no matter how confused it
-   gets. An agent given all 111 ServiceNow operations can.
+   only ``get`` an issue cannot close the wrong ticket, no matter how confused it
+   gets. An agent given every Jira operation, delete included, can.
 
 A practical way to decide:
 

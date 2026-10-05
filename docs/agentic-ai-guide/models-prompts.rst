@@ -7,16 +7,24 @@ Two things decide how an agent behaves: the **model** it runs on, and the
 Choosing a model connection
 ---------------------------
 
-Open the **Model** group in Agent Studio, or the **LLM Config** tab of an Agent
-Node, and pick a **Connection**. Connections are created once by an
+In Agent Studio, choose **Model Connection** above the instructions. On the
+canvas, open an Agent Node's **LLM Config** tab and pick a **Connection**.
+Connections are created once by an
 administrator - see :doc:`/user-guide/connection/gen-ai-connection/index`.
 
-.. figure:: ../_assets/agentic-ai-guide/agent-studio/model.png
-   :alt: Model group with connection and generation settings
+.. figure:: ../_assets/agentic-ai-guide/quickstart/07-model.png
+   :alt: The required Model Connection selector above the instructions
    :width: 652px
 
 Generation settings
 -------------------
+
+Open Studio's **Model** group for these settings. The values below are the
+new-agent defaults in this build; an existing agent keeps its saved values.
+
+.. figure:: ../_assets/agentic-ai-guide/agent-studio/model.png
+   :alt: Model generation settings showing 0.7 temperature, 1.0 Top P, 8000 Max Tokens and a 180-second timeout
+   :width: 502px
 
 .. list-table::
    :header-rows: 1
@@ -27,16 +35,16 @@ Generation settings
      - What it does
    * - **Temperature**
      - ``0.7``
-     - Randomness. Low values make the agent repeat itself across runs - which
-       is what you want for anything you will check.
+     - Controls variation when supported by the selected model. Lower values
+       can make wording steadier; they do not guarantee correctness or identical runs.
    * - **Top P**
      - ``1.0``
      - Nucleus sampling. Adjust temperature instead; changing both at once makes
        results hard to reason about.
    * - **Max Tokens**
-     - ``500``
-     - Ceiling on response length. This default is short - raise it for drafting
-       or long summaries, or answers get cut off mid-sentence.
+     - ``8000``
+     - Requested ceiling on response length. Choose a limit suited to the task;
+       the provider and model may impose their own constraints.
    * - **Timeout (seconds)**
      - ``180``
      - How long one call may take before it fails.
@@ -53,7 +61,7 @@ Picking a temperature
      - Why
    * - ``0 – 0.2``
      - Extraction, classification, routing, anything a Condition branches on
-     - The same input must give the same answer every time
+     - Reduce variation; validate the structured result before branching
    * - ``0.3 – 0.7``
      - Summarising, explaining, answering questions
      - Some variation in wording is fine

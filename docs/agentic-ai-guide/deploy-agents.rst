@@ -4,7 +4,7 @@ Deploy Agents
 A saved agent is not yet doing anything for anyone. Deploying means choosing how
 it gets invoked.
 
-The four ways to run an agent
+The ways to run an agent
 -----------------------------
 
 .. list-table::
@@ -23,6 +23,10 @@ The four ways to run an agent
    * - **Schedule**
      - It should run on a timetable
      - below
+   * - **Event**
+     - Something changes in an app or a folder - a new row, a new email, a new
+       file
+     - :doc:`/agentic-ai-guide/triggers`
    * - **Inside another flow**
      - It is one step of a bigger process
      - :doc:`/agentic-ai-guide/multi-agent-orchestration`

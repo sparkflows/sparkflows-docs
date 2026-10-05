@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="508" viewBox="0 0 900 508" role="img" aria-labelledby="title desc">
+  <title id="title">Ticket triage: final wiring</title>
+  <desc id="desc">Read and filter tickets. Loop through classification, field mapping and saving. After the loop, read the saved rows, count teams, write a digest, prepare a draft and return outputs.</desc>
+  <defs>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0 L8 4 L0 8Z" fill="#4f46e5"/></marker>
+    <style>text{font-family:Arial,sans-serif;fill:#18324f}.label{font-size:16px;font-weight:700}.type{font-size:13px;fill:#536879}.phase{font-size:13px;font-weight:700;letter-spacing:1px;fill:#4f46e5}.wire{fill:none;stroke:#4f46e5;stroke-width:2.5;marker-end:url(#arrow)}.node{fill:white;stroke:#ccd5e1;stroke-width:1.5}</style>
+  </defs>
+  <rect width="900" height="508" rx="14" fill="#f7f9fd"/>
+  <text x="28" y="31" class="phase">START · SELECT THE TWO OPEN TICKETS</text>
+  <rect x="28" y="48" width="154" height="65" rx="9" class="node"/><text x="45" y="75" class="label">Trigger</text><text x="45" y="97" class="type">Manual run</text>
+  <rect x="232" y="48" width="180" height="65" rx="9" class="node"/><text x="249" y="75" class="label">Read tickets</text><text x="249" y="97" class="type">Read/Write Files</text>
+  <rect x="462" y="48" width="180" height="65" rx="9" class="node"/><text x="479" y="75" class="label">Open tickets</text><text x="479" y="97" class="type">Filter: status = open</text>
+  <path d="M182 80H232 M412 80H462" class="wire"/>
+  <path d="M642 80H856V144H108V194" class="wire"/>
+  <text x="238" y="177" class="phase">L · REPEAT FOR EACH TICKET</text>
+  <rect x="28" y="194" width="162" height="80" rx="9" fill="#eef0ff" stroke="#4f46e5" stroke-width="2"/><text x="44" y="221" class="label">One ticket</text><text x="44" y="242" class="label">at a time</text><text x="44" y="262" class="type">Loop Over Items</text>
+  <rect x="238" y="194" width="180" height="80" rx="9" class="node"/><text x="253" y="225" class="label">Classify ticket</text><text x="253" y="251" class="type">Agent · JSON</text>
+  <rect x="466" y="194" width="180" height="80" rx="9" class="node"/><text x="481" y="220" class="label">Prepare</text><text x="481" y="241" class="label">database row</text><text x="481" y="262" class="type">Set Fields</text>
+  <rect x="694" y="194" width="178" height="80" rx="9" class="node"/><text x="710" y="225" class="label">Save triage</text><text x="710" y="251" class="type">PostgreSQL · upsert</text>
+  <path d="M190 226H238 M418 226H466 M646 226H694" class="wire"/>
+  <text x="204" y="214" class="phase">L</text>
+  <path d="M783 274V302H161V274" class="wire"/><text x="462" y="324" class="type">Return to the Loop input</text>
+  <path d="M80 274V391" class="wire"/><text x="94" y="344" class="phase">D</text>
+  <text x="238" y="370" class="phase">D · CONTINUE ONCE ALL TICKETS ARE DONE</text>
+  <rect x="28" y="391" width="151" height="80" rx="9" class="node"/><text x="42" y="417" class="label">Read saved</text><text x="42" y="438" class="label">triage</text><text x="42" y="459" class="type">PostgreSQL · read</text>
+  <rect x="204" y="391" width="151" height="80" rx="9" class="node"/><text x="218" y="423" class="label">Count by team</text><text x="218" y="449" class="type">Summarize</text>
+  <rect x="380" y="391" width="151" height="80" rx="9" class="node"/><text x="394" y="423" class="label">Write digest</text><text x="394" y="449" class="type">Agent · text</text>
+  <rect x="556" y="391" width="151" height="80" rx="9" class="node"/><text x="570" y="423" class="label">Prepare email</text><text x="570" y="449" class="type">Outlook · draft</text>
+  <rect x="732" y="391" width="140" height="80" rx="9" class="node"/><text x="746" y="423" class="label">Output</text><text x="746" y="449" class="type">Named results</text>
+  <path d="M179 431H204 M355 431H380 M531 431H556 M707 431H732" class="wire"/>
+  <text x="28" y="493" class="type">Configuration map · practice data only · no automatic sending</text>
+</svg>

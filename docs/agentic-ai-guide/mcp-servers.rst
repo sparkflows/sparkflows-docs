@@ -5,8 +5,14 @@ Model Context Protocol (MCP) is an open standard for exposing tools to AI
 agents. Connect an MCP server to Sparkflows and its tools become actions your
 agents can take - no connector required.
 
-This page uses a real **GitHub** MCP connection, which exposes 45 tools, as the
-worked example.
+This page uses a **GitHub** MCP connection as the worked example. The captured
+server exposes 45 tools; your server version and permissions may differ.
+
+.. note::
+
+   MCP is separate from the built-in connector catalogue. The **GitHub** tile
+   under **Connectors** is currently **Coming soon**; that does not enable or
+   disable an independently configured GitHub MCP server.
 
 .. contents:: On this page
    :local:
@@ -21,7 +27,7 @@ When to use MCP
 
    * - Situation
      - Use
-   * - The system is one of the 53 connectors
+   * - The system is one of the connectors
      - The connector - already configured and governed
    * - The system has an MCP server
      - **MCP**

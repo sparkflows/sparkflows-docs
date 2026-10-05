@@ -5,6 +5,11 @@ Sparkflows makes it incredibly fast and easy to do Self-Serve Data Preparation a
 With the power of Sparkflows at your hands you can seamlessly find value from your data and scale to Petabytes of data. 
 You can install it on the cloud, on-premise or even on your laptop. Sparkflows integrates seamlessly with the complex of Enterprise Environments.
 
+**Building an agentic AI process?** Start with :doc:`app setup
+</agentic-ai-guide/app-setup>`, choose steps in the :doc:`node guide
+</agentic-ai-guide/node-reference>`, or follow one of the :doc:`eight end-to-end
+examples </agentic-ai-guide/end-to-end-examples/index>`.
+
 .. panels::
     :container: container-lg pb-3
     :column: text-center col-lg-6 col-md-6 col-sm-6 col-xs-12 p-2
@@ -182,8 +187,6 @@ You can install it on the cloud, on-premise or even on your laptop. Sparkflows i
    data-visualization/index
    runtime-parameters/index
    generate-pyspark-code/index
-
-
 
 
 

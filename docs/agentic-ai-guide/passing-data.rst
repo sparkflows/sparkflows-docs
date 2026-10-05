@@ -12,15 +12,17 @@ setting - without typing field names or ``${...}`` references by hand.
 What arrives here
 -----------------
 
-Open any step and the left column, **What arrives here**, lists the fields of
-the records that reach it. Here a Filter receives the support tickets read from
-a CSV file:
+Open a step and inspect **What arrives here**. Use **Data from** to choose
+the connected input or an earlier node. Here a Filter receives three
+fictional tickets read from the tutorial's CSV file. **Enlarge** opens the
+panel so its fields are easier to read:
 
-.. figure:: ../_assets/agentic-ai-guide/passing-data/panel-fields.png
-   :alt: The Filter dialog with What arrives here on the left listing ticket_id, created, customer, email, subject, priority, status, channel and tags with a sample value for each
-   :width: 100%
+.. figure:: ../_assets/agentic-ai-guide/passing-data/fields-v5.png
+   :alt: Enlarged current data panel showing the Read tickets source, three rows from its last test, and ticket_id, subject, body and status fields
 
-   The panel names the step the data comes from (Support tickets), how many rows it had, and every field with its type and a sample value.
+   **1** Choose the source. **2** Check where the displayed data came from.
+   **3** Switch between Fields, Rows and JSON. The example fields are written
+   as ``item["field"]`` because this Filter is in Expression mode.
 
 The line under the step's name says where the fields come from:
 
@@ -39,26 +41,34 @@ The line under the step's name says where the fields come from:
      - Nothing has run yet; the fields are worked out from the steps before,
        such as an Agent Node's JSON schema or the fields a Set Fields adds.
 
-Three views of the same records:
+Choose the view that answers your question:
 
 * **Fields** - one line per field, with its type and a sample value.
 * **Rows** - the records as a table.
-* **JSON** - the first record exactly as the step will see it.
+* **JSON** - all records currently held by the panel, not just the first.
+  Read the caption: a saved sample may contain fewer records than the
+  dataset. **Copy** copies the displayed JSON.
+* **Run output** - available when that node has a saved output from the
+  agent's latest run. It shows the saved output structure, including nested
+  objects and metadata, rather than just the record fields.
 
-.. list-table::
-   :widths: 50 50
+.. figure:: ../_assets/agentic-ai-guide/passing-data/json-v5.png
+   :alt: Current JSON view showing all three tested ticket records, including the closed ticket, with a Copy button
 
-   * - .. figure:: ../_assets/agentic-ai-guide/passing-data/panel-rows.png
-          :alt: The Rows view of What arrives here as a table of tickets
-          :width: 300px
+   These are the three records before filtering. The presence of the closed
+   ticket here does not mean the Filter will keep it.
 
-          Rows
+Click a long value to read it in full. In **Run output**, expand objects and
+lists to inspect their contents; use **Show all** when more entries are
+available. **Back to the dialog** returns from the enlarged view.
 
-     - .. figure:: ../_assets/agentic-ai-guide/passing-data/panel-json.png
-          :alt: The JSON view of What arrives here showing the first ticket record
-          :width: 300px
+**A schema is not a result.** An inferred field tells you the expected shape,
+not whether the current connection can read the table or the model will
+return a valid value. Test the relevant read after changing its table,
+columns or file, then inspect the downstream mappings again.
 
-          JSON
+Selecting an earlier node only changes what the panel displays. It does not
+connect a wire, execute that node or change which records arrive here.
 
 **Run inputs**, at the bottom of the panel, holds the values every step can
 read whatever is wired before it: the message (``userQuery``) and the named
@@ -72,11 +82,11 @@ cursor, written the way *that* setting expects it. The blue box at the top of
 the panel says which form the current setting uses, with an example you can
 click.
 
-.. figure:: ../_assets/agentic-ai-guide/passing-data/usage-expression.png
-   :alt: Filter in Expression mode; the panel explains that each record is item and lists every field as item["field"]
-   :width: 100%
-
-   In a Filter expression each record is ``item``, so every field is offered as ``item["priority"]``.
+In a Filter expression each record is ``item``, so a field is offered as
+``item["status"]``. When a setting cannot read an earlier node directly, the
+panel explains that it is **Read only**; inspecting a value does not insert
+an unsupported expression. Use a Code node or a suitable Set Fields mapping
+when earlier output needs to become part of the arriving record.
 
 The same field is written differently depending on where it goes:
 
@@ -88,7 +98,7 @@ The same field is written differently depending on where it goes:
      - The field is written
      - Why
    * - Prompts, messages, file paths, app fields
-     - ``${4.total}`` for one record, ``${3.rows}`` for a set
+     - ``${4.fields.total}`` for a field, ``${3.items}`` for an inline record set
      - Filled in when the step runs.
    * - Filter expression
      - ``item["priority"]``
@@ -131,16 +141,24 @@ step's number on the canvas, a dot, and the field:
      - The answer of the Agent Node numbered 10.
    * - ``${5.key}``
      - The ``key`` of the current record of Loop Over Items step 5.
-   * - ``${3.rows}``
-     - Every record of step 3, as JSON.
+   * - ``${3.items}``
+     - Step 3's inline record list. Large dataset-backed outputs may keep
+       only a sample in the run state; use the dataset-aware flow instead
+       of assuming the full table is inline.
    * - ``${inputs.file_name}``
      - A named value from the Trigger or the REST request.
    * - ``${event.path}``
      - A field of the record that started an event Trigger.
 
-The panel offers the ``${}`` button only where one record flows - after a Loop,
-an Agent Node, a ``get``, or a one-row Summarize - because a single value is
-what the reference fills in.
+A field reference reads one value, typically from the first record. It does
+not apply the setting to every record in a larger result. Use the panel's
+offered path and check the actual output structure: ``items`` is a record
+list, ``fields`` holds first-record values, and ``rows`` can be a numeric
+row count. Do not use ``${3.rows}`` as a universal reference to a record list.
+
+An Agent Node's answer uses ``analysis``; a REST answer can use
+``response_json`` or extracted records. The **Run output** tree helps you
+choose the correct path instead of guessing it.
 
 Under a setting that holds a reference, a green line reads it back in words, so
 you can check it without counting steps:
@@ -151,23 +169,27 @@ you can check it without counting steps:
 
 .. note::
 
-   A reference that does not match anything stays exactly as typed. If an email
-   arrives saying ``${7.summary}``, that step had no ``summary`` field - open the
-   step and pick the field from the panel instead.
+   The underlying placeholder resolver can leave an unmatched reference
+   unchanged. App Actions check for these unresolved references and fail
+   before calling the app. If a value remains ``${7.summary}``, check that
+   step 7 ran on this branch and actually returned ``summary``. Do not
+   remove the error check or treat the placeholder as a valid value.
 
 .. _passing-data-loop:
 
 Inside a loop
 -------------
 
-A step inside **Loop Over Items** receives one record at a time. Besides the
-record's own fields it gets ``index``, ``batch_number``, ``total``,
-``remaining`` and ``is_last``, so a prompt can say "ticket ${4.index} of
-${4.total}".
+A step inside **Loop Over Items** receives one batch at a time. Set **Items
+per round** to ``1`` when each customer or ticket needs its own lookup or
+answer. The Loop also exposes ``index``, ``batch_number``, ``total``,
+``remaining`` and ``is_last``. ``index`` is zero-based; do not present it as
+a one-based ticket number without converting it.
 
-.. figure:: ../_assets/agentic-ai-guide/passing-data/loop-item.png
-   :alt: What arrives here inside a loop - the ticket fields plus index, batch_number, total, remaining and is_last
-   :width: 300px
+Keep the original record's identifier when attaching a model's answer. The
+**D** output is the collected result after the Loop finishes, not the last
+Agent Node's answer. See the :doc:`ticket-triage walkthrough
+<end-to-end-examples/ticket-triage>` for that complete pattern.
 
 See what each step did
 ----------------------

@@ -44,6 +44,12 @@ Tutorials
 
     ---
 
+    :doc:`Agentic AI Tutorials </agentic-ai-guide/end-to-end-examples/index>`
+
+    Build a complete agent flow, check its results, and learn when to use each node.
+
+    ---
+
     :doc:`/tutorials/time-series/index`
     
       
@@ -96,6 +102,7 @@ Tutorials
    analytics/index.rst
    data-science/index.rst
    end-to-end/index.rst
+   Agentic AI Tutorials <../agentic-ai-guide/end-to-end-examples/index>
    time-series/index.rst
    data-quality/index.rst
    languages/index.rst

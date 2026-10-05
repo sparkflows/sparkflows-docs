@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="420" viewBox="0 0 900 420" role="img" aria-labelledby="title description">
+  <title id="title">Order loader: seven nodes and the loop return</title>
+  <desc id="description">Trigger connects to List files, then One file at a time. L goes to Read current CSV, then Save orders, which returns to the Loop input. D goes to Check saved orders, then Output.</desc>
+  <defs><marker id="arrow" markerWidth="9" markerHeight="9" refX="7" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8" fill="#4f46e5"/></marker></defs>
+  <rect width="900" height="420" rx="12" fill="#f8faff"/>
+  <g font-family="Arial,sans-serif">
+    <text x="28" y="33" fill="#4338ca" font-size="13" font-weight="700" letter-spacing="1">WIRING GUIDE · NOT A RUN RESULT</text>
+    <g stroke="#4f46e5" stroke-width="2.5" fill="none" marker-end="url(#arrow)">
+      <path d="M156 139 H204"/>
+      <path d="M348 139 H401"/>
+      <path d="M578 139 H634"/>
+      <path d="M738 171 V218"/>
+      <path d="M635 250 H376 V157 H401"/>
+      <path d="M489 171 V339 H630"/>
+      <path d="M782 339 H807"/>
+    </g>
+    <g fill="#fff" stroke="#c7d2fe" stroke-width="1.5">
+      <rect x="28" y="107" width="128" height="64" rx="9"/>
+      <rect x="206" y="107" width="142" height="64" rx="9"/>
+      <rect x="403" y="107" width="175" height="64" rx="9" fill="#eef2ff"/>
+      <rect x="637" y="107" width="220" height="64" rx="9"/>
+      <rect x="637" y="220" width="220" height="64" rx="9"/>
+      <rect x="632" y="307" width="150" height="64" rx="9"/>
+    </g>
+    <rect x="809" y="307" width="70" height="64" rx="9" fill="#fff" stroke="#c7d2fe" stroke-width="1.5"/>
+    <g fill="#172554" font-size="15" font-weight="700" text-anchor="middle">
+      <text x="92" y="145">Trigger</text>
+      <text x="277" y="135">List files</text>
+      <text x="490" y="135">One file at a time</text>
+      <text x="747" y="135">Read current CSV</text>
+      <text x="747" y="248">Save orders</text>
+      <text x="707" y="332">Check saved</text><text x="707" y="351">orders</text>
+      <text x="844" y="345">Output</text>
+    </g>
+    <g fill="#475569" font-size="12" text-anchor="middle">
+      <text x="277" y="154">Read/Write Files</text>
+      <text x="490" y="154">Loop Over Items</text>
+      <text x="747" y="154">Read/Write Files</text>
+      <text x="747" y="267">App Action · PostgreSQL</text>
+    </g>
+    <g fill="#4338ca" font-size="13" font-weight="700">
+      <text x="597" y="128">L</text>
+      <text x="500" y="310">D · after both files</text>
+      <text x="389" y="211">Return to</text>
+      <text x="389" y="229">Loop input</text>
+    </g>
+    <text x="28" y="397" fill="#475569" font-size="13">One round per file. Each CSV may contain more than one order.</text>
+  </g>
+</svg>

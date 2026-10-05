@@ -5,6 +5,14 @@ A scheduled agent runs on a timetable with nobody watching it - a morning triage
 pass, a nightly reconciliation, a weekly report. Everything else about the agent
 stays the same; you are only deciding *when* it runs and *who hears about it*.
 
+.. tip::
+
+   An agent built on the canvas can also carry its schedule on its **Trigger**
+   node: pick **On a schedule**, save the agent, and the schedule appears here
+   named after the agent with ``(Trigger node)``. Event triggers - a new row, a
+   new email, a new file - work the same way, as a check every few minutes. See
+   :doc:`/agentic-ai-guide/triggers`.
+
 .. contents:: On this page
    :local:
    :depth: 1

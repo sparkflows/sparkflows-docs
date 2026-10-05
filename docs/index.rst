@@ -37,14 +37,14 @@ Operations
 
    operations/index
 
-Agentic AI Guide
---------------
+Agentic AI Documentation
+------------------------
 
 .. toctree::
    :maxdepth: 2
 
    agentic-ai-guide/index
-   
+
 User Guide
 --------------
 

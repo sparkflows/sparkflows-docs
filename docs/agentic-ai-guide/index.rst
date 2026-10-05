@@ -5,8 +5,8 @@ Build, orchestrate, govern and deploy enterprise AI agents in Sparkflows -
 agents that reason over your data, call your systems, run your workflows, and
 pause for a human when the decision warrants it.
 
-New here? Work through **Quick start** in order. It takes about half an hour and covers
-everything most agents ever need.
+New here? Work through **Quick start** in order to build your first tool-using
+agent. Then choose only the guides needed for your next task.
 
 Quick start
 -----------
@@ -23,7 +23,8 @@ Quick start
 
     :doc:`/agentic-ai-guide/connections`
 
-    Step 1 - create the model connection every agent needs.
+    Step 1 - create the connection for your model-powered agent. A flow
+    made only of fixed App Actions and data steps does not need a model.
 
     ---
 
@@ -40,7 +41,7 @@ Quick start
 Where you build
 ---------------
 
-Three places, same engine. Pick the one that fits what you are making.
+Choose a starting point, then open the reference for the step you need.
 
 .. panels::
     :container: container-lg pb-3
@@ -59,6 +60,13 @@ Three places, same engine. Pick the one that fits what you are making.
 
     ---
 
+    :doc:`/agentic-ai-guide/agent-node`
+
+    **One model-powered step.** Give it a clear task, choose text or JSON,
+    and validate its answer before the flow changes another system.
+
+    ---
+
     :doc:`/agentic-ai-guide/ai-assistant`
 
     **Describe it and let it build.** Workflows, agents and analytics apps from
@@ -67,8 +75,8 @@ Three places, same engine. Pick the one that fits what you are making.
 Automate with apps and data
 ---------------------------
 
-Fixed steps that always run the same way: start on a schedule or an event, read
-and write your business apps and files, and shape the records in between.
+Choose how a run starts, inspect its data, and shape records with explicit
+rules. The separate App Actions section covers connected-system reads and writes.
 
 .. panels::
     :container: container-lg pb-3
@@ -77,13 +85,6 @@ and write your business apps and files, and shape the records in between.
 
     How a run starts - by hand, on a schedule, when something happens in an
     app, when a file arrives, or from another system.
-
-    ---
-
-    :doc:`/agentic-ai-guide/app-actions`
-
-    Read and write Salesforce, Microsoft 365, Google Workspace, Slack, Jira and
-    databases as fixed steps.
 
     ---
 
@@ -111,22 +112,57 @@ and write your business apps and files, and shape the records in between.
 
     Your own logic in Python or JavaScript, with one-click translation.
 
-Connect your apps
------------------
+App Actions: setup and reference
+--------------------------------
+
+Use this section independently of the tutorials. Start with the shared
+read → map → test pattern, then open only the app family you need.
 
 .. panels::
     :container: container-lg pb-3
 
-    :doc:`/agentic-ai-guide/google-connectors-setup`
+    :doc:`/agentic-ai-guide/app-actions`
 
-    Create the Google Cloud credentials for Gmail, Sheets, Docs, Calendar and
-    Drive, with only the permissions you need.
+    Choose a fixed action, map its inputs, check its results and handle
+    failures. No model decides whether the configured action runs.
+
+    ---
+
+    :doc:`/agentic-ai-guide/app-setup`
+
+    Pick your app, set up its connection and verify one small read. Includes
+    Google Workspace, Microsoft 365, business apps, databases and web search.
+
+    ---
+
+    :doc:`/agentic-ai-guide/database-connectors-setup`
+
+    PostgreSQL, MySQL and SQL Server: connection setup, all eleven row/query
+    actions, keys, results and safe retries.
+
+    ---
+
+    :doc:`/agentic-ai-guide/app-action-catalogue`
+
+    Find an individual action, its required inputs and whether it reads or
+    changes data. Keep this lookup handy; you do not need to read it in order.
+
+Build a complete example
+-------------------------
+
+.. panels::
+    :container: container-lg pb-3
+
+    :doc:`/agentic-ai-guide/end-to-end-examples/index`
+
+    Eight business tasks, one page per flow. Start with a manual test, connect
+    the nodes, inspect the result, then add automation when it works.
 
 Give agents something to do
 ---------------------------
 
-An agent with no tools can only talk. These pages cover everything an agent can
-be allowed to do.
+Tools let an agent read information and take actions beyond generating an
+answer. Choose only the capabilities your task needs.
 
 .. panels::
     :container: container-lg pb-3
@@ -261,6 +297,7 @@ For developers
 
    agent-studio.rst
    multi-agent-orchestration.rst
+   agent-node.rst
    ai-assistant.rst
 
 .. toctree::
@@ -268,7 +305,6 @@ For developers
    :caption: Automate with apps and data
 
    triggers.rst
-   app-actions.rst
    passing-data.rst
    data-steps.rst
    files.rst
@@ -276,9 +312,9 @@ For developers
 
 .. toctree::
    :hidden:
-   :caption: Connect your apps
+   :caption: App Actions
 
-   google-connectors-setup.rst
+   app-actions.rst
 
 .. toctree::
    :hidden:

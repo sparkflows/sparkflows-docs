@@ -129,7 +129,7 @@ tells you what it controls.
      - Checks applied to the query before the agent runs
      - :doc:`/agentic-ai-guide/security-guardrails`
    * - **Model**
-     - Connection and generation settings
+     - Generation settings; choose Model Connection above the instructions
      - :doc:`/agentic-ai-guide/models-prompts`
 
 Input
@@ -289,14 +289,16 @@ See :doc:`/agentic-ai-guide/security-guardrails`.
 Model
 ~~~~~
 
+Choose the required **Model Connection** above the instructions, not inside
+this group. The **Model** group contains generation settings. Existing agents
+keep their saved values; the table describes a newly created agent.
+
 .. list-table::
    :header-rows: 1
    :widths: 25 75
 
    * - Field
      - Notes
-   * - **Select Connection**
-     - Which LLM provider connection to use. Required.
    * - **Temperature**
      - ``0`` to ``1``. Default ``0.7``. Lower for extraction and classification,
        higher for drafting.
@@ -304,15 +306,14 @@ Model
      - Nucleus sampling. Default ``1.0``. Leave it alone and tune Temperature
        instead - moving both at once makes results hard to reason about.
    * - **Max Tokens**
-     - Ceiling on the response length. Default ``500``, which is short: raise it
-       for anything that drafts or summarises at length, or answers get cut off
-       mid-sentence.
+     - Requested response-length limit. Default ``8000``. Set a task-appropriate
+       cap and check the selected model's constraints.
    * - **Timeout (seconds)**
      - How long a single call may take before it fails. Default ``180``.
 
 .. figure:: ../_assets/agentic-ai-guide/agent-studio/model.png
-   :alt: The Model group with a connection selected and the generation settings below it
-   :width: 652px
+   :alt: The Model group with generation settings and Max Tokens set to 8000
+   :width: 502px
 
 .. _agent-studio-chat:
 
@@ -373,8 +374,8 @@ Each reply has three buttons on the right:
 .. tip::
 
    A banner reading *No model connection is selected, so this agent cannot
-   answer yet* means the **Model** group is empty. Click **Choose one** in the
-   banner to fix it.
+   answer yet* means no **Model Connection** has been selected. Choose a
+   connection above the instructions on the Build tab.
 
 .. _agent-studio-runs:
 

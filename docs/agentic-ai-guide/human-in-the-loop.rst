@@ -5,7 +5,7 @@ Some decisions should not be automatic. Human-in-the-loop nodes let an agentic
 workflow **pause**, put a real decision in front of a real person, and then
 carry on down a different path depending on what they chose.
 
-Sparkflows gives you two nodes for this, both in the **Control** group:
+Sparkflows gives you two nodes for this, both in the **Control Flow** group:
 
 .. list-table::
    :header-rows: 1
@@ -50,12 +50,13 @@ The pattern that works has three parts:
 #. **Gate only that branch.**
 
 .. figure:: ../_assets/agentic-ai-guide/hitl/po-approver-canvas.png
-   :alt: The Purchase Order Approver canvas, where a Condition routes high-value orders to a Human Approval gate
-   :width: 95%
+   :alt: A refund process - an Agent Node reads the request, App Actions find the order in PostgreSQL, a Condition checks Over 50,000?, and only big refunds stop at Finance approves before the refund is recorded and the customer emailed
+   :width: 100%
 
-   The **Purchase Order Approver** example. Two Agent Nodes validate the PO and
-   its vendor, a Condition checks the amount, and only high-value orders stop at
-   the approval gate before posting to the ERP.
+   A refund process. An Agent Node reads the request, App Actions look up the
+   order, a Condition checks the amount, and only refunds over 50,000 stop at
+   the approval gate. Approved refunds are recorded and confirmed by email;
+   rejected ones get a polite decline.
 
 .. caution::
 
@@ -67,11 +68,11 @@ Adding the node
 ---------------
 
 #. Open your agent on the **Agent Orchestration** canvas.
-#. In the **Nodes** palette, open the **Control** group.
-#. Drag **Human Approval** onto the canvas.
+#. In the **Nodes** palette, open the **Control Flow** group (Human Approval is also under **Commonly used**).
+#. Click or drag **Human Approval** onto the canvas.
 
    .. figure:: ../_assets/agentic-ai-guide/hitl/palette-control.png
-      :alt: The Control group of the node palette, containing Human Approval and Human Input
+      :alt: The Control Flow group of the node palette, with Human Approval, Human Input and Condition
       :width: 300px
 
 #. Connect the branch that needs sign-off into its input.
@@ -100,8 +101,8 @@ Configuration
 Double-click the node.
 
 .. figure:: ../_assets/agentic-ai-guide/hitl/approval-config.png
-   :alt: Human Approval configuration dialog with Title and Prompt to Approver
-   :width: 85%
+   :alt: Human Approval configuration with the title Approve this refund and a prompt that fills in the amount, customer, order and reason with ${2.fields...} references
+   :width: 100%
 
 .. list-table::
    :header-rows: 1

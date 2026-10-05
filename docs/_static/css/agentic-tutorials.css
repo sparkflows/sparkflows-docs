@@ -1,0 +1,156 @@
+.agentic-tutorial {
+    --tutorial-ink: #172554;
+    --tutorial-accent: #4f46e5;
+    --tutorial-muted: #475569;
+    scroll-margin-top: 110px;
+}
+
+.agentic-tutorial section,
+.agentic-tutorial figure,
+.agentic-tutorial table {
+    scroll-margin-top: 110px;
+}
+
+.agentic-tutorial h1 {
+    max-width: 22ch;
+    color: var(--tutorial-ink);
+    font-size: clamp(2rem, 3.4vw, 3rem);
+    font-weight: 600;
+    line-height: 1.12;
+    letter-spacing: -0.025em;
+}
+
+.agentic-tutorial h2 {
+    color: var(--tutorial-ink);
+    font-size: 1.65rem;
+    line-height: 1.25;
+    font-weight: 500;
+    margin-top: 2rem;
+}
+
+.agentic-tutorial h3 {
+    font-size: 1.2rem;
+    line-height: 1.35;
+    font-weight: 600;
+}
+
+.agentic-tutorial p,
+.agentic-tutorial li {
+    line-height: 1.65;
+}
+
+.tutorial-intro {
+    max-width: 70ch;
+    color: var(--tutorial-muted);
+    font-size: 1.08rem;
+}
+
+.tutorial-start {
+    margin: 1.6rem 0 2rem;
+    padding: 1.2rem 1.5rem;
+    background: #eef2ff;
+    border: 1px solid #c7d2fe;
+    border-left: 4px solid var(--tutorial-accent);
+    border-radius: 10px;
+}
+
+.tutorial-start p:first-child {
+    margin-top: 0;
+}
+
+.tutorial-start p:last-child {
+    margin-bottom: 0;
+}
+
+.tutorial-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 18px;
+    margin: 1rem 0 2rem;
+}
+
+.tutorial-card {
+    padding: 22px;
+    border: 1px solid #dbe3ef;
+    border-radius: 12px;
+    background: #fff;
+    box-shadow: 0 3px 10px rgb(15 23 42 / 4%);
+}
+
+.tutorial-card .tutorial-kicker {
+    margin: 0 0 10px;
+    color: #4338ca;
+    font-size: 0.78rem;
+    font-weight: 600;
+    letter-spacing: 0.055em;
+    text-transform: uppercase;
+}
+
+.tutorial-card h3 {
+    margin: 0 0 10px;
+}
+
+.tutorial-card h3 a {
+    color: var(--tutorial-ink);
+    text-decoration: none;
+}
+
+.tutorial-card h3 a:hover {
+    color: var(--tutorial-accent);
+    text-decoration: underline;
+}
+
+.tutorial-card p {
+    margin: 0 0 12px;
+    color: var(--tutorial-muted);
+}
+
+.tutorial-card .tutorial-tools {
+    padding-top: 12px;
+    border-top: 1px solid #eef2f7;
+    font-size: 0.85rem;
+    line-height: 1.5;
+    color: #334155;
+    margin-bottom: 0;
+}
+
+.agentic-tutorial figure,
+.agentic-tutorial .figure {
+    margin: 1.5rem 0 2rem;
+}
+
+.agentic-tutorial figure img,
+.agentic-tutorial .figure img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #dbe3ef;
+    border-radius: 8px;
+}
+
+.agentic-tutorial figcaption p,
+.agentic-tutorial figcaption .caption-text,
+.agentic-tutorial .figure .caption,
+.agentic-tutorial .figure .caption-text {
+    color: #475569;
+    font-size: 0.9rem;
+    font-style: normal;
+    line-height: 1.5;
+}
+
+.tutorial-checkpoint {
+    padding: 0.9rem 1.2rem;
+    background: #f0fdfa;
+    border-left: 3px solid #0f766e;
+    border-radius: 6px;
+    margin: 1.25rem 0;
+}
+
+.tutorial-checkpoint p {
+    margin: 0;
+}
+
+@media (max-width: 1050px) {
+    .tutorial-grid {
+        grid-template-columns: 1fr;
+    }
+}

@@ -1,0 +1,4 @@
+ticket_id,subject,body,status
+T-001,Invoice question,Please explain the duplicate line on my training invoice,open
+T-002,Cannot sign in,My test account cannot access the demo portal,open
+T-003,Resolved request,The training question is already resolved,closed

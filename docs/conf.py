@@ -128,6 +128,7 @@ html_js_files = [
 def setup(app):
     # app.add_stylesheet('css/custom.css')
     app.add_css_file('css/custom_02.css')
+    app.add_css_file('css/agentic-tutorials.css')
 
 html_logo = 'logo.svg';
 # Custom sidebar templates, must be a dictionary that maps document names

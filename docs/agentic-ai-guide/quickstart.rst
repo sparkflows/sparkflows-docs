@@ -133,8 +133,9 @@ Why this wording and not the default *"You are a helpful AI agent"*:
 * It says **what the agent is**, not what it should be like.
 * It says **use the approved FAQ** - otherwise the model will answer from
   memory and sound perfectly confident doing it.
-* It says what to do when it **does not know**. Agents invent answers mostly
-  because nobody told them "I don't know" was allowed.
+* It says what to do when it **does not know**. This gives the agent a useful
+  fallback, but it does not guarantee that every answer is correct. Check
+  test answers against the FAQ before sharing the agent.
 
 .. tip::
 
@@ -146,7 +147,7 @@ Why this wording and not the default *"You are a helpful AI agent"*:
 Give it a tool
 --------------
 
-An agent with no tools can only talk. Open the **Tools** group and click
+Give the agent a way to read the FAQ. Open the **Tools** group and click
 **Add tools**.
 
 .. figure:: ../_assets/agentic-ai-guide/quickstart/06-tool-picker.png
@@ -163,8 +164,10 @@ The left rail is where tools come from:
      - Count
      - What it is
    * - **Connectors**
-     - 53
-     - External systems - Salesforce, ServiceNow, Slack, Jira, GitHub…
+     - varies by version
+     - External systems such as Salesforce, Slack and Jira. Tiles marked
+       **Coming soon** cannot be added; a catalogue entry is not a guarantee
+       that the connector is available.
    * - **Built In**
      - 37
      - Tools that ship with the platform - ``Read CSV``, ``Read JDBC``,
@@ -224,14 +227,15 @@ the two modes later.
 Choose the model
 ----------------
 
-Open the **Model** group and pick the **Connection** you made in
+Use **Model Connection** above the instructions and pick the connection you made in
 :doc:`/agentic-ai-guide/connections`.
 
-Leave **Temperature** at ``0.7`` for now. For answering from a document, ``0.2``
-gives steadier results - see :doc:`/agentic-ai-guide/models-prompts`.
+The **Model** group on the right holds generation settings. Leave
+**Temperature** at ``0.7`` for now; lower values can reduce variation but do
+not guarantee identical answers. See :doc:`/agentic-ai-guide/models-prompts`.
 
 .. figure:: ../_assets/agentic-ai-guide/quickstart/07-model.png
-   :alt: The Model group with a connection selected
+   :alt: Model Connection above the instructions, highlighted with badge 1
    :width: 652px
 
 Try it in Chat
@@ -313,7 +317,7 @@ see :ref:`agent-studio-runs`.
 .. caution::
 
    **If Chat shows** *No model connection is selected* **or a run fails with a
-   formatting error, check the Model group first.** An agent without a
+   formatting error, check Model Connection first.** An agent without a
    **Connection** fails in ways that look like a bug in your prompt, and it is
    the most common setup mistake.
 

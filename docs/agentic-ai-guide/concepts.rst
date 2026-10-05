@@ -59,21 +59,24 @@ The five words
    orchestration canvas.
 
 **Node**
-   One box on the orchestration canvas. An Agent Node is one LLM call with its
-   own tools and prompt. A Condition is a branch. Human Approval is a pause.
+   One box on the orchestration canvas. A Trigger starts the run. An Agent Node
+   is an AI step with its own tools and prompt; it may make multiple model
+   calls. An App Action is one fixed
+   operation in an app. A Condition is a branch. Human Approval is a pause.
 
 **Tool**
    Something the agent is *allowed to do* - post a Slack message, read a JDBC
-   table, create a ServiceNow incident, run one of your saved workflows. Tools
+   table, create a Jira issue, run one of your saved workflows. Tools
    are the difference between an agent that talks and an agent that works.
 
 **Connection**
-   The stored credential a tool uses. You create it once; every agent reuses it.
-   Agents never hold credentials themselves.
+   The stored credential a tool uses. Create it once and select it in agents
+   that are authorised to use it. Keep credentials out of prompts and examples.
 
 **Run**
    One execution of an agent, with its inputs, its tool calls, its approvals, and
-   its output - all recorded, all replayable from the Executions tab.
+   its output. Inspect saved executions in the Executions tab; Studio's live
+   Chat is a separate, unrecorded preview.
 
 Agent Studio or Agent Orchestration?
 ------------------------------------
@@ -91,8 +94,13 @@ same agents list. The difference is how much structure you need.
      - A canvas. Many nodes wired together.
    * - The model decides the order of its own tool calls.
      - **You** decide the order, and where the flow branches.
+   * - Started by a person, a chat or the API.
+     - Also on a schedule, when an app changes, or when a file arrives.
    * - No approvals, no branching, no fan-out.
      - Condition, Router, Human Approval, Supervisor, loops.
+   * - Every step goes through the model.
+     - Fixed steps - App Actions, files, Filter, Merge, Code - run exactly as set,
+       with Agent Nodes only where judgement is needed.
    * - Minutes to build.
      - The right tool when the process has rules of its own.
 
@@ -103,11 +111,14 @@ these sentences about your process:
 * "*...and if the amount is over X, a person has to approve it.*"
 * "*...and depending on the category, it should go down a different path.*"
 * "*...and these three specialists each handle part of it.*"
+* "*...every morning, for each new row, update the CRM and email the owner.*"
 
-Those three sentences are, in order, :doc:`Human Approval
+Those four sentences are, in order, :doc:`Human Approval
 </agentic-ai-guide/human-in-the-loop>`, :doc:`Condition and Router
-</agentic-ai-guide/control-flow>`, and the :doc:`Supervisor
-</agentic-ai-guide/multi-agent-orchestration>` node.
+</agentic-ai-guide/control-flow>`, the :doc:`Supervisor
+</agentic-ai-guide/multi-agent-orchestration>` node, and a :doc:`Trigger
+</agentic-ai-guide/triggers>` with :doc:`App Actions </agentic-ai-guide/app-actions>`
+inside a :doc:`Loop </agentic-ai-guide/data-steps>`.
 
 .. note::
 
@@ -141,5 +152,6 @@ Agents, Workflows and Datasets are the three you will use constantly.
 Next: create a connection
 -------------------------
 
-Build one. :doc:`/agentic-ai-guide/quickstart` takes a blank Agent Studio form to
-a working, tool-using agent in about ten minutes.
+Every agent needs a model connection - :doc:`/agentic-ai-guide/connections`.
+Then :doc:`/agentic-ai-guide/quickstart` takes a blank Agent Studio form to a
+working, tool-using agent in about ten minutes.

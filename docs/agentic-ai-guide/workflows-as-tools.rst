@@ -63,19 +63,26 @@ In Agent Studio
 
 #. Open the **Tools** group.
 #. Expand **Workflows** - *"Let this agent run a saved workflow."*
-#. Select the workflow.
-#. Map its parameters.
+#. Click **Add Workflow** and select a saved workflow.
+#. Give it a **Tool Name** and a **Description (shown to the model)** that
+   explains when it should be used.
+#. Set **Parameter Overrides** only for fixed values the model must not change.
+   Leave **Row Limit** blank for automatic sizing, or set a deliberate cap on
+   the rows handed back to the model.
 
 .. figure:: ../_assets/agentic-ai-guide/workflows-as-tools/studio-workflows.png
-   :alt: The Workflows section inside the Tools group
-   :width: 85%
+   :alt: Studio workflow form with workflow and tool name (1), description (2), row limit (3), and fixed parameter overrides (4)
+   :width: 475px
+
+   Select the saved workflow and tool name (1), explain when to use it (2),
+   then set only the row cap (3) and fixed overrides (4) you need.
 
 On the orchestration canvas
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 You have two options:
 
-* **Agent Node → Tasks tab.** Choose the workflow and supply its parameter names
+* **Agent Node → Workflow Configuration tab.** Choose the workflow and supply its parameter names
   and values. The agent decides when to call it.
 * **Workflow Execution node** (Integrations group). The workflow runs at a fixed
   point in the flow, whatever the agent thinks.
@@ -86,7 +93,7 @@ You have two options:
 
    * - Choose
      - When
-   * - Agent Node → **Tasks**
+   * - Agent Node → **Workflow Configuration**
      - The agent should decide *whether* the workflow is needed.
    * - **Workflow Execution** node
      - The workflow must run every time, in a known position.
@@ -183,8 +190,8 @@ When not to use a workflow
 
 * **For a single REST call** - use the ``REST API Client`` built-in tool.
 * **For reading one table** - use ``Read JDBC``.
-* **For something the connector already does** - check the 53 connectors first;
-  ServiceNow alone exposes 111 operations.
+* **For something an available connector already does** - check its operations
+  first, such as Jira issue reads. A **Coming soon** tile cannot be used yet.
 
 Next: control the flow
 ----------------------

@@ -1,0 +1,5 @@
+order_id,order_date,region,amount
+S-001,2026-09-28,North,100.00
+S-002,2026-09-29,North,150.00
+S-003,2026-09-30,South,200.00
+S-004,2026-10-01,South,50.00

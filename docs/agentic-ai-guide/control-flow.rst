@@ -1,7 +1,7 @@
 Control Flow: Condition, Router & Guardrails
 ============================================
 
-Three nodes in the **Control** group decide where a run goes next. They are what
+Three nodes in the **Control Flow** group decide where a run goes next. They are what
 turn a straight line of agents into a process.
 
 The first thing to know is which of them calls a model and which does not,
@@ -40,19 +40,36 @@ based on a single expression evaluated against the running state. It makes no
 LLM call, so the decision is deterministic - the right tool whenever a plain
 rule decides the path.
 
-.. figure:: ../_assets/agentic-ai-guide/control-flow/condition-node.png
-   :alt: Condition node on the canvas showing T and F output anchors
-   :width: 290px
+.. figure:: ../_assets/agentic-ai-guide/control-flow/condition-canvas.png
+   :alt: Trigger, an Agent Node that reads the refund request, then the Condition Big refund? with its T branch to Note for finance and its F branch to Confirm to customer
+   :width: 100%
 
 .. important::
 
    **Both anchors must be wired.** A Condition with an unconnected branch leaves
    half your cases with nowhere to go.
 
+Two ways to write the rule
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+**Conditions** builds the rule without typing: pick a field from **What arrives
+here**, a comparison and a value. Add rows and choose whether all or any must be
+true.
+
+.. figure:: ../_assets/agentic-ai-guide/control-flow/condition-config.png
+   :alt: Condition Big refund? in Conditions mode - take the True path when refund_amount is at least 50000, with the fields of the upstream agent on the left
+   :width: 100%
+
+**Expression** takes one line, for rules the builder cannot say:
+
+.. figure:: ../_assets/agentic-ai-guide/control-flow/condition-expression.png
+   :alt: Condition in Expression mode with refund_amount >= 50000 and help on and, or, not, quotes and date functions
+   :width: 100%
+
 Writing the expression
 ~~~~~~~~~~~~~~~~~~~~~~
 
-The **Condition** field takes a **Python-subset expression**, not a sentence.
+The expression is a **Python-subset expression**, not a sentence.
 
 Field names from upstream node outputs and inputs are available as bare
 identifiers. Nested values are reached with attribute or subscript access:
@@ -66,7 +83,10 @@ identifiers. Nested values are reached with attribute or subscript access:
    confidence >= 0.85 or iteration >= 3
 
 Arithmetic and comparisons (``==``, ``!=``, ``>``, ``>=``, and so on) are
-allowed.
+allowed, combined with ``and``, ``or`` and ``not``. Dates compare through
+``date()``: ``date(received) >= days_ago(7)``, or
+``date(received) < start_of("2025-04-10T13:00", "+05:30")``. The **Functions**
+list under What arrives here inserts them for you.
 
 .. list-table::
    :header-rows: 1
@@ -121,12 +141,6 @@ them, which is why a Condition reads the same either way.
    analysis`` keeps working when the model rewords its summary; ``'expensive'
    in analysis`` does not.
 
-.. figure:: ../_assets/agentic-ai-guide/control-flow/condition-config.png
-   :alt: The Condition node's configuration with the expression 'high_value=true' in analysis
-   :width: 95%
-
-   The Condition from the shipped Purchase Order Approver. One field, one
-   expression.
 
 Errors route False
 ~~~~~~~~~~~~~~~~~~
@@ -165,17 +179,17 @@ Router
 
 Where a Condition evaluates a rule, the Router is an **LLM-driven semantic
 router**. It reads the incoming query, scores it against each route's
-description and example queries, and forwards execution down the matching route.
+description, and forwards execution down the matching route.
 
 Use it when the question is "which of these is this about?" and no plain
 expression can answer it.
 
 .. figure:: ../_assets/agentic-ai-guide/control-flow/router-node.png
-   :alt: Input feeding a Router that has Billing, Technical, Account and fallback anchors
-   :width: 75%
+   :alt: A Trigger feeding the Router Which team? with anchors BI, AC, SH and FB wired to Billing, Access, Shipping and General reply agents
+   :width: 85%
 
    A Router configured with three routes. Each route adds its own output
-   anchor - ``BI`` Billing, ``TE`` Technical, ``AC`` Account - and ``FB``
+   anchor - ``BI`` billing, ``AC`` access, ``SH`` shipping - and ``FB``
    (fallback) is always there. A freshly placed Router has **FB** only; the
    named anchors appear as you add routes.
 
@@ -186,11 +200,12 @@ Open the node and go to the **Routes** tab. Each row is one route: a short
 **Route Name**, and a **Description** of the cases that belong to it.
 
 .. figure:: ../_assets/agentic-ai-guide/control-flow/router-config.png
-   :alt: The Routes tab with three routes: Billing, Technical and Account
-   :width: 95%
+   :alt: Router Routes tab with the connection selector (1) and separate billing and technical route descriptions (2)
+   :width: 100%
 
-   Three routes for a support desk. The description is what the model matches
-   the incoming question against, so it describes *cases*, not categories.
+   Start by choosing a model connection (1), then describe each route (2).
+   This unsaved example uses billing and technical support. The description
+   is what the model matches against, so it describes *cases*, not categories.
 
 .. list-table::
    :header-rows: 1
@@ -200,14 +215,13 @@ Open the node and go to the **Routes** tab. Each row is one route: a short
      - Notes
    * - **Connection**
      - The LLM used to do the matching.
-   * - **Routes** → *Route name*
+   * - **Routes** → *Route Name*
      - The name of each route. Output anchors are generated from this list.
-   * - **Routes** → *Route description*
+   * - **Routes** → *Description*
      - What belongs on this route. This is what the model matches against, so
-       write it as a description of the cases, not a label.
-   * - **Routes** → *Route examples*
-     - Example queries for the route. The single most effective way to improve
-       routing accuracy.
+       write it as a description of the cases, not a label - name the typical
+       words and situations, as in *Login problems, passwords, two-factor
+       codes, locked or missing accounts*.
    * - **Fallback** → *Fallback description*
      - Used when no route is a good match.
    * - **Execution**

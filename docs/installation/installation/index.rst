@@ -12,6 +12,10 @@ Deployment Overview
 -------------------
 
 Compare the available Sparkflows deployment models and choose the option that best fits your requirements.
+Linux VM Deployment
+-------------------
+
+Install and run Sparkflows directly on a Linux virtual machine or physical server.
 
 Docker Deployment
 -----------------
@@ -23,10 +27,6 @@ Kubernetes Deployment
 
 Deploy Sparkflows on Kubernetes for scalable, highly available, and enterprise-grade environments.
 
-Linux VM Deployment
--------------------
-
-Install and run Sparkflows directly on a Linux virtual machine or physical server.
 
 Windows Deployment
 ------------------

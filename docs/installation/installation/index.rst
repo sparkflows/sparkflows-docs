@@ -33,10 +33,10 @@ Windows Deployment
 
 Install and run Sparkflows in Windows-based environments.
 
-macOS / Developer Installation
+macOS Installation
 ------------------------------
 
-Set up Sparkflows on macOS for development, demonstrations, testing, and evaluation purposes.
+Set up Sparkflows on macOS.
 
 Cloud Deployment
 ----------------

@@ -92,6 +92,26 @@ Customer and team operations
      </article>
    </div>
 
+Keep a running log without duplicates
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. raw:: html
+
+   <div class="tutorial-grid">
+     <article class="tutorial-card">
+       <p class="tutorial-kicker">Google · Skip what you have seen</p>
+       <h3><a href="spreadsheet-dedup-google.html">Save Excel attachments to Drive, without duplicates</a></h3>
+       <p>Read Excel attachments, save each new file to Drive and append one row per file. A second email never logs the same attachment twice.</p>
+       <p class="tutorial-tools">Gmail · Merge dedup · Google Drive · Google Sheets</p>
+     </article>
+     <article class="tutorial-card">
+       <p class="tutorial-kicker">Microsoft · Skip what you have seen</p>
+       <h3><a href="spreadsheet-dedup-microsoft.html">Save Excel attachments to OneDrive, without duplicates</a></h3>
+       <p>The same duplicate-safe flow with Outlook, OneDrive and a SharePoint list. Only genuinely new files are uploaded and recorded.</p>
+       <p class="tutorial-tools">Outlook · Merge dedup · OneDrive · SharePoint</p>
+     </article>
+   </div>
+
 Before your first run
 ---------------------
 
@@ -117,6 +137,8 @@ Before your first run
    order-file-loader
    revenue-report
    email-attachments
+   spreadsheet-dedup-google
+   spreadsheet-dedup-microsoft
    finance-briefing
    ticket-triage
    lead-onboarding

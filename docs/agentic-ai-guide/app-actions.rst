@@ -121,13 +121,13 @@ proof that an external connection or write succeeded.
    a configuration example; it has no connection selected and was not run.
 
 .. figure:: ../_assets/agentic-ai-guide/app-actions/sheets-append.png
-   :alt: Current Google Sheets Append rows action showing incoming file_name, summary and drive_id fields, a training spreadsheet placeholder and DocumentLog tab
+   :alt: Google Sheets Append rows input panel showing file_name, summary and drive_id from the Prepare log row
    :width: 100%
 
-   **Google Sheets example:** the incoming record contains ``file_name``,
-   ``summary`` and ``drive_id``. Replace the training placeholder with your
-   spreadsheet id and use a tab whose header names match those fields. This
-   saved example was not connected or executed.
+   **Google Sheets example:** this crop shows the incoming record only. In
+   the Details panel, select a connection, spreadsheet and tab whose header
+   names match ``file_name``, ``summary`` and ``drive_id``. This saved example
+   was not connected or executed.
 
 Add an App Action in three steps
 --------------------------------
@@ -202,8 +202,11 @@ Loop or a database read, each arriving column is sent as the field of the same
 name.
 
 .. figure:: ../_assets/agentic-ai-guide/app-actions/write-details.png
-   :alt: PostgreSQL Insert or update rows by key into sf_learn_triage, key column ticket_id, with no fields set so the arriving rows are written
+   :alt: Cropped PostgreSQL Fields to set panel with no fields mapped
    :width: 100%
+
+   When table columns already match, leave **Fields to set** empty. See the
+   write-safety note below for when canvas previews and full runs execute it.
 
 To shape the outgoing record, add **Fields to set**. The chips offer the fields
 the app expects (for an email: **To**, **Cc**, **Bcc**, **Subject**, **Body**);
@@ -213,7 +216,7 @@ use **Rows to write (JSON)** with one object or an array of objects. **What
 will be sent** shows the exact request.
 
 .. figure:: ../_assets/agentic-ai-guide/app-actions/fields-to-set.png
-   :alt: Outlook Mail Send a message with Fields to set to, subject and body; the body holds ${10.analysis} from the Agent Node that wrote the digest
+   :alt: Cropped Fields to set panel mapping To, Subject and Body, with the body referencing ${10.analysis}
    :width: 100%
 
    The body is the answer of the Agent Node that wrote the digest. Lists, long text and nested formats are shaped for the app automatically.

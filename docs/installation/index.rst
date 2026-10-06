@@ -1,7 +1,7 @@
 Installation and Administration
 ===============================
 
-Deploy Sparkflows on a laptop, virtual machine, cloud environment, Docker, or Kubernetes. Use this guide to plan your deployment, install Sparkflows, configure the platform, secure it, and operate it in production. It seamlessly integrates with the most complex of enterprise environments.
+Deploy Sparkflows on a laptop, virtual machine, cloud environment, On-Premises, Docker, or Kubernetes. Use this guide to plan your deployment, install Sparkflows, configure the platform, secure it, and operate it in production. It seamlessly integrates with the most complex of enterprise environments.
 
 .. panels::
     :container: container-lg pb-3

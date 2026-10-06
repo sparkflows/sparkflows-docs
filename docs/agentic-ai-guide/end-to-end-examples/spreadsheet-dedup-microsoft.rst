@@ -136,14 +136,16 @@ engine folder.
 
 The duplicate check needs one value that identifies a file the same way on every
 run. Open **Add a source key** (Set Fields) and under **Add or change fields**
-add ``source_key`` as ``${3.fields.messageId}/${3.fields.filename}`` and
-``file_name`` as ``${3.fields.filename}``.
+add ``source_key`` as ``=item["messageId"] + "/" + item["filename"]`` and
+``file_name`` as ``=item["filename"]``. A value that starts with ``=`` is
+computed from each record on its own, so every attachment gets its own key.
 
 .. figure:: ../../_assets/agentic-ai-guide/tutorials/spreadsheet-dedup-microsoft/source-key.png
    :alt: Set Fields builds source_key from the message id and filename, and file_name from the filename
    :width: 100%
 
-   **1** builds a stable ``source_key`` from the message id and the file name.
+   **1** builds a stable ``source_key`` for each attachment from its message id
+   and file name.
    The same email and file always produce the same key, which is what lets a
    later run recognise it.
 
@@ -152,6 +154,11 @@ add ``source_key`` as ``${3.fields.messageId}/${3.fields.filename}`` and
    Use a key that stays the same across runs and is unique per file. The message
    id plus the filename is a good default. The filename alone is enough only if
    filenames are never reused.
+
+   Build the key with ``=`` and ``item[...]``, not with ``${3.fields...}``. A
+   ``${...}`` reference fills in one value - the first attachment's - for every
+   row, so all attachments would share one key and the duplicate check would
+   compare the wrong files.
 
 4. Keep only the new attachments
 --------------------------------

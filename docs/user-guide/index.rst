@@ -144,10 +144,6 @@ examples </agentic-ai-guide/end-to-end-examples/index>`.
 
     :doc:`/user-guide/utilities/index`
 
-    ---
-
-    :doc:`/user-guide/generate-pyspark-code/index`
-
 .. toctree::
    :hidden:
 
@@ -184,4 +180,3 @@ examples </agentic-ai-guide/end-to-end-examples/index>`.
    python/index
    code-library/index
    utilities/index
-   generate-pyspark-code/index

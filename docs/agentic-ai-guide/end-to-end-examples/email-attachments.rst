@@ -189,8 +189,10 @@ else:
    this Agent no tools; its only job is to summarise the text it is handed.
 
 **Keep file and summary** (Set Fields) trims the record to the ``file_name``,
-the ``summary`` and a stable ``source_key`` - the attachment's own filename or
-message id - before the upload.
+the ``summary``, a stable ``source_key`` - the attachment's own filename or
+message id - and the ``path``, before the upload. Keep ``path``: the upload
+reads the file from it, and fails with "Upload needs a file on the engine's
+disk in a path column" if it is gone.
 
 4. Upload the file to Drive
 ---------------------------

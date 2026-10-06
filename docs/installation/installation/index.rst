@@ -24,13 +24,13 @@ Before installing Sparkflows, choose the deployment model that best fits your en
    * - Environment
      - Recommended Deployment
    * - Developer laptop
-     - Docker
+     - Docker, TGZ
    * - Single VM
-     - Docker or Linux installation
+     - Docker or TGZ installation
    * - Production enterprise
      - Kubernetes
    * - Cloud VM
-     - Docker
+     - Docker or TGZ installation
    * - Large-scale HA deployment
      - Kubernetes
 

@@ -324,7 +324,7 @@ see :ref:`agent-studio-runs`.
 Save it
 -------
 
-Click **Create Agent**. It now appears in the Agents list, as a **Single
+Click **Save Agent**. It now appears in the Agents list, as a **Single
 Agent**.
 
 .. figure:: ../_assets/agentic-ai-guide/quickstart/09-saved.png

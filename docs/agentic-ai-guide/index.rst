@@ -223,8 +223,8 @@ Build real processes
 
     Human Approval and Human Input: pausing a run for a real decision.
 
-Run and operate
----------------
+Deploy, Monitor and Metrics
+----------------------------
 
 .. panels::
     :container: container-lg pb-3

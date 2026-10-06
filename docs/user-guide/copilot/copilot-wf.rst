@@ -1,23 +1,23 @@
-Copilot on Workflow
-==================
+AI Assistant on Workflow
+========================
 
-This section explains how to use **Copilot** within the **Workflow Designer** in Sparkflows.
+This section explains how to use **AI Assistant** within the **Workflow Designer** in Sparkflows.
 
 Prerequisites
 -------------
 
-Before using Copilot in the Workflow Designer, ensure that a Copilot has already been added.
+Before using AI Assistant in the Workflow Designer, ensure that a AI Assistant has already been added.
 
-The steps for adding a Copilot are provided in the following document:
+The steps for adding a AI Assistant are provided in the following document:
 
 https://docs.sparkflows.ai/en/latest/user-guide/copilot/copilot.html
 
-Steps to Use Copilot in Workflow Designer
------------------------------------------
+Steps to Use AI Assistant in Workflow Designer
+----------------------------------------------
 
 1. Navigate to the **Workflows** page within any **Project**.
 2. Click on the **Create** button.
-3. To use Copilot, click on the **Copilot** button.
+3. To use AI Assistant, click on the **AI Assistant** button.
 
    .. figure:: ../../_assets/user-guide/copilot/Copilot-On-Workflow/Copilot-Button-WF-Page.PNG
      :alt: copilot configuration
@@ -25,7 +25,7 @@ Steps to Use Copilot in Workflow Designer
 
 
 
-4. On clicking the Copilot button, the **Copilot Assistant** opens. The previously created Copilot will be selected by default in the dropdown, as shown below.
+4. On clicking the AI Assistant button, the **AI Assistant** opens. The previously created AI Assistant will be selected by default in the dropdown, as shown below.
 
    .. figure:: ../../_assets/user-guide/copilot/Copilot-On-Workflow/Copilot-WF-Assistant-Conn-Selected.PNG
      :alt: copilot configuration
@@ -33,7 +33,7 @@ Steps to Use Copilot in Workflow Designer
 
 
 
-5. A prompt can now be entered to create a workflow. Copilot generates a response based on the prompt, as shown below.
+5. A prompt can now be entered to create a workflow. AI Assistant generates a response based on the prompt, as shown below.
 
    .. figure:: ../../_assets/user-guide/copilot/Copilot-On-Workflow/Copilot-WF-Generate-Response.PNG
     :alt: copilot configuration
@@ -66,7 +66,7 @@ Steps to Use Copilot in Workflow Designer
      :width: 60%
 
 
-   You can also directly preview the generated workflow by clicking the **Preview** icon seen in the Copilot response.
+   You can also directly preview the generated workflow by clicking the **Preview** icon seen in the AI Assistant response.
 
    .. figure:: ../../_assets/user-guide/copilot/Copilot-On-Workflow/Copilot-WF-Direct-Preview.PNG
      :alt: copilot configuration
@@ -90,17 +90,17 @@ Steps to Use Copilot in Workflow Designer
 
 
 
-Additional Features for Copilot in Workflow Designer
-------------------------------------------------------
+Additional Features for AI Assistant in Workflow Designer
+---------------------------------------------------------
 
-In addition to generating workflows, Copilot in Workflow provides additional features that help users explore **sample prompts, track Copilot activities, and review historical interactions** for better visibility and reuse.
+In addition to generating workflows, AI Assistant in Workflow provides additional features that help users explore **sample prompts, track AI Assistant activities, and review historical interactions** for better visibility and reuse.
 
 **Sample Prompts**
 +++++++++++++++++++++
 
 A set of **Sample Prompts** is provided and can be copied and used directly.
 
-1. Click the **Sample Prompts** button under the Copilot Assistant to view them.
+1. Click the **Sample Prompts** button under the AI Assistant to view them.
 
   .. figure:: ../../_assets/user-guide/copilot/Copilot-On-Workflow/Copilot-WF-Sample-Prompts.PNG
      :alt: copilot configuration
@@ -115,17 +115,17 @@ A set of **Sample Prompts** is provided and can be copied and used directly.
      :width: 60%
 
 
-**Copilot Activities**
-++++++++++++++++++++++++
+**AI Assistant Activities**
++++++++++++++++++++++++++++
 
-1. To view captured **Copilot Activities** or **Events**, click the **Activities** button under the Copilot Assistant.
+1. To view captured **AI Assistant Activities** or **Events**, click the **Activities** button under the AI Assistant.
 
    .. figure:: ../../_assets/user-guide/copilot/Copilot-On-Workflow/Copilot-WF-Activities.PNG
      :alt: copilot configuration
      :width: 60%
 
 
-2. A table listing all events is displayed. These events are captured for the current user of the current selected project for the Copilot on which the prompt was submitted.
+2. A table listing all events is displayed. These events are captured for the current user of the current selected project for the AI Assistant on which the prompt was submitted.
 
    .. figure:: ../../_assets/user-guide/copilot/Copilot-On-Workflow/Copilot-WF-Activities-List.PNG
      :alt: copilot configuration
@@ -136,7 +136,7 @@ A set of **Sample Prompts** is provided and can be copied and used directly.
 3. To view details of a specific event, click on the **Event Detail** entry. A popup displays the following information:
 
   - First 10–15 words of the submitted prompt
-  - Type of Copilot used
+  - Type of AI Assistant used
   - Step-by-step interaction with the LLM
   - Input and Output token count for each step
 
@@ -145,17 +145,17 @@ A set of **Sample Prompts** is provided and can be copied and used directly.
      :width: 60%
 
 
-**Copilot History**
-+++++++++++++++++++++++
+**AI Assistant History**
+++++++++++++++++++++++++
 
-1. To view the captured **Copilot History**, click the **Copilot History** button under the Copilot Assistant.
+1. To view the captured **AI Assistant History**, click the **AI Assistant History** button under the AI Assistant.
 
    .. figure:: ../../_assets/user-guide/copilot/Copilot-On-Workflow/Copilot-WF-History.PNG
      :alt: copilot configuration
      :width: 60%
 
 
-   A table is displayed showing all prompts submitted. The history is captured for the current user of the current selected project for the Copilot on which the prompt was submitted. 
+   A table is displayed showing all prompts submitted. The history is captured for the current user of the current selected project for the AI Assistant on which the prompt was submitted. 
 
    .. figure:: ../../_assets/user-guide/copilot/Copilot-On-Workflow/Copilot-WF-History-List.PNG
      :alt: copilot configuration

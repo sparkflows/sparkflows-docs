@@ -1,14 +1,14 @@
 Add Nodes Examples
-====
+==================
 
-This guide shows how to structure effective prompts and use Copilot to add nodes to existing workflows.
+This guide shows how to structure effective prompts and use AI Assistant to add nodes to existing workflows.
 
-Follow the steps below to explore how Copilot can help you modify and enhance your existing data processes more efficiently.
+Follow the steps below to explore how AI Assistant can help you modify and enhance your existing data processes more efficiently.
 
 
-**Opening the Copilot Assistant**
-+++++++++++++++++++++
-Click on the **Copilot** button to open the Assistant window. Type your queries into the text field and click **Enter** to interact with Copilot.
+**Opening the AI Assistant**
+++++++++++++++++++++++++++++
+Click on the **AI Assistant** button to open the Assistant window. Type your queries into the text field and click **Enter** to interact with AI Assistant.
 
 .. figure:: ../../../_assets/user-guide/copilot/Copilot-On-Workflow/Copilot-WF-Generate-Response.PNG
     :alt: copilot configuration
@@ -16,10 +16,10 @@ Click on the **Copilot** button to open the Assistant window. Type your queries 
 
 
 **Add Nodes - Example Prompts**
-+++++++++++++++++++++
++++++++++++++++++++++++++++++++
 
 Example 1
-++++
++++++++++
 
 **Prompt**
 
@@ -41,7 +41,7 @@ After receiving the response, you can choose to **preview** or **select** it. Th
 
 
 Example 2
-++++
++++++++++
 
 **Prompt**
 
@@ -61,7 +61,7 @@ Add a Save CSV node as a new branch after node 4 to save to "/path/to/file/outpu
 
 
 Example 3
-++++
++++++++++
 
 **Prompt**
 
@@ -81,7 +81,7 @@ Add a node between node 4 and 6 to convert the time in column "time" with format
 
 
 Example 4
-++++
++++++++++
 
 **Prompt**
 
@@ -104,7 +104,7 @@ Then add a node to print the first 20 rows.
 
 
 Example 5
-++++
++++++++++
 
 **Prompt**
 
@@ -120,7 +120,7 @@ Then add a ndoe to print the first 20 rows.
 
 
 Example 6
-++++
++++++++++
 
 **Prompt**
 

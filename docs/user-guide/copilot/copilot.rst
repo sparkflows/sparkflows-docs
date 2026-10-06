@@ -1,12 +1,12 @@
-Add Copilot
-====
+Add AI Assistant
+================
 
-This document outlines how to configure, use, and manage Copilot in Sparkflows to create workflows, projects, and queries using Natural Language capabilities.
+This document outlines how to configure, use, and manage AI Assistant in Sparkflows to create workflows, projects, and queries using Natural Language capabilities.
 
 Prerequisites
------------
+-------------
 
-1. Ensure that the configuration setting **module.enableCopilot** is enabled to access Copilot.
+1. Ensure that the configuration setting **module.enableCopilot** is enabled to access AI Assistant.
 
    .. figure:: ../../_assets/user-guide/copilot/copilot_configuration.png
      :alt: copilot configuration
@@ -14,24 +14,24 @@ Prerequisites
 
 2. Gen AI connection is required for making queries.
 
-Steps for Adding Copilot
------------
-1. After logging into Sparkflows, navigate to **Administration -> Copilot**.
+Steps for Adding AI Assistant
+-----------------------------
+1. After logging into Sparkflows, navigate to **Administration -> AI Assistant**.
 
    .. figure:: ../../_assets/user-guide/copilot/copilot_administration.png
     :alt: copilot_administration
     :width: 60%
 
-2. Click on **Add Copilot** button and enter the following details. Then click on **Save** button to create the Copilot.
+2. Click on **Add AI Assistant** button and enter the following details. Then click on **Save** button to create the AI Assistant.
 
    .. figure:: ../../_assets/user-guide/copilot/add_copilot_button.png
     :alt: create_copilot
     :width: 60%
 
-  * **Name (Mandatory):** Enter a unique and meaningful name for the Copilot.
-  * **Description (Optional):** Provide a short description of what the Copilot will be used for.
+  * **Name (Mandatory):** Enter a unique and meaningful name for the AI Assistant.
+  * **Description (Optional):** Provide a short description of what the AI Assistant will be used for.
   * **Gen AI Connection (Mandatory):** Select an existing Gen AI Connection (e.g., OpenAI, Azure OpenAI, Bedrock, etc.) from the dropdown. Ensure the selected connection is already configured and active.
-  * **MCP Connection (Optional):** Select one or more MCP Connections from the dropdown, if required. This is optional and depends on whether your Copilot needs MCP-based tools or integrations.
+  * **MCP Connection (Optional):** Select one or more MCP Connections from the dropdown, if required. This is optional and depends on whether your AI Assistant needs MCP-based tools or integrations.
 
 
 
@@ -39,7 +39,7 @@ Steps for Adding Copilot
      :alt: create_copilot
      :width: 60%
 
-3. Once the copilot is created, you can **update** the Copilot details by clicking the **Edit Details** icon (pen icon) in **Actions** column in the copilot list, as shown below.
+3. Once the AI Assistant is created, you can **update** the AI Assistant details by clicking the **Edit Details** icon (pen icon) in **Actions** column in the AI Assistant list, as shown below.
 
    .. figure:: ../../_assets/user-guide/copilot/copilot_edit_details.png
     :alt: create_copilot

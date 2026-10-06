@@ -1,14 +1,14 @@
 Create Workflow Examples
-====
+========================
 
-This guide shows how to structure effective prompts and use Copilot to create new workflows.
+This guide shows how to structure effective prompts and use AI Assistant to create new workflows.
 
-Follow the steps below to explore how Copilot can help you design and build your data processes more efficiently.
+Follow the steps below to explore how AI Assistant can help you design and build your data processes more efficiently.
 
 
-**Opening the Copilot Assistant**
-+++++++++++++++++++++
-Click on the **Copilot** button to open the Assistant window. Type your queries into the text field and click **Enter** to interact with Copilot.
+**Opening the AI Assistant**
+++++++++++++++++++++++++++++
+Click on the **AI Assistant** button to open the Assistant window. Type your queries into the text field and click **Enter** to interact with AI Assistant.
 
 .. figure:: ../../../_assets/user-guide/copilot/Copilot-On-Workflow/Copilot-WF-Generate-Response.PNG
     :alt: copilot configuration
@@ -16,10 +16,10 @@ Click on the **Copilot** button to open the Assistant window. Type your queries 
 
 
 **Create - Example Prompts**
-+++++++++++++++++++++
+++++++++++++++++++++++++++++
 
 Example 1
-++++
++++++++++
 
 **Prompt**
 
@@ -40,7 +40,7 @@ After receiving the response, you can choose to **preview** or **select** it. Th
 
 
 Example 2
-++++
++++++++++
 
 **Prompt**
 
@@ -60,7 +60,7 @@ Create a workflow that:
 
 
 Example 3
-++++
++++++++++
 
 **Prompt**
 
@@ -83,7 +83,7 @@ Create a workflow that:
 
 
 Example 4
-++++
++++++++++
 
 **Prompt**
 
@@ -102,7 +102,7 @@ Create a workflow that:
 
 
 Example 5
-++++
++++++++++
 
 **Prompt**
 
@@ -119,7 +119,7 @@ Create a workflow that:
 
 
 Example 6
-++++
++++++++++
 
 **Prompt**
 
@@ -139,7 +139,7 @@ Create a workflow that:
 
 
 Example 7
-++++
++++++++++
 
 **Prompt**
 
@@ -157,7 +157,7 @@ Create a workflow that:
 
 
 Example 8
-++++
++++++++++
 
 **Prompt**
 
@@ -179,7 +179,7 @@ Create a workflow that:
 
 
 Example 9
-++++
++++++++++
 
 **Prompt**
 
@@ -200,7 +200,7 @@ Create a workflow to:
 
 
 Example 10
-++++
+++++++++++
 
 **Prompt**
 
@@ -220,7 +220,7 @@ Create a workflow to:
 
 
 Example 11
-++++
+++++++++++
 
 **Prompt**
 
@@ -241,7 +241,7 @@ Create a workflow to:
 
 
 Example 12
-++++
+++++++++++
 
 **Prompt**
 

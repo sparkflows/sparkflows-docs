@@ -1,12 +1,12 @@
 Update Pipeline Examples
-====
+========================
 
-This guide shows how to structure effective prompts and use Copilot to update existing pipelines.
+This guide shows how to structure effective prompts and use AI Assistant to update existing pipelines.
 
 
-**Opening the Copilot Assistant**
-+++++++++++++++++++++
-Click on the **Copilot** button to open the Assistant window. Type your queries into the text field and click **Enter** to interact with Copilot.
+**Opening the AI Assistant**
+++++++++++++++++++++++++++++
+Click on the **AI Assistant** button to open the Assistant window. Type your queries into the text field and click **Enter** to interact with AI Assistant.
 
 .. figure:: ../../../_assets/user-guide/copilot/Copilot-On-Pipeline/Copilot-Pipeline-Generate-Response.PNG
     :alt: copilot configuration
@@ -14,10 +14,10 @@ Click on the **Copilot** button to open the Assistant window. Type your queries 
 
 
 **Update - Example Prompts**
-+++++++++++++++++++++
+++++++++++++++++++++++++++++
 
 Example 1
-++++
++++++++++
 
 **Prompt**
 
@@ -38,7 +38,7 @@ Update the pipeline by:
 
 
 Example 2
-++++
++++++++++
 
 **Prompt**
 
@@ -60,7 +60,7 @@ Update pipeline by:
 
 
 Example 3
-++++
++++++++++
 
 **Prompt**
 
@@ -83,7 +83,7 @@ Update the pipeline by:
 
 
 Example 4
-++++
++++++++++
 
 **Prompt**
 
@@ -105,7 +105,7 @@ Update the pipeline by:
 
 
 Example 5
-++++
++++++++++
 
 **Prompt**
 

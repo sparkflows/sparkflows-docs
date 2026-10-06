@@ -1,12 +1,12 @@
 Create Pipeline Examples
-====
+========================
 
-This guide shows how to structure effective prompts and use Copilot to create new pipelines.
+This guide shows how to structure effective prompts and use AI Assistant to create new pipelines.
 
 
-**Opening the Copilot Assistant**
-+++++++++++++++++++++
-Click on the **Copilot** button to open the Assistant window. Type your queries into the text field and click **Enter** to interact with Copilot.
+**Opening the AI Assistant**
+++++++++++++++++++++++++++++
+Click on the **AI Assistant** button to open the Assistant window. Type your queries into the text field and click **Enter** to interact with AI Assistant.
 
 .. figure:: ../../../_assets/user-guide/copilot/Copilot-On-Pipeline/Copilot-Pipeline-Generate-Response.PNG
     :alt: copilot configuration
@@ -14,10 +14,10 @@ Click on the **Copilot** button to open the Assistant window. Type your queries 
 
 
 **Create - Example Prompts**
-+++++++++++++++++++++
+++++++++++++++++++++++++++++
 
 Example 1
-++++
++++++++++
 
 **Prompt**
 
@@ -38,7 +38,7 @@ After receiving the response, you can choose to **preview** or **select** it. Th
 
 
 Example 2
-++++
++++++++++
 
 **Prompt**
 
@@ -62,7 +62,7 @@ Create a pipeline that:
 
 
 Example 3
-++++
++++++++++
 
 **Prompt**
 
@@ -78,7 +78,7 @@ Create a pipeline that:
 
 
 Example 4
-++++
++++++++++
 
 **Prompt**
 
@@ -96,7 +96,7 @@ Create a pipeline that:
 
 
 Example 5
-++++
++++++++++
 
 **Prompt**
 
@@ -115,7 +115,7 @@ Create a pipeline that:
 
 
 Example 6
-++++
++++++++++
 
 **Prompt**
 
@@ -136,7 +136,7 @@ Create a pipeline that:
 
 
 Example 7
-++++
++++++++++
 
 **Prompt**
 

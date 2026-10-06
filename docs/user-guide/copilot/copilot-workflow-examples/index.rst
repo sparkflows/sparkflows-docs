@@ -1,5 +1,5 @@
-Copilot Workflow Examples
-====
+AI Assistant Workflow Examples
+==============================
 
 .. panels::
     :container: container-lg pb-3
@@ -7,19 +7,19 @@ Copilot Workflow Examples
 
     :doc:`/user-guide/copilot/copilot-workflow-examples/create-workflow-examples`
 
-    How to create Workflows with Sparkflows Copilot
+    How to create Workflows with Sparkflows AI Assistant
 
     ---
 
     :doc:`/user-guide/copilot/copilot-workflow-examples/update-workflow-examples`
 
-    How to update Workflows with Sparkflows Copilot
+    How to update Workflows with Sparkflows AI Assistant
 
     ---
 
     :doc:`/user-guide/copilot/copilot-workflow-examples/add-nodes-examples`
 
-    How to add Nodes to Workflows with Sparkflows Copilot
+    How to add Nodes to Workflows with Sparkflows AI Assistant
 
 .. toctree::
    :hidden:

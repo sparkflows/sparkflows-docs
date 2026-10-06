@@ -1,5 +1,5 @@
-Copilot Pipeline Examples
-====
+AI Assistant Pipeline Examples
+==============================
 
 .. panels::
     :container: container-lg pb-3
@@ -7,13 +7,13 @@ Copilot Pipeline Examples
 
     :doc:`/user-guide/copilot/copilot-pipeline-examples/create-pipeline-examples`
 
-    How to create Pipelines with Sparkflows Copilot
+    How to create Pipelines with Sparkflows AI Assistant
 
     ---
 
     :doc:`/user-guide/copilot/copilot-pipeline-examples/update-pipeline-examples`
 
-    How to update Pipelines with Sparkflows Copilot
+    How to update Pipelines with Sparkflows AI Assistant
 
 .. toctree::
    :hidden:

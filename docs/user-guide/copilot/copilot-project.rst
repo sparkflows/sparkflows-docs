@@ -1,10 +1,10 @@
-Copilot on Project
-------------------
-This section describes how Copilot enables project creation in Sparkflows using natural language queries, automatically generating datasets and workflows from your project description.
+AI Assistant on Project
+-----------------------
+This section describes how AI Assistant enables project creation in Sparkflows using natural language queries, automatically generating datasets and workflows from your project description.
 
 Follow the steps below:
   
-1. Sparkflows allows you to create projects using Natural Language Queries (NLQ) with the help of Copilot.
+1. Sparkflows allows you to create projects using Natural Language Queries (NLQ) with the help of AI Assistant.
 
   .. figure:: ../../_assets/user-guide/copilot/copilot_project.png
     :alt: copilot_project
@@ -18,9 +18,9 @@ Follow the steps below:
 
   The **project description** will be used as the prompt for creating the project. 
  
-  The **Data Directory Location** specifies where all data files for datasets will be stored, and the selected Copilot will be used to perform queries.
+  The **Data Directory Location** specifies where all data files for datasets will be stored, and the selected AI Assistant will be used to perform queries.
 
-3. Once you click **Submit**, Copilot will create a project along with a set of datasets and workflows based on your description.
+3. Once you click **Submit**, AI Assistant will create a project along with a set of datasets and workflows based on your description.
 
   .. figure:: ../../_assets/user-guide/copilot/copilot_dataset_created.png
     :alt: copilot_dataset_created

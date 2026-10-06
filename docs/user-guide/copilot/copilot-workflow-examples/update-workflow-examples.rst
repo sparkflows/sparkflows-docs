@@ -1,14 +1,14 @@
 Update Workflow Examples
-====
+========================
 
-This guide shows how to structure effective prompts and use Copilot to update existing workflows.
+This guide shows how to structure effective prompts and use AI Assistant to update existing workflows.
 
-Follow the steps below to explore how Copilot can help you modify and enhance your existing data processes more efficiently.
+Follow the steps below to explore how AI Assistant can help you modify and enhance your existing data processes more efficiently.
 
 
-**Opening the Copilot Assistant**
-+++++++++++++++++++++
-Click on the **Copilot** button to open the Assistant window. Type your queries into the text field and click **Enter** to interact with Copilot.
+**Opening the AI Assistant**
+++++++++++++++++++++++++++++
+Click on the **AI Assistant** button to open the Assistant window. Type your queries into the text field and click **Enter** to interact with AI Assistant.
 
 .. figure:: ../../../_assets/user-guide/copilot/Copilot-On-Workflow/Copilot-WF-Generate-Response.PNG
     :alt: copilot configuration
@@ -16,10 +16,10 @@ Click on the **Copilot** button to open the Assistant window. Type your queries 
 
 
 **Update - Example Prompts**
-+++++++++++++++++++++
+++++++++++++++++++++++++++++
 
 Example 1
-++++
++++++++++
 
 **Prompt**
 
@@ -44,7 +44,7 @@ After receiving the response, you can choose to **preview** or **select** it. Th
 
 
 Example 2
-++++
++++++++++
 
 **Prompt**
 
@@ -69,7 +69,7 @@ Update the workflow by:
 
 
 Example 3
-++++
++++++++++
 
 **Prompt**
 
@@ -91,7 +91,7 @@ Update the workflow by:
 
 
 Example 4
-++++
++++++++++
 
 **Prompt**
 
@@ -114,7 +114,7 @@ Update the workflow by:
 
 
 Example 5
-++++
++++++++++
 
 **Prompt**
 
@@ -138,7 +138,7 @@ Update the workflow by:
 
 
 Example 6
-++++
++++++++++
 
 **Prompt**
 
@@ -161,7 +161,7 @@ Update the workflow by:
 
 
 Example 7
-++++
++++++++++
 
 **Prompt**
 
@@ -185,7 +185,7 @@ Update the workflow by:
 
 
 Example 8
-++++
++++++++++
 
 **Prompt**
 
@@ -209,7 +209,7 @@ Update the workflow to:
 
 
 Example 9
-++++
++++++++++
 
 **Prompt**
 
@@ -233,7 +233,7 @@ Update the workflow to:
 
 
 Example 10
-++++
+++++++++++
 
 **Prompt**
 
@@ -259,7 +259,7 @@ Update the workflow to:
 
 
 Example 11
-++++
+++++++++++
 
 **Prompt**
 

@@ -1,5 +1,5 @@
-Copilot
-====
+AI Assistant
+============
 
 .. panels::
     :container: container-lg pb-3
@@ -7,55 +7,55 @@ Copilot
 
     :doc:`/user-guide/copilot/copilot`
 
-    How to add Copilot in Sparkflows
+    How to add AI Assistant in Sparkflows
 
     ---
 
     :doc:`/user-guide/copilot/copilot-wf`
 
-    How to use Copilot in Workflows
+    How to use AI Assistant in Workflows
 
     ---
 
     :doc:`/user-guide/copilot/copilot-pipeline`
 
-    How to use Copilot in Pipelines
+    How to use AI Assistant in Pipelines
 
     ---
 
     :doc:`/user-guide/copilot/copilot-nodes`
 
-    How to use Copilot in Nodes
+    How to use AI Assistant in Nodes
 
     ---
 
     :doc:`/user-guide/copilot/copilot-project`
 
-    How to use Copilot in Projects
+    How to use AI Assistant in Projects
 
     ---
 
     :doc:`/user-guide/copilot/mcp-copilot`
 
-    How to use Copilot with MCP in Sparkflows
+    How to use AI Assistant with MCP in Sparkflows
 
     ---
 
     :doc:`/user-guide/copilot/copilot-features`
 
-    Additional Features in Copilot: Feedback, Report, Configure Report Emails
+    Additional Features in AI Assistant: Feedback, Report, Configure Report Emails
 
     ---
 
     :doc:`/user-guide/copilot/copilot-workflow-examples/index`
 
-    Copilot Workflow Examples
+    AI Assistant Workflow Examples
 
     ---
 
     :doc:`/user-guide/copilot/copilot-pipeline-examples/index`
 
-    Copilot Pipeline Examples
+    AI Assistant Pipeline Examples
 
 
 .. toctree::

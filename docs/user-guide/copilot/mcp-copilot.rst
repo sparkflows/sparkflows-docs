@@ -1,14 +1,14 @@
-Copilot with MCP Connection
-====
+AI Assistant with MCP Connection
+================================
 
-This guide explains how to use an MCP connection with Copilot to automatically generate nodes for workflows or pipelines.
+This guide explains how to use an MCP connection with AI Assistant to automatically generate nodes for workflows or pipelines.
 
-Steps to Use MCP Connection with Copilot
-----
+Steps to Use MCP Connection with AI Assistant
+---------------------------------------------
 
 Step 1: Create an MCP Connection
-++++
-Follow the steps below to create an MCP connection to use it with copilot.
+++++++++++++++++++++++++++++++++
+Follow the steps below to create an MCP connection to use it with AI Assistant.
 
  * Go to **Administration -> Global/Group Connections**.
  * Click on **Add Connection** button and choose **Add Connection For All**.
@@ -20,23 +20,23 @@ Follow the steps below to create an MCP connection to use it with copilot.
      :alt: copilot configuration
      :width: 60%
 
-Step 2: Select the MCP Connection in Copilot
-++++
-Once the MCP connection is created, the user needs to select the MCP connection in the copilot.
+Step 2: Select the MCP Connection in AI Assistant
++++++++++++++++++++++++++++++++++++++++++++++++++
+Once the MCP connection is created, the user needs to select the MCP connection in the AI Assistant.
 
  .. figure:: ../../_assets/user-guide/copilot/update-copilot.png
      :alt: copilot configuration
      :width: 60%
 
-Step 3: Access Copilot in Designer Pages
-++++
-Once the Copilot is set up, it can be used from Workflow Designer page or Pipeline Designer page.
+Step 3: Access AI Assistant in Designer Pages
++++++++++++++++++++++++++++++++++++++++++++++
+Once the AI Assistant is set up, it can be used from Workflow Designer page or Pipeline Designer page.
 
 
-Step 4: Add Query in Copilot
-++++
+Step 4: Add Query in AI Assistant
++++++++++++++++++++++++++++++++++
 Sample MCP Query
-++++
+++++++++++++++++
 
 .. code-block:: sql
 
@@ -83,7 +83,7 @@ Sample MCP Query
      3. Return ONLY:
         - The final extraction config as a single valid JSON object (ready to be saved to a file).
 
-Enter the query in Copilot, and it will return the tool response, including parameters, as shown below.
+Enter the query in AI Assistant, and it will return the tool response, including parameters, as shown below.
 
  .. figure:: ../../_assets/user-guide/copilot/MCP_Response.png
      :alt: copilot configuration

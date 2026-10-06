@@ -123,6 +123,11 @@ Buttons
      - get-query-result
      - any
      - Component is added to execute a database query and show result in table with support pagination.
+   * - Save Record
+     - Button
+     - save-record
+     - any
+     - Component is added to insert or update a row in a database table from the form fields, without a workflow or custom code.
    * - Export DB Data
      - Button
      - export-db-data
@@ -245,3 +250,38 @@ Download Text Area or Text Field Content as Text File
      - export-text
      - KEY: exportFrom, VALUE: component property name (It will save given component content into a text file).
      - Component is added to download the content of any components as a .txt file.
+
+Save Form Data to Database Table
+--------------------------------
+.. list-table:: 
+   :widths: 15 15 15 23 30
+   :header-rows: 1
+
+   * - Title
+     - Component Type
+     - Event Name
+     - Custom Properties 
+     - Description
+   * - Save
+     - Button
+     - save-record
+     - KEY: database, VALUE: database name; KEY: table, VALUE: table name; KEY: columnMap, VALUE: formKey:column pairs separated by comma (e.g. co_name:company_name,co_city:city) (Only the form fields listed here are saved and validated); KEY: mode, VALUE: insert or update (default insert); KEY: keyColumn, VALUE: column name (Row to update when mode is update, its value is taken from the mapped form field); KEY: constants, VALUE: column:value pairs (e.g. entity:LEAD) (Always saved with the row); KEY: defaults, VALUE: column:value pairs (e.g. status:Active,currency:INR) (Saved only when the mapped form field is empty); KEY: successMessage, VALUE: message shown after save; KEY: resultQuery, VALUE: select query (e.g. SELECT MAX(company_id) FROM CRM.crm_company) (First value of the result is added to the success message); KEY: clearOnSave, VALUE: true (It will reset the mapped form fields to their default values after save).
+     - Component is added to save the form fields into a database table using the app's JDBC connection. Values are saved with a prepared statement, so quotes and special characters are stored as entered, and each value is converted to the column type. Empty fields are skipped on insert so the column default is used. Checkbox values are saved as true/false in text columns and 1/0 in numeric columns. Missing required fields and database errors are shown in an error dialog.
+
+Editable Query Result Table
+---------------------------
+.. list-table:: 
+   :widths: 15 15 15 23 30
+   :header-rows: 1
+
+   * - Title
+     - Component Type
+     - Event Name
+     - Custom Properties 
+     - Description
+   * - Get Query Result
+     - Button
+     - get-query-result
+     - KEY: selectColumns, VALUE: column names separated by comma (default all columns); KEY: columnMap, VALUE: column:Header pairs separated by comma (e.g. company_id:Company Id,company_name:Company Name) (It will set the table column headers); KEY: editable, VALUE: true (It will add edit, cancel and save icons to each row); KEY: primaryColumn, VALUE: key column name (It is read-only in the table and is used to find the row to update); KEY: idColumn, VALUE: key column name (It is used to pass the selected row to the next stage); KEY: hiddenColumns, VALUE: column names separated by comma (It will hide these columns); KEY: orderBy, VALUE: column name; KEY: orderType, VALUE: ASC or DESC (default DESC); KEY: tableTitle, VALUE: title shown above the table; KEY: tableSubtitle, VALUE: text shown below the title; KEY: recordSave, VALUE: true (It will save only the changed cells with a prepared statement and enable the save icon while the row is being edited); KEY: detailPopup, VALUE: false (It will show the primaryColumn value as plain text instead of a link to the details popup).
+     - Component is added to execute a database query and show result in an editable table with pagination. The query uses the form fields with key database, table and filters (where condition). The table must be a database table (not a view) and selectColumns must be real column names to save the edited rows. Without recordSave the save icon is enabled after a cell is changed and the cell editing is completed (Enter, Tab or click on another cell).
+

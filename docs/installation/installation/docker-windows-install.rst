@@ -35,85 +35,94 @@ Prerequisites
 
     * Go to **Settings -> Shared Drive**, then share the entire Drive with Docker and click Apply.
 
+* About 20 GB of free disk space. The Sparkflows image is about 10.5 GB, and the application unpacks another 3.3 GB inside the container.
+
+* Ports 8080 (HTTP) and 8443 (HTTPS) free on the machine.
+
+
 Installation Steps
 ---------------------------
 
-* Pull the latest Sparkflows docker image from Docker hub. Replace ``XX`` with the Sparkflows version you want to install::
+* Pull the latest Sparkflows docker image from Docker hub. Replace ``XX`` with the Sparkflows version you want to install. The download takes several minutes::
 
     docker pull sparkflows/fire:py_3.5.2_3.X.XX
-   
-* Start the docker image using the **docker run command** below. The local mount directory is ``(C:\Users\sparkflows)`` in the below docker run command. Please update it to directory structure on your machine. Replace ``XX`` with the Sparkflows version you want to install. Reduce/Increase the memory allocated (Eg: Using ``-m 8g`` will allocate 8GB to the Sparkflows container) to a lower value depending on the RAM on the machine. We recommend 16GB or above::
-    
-    docker run -m 16g -p 8080:8080 -p 8443:8443 -v  C:\Users\sparkflows:/usr/local/fire-3.X.XX_spark_3.5.2 -e FIRE_VERSION=3.1.0 -e KEYSTORE_PASSWORD=12345678 -e DB=h2 -e FIRE_HTTP_PORT=8080 -e FIRE_HTTPS_PORT=8443  sparkflows/fire:py_3.5.2_3.X.XX
 
-* To add any customization to the install, please let the Sparkflows image to come up after running the previous command. Once, the Sparkflows UI is accessible from browser, one can configure Sparkflows to suit one's need by following the steps outlined in the link - https://docs.sparkflows.io/en/latest/installation/configuration/index.html. The properties files will be available in the mounted directory. ``/home/username/sparkflows`` is the mounted directory in the representative example above.
+* Start the container using the **docker run** command below (PowerShell syntax; each line ends with a space, then a backtick). Replace ``XX`` with the Sparkflows version you want to install. Reduce/Increase the memory allocated (Eg: Using ``-m 8g`` will allocate 8GB to the Sparkflows container) depending on the RAM on the machine. We recommend 16GB or above::
 
-* In order to use MySQL database as the datastore, pass the db configuration as environment variable as shown below. Reduce/Increase the memory allocated (Eg: Using ``-m 8g`` will allocate 8GB to the Sparkflows container) to a lower value depending on the RAM on the machine. We recommend 16GB or above::
+    docker run -d --name sparkflows -m 16g `
+      -p 8080:8080 -p 8443:8443 `
+      -v sparkflows-data:/root `
+      -e KEYSTORE_PASSWORD=12345678 `
+      -e FIRE_HTTP_PORT=8080 `
+      -e FIRE_HTTPS_PORT=8443 `
+      -e DB=h2 `
+      sparkflows/fire:py_3.5.2_3.X.XX
 
-    docker run -m 16g -p 8080:8080 -p 8443:8443 -v  C:\Users\sparkflows:/usr/local/fire-3.X.XX_spark_3.5.2 \
-    -e FIRE_VERSION=3.1.0 \
-    -e KEYSTORE_PASSWORD=12345678 \
-    -e FIRE_HTTP_PORT=8080 \
-    -e FIRE_HTTPS_PORT=8443 \
-    -e DB=h2
-    -e DB_HOST=sparkflows-db.abc.rds.amazonaws.com \
-    -e DB_PASSWORD=DB123 \
-    -e DB_USERNAME=sparkflows \
-    -e DB_PORT=3306 \
-    sparkflows/fire:py_3.5.2_3.X.XX
+  ``-v sparkflows-data:/root`` stores the Sparkflows data, including the H2 database (``/root/firedb.mv.db``), in a Docker volume named ``sparkflows-data``. The data is kept when the container is removed or upgraded.
 
-* For the **H2DB** to be accessible on the mounted directory, please edit the path in **conf/db.properties** to working directory and restart docker image::
-   
-   spring.datasource.url = jdbc:h2:file:./firedb  (By default it would be ~/firedb)
+  .. note:: Running ``docker volume rm sparkflows-data`` deletes all your Sparkflows data.
 
-* Open your web browser and navigate to:: 
-  
+* To use other ports, change both the ``-p`` values and ``FIRE_HTTP_PORT`` / ``FIRE_HTTPS_PORT`` to match. For example: ``-p 9090:9090 -p 9443:9443 -e FIRE_HTTP_PORT=9090 -e FIRE_HTTPS_PORT=9443``.
+
+* In order to use MySQL database as the datastore, pass the db configuration as environment variables as shown below::
+
+    docker run -d --name sparkflows -m 16g `
+      -p 8080:8080 -p 8443:8443 `
+      -v sparkflows-data:/root `
+      -e KEYSTORE_PASSWORD=12345678 `
+      -e FIRE_HTTP_PORT=8080 `
+      -e FIRE_HTTPS_PORT=8443 `
+      -e DB=mysql `
+      -e DB_HOST=sparkflows-db.abc.rds.amazonaws.com `
+      -e DB_PASSWORD=DB123 `
+      -e DB_USERNAME=sparkflows `
+      -e DB_PORT=3306 `
+      sparkflows/fire:py_3.5.2_3.X.XX
+
+* Wait for Sparkflows to start. Follow the container logs with::
+
+    docker logs -f sparkflows
+
+  Sparkflows is ready when the logs show ``Started oejs.Server``, about 2-3 minutes after starting. Press **Ctrl+C** to stop following the logs; the container keeps running.
+
+* Open your web browser and navigate to::
+
     http://localhost:8080
 
-* Login with:: 
+* Login with::
 
     admin/admin, analyst/analyst or business/business
 
-    
-.. note::  Three user accounts come preconfigured with Sparkflows.
+.. note::  Admin user account comes preconfigured with Sparkflows.
 
            * admin/admin
-           * analyst/analyst
-           * business/business
-    
-    You may change the default passwords in Sparkflows from User Profile or Create new users using Menu Administration/Users. 
+
+           You may change the default passwords in Sparkflows from User Profile -> Change Password, or create new users using Menu Administration/Users.
+
+* To add any customization to the install, configure Sparkflows by following the steps outlined in the link - https://docs.sparkflows.io/en/latest/installation/configuration/index.html.
 
 
 Stopping the Sparkflows docker image
 ------------------------------------
-* Get the running container name of the Sparkflows image::
-
-     docker ps
-     
 * Stop the container by::
 
-     docker stop image_name
-     
+     docker stop sparkflows
+
+* Start it again by::
+
+     docker start sparkflows
+
 
 Upgrading Steps
 ---------------------------
-* Stop the container by::
-
-     docker stop image_name
-
-* Pull the latest Sparkflows docker image from Docker hub. Replace ``XX`` with the Sparkflows version you want to install::
+* Pull the new Sparkflows docker image from Docker hub. Replace ``XX`` with the Sparkflows version you want to upgrade to::
 
     docker pull sparkflows/fire:py_3.5.2_3.X.XX
 
-* Upgrade either the MySQL or the H2DB table by running the BAT script::
+* Remove the existing container. The data in the ``sparkflows-data`` volume is kept::
 
-    .\create-mysql-db.bat
-    .\create-h2-db.bat
-    
-* Start the docker image using the `docker run` command below. The local mount directory is **(C:\Users\sparkflows)** in the below docker run command. Please update it to directory structure on your machine. Replace ``XX`` with the Sparkflows version you want to install::
-    
-    docker run -p 8080:8080 -p 8443:8443 -v  C:\Users\sparkflows:/usr/local/fire-3.X.XX_spark_3.5.2 -e FIRE_VERSION=3.1.0 -e KEYSTORE_PASSWORD=12345678 -e FIRE_HTTP_PORT=8080 -e FIRE_HTTPS_PORT=8443  sparkflows/fire:py_3.5.2_3.X.XX
+    docker rm -f sparkflows
+
+* Start the new container by running the same **docker run** command used during installation, with the new image tag.
 
 * The Sparkflows services should start and all the previous configurations and workflows should be seen in the application.
-
-    

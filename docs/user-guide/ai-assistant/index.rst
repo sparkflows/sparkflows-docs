@@ -41,7 +41,7 @@ Create an AI Assistant
 .. panels::
     :container: container-lg pb-3
 
-    :doc:`/user-guide/copilot/copilot`
+    :doc:`/user-guide/ai-assistant/copilot`
 
     Create and manage an AI Assistant under Administration. Choose a Gen AI
     connection and, optionally, MCP connections.
@@ -55,28 +55,28 @@ that match your task.
 .. panels::
     :container: container-lg pb-3
 
-    :doc:`/user-guide/copilot/copilot-wf`
+    :doc:`/user-guide/ai-assistant/copilot-wf`
 
     Generate and preview workflows in the Workflow Designer. Includes sample
     prompts, activities, and history.
 
     ---
 
-    :doc:`/user-guide/copilot/copilot-pipeline`
+    :doc:`/user-guide/ai-assistant/copilot-pipeline`
 
     Generate and preview pipelines in the Pipeline Designer. Same assistant
     features as workflows, for pipeline JSON and canvas.
 
     ---
 
-    :doc:`/user-guide/copilot/copilot-nodes`
+    :doc:`/user-guide/ai-assistant/copilot-nodes`
 
     Write or refine node-level Natural Language Queries (NLQ) from a node
     dialog.
 
     ---
 
-    :doc:`/user-guide/copilot/copilot-project`
+    :doc:`/user-guide/ai-assistant/copilot-project`
 
     Create a project from a natural-language description, including datasets
     and workflows.
@@ -90,7 +90,7 @@ and return structured tool responses while generating nodes.
 .. panels::
     :container: container-lg pb-3
 
-    :doc:`/user-guide/copilot/mcp-copilot`
+    :doc:`/user-guide/ai-assistant/mcp-copilot`
 
     Create an MCP connection, attach it to an AI Assistant, and run sample
     queries from the designer.
@@ -104,7 +104,7 @@ admins.
 .. panels::
     :container: container-lg pb-3
 
-    :doc:`/user-guide/copilot/copilot-features`
+    :doc:`/user-guide/ai-assistant/copilot-features`
 
     Submit feedback, report issues, review them in Administration, and
     configure report email recipients.
@@ -117,14 +117,14 @@ Use these galleries for ready-made prompts you can copy and adapt.
 .. panels::
     :container: container-lg pb-3
 
-    :doc:`/user-guide/copilot/copilot-workflow-examples/index`
+    :doc:`/user-guide/ai-assistant/copilot-workflow-examples/index`
 
     Create workflows, update existing ones, and add nodes with example
     prompts.
 
     ---
 
-    :doc:`/user-guide/copilot/copilot-pipeline-examples/index`
+    :doc:`/user-guide/ai-assistant/copilot-pipeline-examples/index`
 
     Create and update pipelines with example prompts.
 

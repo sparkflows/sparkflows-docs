@@ -6,11 +6,11 @@ This section explains how to use **AI Assistant** within the **Pipeline Designer
 Prerequisites
 -------------
 
-Before using AI Assistant in the Pipeline Designer, ensure that a AI Assistant has already been added.
+Before using AI Assistant in the Pipeline Designer, ensure that an AI Assistant has already been added.
 
-The steps for adding a AI Assistant are provided in the following document:
+The steps for adding an AI Assistant are provided in the following document:
 
-https://docs.sparkflows.ai/en/latest/user-guide/copilot/copilot.html
+:doc:`/user-guide/ai-assistant/copilot`
 
 Steps to Use AI Assistant in Pipeline Designer
 ----------------------------------------------

@@ -5,19 +5,19 @@ AI Assistant Workflow Examples
     :container: container-lg pb-3
     :column: text-center col-lg-6 col-md-6 col-sm-6 col-xs-12 p-2
 
-    :doc:`/user-guide/copilot/copilot-workflow-examples/create-workflow-examples`
+    :doc:`/user-guide/ai-assistant/copilot-workflow-examples/create-workflow-examples`
 
     How to create Workflows with Sparkflows AI Assistant
 
     ---
 
-    :doc:`/user-guide/copilot/copilot-workflow-examples/update-workflow-examples`
+    :doc:`/user-guide/ai-assistant/copilot-workflow-examples/update-workflow-examples`
 
     How to update Workflows with Sparkflows AI Assistant
 
     ---
 
-    :doc:`/user-guide/copilot/copilot-workflow-examples/add-nodes-examples`
+    :doc:`/user-guide/ai-assistant/copilot-workflow-examples/add-nodes-examples`
 
     How to add Nodes to Workflows with Sparkflows AI Assistant
 

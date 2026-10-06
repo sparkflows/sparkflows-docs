@@ -70,7 +70,7 @@ AI Assistant Report
 Configuring Report Emails
 -------------------------
 
-* Users can configure email addresses while creating or updating a AI Assistant. When an issue is reported, the report will be sent to the configured email addresses.
+* Users can configure email addresses while creating or updating an AI Assistant. When an issue is reported, the report will be sent to the configured email addresses.
 
  .. figure:: ../../_assets/user-guide/copilot/Copilot-Add-On-Features/copilot-report-email-config.png
      :alt: copilot features

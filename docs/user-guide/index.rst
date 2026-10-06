@@ -22,15 +22,19 @@ examples </agentic-ai-guide/end-to-end-examples/index>`.
 
     ---
 
-    :doc:`/user-guide/reading-writing/index`
-
-    ---
-
     :doc:`/user-guide/connection/index`
 
     ---
 
     :doc:`/user-guide/connectors/index`
+
+    ---
+
+    :doc:`/user-guide/reading-writing/index`
+
+    ---
+
+    :doc:`/user-guide/accessing-filesystem/index`
 
     ---
 
@@ -46,18 +50,30 @@ examples </agentic-ai-guide/end-to-end-examples/index>`.
 
     ---
 
+    :doc:`/user-guide/runtime-parameters/index`
+
+    ---
+
+    :doc:`/user-guide/pipeline-development/index`
+
+    ---
+
+    :doc:`/user-guide/workflow-wizard/index`
+
+    ---
+
     :doc:`/user-guide/data-profile/index`
 
     ---
-    
+
     :doc:`/user-guide/data-quality/index`
-    
+
     ---
 
     :doc:`/user-guide/machine-learning/index`
 
-    --- 
-    
+    ---
+
     :doc:`/user-guide/time-series/index`
 
     ---
@@ -69,8 +85,12 @@ examples </agentic-ai-guide/end-to-end-examples/index>`.
     :doc:`/user-guide/natural-language-processing/index`
 
     ---
-    
+
     :doc:`/user-guide/generative-ai/index`
+
+    ---
+
+    :doc:`/user-guide/ai-assistant/index`
 
     ---
 
@@ -80,66 +100,9 @@ examples </agentic-ai-guide/end-to-end-examples/index>`.
 
     :doc:`/user-guide/data-visualization-reports/index`
 
-    --- 
-    
+    ---
+
     :doc:`/user-guide/data-visualization-dashboards/index`
-
-    ---
-
-    :doc:`/user-guide/web-app/index`
-    
-    ---
-    
-    :doc:`/user-guide/accessing-filesystem/index`
-    
-     ---
-
-    :doc:`/user-guide/python/index`
-    
-    ---
-
-    :doc:`/user-guide/git-integration/index`
-    
-    ---
-    
-    :doc:`/user-guide/export-import/index`
-
-    ---
-    
-    :doc:`/user-guide/control-structures/index`
-
-    ---
-    
-    :doc:`/user-guide/pipeline-development/index`
-
-    ---
-    
-    :doc:`/user-guide/workflow-wizard/index`
-     
-    ---
-    
-    :doc:`/user-guide/scheduler/index`
-
-     
-    ---
-    
-    :doc:`/user-guide/solutions/index`
-
-    ---
-    
-    :doc:`/user-guide/utilities/index`
-
-    ---
-
-    :doc:`/user-guide/code-library/index`
-
-    ---
-
-    :doc:`/user-guide/application-credentials/index`
-
-    ---
-
-    :doc:`/user-guide/copilot/index`
 
     ---
 
@@ -147,20 +110,59 @@ examples </agentic-ai-guide/end-to-end-examples/index>`.
 
     ---
 
-    :doc:`/user-guide/runtime-parameters/index`
+    :doc:`/user-guide/web-app/index`
+
+    ---
+
+    :doc:`/user-guide/solutions/index`
+
+    ---
+
+    :doc:`/user-guide/scheduler/index`
+
+    ---
+
+    :doc:`/user-guide/git-integration/index`
+
+    ---
+
+    :doc:`/user-guide/export-import/index`
+
+    ---
+
+    :doc:`/user-guide/application-credentials/index`
+
+    ---
+
+    :doc:`/user-guide/python/index`
+
+    ---
+
+    :doc:`/user-guide/code-library/index`
+
+    ---
+
+    :doc:`/user-guide/utilities/index`
+
+    ---
+
+    :doc:`/user-guide/generate-pyspark-code/index`
 
 .. toctree::
    :hidden:
 
    quick-start/index
-   user-guide/index
    concepts/index
-   reading-writing/index
    connection/index
    connectors/index
+   reading-writing/index
+   accessing-filesystem/index
    data-preparation/index
    variables-macros/index
    control-structures/index
+   runtime-parameters/index
+   pipeline-development/index
+   workflow-wizard/index
    data-profile/index
    data-quality/index
    machine-learning/index
@@ -168,27 +170,18 @@ examples </agentic-ai-guide/end-to-end-examples/index>`.
    auto-ml/index
    natural-language-processing/index
    generative-ai/index
+   ai-assistant/index
    chatbot/index
    data-visualization-reports/index
    data-visualization-dashboards/index
-   pipeline-development/index
+   data-visualization/index
    web-app/index
-   accessing-filesystem/index
-   python/index
+   solutions/index
+   scheduler/index
    git-integration/index
    export-import/index
-   utilities/index
-   workflow-wizard/index
-   scheduler/index
-   solutions/index
-   code-library/index
    application-credentials/index
-   copilot/index
-   data-visualization/index
-   runtime-parameters/index
+   python/index
+   code-library/index
+   utilities/index
    generate-pyspark-code/index
-
-
-
-
-

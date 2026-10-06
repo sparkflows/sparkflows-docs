@@ -22,7 +22,7 @@ takes a minute or two.
      - :doc:`/user-guide/quick-start/1-create-application`. A project is the
        folder that holds your agents, workflows and data.
    * - 2
-     - An **LLM connection**
+     - A **Model connection**
      - :doc:`/agentic-ai-guide/connections`. Every agent needs a model.
    * - 3
      - A **file** for the agent to read

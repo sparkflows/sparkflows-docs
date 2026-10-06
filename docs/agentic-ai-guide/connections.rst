@@ -129,7 +129,7 @@ Who can use it: connection scope
 
 .. tip::
 
-   Put the shared LLM connection at **Global** or **Group** scope so every
+   Put the shared Model connection at **Global** or **Group** scope so every
    builder can select it. Keep credentials for production systems of record at
    **Project** scope, so only the right team can point an agent at them.
 

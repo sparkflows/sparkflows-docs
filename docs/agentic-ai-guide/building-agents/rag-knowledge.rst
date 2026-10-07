@@ -27,7 +27,7 @@ When to use Knowledge
      - The answer lives in a system of record → use a **tool**
    * - The corpus is too large to paste into a prompt
      - It is a page of standing facts → use :doc:`AGENTS.md
-       </agentic-ai-guide/context-agents-md>`
+       </agentic-ai-guide/building-agents/context-agents-md>`
    * - Users ask open questions across many documents
      - You always read the same one document → pass it directly
 
@@ -57,17 +57,17 @@ The same settings live in two places, depending on how you built the agent:
 Both start with **Knowledge Base (RAG)** set to ``false`` and nothing else
 showing. Switch it to ``true`` and the retrieval settings appear.
 
-.. figure:: ../_assets/agentic-ai-guide/knowledge/knowledge-group.png
+.. figure:: ../../_assets/agentic-ai-guide/knowledge/knowledge-group.png
    :alt: Knowledge group in Agent Studio with the Knowledge Base RAG toggle
    :width: 85%
 
-.. figure:: ../_assets/agentic-ai-guide/gifs/enable-rag.gif
+.. figure:: ../../_assets/agentic-ai-guide/gifs/enable-rag.gif
    :alt: Short animation showing Knowledge Base RAG changed from false to true
    :width: 55%
 
    Switching **Knowledge Base (RAG)** from ``false`` to ``true``.
 
-.. figure:: ../_assets/agentic-ai-guide/knowledge/agent-node-rag.png
+.. figure:: ../../_assets/agentic-ai-guide/knowledge/agent-node-rag.png
    :alt: An Agent Node's Context tab with RAG switched on
    :width: 100%
 
@@ -90,20 +90,20 @@ the **Knowledge** group in Agent Studio) and set **Knowledge Base (RAG)** to
 every Pinecone connection configured in your workspace. Choose the one that
 holds the index you want.
 
-.. figure:: ../_assets/agentic-ai-guide/knowledge/agent-node-pinecone-select.png
+.. figure:: ../../_assets/agentic-ai-guide/knowledge/agent-node-pinecone-select.png
    :alt: The Pinecone Connection dropdown listing the configured Pinecone connections
    :width: 100%
 
 .. note::
 
    No Pinecone connections in the list? Somebody has to create one first - see
-   :doc:`/agentic-ai-guide/connections`. The API key lives in the connection and
+   :doc:`/agentic-ai-guide/quick-start/model-connections`. The API key lives in the connection and
    nowhere else; never put it in an agent field or a Markdown file.
 
 **Step 3 - Point it at the right index.** Fill in the index name, the namespace,
 and the embedding settings that were used when the documents were stored.
 
-.. figure:: ../_assets/agentic-ai-guide/knowledge/agent-node-pinecone.png
+.. figure:: ../../_assets/agentic-ai-guide/knowledge/agent-node-pinecone.png
    :alt: A completed Pinecone retrieval configuration with index, namespace, embedding model and dimensions
    :width: 100%
 
@@ -154,7 +154,7 @@ The settings
      - ``true`` to turn retrieval on for this agent.
    * - **Vector Database**
      - ``pinecone`` or ``pgvector``. Needs a matching
-       :doc:`connection </agentic-ai-guide/connections>`.
+       :doc:`connection </agentic-ai-guide/quick-start/model-connections>`.
    * - **Knowledge Source**
      - ``existing_vector_db`` to search an index someone already built, or
        ``document_path`` to point at documents and have them indexed.
@@ -182,7 +182,7 @@ Reading the same index from a workflow
 The same index can be read from a data workflow, with the **Read Pinecone DB**
 node. The fields are the ones you have just seen.
 
-.. figure:: ../_assets/agentic-ai-guide/knowledge/pinecone-config.png
+.. figure:: ../../_assets/agentic-ai-guide/knowledge/pinecone-config.png
    :alt: Read Pinecone DB node configured with an existing connection, index and namespace
    :width: 100%
 

@@ -12,7 +12,7 @@ canvas, open an Agent Node's **LLM Config** tab and pick a **Connection**.
 Connections are created once by an
 administrator - see :doc:`/user-guide/connection/gen-ai-connection/index`.
 
-.. figure:: ../_assets/agentic-ai-guide/quickstart/07-model.png
+.. figure:: ../../_assets/agentic-ai-guide/quickstart/07-model.png
    :alt: The required Model Connection selector above the instructions
    :width: 652px
 
@@ -22,7 +22,7 @@ Generation settings
 Open Studio's **Model** group for these settings. The values below are the
 new-agent defaults in this build; an existing agent keeps its saved values.
 
-.. figure:: ../_assets/agentic-ai-guide/agent-studio/model.png
+.. figure:: ../../_assets/agentic-ai-guide/agent-studio/model.png
    :alt: Model generation settings showing 0.7 temperature, 1.0 Top P, 8000 Max Tokens and a 180-second timeout
    :width: 502px
 
@@ -145,16 +145,16 @@ What does not belong in Instructions
    * - Not this
      - Put it here
    * - Rules several agents share
-     - :doc:`/agentic-ai-guide/skills`
+     - :doc:`/agentic-ai-guide/building-agents/skills`
    * - Standing facts about the business
-     - :doc:`/agentic-ai-guide/context-agents-md`
+     - :doc:`/agentic-ai-guide/building-agents/context-agents-md`
    * - Long reference material
-     - :doc:`/agentic-ai-guide/rag-knowledge`
+     - :doc:`/agentic-ai-guide/building-agents/rag-knowledge`
    * - Credentials or API keys
-     - :doc:`/agentic-ai-guide/connections` - **never** in prompt text
+     - :doc:`/agentic-ai-guide/quick-start/model-connections` - **never** in prompt text
    * - A description of five different jobs
      - Separate agents, coordinated by a
-       :doc:`Supervisor </agentic-ai-guide/multi-agent-orchestration>`
+       :doc:`Supervisor </agentic-ai-guide/agent-orchestration/orchestration-overview>`
 
 Iterating
 ---------

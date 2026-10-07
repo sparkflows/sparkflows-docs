@@ -67,7 +67,7 @@ That has three practical consequences:
    * True for **one agent** → that agent's Instructions.
    * True for **several agents in this project** → a **skill**.
    * True for **everything in the workspace** → :doc:`AGENTS.md
-     </agentic-ai-guide/context-agents-md>` referenced by ``path``, which is
+     </agentic-ai-guide/building-agents/context-agents-md>` referenced by ``path``, which is
      read from the file system and so is not limited to one project.
 
 Adding skills to an agent
@@ -77,7 +77,7 @@ Skills work the same way wherever you are building: the **Skills** group in
 Agent Studio, and the **Skills Registry** tab on an Agent Node. Both have the
 same two buttons.
 
-.. figure:: ../_assets/agentic-ai-guide/skills/registry-empty.png
+.. figure:: ../../_assets/agentic-ai-guide/skills/registry-empty.png
    :alt: The Skills Registry tab with the Upload and Fetch buttons and an empty state
    :width: 100%
 
@@ -99,14 +99,14 @@ Upload a new skill
 #. Click **Upload Skills (.md)** and choose one short Markdown file.
 #. The file appears in the list, attached to this agent.
 
-.. figure:: ../_assets/agentic-ai-guide/skills/uploaded.png
+.. figure:: ../../_assets/agentic-ai-guide/skills/uploaded.png
    :alt: An uploaded skill listed on the agent with Edit and remove actions
    :width: 100%
 
 Click **Edit** to see exactly what the agent will read, give it a description,
 and click **Save to Registry** so other agents in the project can use it too.
 
-.. figure:: ../_assets/agentic-ai-guide/skills/edit.png
+.. figure:: ../../_assets/agentic-ai-guide/skills/edit.png
    :alt: The skill editor showing the name, description and Markdown content
    :width: 100%
 
@@ -122,14 +122,14 @@ Fetch a skill that already exists
 #. Choose an item from **-- choose a skill to add --** and click **Add**, or
    click **Add All** to take everything in the registry.
 
-.. figure:: ../_assets/agentic-ai-guide/skills/studio-fetch.png
+.. figure:: ../../_assets/agentic-ai-guide/skills/studio-fetch.png
    :alt: Fetch Skills used in Agent Studio to pull a skill from the project registry
    :width: 690px
 
 Fetching reuses the registry item - it does not make a second copy, so editing
 the skill once updates it for every agent that uses it.
 
-.. figure:: ../_assets/agentic-ai-guide/skills/fetch-picker.png
+.. figure:: ../../_assets/agentic-ai-guide/skills/fetch-picker.png
    :alt: The Fetch Skills picker reporting that every registry skill is already on this agent
    :width: 100%
 

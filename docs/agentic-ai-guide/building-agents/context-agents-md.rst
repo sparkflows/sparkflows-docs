@@ -6,7 +6,7 @@ the background facts that are true no matter what the agent is being asked to do
 
 Configure it in the **Context** group in Agent Studio.
 
-.. figure:: ../_assets/agentic-ai-guide/context/agents-md-source.png
+.. figure:: ../../_assets/agentic-ai-guide/context/agents-md-source.png
    :alt: Agent Studio with the Context group expanded, showing the AGENTS.md Source options
    :width: 85%
 
@@ -78,7 +78,7 @@ Choose **path** and an **AGENTS.md File** field appears with a **Choose .md
 File** button. Pick your Markdown file; the panel confirms it loaded and shows
 the content below, so you can see what the agent is actually being given.
 
-.. figure:: ../_assets/agentic-ai-guide/context/agents-md-path.png
+.. figure:: ../../_assets/agentic-ai-guide/context/agents-md-path.png
    :alt: AGENTS.md Source set to path, revealing the AGENTS.md File chooser
    :width: 690px
 
@@ -90,7 +90,7 @@ Using ``inline``: paste it in
 Choose **inline** and an **AGENTS.md Content** editor appears. Type or paste
 the Markdown directly onto this agent.
 
-.. figure:: ../_assets/agentic-ai-guide/context/agents-md-inline.png
+.. figure:: ../../_assets/agentic-ai-guide/context/agents-md-inline.png
    :alt: AGENTS.md Source set to inline, revealing the AGENTS.md Content editor
    :width: 690px
 
@@ -127,9 +127,9 @@ Standing facts about your organisation and its systems:
 What does **not** belong:
 
 * Task instructions - those go in the agent's Instructions.
-* Reusable procedures - those are :doc:`/agentic-ai-guide/skills`.
+* Reusable procedures - those are :doc:`/agentic-ai-guide/building-agents/skills`.
 * Anything secret. This is prompt text, not a credential store; secrets belong
-  in :doc:`/agentic-ai-guide/connections`.
+  in :doc:`/agentic-ai-guide/quick-start/model-connections`.
 
 Why it matters
 --------------

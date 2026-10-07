@@ -11,7 +11,7 @@ example.
 The screen
 ----------
 
-.. figure:: ../_assets/agentic-ai-guide/agent-studio/overview.png
+.. figure:: ../../_assets/agentic-ai-guide/agent-studio/overview.png
    :alt: A new agent in Agent Studio with the Build, Chat and Runs tabs across the top
    :width: 100%
 
@@ -89,7 +89,7 @@ group, so it does not belong here.
 
    To split work across several specialist agents, do not describe all of them in
    one Instructions box. Use the **Supervisor** node on the orchestration canvas
-   instead - see :doc:`/agentic-ai-guide/multi-agent-orchestration`.
+   instead - see :doc:`/agentic-ai-guide/agent-orchestration/orchestration-overview`.
 
 The right panel: configuration groups
 -------------------------------------
@@ -112,25 +112,25 @@ tells you what it controls.
      - below
    * - **Knowledge**
      - Grounding answers in your documents
-     - :doc:`/agentic-ai-guide/rag-knowledge`
+     - :doc:`/agentic-ai-guide/building-agents/rag-knowledge`
    * - **Tools**
      - Connectors, built-in tools and workflows the agent may call
-     - :doc:`/agentic-ai-guide/tools-actions`
+     - :doc:`/agentic-ai-guide/tools-integrations/tools-connectors`
    * - **Skills**
      - Reusable ``.md`` instructions from the registry
-     - :doc:`/agentic-ai-guide/skills`
+     - :doc:`/agentic-ai-guide/building-agents/skills`
    * - **MCP Servers**
      - Actions from connected MCP servers
-     - :doc:`/agentic-ai-guide/mcp-servers`
+     - :doc:`/agentic-ai-guide/tools-integrations/mcp-servers`
    * - **Context**
      - ``AGENTS.md`` project instructions
-     - :doc:`/agentic-ai-guide/context-agents-md`
+     - :doc:`/agentic-ai-guide/building-agents/context-agents-md`
    * - **Guardrails**
      - Checks applied to the query before the agent runs
-     - :doc:`/agentic-ai-guide/security-guardrails`
+     - :doc:`/agentic-ai-guide/safety-guardrails/security-guardrails`
    * - **Model**
      - Generation settings; choose Model Connection above the instructions
-     - :doc:`/agentic-ai-guide/models-prompts`
+     - :doc:`/agentic-ai-guide/building-agents/models-prompts`
 
 Input
 ~~~~~
@@ -142,7 +142,7 @@ from an app, a schedule, or the REST API - the caller supplies the query and thi
 value is the stand-in you tested with. Keep a realistic example here; it is the
 fastest regression test you have.
 
-.. figure:: ../_assets/agentic-ai-guide/agent-studio/input.png
+.. figure:: ../../_assets/agentic-ai-guide/agent-studio/input.png
    :alt: The Input group with the test query filled in
    :width: 654px
 
@@ -170,7 +170,7 @@ Controls the shape of the answer.
    If an agent feeds another node, a workflow, or an API caller, use JSON schema.
    Parsing prose is where agent pipelines break.
 
-.. figure:: ../_assets/agentic-ai-guide/agent-studio/output-format.png
+.. figure:: ../../_assets/agentic-ai-guide/agent-studio/output-format.png
    :alt: The Output Format group with Text selected and a Save Path field
    :width: 654px
 
@@ -185,12 +185,12 @@ Set **Knowledge Base (RAG)** to ``true`` and the retrieval fields appear -
 the vector database, whether to search an existing index or point at documents,
 the namespace and how many passages to pull back.
 
-.. figure:: ../_assets/agentic-ai-guide/agent-studio/knowledge.png
+.. figure:: ../../_assets/agentic-ai-guide/agent-studio/knowledge.png
    :alt: The Knowledge group with RAG turned on, showing the vector database and source options
    :width: 654px
 
 Full configuration - sources, embedding model, chunk size, top-K and reranking -
-is on :doc:`/agentic-ai-guide/rag-knowledge`.
+is on :doc:`/agentic-ai-guide/building-agents/rag-knowledge`.
 
 Tools
 ~~~~~
@@ -205,10 +205,10 @@ as you tick.
 **Workflows** lets the agent run a saved workflow as a tool - the way to give an
 agent logic that is easier to express as a pipeline than as a prompt.
 
-Both are covered on :doc:`/agentic-ai-guide/tools-actions` and
-:doc:`/agentic-ai-guide/workflows-as-tools`.
+Both are covered on :doc:`/agentic-ai-guide/tools-integrations/tools-connectors` and
+:doc:`/agentic-ai-guide/tools-integrations/workflows-as-tools`.
 
-.. figure:: ../_assets/agentic-ai-guide/agent-studio/tools.png
+.. figure:: ../../_assets/agentic-ai-guide/agent-studio/tools.png
    :alt: The Tools group with a Read CSV tool attached and the Workflows row below it
    :width: 654px
 
@@ -225,11 +225,11 @@ convention, a document-reading procedure.
 The registry is **scoped to the project**: you see the skills uploaded here,
 and no others.
 
-.. figure:: ../_assets/agentic-ai-guide/agent-studio/skills.png
+.. figure:: ../../_assets/agentic-ai-guide/agent-studio/skills.png
    :alt: The Skills group with Upload Skills and Fetch Skills buttons and an empty state
    :width: 654px
 
-See :doc:`/agentic-ai-guide/skills`.
+See :doc:`/agentic-ai-guide/building-agents/skills`.
 
 MCP Servers
 ~~~~~~~~~~~
@@ -238,11 +238,11 @@ Connect a Model Context Protocol server and choose which of its tools become thi
 agent's actions. **Add MCP Server** opens the picker; the tools you tick become
 this agent's actions.
 
-.. figure:: ../_assets/agentic-ai-guide/agent-studio/mcp-servers.png
+.. figure:: ../../_assets/agentic-ai-guide/agent-studio/mcp-servers.png
    :alt: The MCP Servers group with its empty state and an Add MCP Server button
    :width: 654px
 
-See :doc:`/agentic-ai-guide/mcp-servers`.
+See :doc:`/agentic-ai-guide/tools-integrations/mcp-servers`.
 
 Context
 ~~~~~~~
@@ -265,11 +265,11 @@ Context
 With **path** or **inline**, the file's content loads into the panel so you can
 see exactly what the agent will read.
 
-.. figure:: ../_assets/agentic-ai-guide/agent-studio/context.png
+.. figure:: ../../_assets/agentic-ai-guide/agent-studio/context.png
    :alt: The Context group with AGENTS.md Source set to path and a Choose .md File button
    :width: 654px
 
-See :doc:`/agentic-ai-guide/context-agents-md` for what belongs in the file.
+See :doc:`/agentic-ai-guide/building-agents/context-agents-md` for what belongs in the file.
 
 Guardrails
 ~~~~~~~~~~
@@ -280,11 +280,11 @@ the model - the refusal goes back instead.
 Click **Add guardrails** to configure the checks - PII, prompt injection,
 banned words and length.
 
-.. figure:: ../_assets/agentic-ai-guide/agent-studio/guardrails.png
+.. figure:: ../../_assets/agentic-ai-guide/agent-studio/guardrails.png
    :alt: The Guardrails group with its description and an Add guardrails button
    :width: 654px
 
-See :doc:`/agentic-ai-guide/security-guardrails`.
+See :doc:`/agentic-ai-guide/safety-guardrails/security-guardrails`.
 
 Model
 ~~~~~
@@ -311,7 +311,7 @@ keep their saved values; the table describes a newly created agent.
    * - **Timeout (seconds)**
      - How long a single call may take before it fails. Default ``180``.
 
-.. figure:: ../_assets/agentic-ai-guide/agent-studio/model.png
+.. figure:: ../../_assets/agentic-ai-guide/agent-studio/model.png
    :alt: The Model group with generation settings and Max Tokens set to 8000
    :width: 502px
 
@@ -334,14 +334,14 @@ When you open it, the agent offers a few starting points: the **Saved query**
 from the Input group, *What can you do?*, and one suggestion for each tool it
 has.
 
-.. figure:: ../_assets/agentic-ai-guide/agent-studio/chat-empty.png
+.. figure:: ../../_assets/agentic-ai-guide/agent-studio/chat-empty.png
    :alt: The Chat tab with starter suggestions for the saved query, what the agent can do, and its Read CSV tool
    :width: 100%
 
 Type a question and press **Enter**. Ask a follow-up, then ask something the
 agent should refuse - that last test is the one people forget.
 
-.. figure:: ../_assets/agentic-ai-guide/agent-studio/chat-conversation.png
+.. figure:: ../../_assets/agentic-ai-guide/agent-studio/chat-conversation.png
    :alt: A three-turn conversation: an answer from the FAQ, a follow-up, and a polite refusal for an out-of-scope question
    :width: 100%
 
@@ -351,7 +351,7 @@ agent should refuse - that last test is the one people forget.
 Click **3 steps** under a reply to see what the agent did to produce it - here,
 one call to ``read_csv``.
 
-.. figure:: ../_assets/agentic-ai-guide/agent-studio/chat-steps.png
+.. figure:: ../../_assets/agentic-ai-guide/agent-studio/chat-steps.png
    :alt: A chat reply expanded to show the Input, Agent Node, read_csv call and Output steps
    :width: 100%
 
@@ -387,7 +387,7 @@ reply, and the agent executes properly. The result opens on the **Runs** tab,
 and the run is kept - it counts towards the number on the tab and appears on
 **Agents → Executions**.
 
-.. figure:: ../_assets/agentic-ai-guide/agent-studio/runs-result.png
+.. figure:: ../../_assets/agentic-ai-guide/agent-studio/runs-result.png
    :alt: The Runs tab showing two completed runs, the query, the result and the tool the agent used
    :width: 100%
 
@@ -413,7 +413,7 @@ The **Steps**, **Timeline** and **Logs** tabs go deeper. **Steps** shows each
 stage of the run with the agent's confidence and status, and **Show raw JSON**
 opens the full detail.
 
-.. figure:: ../_assets/agentic-ai-guide/agent-studio/runs-steps.png
+.. figure:: ../../_assets/agentic-ai-guide/agent-studio/runs-steps.png
    :alt: The Steps view of a run with the agent step expanded to show confidence, status and its answer
    :width: 100%
 

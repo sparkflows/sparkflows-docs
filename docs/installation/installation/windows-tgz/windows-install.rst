@@ -106,6 +106,8 @@ Step 3 : Start Sparkflows
 
        .\run-fire.bat start
 
+   If the command does not return to the prompt, leave this window open while Sparkflows runs, and open a new Command Prompt in the installation folder for the next commands.
+
 The web server uses the ports set in ``conf\application.properties`` (``http.port=8080`` and ``https.port=8443``). To use other ports, change them there before starting Sparkflows. See :doc:`/installation/configuration/running-different-port`.
 
 

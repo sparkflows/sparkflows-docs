@@ -99,7 +99,7 @@ Cannot Open Sparkflows in the Browser
    * - The login page opens, but workflows do not run
      - The helper process is not running.
      - ``netstat -ano | findstr :8081 | findstr LISTENING`` shows nothing.
-     - Start it with ``.\run-fire.bat start``, and check ``log\fire_<date>.log``.
+     - Start it with ``.\run-fire.bat start``, and check ``log\fire_<date>.log``. If the prompt does not come back after the command, leave that window open while Sparkflows runs, and use a new Command Prompt.
 
 
 Workflows Fail

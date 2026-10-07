@@ -21,7 +21,7 @@ Before You Upgrade
 Step 1 : Stop Sparkflows
 ------------------------
 
-#. In the current installation folder, stop all Sparkflows processes. Stop the engines only if you use Agents or Polars::
+#. In the current installation folder, stop all Sparkflows processes::
 
        .\run-fire-agent.bat stop
        .\run-fire-polars.bat stop
@@ -108,12 +108,27 @@ Step 5 : Start the New Release
        .\run-fire-server.bat start
        .\run-fire.bat start
 
-#. **Agents and Polars only.** The new installation folder does not contain ``engine-venv``. ``run-fire-server.bat start`` builds it automatically when Python 3.9 is installed, and then starts the engines. Check them with::
+   If the command does not return to the prompt, leave this window open while Sparkflows runs, and open a new Command Prompt in the installation folder for the next commands.
 
-       .\run-fire-polars.bat status
-       .\run-fire-agent.bat status
+#. **Set up Agents and Polars.** The new installation folder does not contain ``engine-venv``, so create it, then start the engines:
 
-   If ``engine-venv`` was not built, run ``.\install-fire-python.bat``, then stop and start the web server. See :doc:`windows-install`.
+   #. Create the Python environment::
+
+          .\install-fire-python.bat
+
+      The script prints ``Done.`` when it completes.
+
+   #. Start the engines::
+
+          .\run-fire-polars.bat start
+          .\run-fire-agent.bat start
+
+   #. Check that both engines are running. Each prints ``Running on port <port>``::
+
+          .\run-fire-polars.bat status
+          .\run-fire-agent.bat status
+
+   See :doc:`windows-install` for the script options.
 
 
 Step 6 : Verify the Upgrade
@@ -150,5 +165,7 @@ If the upgrade does not work, go back to the previous release:
        cd %USERPROFILE%\fire-3.X.Y_spark_3.5.2
        .\run-fire-server.bat start
        .\run-fire.bat start
+
+   If the prompt does not come back after ``.\run-fire.bat start``, leave that window open, and use a new Command Prompt for the next steps.
 
 #. Verify as in `Step 6 : Verify the Upgrade`_.

@@ -1,23 +1,28 @@
 Installation
-^^^^^^^^^^^^
+============
 
-Sparkflows can be installed to run independently on Windows.
+Install Sparkflows from the TGZ package, start it, check that it works, and secure it. Complete :doc:`prerequisites-install` first.
 
-A Sparkflows installation on Windows runs the following processes:
+All commands on this page are run in a **Command Prompt**, from the Sparkflows installation folder.
+
+Sparkflows Processes
+--------------------
+
+A Sparkflows installation on Windows runs these processes:
 
 .. list-table::
-   :widths: 25 25 15 35
+   :widths: 24 26 14 36
    :header-rows: 1
 
    * - Process
      - Script
      - Default port
      - Required?
-   * - Fire Server (web UI)
+   * - Sparkflows web server
      - ``run-fire-server.bat``
      - 8080
      - Yes
-   * - Fire helper process
+   * - Sparkflows helper process
      - ``run-fire.bat``
      - 8081
      - Yes
@@ -30,145 +35,193 @@ A Sparkflows installation on Windows runs the following processes:
      - 8200
      - Only to run Agents
 
-All commands below are run from the Sparkflows install directory (for example ``C:\Users\<user>\fire-3.X.Y_spark_3.5.2``) in a Command Prompt.
+
+Step 1 : Download and Extract Sparkflows
+----------------------------------------
+
+#. Download the Sparkflows TGZ file from https://www.sparkflows.io/download.
+
+#. Extract it into a folder that your Windows user can write to, such as your user folder (``%USERPROFILE%``, for example ``C:\Users\<user>``). This creates a folder such as ``C:\Users\<user>\fire-3.X.Y_spark_3.5.2``, the **installation folder**.
+
+   .. warning:: Do not extract Sparkflows into ``C:\Program Files`` or another protected folder. Sparkflows writes logs and files into its installation folder, and fails with permission errors there.
+
+   Windows 10 and 11 can extract the file from a Command Prompt::
+
+       cd %USERPROFILE%
+       tar -xzf fire-3.X.Y_spark_3.5.2.tgz
+
+   You can also use a tool such as `7-Zip <https://www.7-zip.org/download.html>`_.
+
+#. Go to the installation folder::
+
+       cd %USERPROFILE%\fire-3.X.Y_spark_3.5.2
+
+#. Note the installed version. ``releaseVersion`` in this file is the Sparkflows version::
+
+       type conf\version.txt
 
 
-Installation Steps of Sparkflows with H2 DB
--------------------------------------------
+Step 2 : Set Up the Database
+----------------------------
 
-* Download the fire tgz file from:
-
-  * https://www.sparkflows.io/download
-
-* Unpack the downloaded tgz file. Below are some tools which can be used for it::
-
-    WinRar : https://www.rarlab.com/download.htm
-    WinZip : https://www.winzip.com
-    7-Zip : https://www.7-zip.org/download.html
-
-* Create H2 DB::
-
-    cd <fire install_dir>
-    .\create-h2-db.bat
-
-* Launch Fire Server::
-
-    cd <fire install_dir>
-    .\run-fire-server.bat start
-
-  .. note::  To verify whether the Fire Server is running, you can navigate to the fire home directory in your File Explorer.
-             Find the log folder. In the log folder, open fireserver or fireserver.log to see the logs from the server.
-
-* Launch the Fire helper process. It executes workflows and must be running alongside the Fire Server::
-
-    .\run-fire.bat start
-
-* Open your web browser and navigate to::
-
-    <machine_name>:8080
-
-* Login with::
-
-    admin/admin
-
-.. note::  Admin user account comes preconfigured with Sparkflows.
-
-           * admin/admin
-
-           You may change these usernames and passwords in Fire under the menu Administration/Users.
-
-
-Running Agents and Polars Jobs
------------------------------------------
-
-To run Agents and Polars jobs, start the Agent and Polars engines. Both engines run out of a single Python virtual environment (``engine-venv``) inside the Sparkflows install directory, which has to be created once before the engines can start.
-
-Python Prerequisites
-++++++++++++++++++++
-
-* **Python 3.9** (64-bit), version 3.9.2 or later within 3.9.x. Python 3.9.0, 3.9.1 and 3.10 or later are not supported.
-
-  * Download Python 3.9 from https://www.python.org/downloads/windows/ (for example, `Python 3.9.13 64-bit <https://www.python.org/ftp/python/3.9.13/python-3.9.13-amd64.exe>`_).
-
-* Internet access to download the Python packages from PyPI. For offline installs, see the ``--find-links`` option below.
-
-.. note:: Visual Studio C++ Build Tools and Windows Developer Mode are **not** required.
-
-Step 1 : Create the engine virtual environment
-++++++++++++++++++++++++++++++++++++++++++++++
-
-Run the below from the Sparkflows install directory::
-
-    .\install-fire-python.bat
-
-The script finds a supported Python 3.9 interpreter, creates the ``engine-venv`` folder in the install directory, installs the required packages and verifies the installation. When it completes, it prints ``Done.``
-
-The script accepts the following options:
+Sparkflows stores its users, projects and workflows in a database.
 
 .. list-table::
-   :widths: 30 70
+   :widths: 20 40 40
    :header-rows: 1
 
-   * - Option
-     - Description
-   * - ``--python PATH``
-     - Path to the Python 3.9 ``python.exe`` to use, if it is not detected automatically. For example: ``.\install-fire-python.bat --python C:\Python39\python.exe``
-   * - ``--find-links PATH``
-     - Install from a local folder of wheel files instead of PyPI (offline install).
-   * - ``--keep``
-     - Reuse an existing ``engine-venv`` instead of recreating it.
-   * - ``--dir PATH``
-     - Sparkflows install directory. Defaults to the directory of the script.
+   * - Database
+     - When to use it
+     - Where the data is
+   * - H2 (default)
+     - Evaluation, development and single-user use. No setup beyond the command below.
+     - ``%USERPROFILE%\firedb.mv.db`` (and ``firedb.trace.db``)
+   * - MySQL or PostgreSQL
+     - Teams and production use, where the database is managed and backed up separately.
+     - On your database server. See :doc:`/installation/configuration/database/index`.
 
-.. note:: Running the script again deletes and recreates ``engine-venv``, unless ``--keep`` is passed. Stop the Polars and Agent engines before re-running it, since a running engine keeps files in ``engine-venv`` locked.
+.. note:: **For production use**, set up MySQL or PostgreSQL now: complete :doc:`/installation/configuration/database/index`, then continue with `Step 3 : Start Sparkflows`_. Do not start Sparkflows on H2 and move to another database later.
 
-Step 2 : Start the Polars engine
-++++++++++++++++++++++++++++++++
+To use H2, create the database::
 
-::
+    .\create-h2-db.bat
 
-    .\run-fire-polars.bat start
+The command creates the database tables, or updates them if the database already exists.
 
-The Polars engine starts on port 8089 by default. To use a different port, pass it after ``start``, for example ``.\run-fire-polars.bat start 8090``.
+To use MySQL or PostgreSQL, configure ``conf\db.properties`` as described in :doc:`/installation/configuration/database/index`, then run ``.\create-mysql-db.bat`` or ``.\create-postgres-db.bat`` instead.
 
-Step 3 : Start the Agent engine
-+++++++++++++++++++++++++++++++
-
-::
-
-    .\run-fire-agent.bat start
-
-The Agent engine starts on port 8200 by default. To use a different port, pass it after ``start``, for example ``.\run-fire-agent.bat start 8201``.
-
-Each script prints ``Server started (pid <pid>)`` once the engine is listening on its port. If it reports ``ERROR: engine venv not found``, run Step 1 first.
-
-Check the engine status
-+++++++++++++++++++++++
-
-::
-
-    .\run-fire-polars.bat status
-    .\run-fire-agent.bat status
-
-Both scripts also accept ``restart``.
+Back up the database before changing the database configuration later. See :doc:`windows-upgrade` for the files to back up.
 
 
-Stopping Sparkflows
--------------------
+Step 3 : Start Sparkflows
+-------------------------
 
-Stop the processes with the below. The Polars and Agent engines only need to be stopped if they were started::
+#. Start the Sparkflows web server::
+
+       .\run-fire-server.bat start
+
+   If Python 3.9 is installed, this command can also build the Python environment for the Polars and Agent engines the first time it runs. That takes a few minutes. Either way, the web server starts. To set up Agents and Polars, follow `Step 6 : Enable Agents and Polars (Optional)`_.
+
+#. Start the Sparkflows helper process, which runs workflows::
+
+       .\run-fire.bat start
+
+The web server uses the ports set in ``conf\application.properties`` (``http.port=8080`` and ``https.port=8443``). To use other ports, change them there before starting Sparkflows. See :doc:`/installation/configuration/running-different-port`.
+
+
+Step 4 : Verify Sparkflows Is Running
+-------------------------------------
+
+#. Check that both processes are listening on their ports::
+
+       netstat -ano | findstr ":8080 :8081" | findstr LISTENING
+
+   Both ``:8080`` and ``:8081`` should be listed. It can take a few minutes after start for port 8080 to appear.
+
+#. Check the web server log, ``log\fireserver.log`` in the installation folder. Errors are in ``log\fireserver-error.log``::
+
+       type log\fireserver.log
+
+#. Open http://localhost:8080 in your browser. Sparkflows is ready when the login page loads.
+
+   To open Sparkflows from another machine, use ``http://<hostname>:8080``, where ``<hostname>`` is the host name or IP address of this machine. Windows Firewall must allow incoming connections on port 8080.
+
+   .. note:: HTTP is not encrypted. Before you make Sparkflows available beyond a trusted internal network, set up HTTPS with a trusted certificate. See :doc:`/installation/configuration/https/index`.
+
+If a check fails, see :doc:`troubleshooting`.
+
+
+Step 5 : Log In and Secure Sparkflows
+-------------------------------------
+
+#. Log in with the default user ``admin`` / ``admin``.
+#. **Change the default password right away**: open the user menu at the top right, then **User Profile -> Change Password**.
+
+.. warning:: Change the ``admin`` password before other people can reach this machine, and before you allow access to port 8080 through Windows Firewall. Anyone who can reach the port can try the default login.
+
+New users can be added under **Administration -> Users**.
+
+
+Step 6 : Enable Agents and Polars (Optional)
+--------------------------------------------
+
+Agents and Polars jobs run on two engines that use a Python environment, ``engine-venv``, in the installation folder. This needs Python 3.9; see :doc:`prerequisites-install`.
+
+#. **Create the Python environment.** Run this from the installation folder. If ``engine-venv`` already exists, the script recreates it::
+
+       .\install-fire-python.bat
+
+   The script finds Python 3.9, creates ``engine-venv``, installs the required packages and checks them. It prints ``Done.`` when it completes. It needs internet access to PyPI.
+
+   .. list-table::
+      :widths: 30 70
+      :header-rows: 1
+
+      * - Option
+        - Description
+      * - ``--python PATH``
+        - The Python 3.9 ``python.exe`` to use, if it is not found automatically. For example: ``.\install-fire-python.bat --python C:\Python39\python.exe``
+      * - ``--find-links PATH``
+        - Install from a local folder of wheel files instead of PyPI, on machines without internet access.
+      * - ``--keep``
+        - Reuse the existing ``engine-venv`` instead of recreating it.
+      * - ``--dir PATH``
+        - The Sparkflows installation folder. Defaults to the folder of the script.
+
+   Running the script again deletes and recreates ``engine-venv``, unless ``--keep`` is used. Stop the Polars and Agent engines first.
+
+#. **Start the engines**, after the web server is running::
+
+       .\run-fire-polars.bat start
+       .\run-fire-agent.bat start
+
+   Each script prints ``Server started (pid <pid>)`` when its engine is running.
+
+#. **Verify the engines**::
+
+       .\run-fire-polars.bat status
+       .\run-fire-agent.bat status
+
+   Each prints ``Running on port <port>``. Engine logs are in the ``log`` folder, for example ``log\agent_<date>.log``.
+
+
+Start, Stop and Status
+----------------------
+
+Run these from the installation folder.
+
+.. list-table::
+   :widths: 22 26 26 26
+   :header-rows: 1
+
+   * - Process
+     - Start
+     - Stop
+     - Status
+   * - Web server
+     - ``.\run-fire-server.bat start``
+     - ``.\run-fire-server.bat stop``
+     - ``netstat -ano | findstr :8080``
+   * - Helper process
+     - ``.\run-fire.bat start``
+     - ``.\run-fire.bat stop``
+     - ``netstat -ano | findstr :8081``
+   * - Polars engine
+     - ``.\run-fire-polars.bat start``
+     - ``.\run-fire-polars.bat stop``
+     - ``.\run-fire-polars.bat status``
+   * - Agent engine
+     - ``.\run-fire-agent.bat start``
+     - ``.\run-fire-agent.bat stop``
+     - ``.\run-fire-agent.bat status``
+
+To restart a process, stop it, then start it again.
+
+To stop all of Sparkflows, stop the engines first, then the helper process and the web server::
 
     .\run-fire-agent.bat stop
     .\run-fire-polars.bat stop
     .\run-fire.bat stop
     .\run-fire-server.bat stop
 
-
-.. note::  On Windows, the PySpark engine will not get installed. Below are the functionalities that will not be available on bare metal windows install. We recommend either docker on windows to access all functionalities or install Sparkflows on Linux.
-
-           * AutoML
-           * Prophet
-           * ARIMA
-           * Scikit learn models
-           * Keras/Tensorflow models
-           * A few other python native packages.
+Next, see :doc:`windows-upgrade` to upgrade and back up, or :doc:`troubleshooting` if something does not work.

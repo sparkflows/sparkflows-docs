@@ -53,7 +53,7 @@ the agent never called the tool.
      - Is the content actually right?
      - Now you have a real quality question - see below.
 
-.. figure:: ../_assets/agentic-ai-guide/evaluate/run-trace.png
+.. figure:: ../../_assets/agentic-ai-guide/evaluate/run-trace.png
    :alt: A run showing tool calls and the final output
    :width: 90%
 
@@ -64,7 +64,7 @@ The **Executions** tab on the Agents page lists past runs with their status,
 timings and who ran them. Open one to see its inputs, the path it took, the tool
 calls it made, and any approvals.
 
-.. figure:: ../_assets/agentic-ai-guide/evaluate/executions-tab.png
+.. figure:: ../../_assets/agentic-ai-guide/evaluate/executions-tab.png
    :alt: Executions tab listing past agent runs
    :width: 90%
 
@@ -120,11 +120,11 @@ Decide the bar before you measure, and make it about consequences:
 * **For anything feeding a Condition**, the extracted value must be right every
   time, because a wrong value routes the whole case wrongly.
 * **For anything that writes to a system**, correctness is not enough - put a
-  :doc:`human approval gate </agentic-ai-guide/human-in-the-loop>` in front of
+  :doc:`human approval gate </agentic-ai-guide/safety-guardrails/human-in-the-loop>` in front of
   it and measure how often reviewers disagree with the agent. That
   disagreement rate is the most honest quality metric you have.
 
 Next: ship it
 -------------
 
-:doc:`/agentic-ai-guide/deploy-agents`.
+:doc:`/agentic-ai-guide/deploy-monitor/deploy-agents`.

@@ -26,7 +26,7 @@ tabs.
    * - **Executions**
      - What ran, when, and whether it worked.
    * - **Schedules**
-     - What runs unattended - see :doc:`/agentic-ai-guide/schedule-agents`.
+     - What runs unattended - see :doc:`/agentic-ai-guide/triggers-automation/schedule-agents`.
    * - **Analytics**
      - How much it is all being used, and what it is costing in tokens.
 
@@ -59,7 +59,7 @@ What to watch
 Approvals as a quality metric
 -----------------------------
 
-Every rejection at a :doc:`Human Approval </agentic-ai-guide/human-in-the-loop>`
+Every rejection at a :doc:`Human Approval </agentic-ai-guide/safety-guardrails/human-in-the-loop>`
 gate is a labelled example of the agent being wrong, produced for free by
 someone qualified to judge.
 
@@ -88,27 +88,27 @@ levels of detail.
 **Across the project - the Analytics tab.** **Total tokens consumed** is the
 headline; the split underneath is input versus output.
 
-.. figure:: ../_assets/agentic-ai-guide/monitor/analytics-tokens.png
+.. figure:: ../../_assets/agentic-ai-guide/monitor/analytics-tokens.png
    :alt: The Analytics tab with the Total tokens consumed card highlighted
    :width: 100%
 
 Click the **Total tokens consumed** card to break the number down by agent.
 
-.. figure:: ../_assets/agentic-ai-guide/monitor/tokens-by-agent.png
+.. figure:: ../../_assets/agentic-ai-guide/monitor/tokens-by-agent.png
    :alt: Tokens consumed by agent, listing tokens in, tokens out and the total
    :width: 100%
 
 Further down the same page, **Token usage** charts input and output tokens over
 time, so you can see a cost trend rather than a single number.
 
-.. figure:: ../_assets/agentic-ai-guide/monitor/analytics-token-usage.png
+.. figure:: ../../_assets/agentic-ai-guide/monitor/analytics-token-usage.png
    :alt: The Token usage panel with a tokens-in and tokens-out breakdown and a chart over time
    :width: 100%
 
 **Per agent - the Agent fleet card.** Each agent carries its own run counts and
 **Tokens used**.
 
-.. figure:: ../_assets/agentic-ai-guide/monitor/analytics-fleet-tokens.png
+.. figure:: ../../_assets/agentic-ai-guide/monitor/analytics-fleet-tokens.png
    :alt: An Agent fleet card showing run counts and tokens used for one agent
    :width: 700px
 
@@ -124,7 +124,7 @@ Read a single run
 **Step 1 - Open the run.** On the **Executions** tab, click the eye icon on the
 run you want.
 
-.. figure:: ../_assets/agentic-ai-guide/monitor/executions-list.png
+.. figure:: ../../_assets/agentic-ai-guide/monitor/executions-list.png
    :alt: The Executions tab with the view icon on a completed run highlighted
    :width: 100%
 
@@ -133,7 +133,7 @@ Outputs** gives the whole run: steps, duration, tokens, LLM calls and tool
 calls. Every step then carries its own row - model, LLM calls, prompt tokens,
 completion tokens, total tokens, cached tokens and iteration.
 
-.. figure:: ../_assets/agentic-ai-guide/monitor/execution-tokens.png
+.. figure:: ../../_assets/agentic-ai-guide/monitor/execution-tokens.png
    :alt: Run totals and a per-step metrics row showing prompt, completion and total tokens
    :width: 930px
 
@@ -159,7 +159,7 @@ completion tokens, total tokens, cached tokens and iteration.
 JSON** on any step to see exactly what it produced - the tool it called, the
 arguments it passed, and what came back.
 
-.. figure:: ../_assets/agentic-ai-guide/monitor/execution-json.png
+.. figure:: ../../_assets/agentic-ai-guide/monitor/execution-json.png
    :alt: A step expanded to its raw JSON, showing the tool call, its arguments and its result
    :width: 930px
 
@@ -168,7 +168,7 @@ panel has a **Timeline** and a **Debug** view. Debug expands every node into its
 tool calls, arguments, results, metrics and node output, with **Copy run JSON**
 to take the lot away.
 
-.. figure:: ../_assets/agentic-ai-guide/monitor/execution-debug.png
+.. figure:: ../../_assets/agentic-ai-guide/monitor/execution-debug.png
    :alt: The Execution Timeline in Debug view with tool calls, results, metrics and node output expanded
    :width: 940px
 
@@ -197,13 +197,13 @@ Governance
    * - Who can build agents
      - Project and group membership
    * - Which systems an agent can reach
-     - :doc:`Connection scope </agentic-ai-guide/connections>`
+     - :doc:`Connection scope </agentic-ai-guide/quick-start/model-connections>`
    * - What an agent may do in a system
-     - :doc:`Ticked operations </agentic-ai-guide/tools-actions>`
+     - :doc:`Ticked operations </agentic-ai-guide/tools-integrations/tools-connectors>`
    * - Which actions need a person
-     - :doc:`Human Approval </agentic-ai-guide/human-in-the-loop>`
+     - :doc:`Human Approval </agentic-ai-guide/safety-guardrails/human-in-the-loop>`
    * - What questions get through
-     - :doc:`Guardrails </agentic-ai-guide/security-guardrails>`
+     - :doc:`Guardrails </agentic-ai-guide/safety-guardrails/security-guardrails>`
    * - What happened, and when
      - Executions and audit logs
 
@@ -230,4 +230,4 @@ A monthly review worth doing
 Next: the controls themselves
 -----------------------------
 
-:doc:`/agentic-ai-guide/security-guardrails` for the controls themselves.
+:doc:`/agentic-ai-guide/safety-guardrails/security-guardrails` for the controls themselves.

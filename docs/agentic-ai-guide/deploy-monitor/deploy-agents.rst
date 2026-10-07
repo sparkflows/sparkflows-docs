@@ -16,20 +16,20 @@ The ways to run an agent
      - Covered in
    * - **REST API**
      - Another system triggers the agent
-     - :doc:`/agentic-ai-guide/developer-api`
+     - :doc:`/agentic-ai-guide/tools-integrations/rest-apis`
    * - **Chat assistant**
      - People use it directly
-     - :doc:`/agentic-ai-guide/chat`
+     - :doc:`/agentic-ai-guide/quick-start/agent-chatbot`
    * - **Schedule**
      - It should run on a timetable
      - below
    * - **Event**
      - Something changes in an app or a folder - a new row, a new email, a new
        file
-     - :doc:`/agentic-ai-guide/triggers`
+     - :doc:`/agentic-ai-guide/triggers-automation/triggers`
    * - **Inside another flow**
      - It is one step of a bigger process
-     - :doc:`/agentic-ai-guide/multi-agent-orchestration`
+     - :doc:`/agentic-ai-guide/agent-orchestration/orchestration-overview`
 
 Deployment status
 -----------------
@@ -38,7 +38,7 @@ Every row in the Agents list carries a deployment status. An agent shown as
 **Undeployed** can still be run by hand from the UI; deploying is what makes it
 available to callers outside it.
 
-.. figure:: ../_assets/agentic-ai-guide/deploy/deployment-status.png
+.. figure:: ../../_assets/agentic-ai-guide/deploy/deployment-status.png
    :alt: Agents list showing deployment status
    :width: 90%
 
@@ -46,7 +46,7 @@ Scheduling
 ----------
 
 To run an agent on a timetable with nobody watching, see
-:doc:`/agentic-ai-guide/schedule-agents`.
+:doc:`/agentic-ai-guide/triggers-automation/schedule-agents`.
 
 Moving between environments
 ---------------------------
@@ -98,4 +98,4 @@ Before you deploy
 Next: keep it running
 ---------------------
 
-:doc:`/agentic-ai-guide/monitor-govern`.
+:doc:`/agentic-ai-guide/deploy-monitor/monitor-govern`.

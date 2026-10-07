@@ -40,7 +40,7 @@ based on a single expression evaluated against the running state. It makes no
 LLM call, so the decision is deterministic - the right tool whenever a plain
 rule decides the path.
 
-.. figure:: ../_assets/agentic-ai-guide/control-flow/condition-canvas.png
+.. figure:: ../../_assets/agentic-ai-guide/control-flow/condition-canvas.png
    :alt: Trigger, an Agent Node that reads the refund request, then the Condition Big refund? with its T branch to Note for finance and its F branch to Confirm to customer
    :width: 100%
 
@@ -56,13 +56,13 @@ Two ways to write the rule
 here**, a comparison and a value. Add rows and choose whether all or any must be
 true.
 
-.. figure:: ../_assets/agentic-ai-guide/control-flow/condition-config.png
+.. figure:: ../../_assets/agentic-ai-guide/control-flow/condition-config.png
    :alt: Condition Big refund? in Conditions mode - take the True path when refund_amount is at least 50000, with the fields of the upstream agent on the left
    :width: 100%
 
 **Expression** takes one line, for rules the builder cannot say:
 
-.. figure:: ../_assets/agentic-ai-guide/control-flow/condition-expression.png
+.. figure:: ../../_assets/agentic-ai-guide/control-flow/condition-expression.png
    :alt: Condition in Expression mode with refund_amount >= 50000 and help on and, or, not, quotes and date functions
    :width: 100%
 
@@ -132,7 +132,7 @@ on something an LLM produced:
 
 ``analysis`` is the upstream node's output as ``key=value`` lines; ``fields``
 is the same thing as a dictionary. Both an Agent Node and a
-:doc:`Workflow Execution </agentic-ai-guide/workflows-as-tools>` node publish
+:doc:`Workflow Execution </agentic-ai-guide/tools-integrations/workflows-as-tools>` node publish
 them, which is why a Condition reads the same either way.
 
 .. tip::
@@ -156,7 +156,7 @@ Errors route False
    Condition seems never to fire, check the field name first - the node's entry
    in the run detail records the error alongside the branch it took, so you can
    tell "the rule was not met" apart from "the expression could not be
-   evaluated". See :doc:`/agentic-ai-guide/monitor-govern`.
+   evaluated". See :doc:`/agentic-ai-guide/deploy-monitor/monitor-govern`.
 
 Making the field exist
 ~~~~~~~~~~~~~~~~~~~~~~
@@ -166,7 +166,7 @@ preceding Agent Node was asked for prose, there may be no ``amount`` to compare.
 
 Set that node's **Output Format** to a JSON schema so the field is always
 present and always named the same thing. See
-:doc:`/agentic-ai-guide/agent-studio`.
+:doc:`/agentic-ai-guide/building-agents/agent-studio`.
 
 .. tip::
 
@@ -184,7 +184,7 @@ description, and forwards execution down the matching route.
 Use it when the question is "which of these is this about?" and no plain
 expression can answer it.
 
-.. figure:: ../_assets/agentic-ai-guide/control-flow/router-node.png
+.. figure:: ../../_assets/agentic-ai-guide/control-flow/router-node.png
    :alt: A Trigger feeding the Router Which team? with anchors BI, AC, SH and FB wired to Billing, Access, Shipping and General reply agents
    :width: 85%
 
@@ -199,7 +199,7 @@ Configuration
 Open the node and go to the **Routes** tab. Each row is one route: a short
 **Route Name**, and a **Description** of the cases that belong to it.
 
-.. figure:: ../_assets/agentic-ai-guide/control-flow/router-config.png
+.. figure:: ../../_assets/agentic-ai-guide/control-flow/router-config.png
    :alt: Router Routes tab with the connection selector (1) and separate billing and technical route descriptions (2)
    :width: 100%
 
@@ -296,11 +296,11 @@ output, or both.
    stopped. That is deliberate - a guardrail must never dead-end a flow - but it
    means guardrails are a filter, not a gate. Anything that genuinely must not
    happen without a person belongs behind a
-   :doc:`Human Approval </agentic-ai-guide/human-in-the-loop>` node.
+   :doc:`Human Approval </agentic-ai-guide/safety-guardrails/human-in-the-loop>` node.
 
 This node is distinct from the **Guardrails group** in Agent Studio, which
 checks the query before the agent ever sees it. See
-:doc:`/agentic-ai-guide/security-guardrails`.
+:doc:`/agentic-ai-guide/safety-guardrails/security-guardrails`.
 
 Putting them together
 ---------------------
@@ -324,5 +324,5 @@ describe the process.
 Next: every node in detail
 --------------------------
 
-:doc:`/agentic-ai-guide/multi-agent-orchestration` covers the canvas itself and
+:doc:`/agentic-ai-guide/agent-orchestration/orchestration-overview` covers the canvas itself and
 the Supervisor node.

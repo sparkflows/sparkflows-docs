@@ -41,10 +41,10 @@ Which step do I need?
    * - do something for each record, one at a time
      - **Loop Over Items**
    * - anything else
-     - **Code** - see :doc:`/agentic-ai-guide/code-node`
+     - **Code** - see :doc:`/agentic-ai-guide/tools-integrations/code-node`
 
 Each step's left column, **What arrives here**, shows the fields you can pick
-from - see :doc:`/agentic-ai-guide/passing-data`.
+from - see :doc:`/agentic-ai-guide/agent-orchestration/passing-data`.
 
 Filter
 ------
@@ -54,7 +54,7 @@ Keeps the records that pass, drops the rest. Three ways to say which:
 **Conditions** - pick a field, a comparison and a value. Add as many rows as
 you need and choose **All must be true** or **Any can be true**.
 
-.. figure:: ../_assets/agentic-ai-guide/data-steps/filter-conditions.png
+.. figure:: ../../_assets/agentic-ai-guide/data-steps/filter-conditions.png
    :alt: Filter in Conditions mode keeping records where priority equals High and status equals Open, all must be true
    :width: 100%
 
@@ -67,7 +67,7 @@ of conditions cannot say::
 and keeps the ones that match. Use it when the rule is about meaning ("the
 customer is waiting on money"), not about a field's value.
 
-.. figure:: ../_assets/agentic-ai-guide/data-steps/filter-ai.png
+.. figure:: ../../_assets/agentic-ai-guide/data-steps/filter-ai.png
    :alt: Filter in AI mode with a plain-language description, temperature 0 and a 200-record limit
    :width: 100%
 
@@ -79,7 +79,7 @@ Sort
 The first row decides the order; the rows below break ties. Each row is
 **Low to high** or **High to low**.
 
-.. figure:: ../_assets/agentic-ai-guide/data-steps/sort.png
+.. figure:: ../../_assets/agentic-ai-guide/data-steps/sort.png
    :alt: Sort by amount high to low, then by order_date low to high
    :width: 100%
 
@@ -89,7 +89,7 @@ Limit
 Keeps the first **Max Items** records. Put it after a Sort for "the five biggest
 orders", or before a Loop to keep a test run small.
 
-.. figure:: ../_assets/agentic-ai-guide/data-steps/limit.png
+.. figure:: ../../_assets/agentic-ai-guide/data-steps/limit.png
    :alt: Limit with Max Items 5
    :width: 100%
 
@@ -106,7 +106,7 @@ Reshape each record in one place:
 * **Keep only** - the opposite: name the fields to keep and drop everything
   else.
 
-.. figure:: ../_assets/agentic-ai-guide/data-steps/set-fields.png
+.. figure:: ../../_assets/agentic-ai-guide/data-steps/set-fields.png
    :alt: Set Fields adding amount_with_gst = amount * 1.18 and exported_on, renaming customer to client and removing email
    :width: 100%
 
@@ -117,7 +117,7 @@ Records are duplicates when the fields you pick match - here, the same
 ``email``. Leave the box empty to compare whole records. Then choose **Keep the
 first one** or **Keep the last one** of each group.
 
-.. figure:: ../_assets/agentic-ai-guide/data-steps/remove-duplicates.png
+.. figure:: ../../_assets/agentic-ai-guide/data-steps/remove-duplicates.png
    :alt: Remove Duplicates matching on email, keeping the last one
    :width: 100%
 
@@ -130,7 +130,7 @@ everything). Each **Result** adds a column: **Count rows**, **Count values of**,
 **Largest**, **First value of**, **Last value of**, **List of values of**, or a
 **Custom expression**.
 
-.. figure:: ../_assets/agentic-ai-guide/data-steps/summarize.png
+.. figure:: ../../_assets/agentic-ai-guide/data-steps/summarize.png
    :alt: Summarize grouped by region with three results - Count rows as orders, Sum of amount as revenue, Average of amount as average_order
    :width: 100%
 
@@ -145,7 +145,7 @@ makes one record per value. Lists, JSON arrays and text separated by a
 character (``,``) all work. Tick **Keep the record's other fields** so each new
 record still knows which order it came from.
 
-.. figure:: ../_assets/agentic-ai-guide/data-steps/split-out.png
+.. figure:: ../../_assets/agentic-ai-guide/data-steps/split-out.png
    :alt: Split Out on the items field, separated by comma, new field named item, keeping the record's other fields
    :width: 100%
 
@@ -155,11 +155,11 @@ Merge
 Merge has **two inputs** and runs once both have arrived. Wire the first set
 into the top port and the second into the bottom one.
 
-.. figure:: ../_assets/agentic-ai-guide/data-steps/merge-canvas.png
+.. figure:: ../../_assets/agentic-ai-guide/data-steps/merge-canvas.png
    :alt: Two Read/Write Files steps, Orders and Customers, wired into the two inputs of a Merge
    :width: 100%
 
-.. figure:: ../_assets/agentic-ai-guide/data-steps/merge.png
+.. figure:: ../../_assets/agentic-ai-guide/data-steps/merge.png
    :alt: Merge set to Enrich, matching customer from input 1 with customer from input 2
    :width: 100%
 
@@ -194,11 +194,11 @@ read each file in a folder. It has two outlets:
 * **D** (done) - after the last round, everything the rounds produced comes out
   here. Wire what should happen afterwards.
 
-.. figure:: ../_assets/agentic-ai-guide/data-steps/loop-canvas.png
+.. figure:: ../../_assets/agentic-ai-guide/data-steps/loop-canvas.png
    :alt: Trigger, Support tickets, Urgent and open, then One ticket at a time; its L outlet feeds Draft the reply, which wires back into the loop, and its D outlet feeds Output
    :width: 100%
 
-.. figure:: ../_assets/agentic-ai-guide/data-steps/loop.png
+.. figure:: ../../_assets/agentic-ai-guide/data-steps/loop.png
    :alt: Loop Over Items with Items per round 1 and Max items 20
    :width: 100%
 

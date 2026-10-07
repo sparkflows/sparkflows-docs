@@ -5,13 +5,13 @@ Agent Node: Give the Model One Clear Job
 
 An **Agent Node** is the model-powered step on an agent canvas. Use it to
 summarize, classify, extract or explain information. Use an :doc:`App Action
-<app-actions>` for a fixed read or write, and a :doc:`data step <data-steps>`
+</agentic-ai-guide/tools-integrations/app-actions>` for a fixed read or write, and a :doc:`data step </agentic-ai-guide/agent-orchestration/data-transformation>`
 for filtering, totals and other rules that do not need a model.
 
 **Start without tools.** A useful first agent reads a small, known input and
 returns a short answer. Add tools, retrieval or shared skills only when that
 task needs them. For the single-agent form rather than the canvas, see
-:doc:`agent-studio`.
+:doc:`/agentic-ai-guide/building-agents/agent-studio`.
 
 .. contents:: On this page
    :local:
@@ -36,7 +36,7 @@ Open **LLM Configuration** and select the project's model connection.
 That connection chooses the provider and model/deployment; this is not the
 database or mailbox connection used by an App Action.
 
-.. figure:: ../_assets/agentic-ai-guide/agent-node/model-v5.png
+.. figure:: ../../_assets/agentic-ai-guide/agent-node/model-v5.png
    :alt: Agent Node generation settings for sampling, response limits and text output, cropped to exclude provider and connection details
 
    **1** Set sampling controls. **2** Bound the answer size and runtime.
@@ -77,7 +77,7 @@ Open **Agent Instruction**. State the job, the input to use, the answer's
 shape and what to do when information is missing. Avoid one instruction that
 tries to read, reason, approve, send and log everything at once.
 
-.. figure:: ../_assets/agentic-ai-guide/agent-node/instructions-v5.png
+.. figure:: ../../_assets/agentic-ai-guide/agent-node/instructions-v5.png
    :alt: Meeting-brief Agent Instructions naming the meeting and customer lookup, prohibiting invented facts and asking for a short text answer without tools
 
    The example gives the model one writing task. Customer lookup is an
@@ -124,7 +124,7 @@ before an App Action writes them.
 Keep the original record identifier outside the model's answer. Use **Set
 Fields** to attach the classification to the original ticket or customer
 record, rather than asking the model to recreate its identifier. The
-:doc:`ticket-triage tutorial <end-to-end-examples/ticket-triage>` demonstrates
+:doc:`ticket-triage tutorial </agentic-ai-guide/end-to-end-examples/ticket-triage>` demonstrates
 that pattern with a real canvas and exact mappings.
 
 5. Read and check the output
@@ -158,17 +158,17 @@ review of important decisions.
    * - Capability
      - Where to learn it
    * - Saved workflows the model may call
-     - **Workflow Configuration**; :doc:`workflows-as-tools` explains names,
+     - **Workflow Configuration**; :doc:`/agentic-ai-guide/tools-integrations/workflows-as-tools` explains names,
        descriptions, parameters and the difference from a required flow step.
    * - Tools on the canvas
-     - The Agent Node's **Tool** connection; see :doc:`tools-actions`.
+     - The Agent Node's **Tool** connection; see :doc:`/agentic-ai-guide/tools-integrations/tools-connectors`.
        Do not confuse a tool wire with the normal execution path.
    * - Shared instructions or document retrieval
-     - **Context**; see :doc:`context-agents-md` and :doc:`rag-knowledge`.
+     - **Context**; see :doc:`/agentic-ai-guide/building-agents/context-agents-md` and :doc:`/agentic-ai-guide/building-agents/rag-knowledge`.
    * - Reusable skills
-     - **Skills Registry**; see :doc:`skills`.
+     - **Skills Registry**; see :doc:`/agentic-ai-guide/building-agents/skills`.
    * - Tools from an MCP server
-     - **MCP Registry**; see :doc:`mcp-servers`. Expose only the actions needed
+     - **MCP Registry**; see :doc:`/agentic-ai-guide/tools-integrations/mcp-servers`. Expose only the actions needed
        for this task, initially read-only ones.
 
 To require a reviewed write, keep it as an App Action after **Human Approval**.

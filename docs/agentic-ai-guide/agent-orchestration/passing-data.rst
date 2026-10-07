@@ -17,7 +17,7 @@ the connected input or an earlier node. Here a Filter receives three
 fictional tickets read from the tutorial's CSV file. **Enlarge** opens the
 panel so its fields are easier to read:
 
-.. figure:: ../_assets/agentic-ai-guide/passing-data/fields-v5.png
+.. figure:: ../../_assets/agentic-ai-guide/passing-data/fields-v5.png
    :alt: Enlarged current data panel showing the Read tickets source, three rows from its last test, and ticket_id, subject, body and status fields
 
    **1** Choose the source. **2** Check where the displayed data came from.
@@ -52,7 +52,7 @@ Choose the view that answers your question:
   agent's latest run. It shows the saved output structure, including nested
   objects and metadata, rather than just the record fields.
 
-.. figure:: ../_assets/agentic-ai-guide/passing-data/json-v5.png
+.. figure:: ../../_assets/agentic-ai-guide/passing-data/json-v5.png
    :alt: Current JSON view showing all three tested ticket records, including the closed ticket, with a Copy button
 
    These are the three records before filtering. The presence of the closed
@@ -72,7 +72,7 @@ connect a wire, execute that node or change which records arrive here.
 
 **Run inputs**, at the bottom of the panel, holds the values every step can
 read whatever is wired before it: the message (``userQuery``) and the named
-values of the :doc:`Trigger </agentic-ai-guide/triggers>`.
+values of the :doc:`Trigger </agentic-ai-guide/triggers-automation/triggers>`.
 
 When testing a REST API Client, the request can use an Input-node sample or a
 value from the latest run to fill a reference such as
@@ -169,7 +169,7 @@ choose the correct path instead of guessing it.
 Under a setting that holds a reference, a green line reads it back in words, so
 you can check it without counting steps:
 
-.. figure:: ../_assets/agentic-ai-guide/passing-data/uses-line.png
+.. figure:: ../../_assets/agentic-ai-guide/passing-data/uses-line.png
    :alt: Under the Spreadsheet setting holding ${2.result_id}, the line reads Uses result_id from node 2
    :width: 664px
 
@@ -195,7 +195,7 @@ a one-based ticket number without converting it.
 Keep the original record's identifier when attaching a model's answer. The
 **D** output is the collected result after the Loop finishes, not the last
 Agent Node's answer. See the :doc:`ticket-triage walkthrough
-<end-to-end-examples/ticket-triage>` for that complete pattern.
+</agentic-ai-guide/end-to-end-examples/ticket-triage>` for that complete pattern.
 
 See what each step did
 ----------------------
@@ -204,7 +204,7 @@ After a run, the **Execution Timeline** under the result lists every step with a
 one-line summary. Data steps count real rows - *Kept 6 of 24 rows* - and
 **Show data** opens the records the step passed on.
 
-.. figure:: ../_assets/agentic-ai-guide/passing-data/run-timeline.png
+.. figure:: ../../_assets/agentic-ai-guide/passing-data/run-timeline.png
    :alt: The Execute page after a run: the table of six urgent open tickets and the Execution Timeline with Trigger, Support tickets, Urgent and open (Kept 6 of 24 rows) and Output
    :width: 100%
 

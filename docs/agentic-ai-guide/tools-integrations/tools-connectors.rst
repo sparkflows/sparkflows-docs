@@ -3,7 +3,7 @@ Tools & Connectors
 
 Tools are what separate an agent that talks from an agent that works. A tool is
 something the **model decides** to use. When a step must always happen exactly
-as set, use a fixed :doc:`App Action </agentic-ai-guide/app-actions>` instead. This page
+as set, use a fixed :doc:`App Action </agentic-ai-guide/tools-integrations/app-actions>` instead. This page
 covers the tool picker, the three places tools come from, and how to choose
 operations without handing an agent more power than it needs.
 
@@ -18,7 +18,7 @@ Click **Add tools** in the Tools group of Agent Studio - or **+ Tool** on any
 Agent Node on the canvas - and the picker opens with three sources in the left
 rail.
 
-.. figure:: ../_assets/agentic-ai-guide/tools/picker.png
+.. figure:: ../../_assets/agentic-ai-guide/tools/picker.png
    :alt: The Add a tool picker with source filters (1), categories (2), and a connector tile showing resources, operations and connection status (3)
    :width: 100%
 
@@ -60,7 +60,7 @@ Each connector tile shows three numbers that are worth reading before you click.
   connectors are shown before unavailable ones. A tile marked **Coming soon** is greyed out and
   cannot be added yet.
 
-.. figure:: ../_assets/agentic-ai-guide/tools/coming-soon.png
+.. figure:: ../../_assets/agentic-ai-guide/tools/coming-soon.png
    :alt: Search for GitHub showing its disabled Coming soon tile
    :width: 704px
 
@@ -76,7 +76,7 @@ finds it wherever it lives.
 
 The connector opens on a two-step screen.
 
-.. figure:: ../_assets/agentic-ai-guide/tools/operations.png
+.. figure:: ../../_assets/agentic-ai-guide/tools/operations.png
    :alt: The Jira Cloud connector before it is connected - the connection and Test connection (1), how the agent should see it (2), and the operation grid, locked until the test passes (3)
    :width: 100%
 
@@ -84,7 +84,7 @@ The connector opens on a two-step screen.
 **Test connection**. Nothing below unlocks until the test passes, which is
 deliberate: it stops you ticking sixty operations and only then discovering the
 token was wrong. **Manage connections** takes you to where credentials are
-created - see :doc:`/agentic-ai-guide/connections`.
+created - see :doc:`/agentic-ai-guide/quick-start/model-connections`.
 
 **Step 2 - How should the agent see it?** This decides the *shape* of what the
 model is handed, and it matters more than it looks.
@@ -148,7 +148,7 @@ tile - or type ``jira`` in the search box. The tile tells you what you are
 getting before you click: **8 resources**, **28 operations**, and that a
 connection already exists.
 
-.. figure:: ../_assets/agentic-ai-guide/connectors/picker-jira.png
+.. figure:: ../../_assets/agentic-ai-guide/connectors/picker-jira.png
    :alt: The connector tiles with Jira Cloud highlighted, showing 8 resources, 28 operations and connected
    :width: 100%
 
@@ -162,7 +162,7 @@ and click **Test connection**. Nothing below unlocks until it shows
    dropdown lists every connection in the project and tells you so - pick the one
    that actually holds that system's credentials.
 
-.. figure:: ../_assets/agentic-ai-guide/connectors/jira-connected.png
+.. figure:: ../../_assets/agentic-ai-guide/connectors/jira-connected.png
    :alt: Jira Cloud connected, with the badge showing 13 tools, the one-tool-per-operation note and the permission grid
    :width: 100%
 
@@ -173,7 +173,7 @@ of the divider, writes right of it, and Jira's own actions - ``transition``,
 ``assign``, ``listTransitions``, ``changelog`` - sit on the right. Click a verb
 to take its whole column, or a resource to take its whole row.
 
-.. figure:: ../_assets/agentic-ai-guide/connectors/jira-operations.png
+.. figure:: ../../_assets/agentic-ai-guide/connectors/jira-operations.png
    :alt: The Jira permission grid with get, list and search ticked for issues, and reads for comments, attachments and worklogs
    :width: 100%
 
@@ -181,7 +181,7 @@ You do not have to tick them one by one. **Start from a pack** on the right
 applies a sensible set in one click, and the counter above it tells you whether
 the agent is still a size a model can choose from reliably.
 
-.. figure:: ../_assets/agentic-ai-guide/connectors/jira-packs.png
+.. figure:: ../../_assets/agentic-ai-guide/connectors/jira-packs.png
    :alt: The tools counter showing 13 named tools, Good size, 13 reads and 0 writes, and the packs Look things up, Read anything, Read create and comment, Full control and Clear
    :width: 340px
 
@@ -219,7 +219,7 @@ on the canvas, joined to the Agent Node by a dashed tool link (**T1**). The
 badge shows how many tools it carries, and the Agent Node lists it under its
 name.
 
-.. figure:: ../_assets/agentic-ai-guide/connectors/jira-on-canvas.png
+.. figure:: ../../_assets/agentic-ai-guide/connectors/jira-on-canvas.png
    :alt: The Jira Cloud connector node badged 13 tools, joined to the Draft the reply Agent Node by the dashed tool link T1
    :width: 560px
 
@@ -249,7 +249,7 @@ A practical way to decide:
      - Tick the read operation.
    * - Does it need to *write*?
      - Tick it only if a person cannot reasonably do that step, and consider
-       putting a :doc:`Human Approval </agentic-ai-guide/human-in-the-loop>` gate
+       putting a :doc:`Human Approval </agentic-ai-guide/safety-guardrails/human-in-the-loop>` gate
        in front of it.
    * - Does it need *delete*?
      - Almost never. Leave it unticked.
@@ -264,7 +264,7 @@ The model never sees your canvas. At run time it is handed a **list of tool
 names with a one-line description each**, and it picks by reading those
 descriptions. Nothing else about the tool is visible to it.
 
-.. figure:: ../_assets/agentic-ai-guide/tools/multi-tool-canvas.png
+.. figure:: ../../_assets/agentic-ai-guide/tools/multi-tool-canvas.png
    :alt: One Agent Node with three Read CSV tools attached, each marked "Agent decides"
    :width: 75%
 
@@ -313,7 +313,7 @@ When you add a tool, Sparkflows asks one question - and it is worth
 understanding, because it is the difference between an agent that adapts and
 an agent that cannot go off-script.
 
-.. figure:: ../_assets/agentic-ai-guide/tools/agent-decides.png
+.. figure:: ../../_assets/agentic-ai-guide/tools/agent-decides.png
    :alt: Prompt asking whether the agent decides the tool's settings or you fix them
    :width: 315px
 
@@ -333,7 +333,7 @@ Either way the agent still chooses **whether** to use the tool; this only
 decides who fills in its settings. You can change it later - the tool shows
 both options as a toggle once it is attached.
 
-.. figure:: ../_assets/agentic-ai-guide/quickstart/06-tool-added.png
+.. figure:: ../../_assets/agentic-ai-guide/quickstart/06-tool-added.png
    :alt: The Tools group with a tool attached and the Agent decides / Fixed toggle
    :width: 652px
 
@@ -367,7 +367,7 @@ Built-in tools
 The built-in list is the platform's own toolbox - no external credential needed
 beyond whatever the tool itself reads.
 
-.. figure:: ../_assets/agentic-ai-guide/tools/built-in.png
+.. figure:: ../../_assets/agentic-ai-guide/tools/built-in.png
    :alt: The Built In tool list
    :width: 90%
 
@@ -407,13 +407,13 @@ workflow. This is the right move whenever the logic is easier to draw as a
 pipeline than to describe in a prompt - joins, aggregations, model scoring,
 multi-step transformations.
 
-It has its own page: :doc:`/agentic-ai-guide/workflows-as-tools`.
+It has its own page: :doc:`/agentic-ai-guide/tools-integrations/workflows-as-tools`.
 
 MCP tools
 ---------
 
 Tools can also come from a Model Context Protocol server, configured in the **MCP
-Servers** group. See :doc:`/agentic-ai-guide/mcp-servers`.
+Servers** group. See :doc:`/agentic-ai-guide/tools-integrations/mcp-servers`.
 
 Making tools reliable
 ---------------------
@@ -443,5 +443,5 @@ Three failure modes account for most tool problems.
 Next: credentials for tools
 ---------------------------
 
-Tools need credentials. :doc:`/agentic-ai-guide/connections` covers how those are
+Tools need credentials. :doc:`/agentic-ai-guide/quick-start/model-connections` covers how those are
 created and shared.

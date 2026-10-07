@@ -16,7 +16,7 @@ Drop a **Trigger** onto the canvas (it is the first tile under **Commonly used**
 or double-click the one already there. The drawer opens at one question: *How
 does this agent start?*
 
-.. figure:: ../_assets/agentic-ai-guide/triggers/kinds.png
+.. figure:: ../../_assets/agentic-ai-guide/triggers/kinds.png
    :alt: The Trigger drawer listing Manually, On a schedule, When something happens in an app, When a file arrives in a folder and When another system calls
    :width: 580px
 
@@ -46,7 +46,7 @@ Manually
 The person starting the run types what they want. The message on the node is
 used only when they leave the box empty, so it doubles as a ready-made test.
 
-.. figure:: ../_assets/agentic-ai-guide/triggers/manual.png
+.. figure:: ../../_assets/agentic-ai-guide/triggers/manual.png
    :alt: Manual trigger details with a message and one named value, file_name = tickets.csv
    :width: 580px
 
@@ -64,7 +64,7 @@ Pick how often - every hour, day, week or month - then the day, the hour, the
 minute and the time zone. The summary at the top reads the choice back in words
 ("Every Monday at 9:00").
 
-.. figure:: ../_assets/agentic-ai-guide/triggers/schedule.png
+.. figure:: ../../_assets/agentic-ai-guide/triggers/schedule.png
    :alt: Schedule trigger set to every week, Monday, 9:00, Asia/Kolkata
    :width: 580px
 
@@ -76,7 +76,7 @@ the agent with ``(Trigger node)`` at the end. It appears under **Agents >
 Schedules** with every other schedule, where you can pause it with the toggle.
 Switch the Trigger back to **Manually** and that schedule is removed.
 
-.. figure:: ../_assets/agentic-ai-guide/triggers/schedules-list.png
+.. figure:: ../../_assets/agentic-ai-guide/triggers/schedules-list.png
    :alt: The Schedules tab listing agents whose name ends in (Trigger node), with their frequency and an on/off toggle
    :width: 100%
 
@@ -87,14 +87,14 @@ When something happens in an app
 
 Pick the app, then the event. Only apps that can report what changed are listed.
 
-.. figure:: ../_assets/agentic-ai-guide/triggers/app-grid.png
+.. figure:: ../../_assets/agentic-ai-guide/triggers/app-grid.png
    :alt: The app grid for event triggers - Salesforce, Microsoft Teams, Slack, OneDrive, Outlook Calendar, Outlook Mail, SharePoint, Gmail, Google Calendar and more, each with its number of events
    :width: 580px
 
 Each app offers its own events. A database, for example, can start a run when a
 row is added (by a date/time column or an increasing id) or when a row changes.
 
-.. figure:: ../_assets/agentic-ai-guide/triggers/app-events.png
+.. figure:: ../../_assets/agentic-ai-guide/triggers/app-events.png
    :alt: PostgreSQL events - row added by a date/time column, row changed by an updated-at column, row added by an increasing id column
    :width: 580px
 
@@ -106,7 +106,7 @@ Then press **Fetch a sample**. It reads a few recent records so you, and every
 step after the Trigger, can see the fields a new record has. **Save trigger**
 stays disabled until the sample has been fetched.
 
-.. figure:: ../_assets/agentic-ai-guide/triggers/app-details.png
+.. figure:: ../../_assets/agentic-ai-guide/triggers/app-details.png
    :alt: PostgreSQL row-added trigger with a fetched sample showing the fields id, customer_id, product, amount, status and created_at
    :width: 100%
 
@@ -124,9 +124,9 @@ When a file arrives in a folder
 The same idea for files on the machine the engine runs on. Pick **A file is
 added** or **A file is added or changed**, then give a folder (``data/incoming/``)
 or a pattern (``data/incoming/*.csv``, ``data/**/*.pdf``). Cloud paths such as
-``s3://`` work too - see :doc:`/agentic-ai-guide/files`.
+``s3://`` work too - see :doc:`/agentic-ai-guide/tools-integrations/files-documents`.
 
-.. figure:: ../_assets/agentic-ai-guide/triggers/file-details.png
+.. figure:: ../../_assets/agentic-ai-guide/triggers/file-details.png
    :alt: File trigger watching data/agent-files-training/incoming/*.csv with a sample showing path, name, extension, size, modified, folder and kind
    :width: 100%
 
@@ -141,12 +141,12 @@ Another application starts the run with one HTTP request, using an access token
 from **Administration > Access Tokens** in the ``token`` header. The inputs in the
 body are what the run starts with.
 
-.. figure:: ../_assets/agentic-ai-guide/triggers/webhook.png
+.. figure:: ../../_assets/agentic-ai-guide/triggers/webhook.png
    :alt: Webhook trigger showing the POST request to /api/v1/agents/339/execute with a JSON body of inputs
    :width: 580px
 
 The full request, how to wait for the result, and how to answer an approval
-from your own code are on :doc:`/agentic-ai-guide/developer-api`.
+from your own code are on :doc:`/agentic-ai-guide/tools-integrations/rest-apis`.
 
 What a Trigger hands to the next step
 -------------------------------------
@@ -167,14 +167,14 @@ What a Trigger hands to the next step
      - For app and file triggers: the first new record, such as
        ``${event.id}`` or ``${event.path}``.
    * - ``events``
-     - Every new record. Wire a :doc:`Loop Over Items </agentic-ai-guide/data-steps>`
+     - Every new record. Wire a :doc:`Loop Over Items </agentic-ai-guide/agent-orchestration/data-transformation>`
        after the Trigger to handle them one at a time.
 
 An event Trigger has two outlets. **R** (run) carries the new records on. **N**
 (nothing new) is taken when a check finds nothing; leave it unwired and that
 check simply ends.
 
-.. figure:: ../_assets/agentic-ai-guide/triggers/outlets.png
+.. figure:: ../../_assets/agentic-ai-guide/triggers/outlets.png
    :alt: A Trigger node with its R and N outlets, R wired to a Loop Over Items node
    :width: 520px
 
@@ -182,10 +182,10 @@ check simply ends.
 
    A small **$** on a node means its settings use ``${...}`` values from earlier
    steps. How to pick those values without typing them is on
-   :doc:`/agentic-ai-guide/passing-data`.
+   :doc:`/agentic-ai-guide/agent-orchestration/passing-data`.
 
 Next: act in an app
 -------------------
 
-A Trigger starts the run; :doc:`/agentic-ai-guide/app-actions` is how the run
+A Trigger starts the run; :doc:`/agentic-ai-guide/tools-integrations/app-actions` is how the run
 reads from and writes to your business apps.

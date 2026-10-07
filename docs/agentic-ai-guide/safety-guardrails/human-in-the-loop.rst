@@ -45,11 +45,11 @@ An approval gate is only useful if the decision in front of it is already made.
 The pattern that works has three parts:
 
 #. **Do the analysis first**, while nobody is waiting.
-#. **Branch on risk** with a :doc:`Condition </agentic-ai-guide/control-flow>`,
+#. **Branch on risk** with a :doc:`Condition </agentic-ai-guide/agent-orchestration/control-flow>`,
    so only the cases that need a human reach the gate.
 #. **Gate only that branch.**
 
-.. figure:: ../_assets/agentic-ai-guide/hitl/po-approver-canvas.png
+.. figure:: ../../_assets/agentic-ai-guide/hitl/po-approver-canvas.png
    :alt: A refund process - an Agent Node reads the request, App Actions find the order in PostgreSQL, a Condition checks Over 50,000?, and only big refunds stop at Finance approves before the refund is recorded and the customer emailed
    :width: 100%
 
@@ -71,7 +71,7 @@ Adding the node
 #. In the **Nodes** palette, open the **Control Flow** group (Human Approval is also under **Commonly used**).
 #. Click or drag **Human Approval** onto the canvas.
 
-   .. figure:: ../_assets/agentic-ai-guide/hitl/palette-control.png
+   .. figure:: ../../_assets/agentic-ai-guide/hitl/palette-control.png
       :alt: The Control Flow group of the node palette, with Human Approval, Human Input and Condition
       :width: 300px
 
@@ -91,7 +91,7 @@ Adding the node
         - The fallback - log the decision, notify the requester, or route to an
           edit/retry step.
 
-   .. figure:: ../_assets/agentic-ai-guide/hitl/approval-anchors.png
+   .. figure:: ../../_assets/agentic-ai-guide/hitl/approval-anchors.png
       :alt: Human Approval node showing the A and R output anchors
       :width: 290px
 
@@ -100,7 +100,7 @@ Configuration
 
 Double-click the node.
 
-.. figure:: ../_assets/agentic-ai-guide/hitl/approval-config.png
+.. figure:: ../../_assets/agentic-ai-guide/hitl/approval-config.png
    :alt: Human Approval configuration with the title Approve this refund and a prompt that fills in the amount, customer, order and reason with ${2.fields...} references
    :width: 100%
 
@@ -138,7 +138,7 @@ the node's answer:
 
 At run time that becomes:
 
-.. figure:: ../_assets/agentic-ai-guide/hitl/approval-pending.png
+.. figure:: ../../_assets/agentic-ai-guide/hitl/approval-pending.png
    :alt: The approval prompt with the agent's answer substituted into it, above the comment boxes and the Approve and Reject buttons
    :width: 100%
 
@@ -211,7 +211,7 @@ whole flow, from the reviewer's side.
 a gate shows the status **Interrupted**. It stays there until somebody answers
 it, and it survives a restart.
 
-.. figure:: ../_assets/agentic-ai-guide/hitl/executions-interrupted.png
+.. figure:: ../../_assets/agentic-ai-guide/hitl/executions-interrupted.png
    :alt: The Executions tab with two runs showing the Interrupted status
    :width: 100%
 
@@ -237,14 +237,14 @@ branch.
 outcome and the comment, so months later the run still says who decided what,
 and why.
 
-.. figure:: ../_assets/agentic-ai-guide/hitl/approval-approved.png
+.. figure:: ../../_assets/agentic-ai-guide/hitl/approval-approved.png
    :alt: The approval step in a finished run, showing the approved status and the reviewer comment
    :width: 900px
 
 .. note::
 
    Approvals are answered in the run view, not in a
-   :doc:`chat assistant </agentic-ai-guide/chat>`. Send reviewers to
+   :doc:`chat assistant </agentic-ai-guide/quick-start/agent-chatbot>`. Send reviewers to
    **Agents → Executions**, or tell them a run is waiting with an
    :doc:`Email Notification </agentic-ai-guide/node-reference>` node. **Human
    Input** is the node for asking the person something mid-conversation.
@@ -371,7 +371,7 @@ This is the node that makes an agent conversational. When the run reaches it,
 the question appears in the chat window and any choices the agent offered become
 buttons the person can click - they can also just type an answer.
 
-.. figure:: ../_assets/agentic-ai-guide/hitl/human-input-chat.png
+.. figure:: ../../_assets/agentic-ai-guide/hitl/human-input-chat.png
    :alt: A chat assistant asking whether to show alternative parts, with yes and no buttons
    :width: 100%
 
@@ -411,5 +411,5 @@ Checklist before you ship an approval flow
 Next: approvals in production
 -----------------------------
 
-:doc:`/agentic-ai-guide/control-flow` covers the Condition and Router nodes that
+:doc:`/agentic-ai-guide/agent-orchestration/control-flow` covers the Condition and Router nodes that
 decide which cases reach your gate.

@@ -61,7 +61,7 @@ Step 1: Connect the server
    configured in your workspace - here, ``Github``.
 #. Click **Fetch Tools**.
 
-.. figure:: ../_assets/agentic-ai-guide/mcp/add-server.png
+.. figure:: ../../_assets/agentic-ai-guide/mcp/add-server.png
    :alt: GitHub MCP connection with its 45 tools fetched, one expanded to show its arguments
    :width: 95%
 
@@ -108,7 +108,7 @@ page.
 Expand a ticked tool and you get its **Action description (shown to the model)**
 and its **Arguments** table. For every argument you choose **who provides it**:
 
-.. figure:: ../_assets/agentic-ai-guide/mcp/arguments.png
+.. figure:: ../../_assets/agentic-ai-guide/mcp/arguments.png
    :alt: An MCP action expanded to show its description and an argument set to Agent decides
    :width: 100%
 
@@ -199,5 +199,5 @@ Troubleshooting
 Next: other kinds of tool
 -------------------------
 
-:doc:`/agentic-ai-guide/skills` covers reusable instruction files that several
+:doc:`/agentic-ai-guide/building-agents/skills` covers reusable instruction files that several
 agents can share.

@@ -40,7 +40,7 @@ Layer 1: Tool selection
 -----------------------
 
 When you add a connector, tick only the operations the agent needs. See
-:doc:`/agentic-ai-guide/tools-actions`.
+:doc:`/agentic-ai-guide/tools-integrations/tools-connectors`.
 
 A simple test for any agent: **list every ticked operation and ask what the
 worst outcome of each is, if the model is confused.** If an answer is
@@ -51,7 +51,7 @@ Layer 2: Connection scope
 
 Connections exist at Global, Group and Project scope. A project-scoped
 credential for a production system means only agents in that project can reach
-it. See :doc:`/agentic-ai-guide/connections`.
+it. See :doc:`/agentic-ai-guide/quick-start/model-connections`.
 
 Never put credentials in prompt text - not in Instructions, not in a skill, not
 in ``AGENTS.md``.
@@ -68,14 +68,14 @@ Setting them up
 
 #. Open the **Guardrails** group in Agent Studio.
 
-   .. figure:: ../_assets/agentic-ai-guide/guardrails/add-guardrails.png
+   .. figure:: ../../_assets/agentic-ai-guide/guardrails/add-guardrails.png
       :alt: The collapsed Guardrails group with the Add guardrails button
       :width: 680px
 
 #. Click **Add guardrails**.
 #. Set the checks you want.
 
-.. figure:: ../_assets/agentic-ai-guide/guardrails/configure.png
+.. figure:: ../../_assets/agentic-ai-guide/guardrails/configure.png
    :alt: Guardrail settings: on violation, PII, prompt injection, banned words, max length and refusal message
    :width: 715px
 
@@ -148,13 +148,13 @@ The **Guardrails** node applies the same checks partway through a flow, with
 checked is produced mid-run - a drafted reply that must not contain customer
 data, say. Wiring **B** back to a **Human Input** node gives the person a
 chance to revise rather than simply being refused. See
-:doc:`/agentic-ai-guide/control-flow`.
+:doc:`/agentic-ai-guide/agent-orchestration/control-flow`.
 
 Layer 4: Human approval
 -----------------------
 
 For anything that spends money, changes a record of account, or reaches a
-customer, put a :doc:`Human Approval </agentic-ai-guide/human-in-the-loop>` gate
+customer, put a :doc:`Human Approval </agentic-ai-guide/safety-guardrails/human-in-the-loop>` gate
 in front of it - gated by a Condition so it fires on the cases that warrant it
 rather than on every run.
 
@@ -206,4 +206,4 @@ Reviewing an agent before production
 Next: watch it in production
 ----------------------------
 
-:doc:`/agentic-ai-guide/monitor-govern` covers what to watch once it is live.
+:doc:`/agentic-ai-guide/deploy-monitor/monitor-govern` covers what to watch once it is live.

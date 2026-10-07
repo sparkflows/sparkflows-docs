@@ -36,7 +36,7 @@ Step 1: Build the workflow
 #. In the project sidebar, click **Workflows**.
 #. Create the workflow and test it on its own until it is correct.
 
-   .. figure:: ../_assets/agentic-ai-guide/workflows-as-tools/workflow-canvas.png
+   .. figure:: ../../_assets/agentic-ai-guide/workflows-as-tools/workflow-canvas.png
       :alt: The Electronics-Check-Inventory workflow: a CSV read, a SQL step and Print N Rows
       :width: 85%
 
@@ -70,7 +70,7 @@ In Agent Studio
    Leave **Row Limit** blank for automatic sizing, or set a deliberate cap on
    the rows handed back to the model.
 
-.. figure:: ../_assets/agentic-ai-guide/workflows-as-tools/studio-workflows.png
+.. figure:: ../../_assets/agentic-ai-guide/workflows-as-tools/studio-workflows.png
    :alt: Studio workflow form with workflow and tool name (1), description (2), row limit (3), and fixed parameter overrides (4)
    :width: 475px
 
@@ -125,7 +125,7 @@ The workflow's **first output row** is published in two forms:
      - The row as a dictionary.
 
 This is the same contract an Agent Node publishes, which is why a downstream
-:doc:`Condition </agentic-ai-guide/control-flow>` reads them identically:
+:doc:`Condition </agentic-ai-guide/agent-orchestration/control-flow>` reads them identically:
 
 .. code-block:: python
 
@@ -196,5 +196,5 @@ When not to use a workflow
 Next: control the flow
 ----------------------
 
-:doc:`/agentic-ai-guide/mcp-servers` covers the other way to extend what an agent
+:doc:`/agentic-ai-guide/tools-integrations/mcp-servers` covers the other way to extend what an agent
 can do.

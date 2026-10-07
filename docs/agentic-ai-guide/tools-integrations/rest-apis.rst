@@ -320,4 +320,4 @@ Next: watch the runs
 --------------------
 
 Runs started over the API appear on **Agents → Executions** like any other, with
-the same token and step detail - see :doc:`/agentic-ai-guide/monitor-govern`.
+the same token and step detail - see :doc:`/agentic-ai-guide/deploy-monitor/monitor-govern`.

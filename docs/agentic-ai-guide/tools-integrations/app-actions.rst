@@ -7,14 +7,14 @@ app, action, connection and mappings. The action runs when the flow reaches
 it; a language model does not choose its operation or arguments.
 
 Use an App Action for the steps that must always happen. Give an
-:doc:`Agent Node <agent-node>` a tool instead when choosing whether and how
+:doc:`Agent Node </agentic-ai-guide/agent-orchestration/agent-node>` a tool instead when choosing whether and how
 to call it is part of the model's task.
 
 **First time connecting an app?** Start with the short setup path on this
 page; you do not need to study every connector. For a complete flow, choose
-one of the :doc:`end-to-end-examples/index`.
+one of the :doc:`/agentic-ai-guide/index`.
 
-.. figure:: ../_assets/agentic-ai-guide/app-actions/lookup-v5.png
+.. figure:: ../../_assets/agentic-ai-guide/app-actions/lookup-v5.png
    :alt: PostgreSQL App Action details with a customer key mapped from the current loop record
    :width: 680px
 
@@ -63,7 +63,7 @@ Connect and verify once
 -----------------------
 
 #. Open **Administration → Global/Group Connections**, or the project's
-   **Connections** page (:doc:`/agentic-ai-guide/connections`), and choose
+   **Connections** page (:doc:`/agentic-ai-guide/quick-start/model-connections`), and choose
    **Add Connection**.
 #. Select the connection type below, enter credentials in that form (never in
    a prompt or flow note), then **Test Connection** and save.
@@ -111,7 +111,7 @@ write. For an appending write, match the incoming field names to the sheet or
 table columns. See the selected-step screenshots below; they show setup, not
 proof that an external connection or write succeeded.
 
-.. figure:: ../_assets/agentic-ai-guide/app-actions/gmail-download.png
+.. figure:: ../../_assets/agentic-ai-guide/app-actions/gmail-download.png
    :alt: Current Gmail Download attachments settings for filtering PDF files, saving to a folder, and choosing per-email folders and overwrite behavior
    :width: 100%
 
@@ -120,7 +120,7 @@ proof that an external connection or write succeeded.
    whether repeated names are overwritten, kept or skipped. The screenshot is
    a configuration example; it has no connection selected and was not run.
 
-.. figure:: ../_assets/agentic-ai-guide/app-actions/sheets-append.png
+.. figure:: ../../_assets/agentic-ai-guide/app-actions/sheets-append.png
    :alt: Google Sheets Append rows input panel showing file_name, summary and drive_id from the Prepare log row
    :width: 100%
 
@@ -139,7 +139,7 @@ can click any step to go back to it.
 **1. Pick the app.** Each card says how many actions the app offers. Type in
 **Search apps** to narrow the list.
 
-.. figure:: ../_assets/agentic-ai-guide/app-actions/app-grid.png
+.. figure:: ../../_assets/agentic-ai-guide/app-actions/app-grid.png
    :alt: The top of the current App Action drawer, with Search apps and the first six available apps
    :width: 580px
 
@@ -150,7 +150,7 @@ can click any step to go back to it.
 spreadsheets, sheets) and each says in one line what it does. **reads** leaves
 the app as it was; **changes data** writes to it.
 
-.. figure:: ../_assets/agentic-ai-guide/app-actions/action-list.png
+.. figure:: ../../_assets/agentic-ai-guide/app-actions/action-list.png
    :alt: Google Sheets actions grouped as Row, Spreadsheet and Sheet, each marked reads or changes data; Append is selected
    :width: 580px
 
@@ -164,10 +164,10 @@ Reading from an app
 A read returns records, and those records become the rows the next step
 receives. Fill in what to read—a PostgreSQL table, a trusted ``Where`` filter
 if needed, and a small limit—then press **Load the fields from PostgreSQL**.
-For predictable database ordering, follow :doc:`database-connectors-setup`;
+For predictable database ordering, follow :doc:`/agentic-ai-guide/database-connectors-setup`;
 do not assume that a preview's row order is a guarantee.
 
-.. figure:: ../_assets/agentic-ai-guide/app-actions/read-details.png
+.. figure:: ../../_assets/agentic-ai-guide/app-actions/read-details.png
    :alt: PostgreSQL Read rows with table sf_training_orders, where status = 'open', order by amount desc, limit 5, and the returned fields id, customer_id, product and amount
    :width: 100%
 
@@ -183,7 +183,7 @@ their own **What arrives here** panel.
    what is there - tables and their rows, folders, mailboxes - through the same
    connection, without leaving the canvas.
 
-   .. figure:: ../_assets/agentic-ai-guide/app-actions/explore.png
+   .. figure:: ../../_assets/agentic-ai-guide/app-actions/explore.png
       :alt: The Explore PostgreSQL tab listing the rows of the sf_training_orders table
       :width: 100%
 
@@ -201,7 +201,7 @@ write (JSON)** left empty, it uses the rows from the previous step. Leave
 Loop or a database read, each arriving column is sent as the field of the same
 name.
 
-.. figure:: ../_assets/agentic-ai-guide/app-actions/write-details.png
+.. figure:: ../../_assets/agentic-ai-guide/app-actions/write-details.png
    :alt: Cropped PostgreSQL Fields to set panel with no fields mapped
    :width: 100%
 
@@ -215,7 +215,7 @@ a reference such as ``${10.analysis}``. To supply a complete record yourself,
 use **Rows to write (JSON)** with one object or an array of objects. **What
 will be sent** shows the exact request.
 
-.. figure:: ../_assets/agentic-ai-guide/app-actions/fields-to-set.png
+.. figure:: ../../_assets/agentic-ai-guide/app-actions/fields-to-set.png
    :alt: Cropped Fields to set panel mapping To, Subject and Body, with the body referencing ${10.analysis}
    :width: 100%
 
@@ -248,14 +248,14 @@ Every row comes back with three fields beside it:
 **If a row is rejected** (under Advanced settings) decides what happens when the
 app refuses one row: ``stop`` fails the run at the first rejection, ``continue``
 writes the rest and marks the failed rows. Follow it with a
-:doc:`Filter </agentic-ai-guide/data-steps>` on ``result_status`` to collect the
+:doc:`Filter </agentic-ai-guide/agent-orchestration/data-transformation>` on ``result_status`` to collect the
 failures.
 
 ``stop`` does not undo earlier successful writes. A network error can also
 leave you unsure whether the destination accepted the request. Inspect the
 destination before retrying a create, append, send or upload.
 
-.. figure:: ../_assets/agentic-ai-guide/app-actions/on-error.png
+.. figure:: ../../_assets/agentic-ai-guide/app-actions/on-error.png
    :alt: The If a row is rejected setting, set to stop
    :width: 664px
 
@@ -275,16 +275,16 @@ MySQL, PostgreSQL and SQL Server offer the same business actions:
   are SQL text, not automatic parameter binding: never interpolate a user's
   message or a model-generated fragment into them.
 * A database can also start the agent: see
-  :doc:`/agentic-ai-guide/triggers`.
+  :doc:`/agentic-ai-guide/triggers-automation/triggers`.
 
 For connection types, schemas, keys, each action's inputs, result checks and
-safe retry behavior, use :doc:`database-connectors-setup`.
+safe retry behavior, use :doc:`/agentic-ai-guide/database-connectors-setup`.
 
 .. raw:: html
 
    <details class="tutorial-details"><summary>See fixed App Actions in a complete workflow</summary>
 
-.. figure:: ../_assets/agentic-ai-guide/app-actions/workflow-v5.png
+.. figure:: ../../_assets/agentic-ai-guide/app-actions/workflow-v5.png
    :alt: Actual meeting preparation canvas with a fixed customer lookup inside the Loop, one Agent Node for writing, and Google Docs creation and update after the Loop completes
 
    **1** The customer lookup is fixed; only the following writing step uses
@@ -359,7 +359,7 @@ workflow to an agent.
 Next
 ----
 
-:doc:`/agentic-ai-guide/passing-data` explains **What arrives here** and the
+:doc:`/agentic-ai-guide/agent-orchestration/passing-data` explains **What arrives here** and the
 ``${...}`` references in detail.
 
 .. raw:: html
@@ -373,15 +373,15 @@ Next
    * - When you need…
      - Open this reference
    * - Google OAuth APIs, scopes and refresh-token setup
-     - :doc:`Google Workspace <google-connectors-setup>`
+     - :doc:`Google Workspace </agentic-ai-guide/google-connectors-setup>`
    * - Microsoft Graph app registration and permission notes
-     - :doc:`Microsoft 365 <microsoft-connectors-setup>`
+     - :doc:`Microsoft 365 </agentic-ai-guide/microsoft-connectors-setup>`
    * - Salesforce, Jira or Slack credentials and constraints
-     - :doc:`Business apps <business-connectors-setup>`
+     - :doc:`Business apps </agentic-ai-guide/business-connectors-setup>`
    * - Database connection fields, keys and all eleven database actions
-     - :doc:`Database actions <database-connectors-setup>`
+     - :doc:`Database actions </agentic-ai-guide/database-connectors-setup>`
    * - Required inputs for a particular app operation
-     - :doc:`App Action lookup <app-action-catalogue>`
+     - :doc:`App Action lookup </agentic-ai-guide/app-action-catalogue>`
 
 .. raw:: html
 

@@ -11,7 +11,7 @@ stays the same; you are only deciding *when* it runs and *who hears about it*.
    node: pick **On a schedule**, save the agent, and the schedule appears here
    named after the agent with ``(Trigger node)``. Event triggers - a new row, a
    new email, a new file - work the same way, as a check every few minutes. See
-   :doc:`/agentic-ai-guide/triggers`.
+   :doc:`/agentic-ai-guide/triggers-automation/triggers`.
 
 .. contents:: On this page
    :local:
@@ -46,14 +46,14 @@ pass, a nightly reconciliation, a weekly report.
 **Step 1 - Open the Schedule dialog.** On the **Agents** page, click the **⋮**
 menu at the end of the agent's row and choose **Schedule**.
 
-.. figure:: ../_assets/agentic-ai-guide/schedule/agent-menu.png
+.. figure:: ../../_assets/agentic-ai-guide/schedule/agent-menu.png
    :alt: The row menu on the Agents page with Schedule highlighted
    :width: 560px
 
 **Step 2 - Set the timetable.** The **General** tab is where the schedule
 itself lives.
 
-.. figure:: ../_assets/agentic-ai-guide/schedule/agent-dialog.png
+.. figure:: ../../_assets/agentic-ai-guide/schedule/agent-dialog.png
    :alt: The Schedule Agent dialog set to run daily at 07:05 in Asia/Calcutta
    :width: 816px
 
@@ -82,7 +82,7 @@ timezone or frequency mistake.
 **Step 3 - Say who hears about it.** The **Email** tab takes an address for
 successful runs and an address for failures.
 
-.. figure:: ../_assets/agentic-ai-guide/schedule/agent-email.png
+.. figure:: ../../_assets/agentic-ai-guide/schedule/agent-email.png
    :alt: The Email tab with Email on Success and Email on Failure
    :width: 816px
 
@@ -96,7 +96,7 @@ successful runs and an address for failures.
 the agent needs. A scheduled run has nobody to ask, so every parameter the agent
 expects must have a value here or a default on the node.
 
-.. figure:: ../_assets/agentic-ai-guide/schedule/agent-parameters.png
+.. figure:: ../../_assets/agentic-ai-guide/schedule/agent-parameters.png
    :alt: The Parameters tab with an empty key and value row
    :width: 816px
 
@@ -104,7 +104,7 @@ expects must have a value here or a default on the node.
 **Schedules** tab, where you can edit it, delete it, or switch it on and off
 with the toggle in **Actions**.
 
-.. figure:: ../_assets/agentic-ai-guide/schedule/list.png
+.. figure:: ../../_assets/agentic-ai-guide/schedule/list.png
    :alt: The Schedules tab listing the daily schedule with its status and actions
    :width: 100%
 
@@ -119,6 +119,6 @@ Next: read the runs
 -------------------
 
 Scheduled runs appear in the same place as every other run. Use
-:doc:`/agentic-ai-guide/monitor-govern` to read what happened, and
-:doc:`/agentic-ai-guide/deploy-agents` for the other ways an agent can be
+:doc:`/agentic-ai-guide/deploy-monitor/monitor-govern` to read what happened, and
+:doc:`/agentic-ai-guide/deploy-monitor/deploy-agents` for the other ways an agent can be
 invoked.

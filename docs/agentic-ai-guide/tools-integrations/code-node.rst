@@ -12,7 +12,7 @@ JavaScript. It sits in the **Data Transformation** group.
 Configure the Code step
 ------------------------
 
-.. figure:: ../_assets/agentic-ai-guide/code-node/python.png
+.. figure:: ../../_assets/agentic-ai-guide/code-node/python.png
    :alt: Code step set to Run each, Language Python, with a main function that works out days_open and sla_breached for each ticket and drops closed tickets
    :width: 100%
 
@@ -99,7 +99,7 @@ arrive as ISO text and numbers.
    A Code step is time-limited and its rows are capped, like every agent step.
    It runs with the same trust as the Python node in workflows, so it is a
    place for logic, not for calling systems - use an
-   :doc:`App Action </agentic-ai-guide/app-actions>` or a REST API Client for
+   :doc:`App Action </agentic-ai-guide/tools-integrations/app-actions>` or a REST API Client for
    that.
 
 Read several wired inputs
@@ -145,14 +145,14 @@ Wrote it in Python but your team reads JavaScript (or the other way round)?
 Press **Translate to JavaScript** above the editor, pick a model connection,
 and press **Translate**.
 
-.. figure:: ../_assets/agentic-ai-guide/code-node/translate-strip.png
+.. figure:: ../../_assets/agentic-ai-guide/code-node/translate-strip.png
    :alt: The translate strip above the editor with language choices, a model connection selector, Translate and Cancel
    :width: 100%
 
 The step switches to the other language with the translation in its editor.
 Your original script is kept, and **Undo** puts everything back.
 
-.. figure:: ../_assets/agentic-ai-guide/code-node/javascript.png
+.. figure:: ../../_assets/agentic-ai-guide/code-node/javascript.png
    :alt: The translated JavaScript editor with a review notice, Undo and Translate again
    :width: 100%
 
@@ -166,4 +166,4 @@ Continue with data mapping
 ---------------------------
 
 The Code step sees the same **What arrives here** panel as every other step -
-:doc:`/agentic-ai-guide/passing-data`.
+:doc:`/agentic-ai-guide/agent-orchestration/passing-data`.

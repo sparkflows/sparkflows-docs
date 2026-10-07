@@ -7,7 +7,7 @@ Files can be on the machine the engine runs on, or in Amazon S3, Google Cloud
 Storage or Azure. Like an App Action, it is a fixed step: it always runs,
 exactly as you set it.
 
-.. figure:: ../_assets/agentic-ai-guide/files/policy-canvas.png
+.. figure:: ../../_assets/agentic-ai-guide/files/policy-canvas.png
    :alt: Trigger, Read files - Documents as text, Policy assistant and Output
    :width: 100%
 
@@ -25,7 +25,7 @@ drawer asks three things.
 
 **1. Read or write.**
 
-.. figure:: ../_assets/agentic-ai-guide/files/read-or-write.png
+.. figure:: ../../_assets/agentic-ai-guide/files/read-or-write.png
    :alt: Read/Write Files step 1 with the choice Read files or Write a file
    :width: 580px
 
@@ -35,13 +35,13 @@ knows it, with its options.
 .. list-table::
    :widths: 50 50
 
-   * - .. figure:: ../_assets/agentic-ai-guide/files/read-kinds.png
+   * - .. figure:: ../../_assets/agentic-ai-guide/files/read-kinds.png
           :alt: The kinds a read offers - Tables, CSV or TSV, Excel, JSON, Parquet, Documents as text, Images for a vision model, Folder listing, Zip archive, Anything by file type
           :width: 100%
 
           Reading
 
-     - .. figure:: ../_assets/agentic-ai-guide/files/write-formats.png
+     - .. figure:: ../../_assets/agentic-ai-guide/files/write-formats.png
           :alt: The formats a write offers - CSV, TSV, Excel, JSON, JSON Lines, Parquet, Text, Zip archive
           :width: 100%
 
@@ -82,7 +82,7 @@ folder (``data/incoming/``) or a pattern (``data/incoming/*.csv``,
 what the step returns, which is what tells the next steps their fields. Save is
 enabled once the test has run.
 
-.. figure:: ../_assets/agentic-ai-guide/files/read-csv.png
+.. figure:: ../../_assets/agentic-ai-guide/files/read-csv.png
    :alt: Read files - CSV or TSV from data/learn/orders.csv, comma separator, first row is the header, and the returned fields order_id, order_date, customer, email, region, product and category
    :width: 100%
 
@@ -93,7 +93,7 @@ Don't know the path? Open **Browse the disk** on the left. Click a folder to ope
 it, a file to use it, or one of the chips - **Use this folder**, ``*.csv here``
 - to fill the path for you.
 
-.. figure:: ../_assets/agentic-ai-guide/files/browse-disk.png
+.. figure:: ../../_assets/agentic-ai-guide/files/browse-disk.png
    :alt: Browse the disk listing the folders and files under data/learn, with the chips Use this folder, *.csv here, *.json here and *.pdf here
    :width: 420px
 
@@ -105,7 +105,7 @@ an Agent Node can read. Choose which types to **Take**, cap the **Pages per
 document**, and switch on **Also render PDF pages as images** for a step that
 should see the page as well as read it.
 
-.. figure:: ../_assets/agentic-ai-guide/files/read-documents.png
+.. figure:: ../../_assets/agentic-ai-guide/files/read-documents.png
    :alt: Documents as text with Take PDF, Word and Text files selected and Pages per document at most set to all
    :width: 664px
 
@@ -117,7 +117,7 @@ Give **File to write** a path that ends in the format's extension
 With nothing else set, the rows arriving here are written - a Filter result, a
 Summarize, a Loop's collected rounds.
 
-.. figure:: ../_assets/agentic-ai-guide/files/write-excel.png
+.. figure:: ../../_assets/agentic-ai-guide/files/write-excel.png
    :alt: Write file - Excel to data/learn/reports/revenue_by_region.xlsx, if the file exists overwrite it, sheet By region, write a header row
    :width: 100%
 
@@ -147,7 +147,7 @@ Start when a file arrives
 -------------------------
 
 A Trigger can watch a folder and start the agent for every new file - see
-:doc:`/agentic-ai-guide/triggers`. Follow it with a Loop Over Items and a Read
+:doc:`/agentic-ai-guide/triggers-automation/triggers`. Follow it with a Loop Over Items and a Read
 step whose path is the current file's - ``${2.path}`` when the loop is step 2 -
 to process each file as it arrives. With one file per check, ``${event.path}``
 works straight after the Trigger.

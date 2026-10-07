@@ -146,8 +146,4 @@ that instead - see :doc:`/agentic-ai-guide/agent-orchestration/orchestration-ove
    **Agents → Executions**, not from the chat window. Keep approval gates out of
    agents you expose as chat assistants.
 
-Next: go deeper
----------------
 
-:doc:`/agentic-ai-guide/agent-orchestration/orchestration-overview` - reusing a saved agent as
-one node in a larger process.

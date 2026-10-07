@@ -17,23 +17,23 @@ A Sparkflows installation on Windows runs these processes:
    * - Process
      - Script
      - Default port
-     - Required?
+     - Used for
    * - Sparkflows web server
      - ``run-fire-server.bat``
      - 8080
-     - Yes
+     - The Sparkflows web application
    * - Sparkflows helper process
      - ``run-fire.bat``
      - 8081
-     - Yes
+     - Running workflows
    * - Polars engine
      - ``run-fire-polars.bat``
      - 8089
-     - Only to run Polars jobs
+     - Running Polars jobs
    * - Agent engine
      - ``run-fire-agent.bat``
      - 8200
-     - Only to run Agents
+     - Running Agents
 
 
 Step 1 : Download and Extract Sparkflows
@@ -100,7 +100,7 @@ Step 3 : Start Sparkflows
 
        .\run-fire-server.bat start
 
-   If Python 3.9 is installed, this command can also build the Python environment for the Polars and Agent engines the first time it runs. That takes a few minutes. Either way, the web server starts. To set up Agents and Polars, follow `Step 6 : Enable Agents and Polars (Optional)`_.
+   If Python 3.9 is installed, this command can also build the Python environment for the Polars and Agent engines the first time it runs. That takes a few minutes. Either way, the web server starts. To set up Agents and Polars, follow `Step 6 : Enable Agents and Polars`_.
 
 #. Start the Sparkflows helper process, which runs workflows::
 
@@ -142,8 +142,8 @@ Step 5 : Log In and Secure Sparkflows
 New users can be added under **Administration -> Users**.
 
 
-Step 6 : Enable Agents and Polars (Optional)
---------------------------------------------
+Step 6 : Enable Agents and Polars
+---------------------------------
 
 Agents and Polars jobs run on two engines that use a Python environment, ``engine-venv``, in the installation folder. This needs Python 3.9; see :doc:`prerequisites-install`.
 

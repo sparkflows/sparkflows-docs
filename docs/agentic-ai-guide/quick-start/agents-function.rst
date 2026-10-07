@@ -149,9 +149,4 @@ sidebar gives you the four places that matter for agents:
 
 Agents, Workflows and Datasets are the three you will use constantly.
 
-Next: create a connection
--------------------------
 
-Every agent needs a model connection - :doc:`/agentic-ai-guide/quick-start/model-connections`.
-Then :doc:`/agentic-ai-guide/quick-start/first-agent` takes a blank Agent Studio form to a
-working, tool-using agent in about ten minutes.

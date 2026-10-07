@@ -25,7 +25,7 @@ When an agent runs, one loop repeats until the job is done:
 #. The model reads the result and decides again.
 #. When it has an answer, it writes it in the **output format** you asked for.
 
-.. figure:: ../_assets/agentic-ai-guide/concepts/agent-loop.png
+.. figure:: ../../_assets/agentic-ai-guide/concepts/agent-loop.png
    :alt: The agent reasoning loop
    :width: 75%
 
@@ -114,11 +114,11 @@ these sentences about your process:
 * "*...every morning, for each new row, update the CRM and email the owner.*"
 
 Those four sentences are, in order, :doc:`Human Approval
-</agentic-ai-guide/human-in-the-loop>`, :doc:`Condition and Router
-</agentic-ai-guide/control-flow>`, the :doc:`Supervisor
-</agentic-ai-guide/multi-agent-orchestration>` node, and a :doc:`Trigger
-</agentic-ai-guide/triggers>` with :doc:`App Actions </agentic-ai-guide/app-actions>`
-inside a :doc:`Loop </agentic-ai-guide/data-steps>`.
+</agentic-ai-guide/safety-guardrails/human-in-the-loop>`, :doc:`Condition and Router
+</agentic-ai-guide/agent-orchestration/control-flow>`, the :doc:`Supervisor
+</agentic-ai-guide/agent-orchestration/orchestration-overview>` node, and a :doc:`Trigger
+</agentic-ai-guide/triggers-automation/triggers>` with :doc:`App Actions </agentic-ai-guide/tools-integrations/app-actions>`
+inside a :doc:`Loop </agentic-ai-guide/agent-orchestration/data-transformation>`.
 
 .. note::
 
@@ -152,6 +152,6 @@ Agents, Workflows and Datasets are the three you will use constantly.
 Next: create a connection
 -------------------------
 
-Every agent needs a model connection - :doc:`/agentic-ai-guide/connections`.
-Then :doc:`/agentic-ai-guide/quickstart` takes a blank Agent Studio form to a
+Every agent needs a model connection - :doc:`/agentic-ai-guide/quick-start/model-connections`.
+Then :doc:`/agentic-ai-guide/quick-start/first-agent` takes a blank Agent Studio form to a
 working, tool-using agent in about ten minutes.

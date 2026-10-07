@@ -5,7 +5,7 @@ A saved agent is useful to you. A **chat assistant** makes it useful to
 everyone else - colleagues get a chat window, not a builder screen.
 
 It takes about a minute and needs nothing new: you point an assistant at the
-agent you built in :doc:`/agentic-ai-guide/quickstart`.
+agent you built in :doc:`/agentic-ai-guide/quick-start/first-agent`.
 
 .. contents:: On this page
    :local:
@@ -17,7 +17,7 @@ Use the right menu entry
 In the project sidebar click **Chat**, then click **Create Chat** and choose
 **Create Agentic Chat Assistant**.
 
-.. figure:: ../_assets/agentic-ai-guide/chat/01-create-agentic.png
+.. figure:: ../../_assets/agentic-ai-guide/chat/01-create-agentic.png
    :alt: The Create Chat menu open, with Create Agentic Chat Assistant highlighted
    :width: 440px
 
@@ -37,7 +37,7 @@ Point it at your agent
 
 Fill in three fields.
 
-.. figure:: ../_assets/agentic-ai-guide/chat/02-create-with-agents.png
+.. figure:: ../../_assets/agentic-ai-guide/chat/02-create-with-agents.png
    :alt: The Create Chat Assistant with Agents dialog pointed at the Employee Benefits Assistant
    :width: 810px
 
@@ -65,11 +65,11 @@ Talk to it
 Open the assistant and type a question. Each answer comes from a real run of
 the agent behind it - same instructions, same tools, same guardrails.
 
-.. figure:: ../_assets/agentic-ai-guide/chat/03-conversation.png
+.. figure:: ../../_assets/agentic-ai-guide/chat/03-conversation.png
    :alt: The Benefits Help Desk answering two leave questions from the FAQ and declining a question about parking
    :width: 100%
 
-   The **Employee Benefits Assistant** from :doc:`/agentic-ai-guide/quickstart`,
+   The **Employee Benefits Assistant** from :doc:`/agentic-ai-guide/quick-start/first-agent`,
    now answering as the Benefits Help Desk.
 
 Read what that conversation proves:
@@ -114,7 +114,7 @@ What your users can trigger
    The assistant is only as safe as the agent behind it. Everything that agent
    is allowed to do, your users can now cause by asking. Before sharing one,
    re-read the agent's ticked tool operations and confirm you are happy with
-   that. See :doc:`/agentic-ai-guide/security-guardrails`.
+   that. See :doc:`/agentic-ai-guide/safety-guardrails/security-guardrails`.
 
 Which agents make good assistants
 ---------------------------------
@@ -133,14 +133,14 @@ Which agents make good assistants
      - Jobs that should run on a schedule, not on request
 
 For a process with branches or approvals, build it on the canvas and expose
-that instead - see :doc:`/agentic-ai-guide/multi-agent-orchestration`.
+that instead - see :doc:`/agentic-ai-guide/agent-orchestration/orchestration-overview`.
 
 .. note::
 
    **A Human Input node works well in chat.** When the agent needs something
    from the person mid-run, the question appears in the conversation with the
    choices as buttons - see
-   :doc:`/agentic-ai-guide/human-in-the-loop`.
+   :doc:`/agentic-ai-guide/safety-guardrails/human-in-the-loop`.
 
    A **Human Approval** gate is different: it is answered from the run view on
    **Agents → Executions**, not from the chat window. Keep approval gates out of
@@ -149,5 +149,5 @@ that instead - see :doc:`/agentic-ai-guide/multi-agent-orchestration`.
 Next: go deeper
 ---------------
 
-:doc:`/agentic-ai-guide/multi-agent-orchestration` - reusing a saved agent as
+:doc:`/agentic-ai-guide/agent-orchestration/orchestration-overview` - reusing a saved agent as
 one node in a larger process.

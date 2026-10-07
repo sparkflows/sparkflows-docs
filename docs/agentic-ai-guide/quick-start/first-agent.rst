@@ -23,7 +23,7 @@ takes a minute or two.
        folder that holds your agents, workflows and data.
    * - 2
      - A **Model connection**
-     - :doc:`/agentic-ai-guide/connections`. Every agent needs a model.
+     - :doc:`/agentic-ai-guide/quick-start/model-connections`. Every agent needs a model.
    * - 3
      - A **file** for the agent to read
      - :doc:`/user-guide/quick-start/2-upload-data-files`. For this walkthrough,
@@ -46,7 +46,7 @@ Open your **project** from the **Projects** menu in the top bar, then click
 
 In an empty project you get four ways to start:
 
-.. figure:: ../_assets/agentic-ai-guide/quickstart/01-agents-empty.png
+.. figure:: ../../_assets/agentic-ai-guide/quickstart/01-agents-empty.png
    :alt: Agents page in an empty project offering Single agent, Agent orchestration, Import agent and Trashed agents
    :width: 90%
 
@@ -68,7 +68,7 @@ In an empty project you get four ways to start:
 In a project that already has agents, the same choices live behind the
 **Create Agents** button at the top right.
 
-.. figure:: ../_assets/agentic-ai-guide/quickstart/02-create-agents-menu.png
+.. figure:: ../../_assets/agentic-ai-guide/quickstart/02-create-agents-menu.png
    :alt: The Create Agents button opened, showing Agent Studio and Agent Orchestration
    :width: 55%
 
@@ -79,7 +79,7 @@ The Agent Studio screen
 
 Click **Single agent** and Agent Studio opens.
 
-.. figure:: ../_assets/agentic-ai-guide/quickstart/03-studio-empty.png
+.. figure:: ../../_assets/agentic-ai-guide/quickstart/03-studio-empty.png
    :alt: A new agent in Agent Studio with the Build, Chat and Runs tabs across the top
    :width: 100%
 
@@ -124,7 +124,7 @@ answers staff questions from a company FAQ sheet.
    *How many annual leave days do I receive each year?* This is the query
    **Run** uses, so keep it realistic.
 
-.. figure:: ../_assets/agentic-ai-guide/quickstart/04-instructions.png
+.. figure:: ../../_assets/agentic-ai-guide/quickstart/04-instructions.png
    :alt: The Build tab with the agent's name, description, category, instructions and a test question filled in
    :width: 100%
 
@@ -150,7 +150,7 @@ Give it a tool
 Give the agent a way to read the FAQ. Open the **Tools** group and click
 **Add tools**.
 
-.. figure:: ../_assets/agentic-ai-guide/quickstart/06-tool-picker.png
+.. figure:: ../../_assets/agentic-ai-guide/quickstart/06-tool-picker.png
    :alt: The Add a tool picker open on Built In, with Read CSV among the tiles
    :width: 100%
 
@@ -183,7 +183,7 @@ For this agent:
 
 Sparkflows asks **who fills in the tool's settings**:
 
-.. figure:: ../_assets/agentic-ai-guide/tools/agent-decides.png
+.. figure:: ../../_assets/agentic-ai-guide/tools/agent-decides.png
    :alt: The choice between Agent decides and Fixed settings for the Read CSV tool
    :width: 315px
 
@@ -203,7 +203,7 @@ Choose **Fixed settings**. The tool's settings open: click **Browse File
 System**, pick the FAQ file you uploaded in *Before you start*, and click
 **Save**.
 
-.. figure:: ../_assets/agentic-ai-guide/quickstart/05-tool-settings.png
+.. figure:: ../../_assets/agentic-ai-guide/quickstart/05-tool-settings.png
    :alt: Read CSV settings with the path to the company FAQ file filled in
    :width: 100%
 
@@ -212,7 +212,7 @@ System**, pick the FAQ file you uploaded in *Before you start*, and click
 The tool now appears under the **Tools** group, with a toggle to switch between
 the two modes later.
 
-.. figure:: ../_assets/agentic-ai-guide/quickstart/06-tool-added.png
+.. figure:: ../../_assets/agentic-ai-guide/quickstart/06-tool-added.png
    :alt: The Tools group with Read CSV attached and Fixed selected
    :width: 652px
 
@@ -222,19 +222,19 @@ the two modes later.
    staff FAQ sheet"*, not *"Reads a CSV"*. The model chooses its tools by
    reading those descriptions, and a vague one is the most common reason an
    agent ignores a tool. See
-   :doc:`/agentic-ai-guide/tools-actions`.
+   :doc:`/agentic-ai-guide/tools-integrations/tools-connectors`.
 
 Choose the model
 ----------------
 
 Use **Model Connection** above the instructions and pick the connection you made in
-:doc:`/agentic-ai-guide/connections`.
+:doc:`/agentic-ai-guide/quick-start/model-connections`.
 
 The **Model** group on the right holds generation settings. Leave
 **Temperature** at ``0.7`` for now; lower values can reduce variation but do
-not guarantee identical answers. See :doc:`/agentic-ai-guide/models-prompts`.
+not guarantee identical answers. See :doc:`/agentic-ai-guide/building-agents/models-prompts`.
 
-.. figure:: ../_assets/agentic-ai-guide/quickstart/07-model.png
+.. figure:: ../../_assets/agentic-ai-guide/quickstart/07-model.png
    :alt: Model Connection above the instructions, highlighted with badge 1
    :width: 652px
 
@@ -244,7 +244,7 @@ Try it in Chat
 Click the **Chat** tab and talk to the agent. Nothing here is recorded, so ask
 as many questions as you like.
 
-.. figure:: ../_assets/agentic-ai-guide/agent-studio/chat-conversation.png
+.. figure:: ../../_assets/agentic-ai-guide/agent-studio/chat-conversation.png
    :alt: A three-turn chat: two answers from the FAQ and a polite refusal for a question about the share price
    :width: 100%
 
@@ -270,7 +270,7 @@ Ask three kinds of question:
 Click **3 steps** under an answer to check it really read the file - you
 should see a ``read_csv`` step.
 
-.. figure:: ../_assets/agentic-ai-guide/agent-studio/chat-steps.png
+.. figure:: ../../_assets/agentic-ai-guide/agent-studio/chat-steps.png
    :alt: A chat reply expanded to show its steps, including the read_csv call
    :width: 100%
 
@@ -285,7 +285,7 @@ When the answers look right, click **Run** in the top bar. The agent executes
 properly and the result opens on the **Runs** tab. Unlike Chat, this run is
 kept.
 
-.. figure:: ../_assets/agentic-ai-guide/agent-studio/runs-result.png
+.. figure:: ../../_assets/agentic-ai-guide/agent-studio/runs-result.png
    :alt: The Runs tab with a completed run, its result, and the Read csv tool it used
    :width: 100%
 
@@ -327,7 +327,7 @@ Save it
 Click **Save Agent**. It now appears in the Agents list, as a **Single
 Agent**.
 
-.. figure:: ../_assets/agentic-ai-guide/quickstart/09-saved.png
+.. figure:: ../../_assets/agentic-ai-guide/quickstart/09-saved.png
    :alt: The saved Employee Benefits Assistant at the top of the agents list
    :width: 100%
 
@@ -338,7 +338,7 @@ Open the agent from the list with the pencil icon and you see the same agent on
 the canvas: an **Input**, an **Agent Node** with one tool attached, and an
 **Output**.
 
-.. figure:: ../_assets/agentic-ai-guide/quickstart/10-faq-agent-canvas.png
+.. figure:: ../../_assets/agentic-ai-guide/quickstart/10-faq-agent-canvas.png
    :alt: The Employee Benefits Assistant on the canvas: Input, an Agent Node with a Read CSV tool, and Output
    :width: 680px
 
@@ -353,13 +353,13 @@ That matters because a saved agent is not a dead end. You can now:
    * - Use it as
      - See
    * - A chatbot people can talk to
-     - :doc:`/agentic-ai-guide/chat`
+     - :doc:`/agentic-ai-guide/quick-start/agent-chatbot`
    * - One node inside a bigger process
-     - :doc:`/agentic-ai-guide/multi-agent-orchestration`
+     - :doc:`/agentic-ai-guide/agent-orchestration/orchestration-overview`
    * - An API other systems call
-     - :doc:`/agentic-ai-guide/deploy-agents`
+     - :doc:`/agentic-ai-guide/deploy-monitor/deploy-agents`
 
 Next: share it with colleagues
 ------------------------------
 
-Turn it into something people can actually use: :doc:`/agentic-ai-guide/chat`.
+Turn it into something people can actually use: :doc:`/agentic-ai-guide/quick-start/agent-chatbot`.

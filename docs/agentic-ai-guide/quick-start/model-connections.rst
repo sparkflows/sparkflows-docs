@@ -32,7 +32,7 @@ Step 1: Pick the connector
 Connectors are grouped by what they are for. For an agent's model, choose the
 **LLM** category.
 
-.. figure:: ../_assets/agentic-ai-guide/connections/01-add-connection.png
+.. figure:: ../../_assets/agentic-ai-guide/connections/01-add-connection.png
    :alt: Add Connection wizard with the LLM category selected
    :width: 85%
 
@@ -52,7 +52,7 @@ The other categories are for the rest of what agents reach:
      - Databases and file stores an agent reads or writes.
    * - **Vector DB**
      - Pinecone, FAISS, Milvus, Weaviate - needed for
-       :doc:`Knowledge / RAG </agentic-ai-guide/rag-knowledge>`.
+       :doc:`Knowledge / RAG </agentic-ai-guide/building-agents/rag-knowledge>`.
    * - **API**
      - HTTP endpoints.
    * - **Agent**
@@ -91,7 +91,7 @@ or another environment.
      - The API key. Stored encrypted; it is never shown again.
    * - **Embeddings Endpoint Url**
      - Only needed if this connection will also produce embeddings for
-       :doc:`Knowledge </agentic-ai-guide/rag-knowledge>`.
+       :doc:`Knowledge </agentic-ai-guide/building-agents/rag-knowledge>`.
 
 Step 3: Test, then save
 -----------------------
@@ -175,4 +175,4 @@ Next: build your first agent
 ----------------------------
 
 You have a model connection. Now build something with it:
-:doc:`/agentic-ai-guide/quickstart`.
+:doc:`/agentic-ai-guide/quick-start/first-agent`.

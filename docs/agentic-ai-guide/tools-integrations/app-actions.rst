@@ -113,7 +113,7 @@ proof that an external connection or write succeeded.
 
 .. figure:: ../../_assets/agentic-ai-guide/app-actions/gmail-download.png
    :alt: Current Gmail Download attachments settings for filtering PDF files, saving to a folder, and choosing per-email folders and overwrite behavior
-   :width: 100%
+   :width: 560px
 
    **Gmail example:** choose a connection before testing or loading fields.
    Restrict the search and file types, choose a controlled folder, then decide
@@ -122,7 +122,7 @@ proof that an external connection or write succeeded.
 
 .. figure:: ../../_assets/agentic-ai-guide/app-actions/sheets-append.png
    :alt: Google Sheets Append rows input panel showing file_name, summary and drive_id from the Prepare log row
-   :width: 100%
+   :width: 360px
 
    **Google Sheets example:** this crop shows the incoming record only. In
    the Details panel, select a connection, spreadsheet and tab whose header
@@ -169,7 +169,7 @@ do not assume that a preview's row order is a guarantee.
 
 .. figure:: ../../_assets/agentic-ai-guide/app-actions/read-details.png
    :alt: PostgreSQL Read rows with table sf_training_orders, where status = 'open', order by amount desc, limit 5, and the returned fields id, customer_id, product and amount
-   :width: 100%
+   :width: 600px
 
    After Load the fields, What this step returns shows the real columns and a sample row.
 

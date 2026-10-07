@@ -171,8 +171,3 @@ What not to do
 
    Credentials belong in a connection. Nowhere else.
 
-Next: build your first agent
-----------------------------
-
-You have a model connection. Now build something with it:
-:doc:`/agentic-ai-guide/quick-start/first-agent`.

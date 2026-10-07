@@ -1,5 +1,5 @@
 HANA
-==========
+====
 
 Sparkflows enables you to read from and write to SAP HANA through **HANA JDBC Driver** and **OData Processor**.
 
@@ -10,7 +10,7 @@ Sparkflows enables you to read from and write to SAP HANA through **HANA JDBC Dr
 
     :doc:`/user-guide/connectors/sap/hana/hana-jdbc`
 
-    Setting up HANA through JDBC Driver 
+    Setting up HANA through JDBC Driver
 
     ---
 
@@ -24,4 +24,3 @@ Sparkflows enables you to read from and write to SAP HANA through **HANA JDBC Dr
 
     hana-jdbc.rst
     sap-odata.rst
-

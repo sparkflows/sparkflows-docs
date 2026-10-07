@@ -1,29 +1,29 @@
 MongoDB
-==========
+=======
 
 Sparkflows has a set of processors that allows you to read and write data to MongoDB.
 
 Before creating a workflow using the Read and Save MongoDB nodes, you must first set up a connection to the MongoDB database in Sparkflows. To learn how to create this connection, click on  :ref:`Create MongoDB Connection<MongoDB Connection>`.
 
 Workflow
-------------------
+--------
 
 * A sample workflow to read and save data to MongoDB table can be created as below. It uses the **MongoDB** nodes to read and write data.
 * This workflow transforms data before saving the data to the MongoDB table.
 
- .. figure:: ../../_assets/tutorials/mongodb/mongodb-workflow.png
-    :alt: Connectors
-    :width: 65%
+.. figure:: ../../_assets/tutorials/mongodb/mongodb-workflow.png
+   :alt: Sample workflow using Read MongoDB and Save MongoDB
+   :width: 65%
 
 Read MongoDB
----------------------------------------
+------------
 
 * **Read MongoDB** connector can be used to read data from a table residing in a MongoDB database.
 * **Read MongoDB** connector can be configured as below.
 
- .. figure:: ../../_assets/tutorials/mongodb/mongodb-read.png
-    :alt: Connectors
-    :width: 65%
+.. figure:: ../../_assets/tutorials/mongodb/mongodb-read.png
+   :alt: Read MongoDB node configuration
+   :width: 65%
 
 * **MongoDB URI:** Enter URI of the MongoDB to read data from.
 * **MongoDB Database:** Enter the Database name which contains the table to read the data from.
@@ -31,18 +31,15 @@ Read MongoDB
 * Please click on the **InferSchema** button to fetch the selected Table schema. It infers the schema and pass it on to the next processor for further processing.
 
 Save MongoDB
-------------------
+------------
 
 * **Save MongoDB** connector can be used to save data to a table residing in a MongoDB database.
 * **Save MongoDB** connector can be configured as below.
 
- .. figure:: ../../_assets/tutorials/mongodb/mongodb-save.png
-    :alt: Connectors
-    :width: 65%
+.. figure:: ../../_assets/tutorials/mongodb/mongodb-save.png
+   :alt: Save MongoDB node configuration
+   :width: 65%
 
 * **MongoDB URI:** Enter URI of the MongoDB to save data to.
 * **MongoDB Database:** Enter the Database name which contains the table to save the data into.
 * **MongoDB Table:** Enter name of the Table to which data is intended to be saved.
-
-
-   

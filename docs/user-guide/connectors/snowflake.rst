@@ -1,10 +1,10 @@
 Snowflake
-==========
+=========
 
 Sparkflows has ReadSnowflake and WriteSnowflake processors for reading data from and writing data to Snowflake.
 
 Creating Snowflake Connection
-------------------
+-----------------------------
 
 The first step is to create a connection to Snowflake, if you have not already created it. The below page has the details for creating Connection to Snowflake.
 
@@ -12,7 +12,7 @@ https://docs.sparkflows.io/en/latest/user-guide/connection/storage-connection/sn
 
 
 Reading from Snowflake Table
--------------------
+----------------------------
 
 The below workflow does the following:
 
@@ -20,11 +20,11 @@ The below workflow does the following:
 * Prints a few records of the DataFrame.
 
 .. figure:: ../../_assets/snowflake/SF-Read-WF.png
-   :alt: snowflake
+   :alt: Workflow reading a Snowflake table
    :width: 40%
 
 Processor Configuration
-^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^
 
 It reads Table using Read From Snowflake processor.
 
@@ -36,22 +36,22 @@ It reads Table using Read From Snowflake processor.
 
 
 .. figure:: ../../_assets/snowflake/2.PNG
-   :alt: snowflake
+   :alt: Read From Snowflake processor configuration
    :width: 90%
 
 .. figure:: ../../_assets/snowflake/read-sf-inferschema.png
-   :alt: snowflake
+   :alt: InferSchema for Read From Snowflake
    :width: 90%
 
 Processor Output
-^^^^^^
+^^^^^^^^^^^^^^^^
 
 .. figure:: ../../_assets/snowflake/3.PNG
-   :alt: snowflake
+   :alt: Output of Read From Snowflake processor
    :width: 90%
 
 Printing the Results
-^^^^^^
+^^^^^^^^^^^^^^^^^^^^
 
 It prints the first few records of the DataFrame.
 
@@ -64,35 +64,35 @@ The below workflow does the following:
 * Write it to Snowflake Table.
 
 .. figure:: ../../_assets/snowflake/SF-Write-WF.png
-   :alt: snowflake
+   :alt: Workflow writing CSV data to Snowflake
    :width: 45%
-   
+
 Reading from CSV File
-^^^^^^
+^^^^^^^^^^^^^^^^^^^^^
 
 It reads Bills data from a CSV File using Read CSV Processor.
 
 Processor Configuration
-^^^^^^^^^^^^^^^^^^   
+^^^^^^^^^^^^^^^^^^^^^^^
 
 .. figure:: ../../_assets/snowflake/5.PNG
-   :alt: snowflake
+   :alt: Read CSV processor configuration for Snowflake write workflow
    :width: 90%
 
 .. figure:: ../../_assets/snowflake/read-csv-inferschema.png
-   :alt: snowflake
+   :alt: InferSchema for Read CSV in Snowflake write workflow
    :width: 90%
-   
+
 Processor Output
-^^^^^^
+^^^^^^^^^^^^^^^^
 
 .. figure:: ../../_assets/snowflake/6.PNG
-   :alt: snowflake
+   :alt: Output of Read CSV before writing to Snowflake
    :width: 90%
 
 
 Write results to Snowflake
-^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 It saves CSV File in specified Snowflake Table.
 
@@ -104,13 +104,13 @@ It saves CSV File in specified Snowflake Table.
 * SF TABLE : Snowflake Table Name.
 
 .. figure:: ../../_assets/snowflake/7.PNG
-   :alt: snowflake
+   :alt: Write To Snowflake processor configuration
    :width: 90%
-   
+
 Once the workflow is executed successfully, the CSV File will be written to Snowflake Table.
 
 .. figure:: ../../_assets/snowflake/8.PNG
-   :alt: snowflake
+   :alt: Result after writing data to Snowflake
    :width: 90%
 
-.. note::  Make sure that Snowflake is accessible from the Fire Machine.
+.. note::  Make sure that Snowflake is accessible from the Sparkflows machine.

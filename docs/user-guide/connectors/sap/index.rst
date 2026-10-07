@@ -1,9 +1,9 @@
 SAP
-====
+===
 
 Sparkflows enables reading from and writing to SAP Databases.
 
-Sparkflows provides multiple ways to connect with SAP Databases including connections through **HANA** and **ECC**. 
+Sparkflows provides multiple ways to connect with SAP Databases including connections through **HANA** and **ECC**.
 
 
 
@@ -22,13 +22,9 @@ Sparkflows provides multiple ways to connect with SAP Databases including connec
     :doc:`/user-guide/connectors/sap/ecc`
 
     Setting up connection to SAP ECC
- 
+
 .. toctree::
     :hidden:
 
     hana/index.rst
     ecc.rst
-
-   
-   
-

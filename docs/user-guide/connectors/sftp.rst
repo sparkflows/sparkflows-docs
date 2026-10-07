@@ -1,5 +1,5 @@
 SFTP
-=======
+====
 
 Sparkflows provides SFTP processors for reading file from it.
 
@@ -9,7 +9,7 @@ Below are the steps for it:
   * Use the SFTP node in workflows with the SFTP Connection created
 
 Setup the SFTP Connection
--------------
+-------------------------
 
 Refer the following page for setting up the SFTP Connection:
 
@@ -18,15 +18,14 @@ https://docs.sparkflows.io/en/latest/user-guide/connection/storage-connection/sf
 
 
 Use the SFTP nodes in workflows
--------------
+-------------------------------
 
-For reading from SFTP use the SFTP node. 
+For reading from SFTP use the SFTP node.
 
-.. figure:: .././/../_assets/operating/operations/sftp/sftp_4.png
-      :alt: sftp
-      :width: 60%
+.. figure:: ../../_assets/operating/operations/sftp/sftp_4.png
+   :alt: SFTP processor configuration
+   :width: 60%
 
-.. figure:: .././/../_assets/operating/operations/sftp/sftp_5.png
-      :alt: sftp
-      :width: 60%
-
+.. figure:: ../../_assets/operating/operations/sftp/sftp_5.png
+   :alt: SFTP workflow reading a remote file
+   :width: 60%

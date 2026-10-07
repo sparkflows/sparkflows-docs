@@ -1,10 +1,10 @@
 Redshift
-========================
+========
 
 Sparkflows has processors for reading from and writing to Redshift.
 
 Read Redshift AWS
------------
+-----------------
 
 Processor Configuration Parameters:
 
@@ -32,11 +32,11 @@ Processor Configuration Parameters:
         - Temporary S3 directory.
 
 .. figure:: ../../_assets/aws/read_redshift.PNG
-   :alt: aws
-   :width: 85% 
+   :alt: Read Redshift AWS processor configuration
+   :width: 85%
 
 Write Redshift AWS
----------------
+------------------
 
 While using the above, the processor needs to have below parameter:
 
@@ -68,5 +68,5 @@ While using the above, the processor needs to have below parameter:
 
 
 .. figure:: ../../_assets/aws/saveredshift.PNG
-   :alt: aws
+   :alt: Write Redshift AWS processor configuration
    :width: 85%

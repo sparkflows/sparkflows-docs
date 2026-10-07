@@ -1,7 +1,7 @@
 HIVE
-==================
+====
 
-Sparkflows provides a set of connectors and processors to read and save data to HIVE database. These nodes facilitates to interact with Hive Database to query and manage large datasets. 
+Sparkflows provides a set of connectors and processors to read and save data to HIVE database. These nodes facilitates to interact with Hive Database to query and manage large datasets.
 
 Sparkflows provides following nodes to access and process data from Hive Database:
 
@@ -21,19 +21,19 @@ Workflow
 Below workflow shows the usage of **Read Hive Table** and **Save As HIVE Table** processors. It reads Transaction Dataset and saves it into the HIVE table.
 
 .. figure:: ../../_assets/user-guide/connectors/hive-wf.png
-   :alt: Connectors
+   :alt: Workflow using Read Hive Table and Save As Hive Table
    :width: 70%
 
 Processors and Connectors
---------
+-------------------------
 
 Read Hive Table
-+++++++++
+^^^^^^^^^^^^^^^
 
 This node reads data from the Apache HIVE table and creates a DataFrame from it.
 
 .. figure:: ../../_assets/user-guide/connectors/hive-read.png
-   :alt: Connectors
+   :alt: Read Hive Table node configuration
    :width: 70%
 
 It needs to be configured as below:
@@ -43,12 +43,12 @@ It needs to be configured as below:
 * **HIVE Query (Optional):** (If needed) Provide a custom SQL query to retrieve data from the HIVE table i.e. SELECT customer_id, SUM(transaction_amount) FROM customer_transactions GROUP BY customer_id
 
 Save As Hive Table
-+++++++++
+^^^^^^^^^^^^^^^^^^
 
 This node saves the processed data into an Apache HIVE Table.
 
 .. figure:: ../../_assets/user-guide/connectors/hive-save-as-table-1.png
-   :alt: Connectors
+   :alt: Save As Hive Table general configuration
    :width: 70%
 
 It needs to be configured as below:
@@ -63,7 +63,7 @@ It needs to be configured as below:
 **Advanced**
 
 .. figure:: ../../_assets/user-guide/connectors/hive-save-as-table-2.png
-   :alt: Connectors
+   :alt: Save As Hive Table advanced partition and bucket settings
    :width: 70%
 
 * **Partition By:** (Optional) Specify columns to partition the HIVE table. You can select multiple columns from the "Available" list and move them to the "Selected" list to define the partitioning schema.
@@ -71,12 +71,12 @@ It needs to be configured as below:
 * **Bucket By:** (Optional) Specify columns to bucket the HIVE table. You can select multiple columns from the "Available" list and move them to the "Selected" list to define the bucketing scheme.
 
 Insert Into Hive Table
-+++++++++
+^^^^^^^^^^^^^^^^^^^^^^
 
 This node inserts data into a HIVE table.
 
 .. figure:: ../../_assets/user-guide/connectors/hive-insert-into-table.png
-   :alt: Connectors
+   :alt: Insert Into Hive Table node configuration
    :width: 70%
 
 It needs to be configured as below:
@@ -88,12 +88,12 @@ It needs to be configured as below:
 * **Bucket By:** (Optional) Specify columns to bucket the HIVE table.
 
 Run HiveQL
-+++++++++
+^^^^^^^^^^
 
 This node executes a Query Statement to fetch data from Hive Table and creates a dataframe.
 
 .. figure:: ../../_assets/user-guide/connectors/hive-runql.png
-   :alt: Connectors
+   :alt: Run HiveQL node configuration
    :width: 70%
 
 It needs to be configured as below:
@@ -101,12 +101,12 @@ It needs to be configured as below:
 * **HiveQL - HIVE Query Language :** Specify HiveQL in a Sql format i.e. SELECT customer_id, SUM(transaction_amount) FROM customer_transactions GROUP BY customer_id
 
 Hive Incremental
-+++++++++
+^^^^^^^^^^^^^^^^
 
 This node reads a table from Hive and creates a DataFrame containing the schema and data of the specified table, with an incremental load configuration.
 
 .. figure:: ../../_assets/user-guide/connectors/hive-incremental.png
-   :alt: Connectors
+   :alt: Hive Incremental node configuration
    :width: 70%
 
 It needs to be configured as below:
@@ -115,5 +115,3 @@ It needs to be configured as below:
 * **HIVE Table:** Specify the table in the Hive database from which data is to be read incrementally.
 * **Watermark File Path:** Define the file path for the watermark file to track the last load timestamp.
 * **Incremental Load Fields:** Specify the fields that will be used for incremental loading (e.g., timestamp or ID fields).
-
-

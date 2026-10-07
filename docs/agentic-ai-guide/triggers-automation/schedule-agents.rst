@@ -55,7 +55,7 @@ itself lives.
 
 .. figure:: ../../_assets/agentic-ai-guide/schedule/agent-dialog.png
    :alt: The Schedule Agent dialog set to run daily at 07:05 in Asia/Calcutta
-   :width: 816px
+   :width: 600px
 
 .. list-table::
    :header-rows: 1
@@ -84,7 +84,7 @@ successful runs and an address for failures.
 
 .. figure:: ../../_assets/agentic-ai-guide/schedule/agent-email.png
    :alt: The Email tab with Email on Success and Email on Failure
-   :width: 816px
+   :width: 600px
 
 .. important::
 
@@ -98,7 +98,7 @@ expects must have a value here or a default on the node.
 
 .. figure:: ../../_assets/agentic-ai-guide/schedule/agent-parameters.png
    :alt: The Parameters tab with an empty key and value row
-   :width: 816px
+   :width: 600px
 
 **Step 5 - Submit.** Click **Submit**. The schedule appears on the
 **Schedules** tab, where you can edit it, delete it, or switch it on and off

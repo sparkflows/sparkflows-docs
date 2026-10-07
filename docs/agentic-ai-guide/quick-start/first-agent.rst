@@ -359,7 +359,4 @@ That matters because a saved agent is not a dead end. You can now:
    * - An API other systems call
      - :doc:`/agentic-ai-guide/deploy-monitor/deploy-agents`
 
-Next: share it with colleagues
-------------------------------
 
-Turn it into something people can actually use: :doc:`/agentic-ai-guide/quick-start/agent-chatbot`.

@@ -1,5 +1,3 @@
-.. rst-class:: agentic-tutorial
-
 Agent Node: Give the Model One Clear Job
 ========================================
 

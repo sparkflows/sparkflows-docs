@@ -38,4 +38,4 @@ Reload Sample Projects
 -------
 Sparkflows by default comes with sample projects that can be reloaded in Sparkflows application.
 
-For detailed information, `click here. <https://docs.sparkflows.io/en/latest/installation/installation/load-sample-projects.html>`_
+For detailed information, `click here. <https://docs.sparkflows.ai/en/latest/installation/operations/load-sample-projects.html>`_

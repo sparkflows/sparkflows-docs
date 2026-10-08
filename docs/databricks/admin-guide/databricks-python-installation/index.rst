@@ -9,7 +9,9 @@ Below are the steps for Integrating Sparkflows with your Databricks Clusters for
 
 Python Installation Steps:
 
-  * https://docs.sparkflows.io/en/latest/installation/python-install-linux.html
+  * :doc:`/installation/configuration/python-install-ubuntu`
+  * :doc:`/installation/configuration/python-install-redhat-centos`
+  * :doc:`/installation/configuration/python-install-macos`
 
 
 Install Sparkflows

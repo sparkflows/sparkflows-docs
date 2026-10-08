@@ -1,0 +1,46 @@
+Manage Nodes
+===============
+This document outlines how to manage the visibility of workflow and pipeline nodes in Sparkflows by configuring node access for different user groups based on permissions.
+
+Prerequisites
+-----------
+
+1. Make sure the user has the **nodes.manage** permission to access the **Manage Nodes** page.
+
+  .. figure:: ../../../_assets/administration/manage_nodes/manage_nodes_permission.png
+     :alt: manage_nodes_permission
+     :width: 60%
+
+
+
+Add Node Configuration
+-----------
+
+1. After logging into Sparkflows, navigate to **Administration -> Manage Nodes**.
+
+  .. figure:: ../../../_assets/administration/manage_nodes/manage_nodes.png
+    :alt: manage_nodes
+    :width: 60%
+
+2. Click on **Add Node Config** button to configure and hide workflow or pipeline nodes for the selected group.
+
+  .. figure:: ../../../_assets/administration/manage_nodes/add_node_configuration_workflow.png
+     :alt: add_node_configuration_workflow
+     :width: 60%
+
+  .. figure:: ../../../_assets/administration/manage_nodes/add_node_configuration_pipeline.png
+     :alt: add_node_configuration_pipeline
+     :width: 60%
+
+3. Once a node has been **hidden** through the configuration, users who are part of that group will no longer have access to the configured nodes.
+
+  .. figure:: ../../../_assets/administration/manage_nodes/after_configured_workflow.png
+     :alt: after_configured_workflow
+     :width: 60%
+
+  .. figure:: ../../../_assets/administration/manage_nodes/after_configured_pipeline.png
+     :alt: after_configured_pipeline
+     :width: 60%
+
+.. Note:: If a user is a member of multiple groups, the node will be visible as long as it is visible in at least one of those groups.
+

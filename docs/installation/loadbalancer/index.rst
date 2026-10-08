@@ -1,12 +1,8 @@
+:orphan:
+
 Load Balancer
---------
+=============
 
-Below are steps to configure ``network load balancer`` and ``route`` using ``Route 53`` in AWS:
+Load balancer documentation has moved to Production Deployment.
 
-.. toctree::
-   :maxdepth: 2
-
-   configure-for-load-balancer.rst
-   aws-loadbalancer.rst
-   aws-app-loadbalancer.rst
-   routing.rst
+See :doc:`/installation/production/loadbalancer/index`.

@@ -1,18 +1,8 @@
+:orphan:
+
 Authentication
 ==============
 
-Sparkflows supports various types of authencations:
+Authentication documentation has moved to Security & Access.
 
-* Database Authentication
-* LDAP Authentication
-* OAuth Authentication
-
-.. toctree::
-   :maxdepth: 2
-
-   database-authentication.rst
-   ldap-authentication.rst
-   oauth.rst
-   sso/index
-
-   
+See :doc:`/installation/security/authentication/index`.

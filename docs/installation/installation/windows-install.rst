@@ -1,3 +1,5 @@
+:orphan:
+
 Windows Installation using TGZ file
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 

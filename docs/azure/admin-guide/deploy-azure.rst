@@ -69,7 +69,7 @@ Step 2 : Procure a VM and setup the Networking
 ++++
 Setup VM with one of the recommended OS and Configure the Network Settings.
 
-For detailed information on Infrastructure Prerequisites for deploying on AWS, `click here. <https://docs.sparkflows.io/en/latest/installation/installation/infrastructure.html>`_
+For detailed information on Infrastructure Prerequisites for deploying on AWS, `click here. <https://docs.sparkflows.ai/en/latest/installation/installation/infrastructure.html>`_
 
 Step 3 : Install Sparkflows
 ++++
@@ -169,7 +169,7 @@ Follow the below steps to install Sparkflows using tgz file :
        ::
           ./create-h2-db.sh
 
-       .. Note:: For detailed information on connecting to RDS, `click here. <https://docs.sparkflows.io/en/latest/installation/configuration/database/mysql-db.html#>`_
+       .. Note:: For detailed information on connecting to RDS, `click here. <https://docs.sparkflows.ai/en/latest/installation/configuration/database/mysql-db.html#>`_
 
 #. **Install Python**
    
@@ -357,7 +357,7 @@ To download Sparkflows using Docker Image, follow the steps given below :
 
      **Note :** We recommend 16GB or above.
      
-     For detailed information, `click here. <https://docs.sparkflows.io/en/latest/installation/installation/docker-linux-install.html>`_
+     For detailed information, `click here. <https://docs.sparkflows.ai/en/latest/installation/installation/docker-linux-install.html>`_
 
 
 Step 3 : Accessing Sparkflows & Creating Users
@@ -377,7 +377,7 @@ Step 4 : Reloading Sample Project
 
 Sparkflows by default comes with sample Project which can be reloaded in Sparkflows application.
 
-For detailed information, `click here. <https://docs.sparkflows.io/en/latest/installation/installation/load-sample-projects.html>`_
+For detailed information, `click here. <https://docs.sparkflows.ai/en/latest/installation/operations/load-sample-projects.html>`_
 
 Step 5 : Submitting Jobs to Databricks Cluster
 ++++
@@ -385,7 +385,7 @@ By default Sparkflows job can be submitted on the local machine itself.
 
 It can be configured to submit the jobs to Databricks cluster for scalability.
 
-For more information, `click here. <https://docs.sparkflows.io/en/latest/databricks/admin-guide/databricks-connections.html>`_
+For more information, `click here. <https://docs.sparkflows.ai/en/latest/databricks/admin-guide/databricks-connections.html>`_
 
 
 

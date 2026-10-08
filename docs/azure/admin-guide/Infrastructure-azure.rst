@@ -154,7 +154,7 @@ By setting up SSO in Sparkflows, your users will be able to access Sparkflows us
 
 - Users database 
 
-  For detailed information, `click here. <https://docs.sparkflows.io/en/latest/installation/authentication/database-authentication.html>`_
+  For detailed information, `click here. <https://docs.sparkflows.ai/en/latest/installation/security/authentication/database-authentication.html>`_
 
 - SAML 
 
@@ -162,7 +162,7 @@ By setting up SSO in Sparkflows, your users will be able to access Sparkflows us
 
   If your identity provider supports the SAML 2.0 protocol, you can use Sparkflows SSO to integrate with your identity provider.
 
-  For detailed information, `click here. <https://docs.sparkflows.io/en/latest/installation/authentication/sso/index.html>`_
+  For detailed information, `click here. <https://docs.sparkflows.ai/en/latest/installation/security/authentication/sso/index.html>`_
 
 Before you begin, ensure that you have the following prerequisites in place:
 

@@ -1,18 +1,8 @@
+:orphan:
+
 User / Groups
---------
+=============
 
-.. toctree::
-   :maxdepth: 2
+User and group documentation has moved to Security & Access.
 
-   user-group-roles-permissions.rst
-   personas.rst
-   sharing-projects.rst
-   admin-user.rst
-   security-session.rst
-   connections.rst
-   databricks-security.rst
-   data-browser.rst
-   manage-nodes.rst
-   Access-Token.rst
-
-   
+See :doc:`/installation/security/user-groups/index`.

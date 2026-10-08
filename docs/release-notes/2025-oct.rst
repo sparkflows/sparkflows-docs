@@ -63,13 +63,13 @@ UI Improvements
 Documentation
 ----
 
-* `Access Tokens <https://docs.sparkflows.io/en/latest/installation/user-groups/Access-Token.html#access-tokens>`_ documentation is now updated with details on the mandatory description field in tokens.
+* `Access Tokens <https://docs.sparkflows.ai/en/latest/installation/security/user-groups/Access-Token.html#access-tokens>`_ documentation is now updated with details on the mandatory description field in tokens.
 
 * :ref:`Copilot with MCP Connection<Copilot with MCP Connection>` documentation is now added on using copilot with MCP connection in Sparkflows to automatically generate nodes for workflows or pipelines.  
 
-* `Snowflake Key-Pair Authentication <https://docs.sparkflows.io/en/latest/user-guide/connection/storage-connection/snowflake/snowflake-keypair.html>`_ documentation is updated with details on Azure Key Vault integration in Snowflake connection.
+* `Snowflake Key-Pair Authentication <https://docs.sparkflows.ai/en/latest/user-guide/connection/storage-connection/snowflake/snowflake-keypair.html>`_ documentation is updated with details on Azure Key Vault integration in Snowflake connection.
 
-* `Snowflake Sensor <https://docs.sparkflows.io/en/latest/user-guide/pipeline-development/snowflake-nodes/snowflake-sensor.html>`_ documentation is now added with details about the Snowflake Sensor node.
+* `Snowflake Sensor <https://docs.sparkflows.ai/en/latest/user-guide/pipeline-development/snowflake-nodes/snowflake-sensor.html>`_ documentation is now added with details about the Snowflake Sensor node.
 
 
 

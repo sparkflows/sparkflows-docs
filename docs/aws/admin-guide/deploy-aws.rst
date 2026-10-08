@@ -46,7 +46,7 @@ Ensure that you have the following prerequisites with regard to machine specific
      - 8+
      - More vCPU cores the better
 
-To get more information, `click here. <https://docs.sparkflows.io/en/latest/installation/installation/infrastructure.html>`_
+To get more information, `click here. <https://docs.sparkflows.ai/en/latest/installation/installation/infrastructure.html>`_
 
 
 **Software Specifications**
@@ -80,13 +80,13 @@ Step 2 : Procure an EC2 machine and setup the Networking
 ++++
 Setup EC2 Machine with one of the recommended OS and Configure the Network Settings.
 
-For detailed information on Infrastructure Prerequisites for deploying on AWS, `click here. <https://docs.sparkflows.io/en/latest/installation/installation/infrastructure.html>`_
+For detailed information on Infrastructure Prerequisites for deploying on AWS, `click here. <https://docs.sparkflows.ai/en/latest/installation/installation/infrastructure.html>`_
 
 Step 3 : DNS Certificate setup
 ++++
 Use AWS Certificate Manager to set up DNS.
 
-For detailed information, `click here. <https://docs.sparkflows.io/en/latest/aws/admin-guide/configuring-aws-certificate.html>`_
+For detailed information, `click here. <https://docs.sparkflows.ai/en/latest/aws/admin-guide/configuring-aws-certificate.html>`_
 
 
 Step 4 : Install Sparkflows
@@ -187,7 +187,7 @@ Follow the below steps to install Sparkflows using tgz file :
        ::
           ./create-h2-db.sh
 
-       .. Note:: For detailed information on connecting to RDS, `click here. <https://docs.sparkflows.io/en/latest/installation/configuration/database/mysql-db.html#>`_
+       .. Note:: For detailed information on connecting to RDS, `click here. <https://docs.sparkflows.ai/en/latest/installation/configuration/database/mysql-db.html#>`_
 
 #. **Install Python**
    
@@ -375,7 +375,7 @@ To download Sparkflows using Docker Image, follow the steps given below :
 
      **Note :** We recommend 16GB or above.
      
-     For detailed information, `click here. <https://docs.sparkflows.io/en/latest/installation/installation/docker-linux-install.html>`_
+     For detailed information, `click here. <https://docs.sparkflows.ai/en/latest/installation/installation/docker-linux-install.html>`_
 
 
 Step 5 : Accessing Sparkflows & Creating Users
@@ -395,7 +395,7 @@ Step 6 : Reloading Sample Project
 
 Sparkflows by default comes with sample Project which can be reloaded in Sparkflows application.
 
-For detailed information, `click here. <https://docs.sparkflows.io/en/latest/installation/installation/load-sample-projects.html>`_
+For detailed information, `click here. <https://docs.sparkflows.ai/en/latest/installation/operations/load-sample-projects.html>`_
 
 Step 7 : Submitting Jobs to EMR Cluster
 ++++
@@ -403,7 +403,7 @@ By default Sparkflows job can be submitted on the local machine itself.
 
 It can be configured to submit the jobs to AWS EMR cluster for scalability.
 
-For more information, `click here. <https://docs.sparkflows.io/en/latest/aws/admin-guide/emr-livy/index.html>`_
+For more information, `click here. <https://docs.sparkflows.ai/en/latest/aws/admin-guide/emr-livy/index.html>`_
 
 
 Additional Requirements
@@ -415,4 +415,4 @@ Additional Requirements
 
 * If using S3 as a data source, the IAM role for S3 bucket should be added to the EC2 instance created for Sparkflows.
 
-For more information, `click here. <https://docs.sparkflows.io/en/latest/aws/admin-guide/aws-ec2-configure.html>`_
+For more information, `click here. <https://docs.sparkflows.ai/en/latest/aws/admin-guide/aws-ec2-configure.html>`_

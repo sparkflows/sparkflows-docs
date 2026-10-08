@@ -16,22 +16,22 @@ Step 1 : Install Python
 
 * To install Python on Red Hat and CentOS, follow the steps given at the below link:
   
-  `Python Installation Steps for Red Hat and CentOS <https://docs.sparkflows.io/en/latest/installation/installation/python-install-redhat-centos.html>`_
+  `Python Installation Steps for Red Hat and CentOS <https://docs.sparkflows.ai/en/latest/installation/configuration/python-install-redhat-centos.html>`_
 
 * To install Python on Ubuntu, follow the steps given at the below link:
   
-  `Python Installation Steps for Ubuntu <https://docs.sparkflows.io/en/latest/installation/installation/python-install-ubuntu.html>`_
+  `Python Installation Steps for Ubuntu <https://docs.sparkflows.ai/en/latest/installation/configuration/python-install-ubuntu.html>`_
 
 * To install Python on MacOS, follow the steps given at the below link: 
   
-  `Python Installation Steps for MacOS <https://docs.sparkflows.io/en/latest/installation/installation/python-install-macos.html>`_
+  `Python Installation Steps for MacOS <https://docs.sparkflows.ai/en/latest/installation/configuration/python-install-macos.html>`_
 
 Step 2 : Install Sparkflows
 -----------
 
 Install Sparkflows on your machine. The machine has to be accessible from the Databricks cluster.
 
-`Click here <https://docs.sparkflows.io/en/latest/installation/installation/index.html>`_ to know more.
+`Click here <https://docs.sparkflows.ai/en/latest/installation/installation/index.html>`_ to know more.
 
 Step 3 : Upload Fire Wheel File to Databricks
 ----------------------------------
@@ -194,7 +194,7 @@ Step 9 : Configure Uploaded Library in Sparkflows
 
 Configure the path of the uploaded **fire python wheel package file & workflowexecutecloud.py.py** in Compute Connection in Sparkflows.
 
-`Click here <https://docs.sparkflows.io/en/latest/user-guide/connection/compute-connection/databricks.html>`_ to know more.
+`Click here <https://docs.sparkflows.ai/en/latest/user-guide/connection/compute-connection/databricks.html>`_ to know more.
 
 Step 10 : Submit Job using Pyspark Engine
 -----------------------------------

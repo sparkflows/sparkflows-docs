@@ -68,7 +68,7 @@ Configuring Credential Store
       :alt: Credential Store
       :width: 65%
 
-Reference guide : `AWS Credentials Store Creation Documentations. <https://docs.sparkflows.io/en/latest/installation/credential-store/aws/index.html>`_
+Reference guide : `AWS Credentials Store Creation Documentations. <https://docs.sparkflows.ai/en/latest/installation/security/credential-store/aws/index.html>`_
 
 **For Azure Key Vault**
 ++++++++++++++++++++++++++
@@ -83,12 +83,12 @@ Reference guide : `AWS Credentials Store Creation Documentations. <https://docs.
       :alt: Credential Store
       :width: 65%  
 
-Reference guide : `Configuring Azure Key Vault Credential Store. <https://docs.sparkflows.io/en/latest/installation/credential-store/azure-keyvault.html>`_ 
+Reference guide : `Configuring Azure Key Vault Credential Store. <https://docs.sparkflows.ai/en/latest/installation/security/credential-store/azure-keyvault.html>`_ 
 
 **For Local Credentials Store**
 ++++++++++++++++++++++++++++++++
 
-Reference guide : `Configuring Local Credential Store. <https://docs.sparkflows.io/en/latest/user-guide/application-credentials/application-credentials.html>`_
+Reference guide : `Configuring Local Credential Store. <https://docs.sparkflows.ai/en/latest/user-guide/application-credentials/application-credentials.html>`_
 
 - **Key :** User-defined name for the key
 - **Value :** Private key file content (PEM format as described above)
@@ -208,4 +208,4 @@ Step 4 : Test and Save the connection
 Documentation
 -----
 
-Reference guide : `Snowflake User Guide Documentation. <https://docs.sparkflows.io/en/latest/snowflake/index.html>`_   
+Reference guide : `Snowflake User Guide Documentation. <https://docs.sparkflows.ai/en/latest/snowflake/index.html>`_   

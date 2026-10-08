@@ -6,3 +6,4 @@ docs/_static/.DS_Store
 .tools/
 
 build/
+_build/

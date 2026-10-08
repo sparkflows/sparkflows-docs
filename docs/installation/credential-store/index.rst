@@ -1,18 +1,8 @@
+:orphan:
+
 Credential Store
 ================
 
-Sparkflows enables you to configure Credential Store. When creating connections, values like username, password, URL etc. can be fetched from the credential store which has been configured in Sparkflows.
+Credential store documentation has moved to Security & Access.
 
-Below are the steps for configuring ``Azure Key Vault`` or ``Local Credential Store`` in Sparkflows.
-
-.. toctree::
-   :maxdepth: 1
-   
-   azure-portal-keyvault.rst
-   azure-keyvault-application.rst
-   azure-keyvault.rst
-   credential-store-connection.rst
-   local-credential-store.rst
-   aws/index.rst
-
-
+See :doc:`/installation/security/credential-store/index`.

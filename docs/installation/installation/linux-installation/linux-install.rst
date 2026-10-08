@@ -34,7 +34,7 @@ To get started quickly with minimal install and configuration of Sparkflows, ple
 
     tar xvf fire-3.x.y_spark_3.5.2.tgz
 
-* Sparkflows can be configured to store its metadata into H2 Database, MySQL, Microsoft SQL Server or Aurora MySQL database. For production grade install, one can use any of the above except for H2 Database. More details can be found `here <https://docs.sparkflows.io/en/latest/installation/configuration/database/index.html>`_.
+* Sparkflows can be configured to store its metadata into H2 Database, MySQL, Microsoft SQL Server or Aurora MySQL database. For production grade install, one can use any of the above except for H2 Database. More details can be found `here <https://docs.sparkflows.ai/en/latest/installation/configuration/database/index.html>`_.
 
 * For quick installation, create H2 Database::
 
@@ -45,7 +45,7 @@ To get started quickly with minimal install and configuration of Sparkflows, ple
       ./create-h2-db.sh
 
 
-  .. Note:: For detailed information on connecting to RDS, `click here. <https://docs.sparkflows.io/en/latest/installation/configuration/database/mysql-db.html#>`_
+  .. Note:: For detailed information on connecting to RDS, `click here. <https://docs.sparkflows.ai/en/latest/installation/configuration/database/mysql-db.html#>`_
     
 * Launch Fire Server::
 
@@ -75,9 +75,9 @@ Installing and starting the Python engine
 
 Sparkflows comes with Java engine and Python engine. Following the above steps, we have installed Sparkflows and started it only with Java engine. If you want to leverage the capabilities of python Machine Learning libraries as well, please install the Python engine by following the below:
 
-* On Ubuntu, the python dependencies can be installed by following the steps here: : https://docs.sparkflows.io/en/latest/installation/installation/python-install-ubuntu.html
+* On Ubuntu, the python dependencies can be installed by following the steps here: : https://docs.sparkflows.ai/en/latest/installation/configuration/python-install-ubuntu.html
 
-* On RedHat and CentOS, the python dependencies can be installed by following the steps here: https://docs.sparkflows.io/en/latest/installation/installation/python-install-redhat-centos.html
+* On RedHat and CentOS, the python dependencies can be installed by following the steps here: https://docs.sparkflows.ai/en/latest/installation/configuration/python-install-redhat-centos.html
 
   
 Helpful Commands

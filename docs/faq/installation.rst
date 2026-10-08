@@ -6,7 +6,7 @@ How can I install Sparkflows?
 
 You can download Sparkflows from https://www.sparkflows.io/
 
-Install documentation is at : https://docs.sparkflows.io/en/latest/installation/installation/index.html
+Install documentation is at : https://docs.sparkflows.ai/en/latest/installation/installation/index.html
 
 Installation Pre-requisites
 ===========

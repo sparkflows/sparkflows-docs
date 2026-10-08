@@ -408,8 +408,5 @@ Checklist before you ship an approval flow
    * - ☐
      - You have run it once as the reviewer and read your own prompt cold.
 
-Next: approvals in production
------------------------------
 
-:doc:`/agentic-ai-guide/agent-orchestration/control-flow` covers the Condition and Router nodes that
-decide which cases reach your gate.
+

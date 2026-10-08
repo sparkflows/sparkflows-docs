@@ -115,10 +115,5 @@ with the toggle in **Actions**.
    night. Schedule the read-only version first and watch it for a week.
 
 
-Next: read the runs
--------------------
 
-Scheduled runs appear in the same place as every other run. Use
-:doc:`/agentic-ai-guide/deploy-monitor/monitor-govern` to read what happened, and
-:doc:`/agentic-ai-guide/deploy-monitor/deploy-agents` for the other ways an agent can be
-invoked.
+

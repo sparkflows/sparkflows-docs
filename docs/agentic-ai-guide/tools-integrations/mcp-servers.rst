@@ -196,8 +196,5 @@ Troubleshooting
      - Add: *"If a tool call fails because an argument is missing, call it again
        with all required arguments."*
 
-Next: other kinds of tool
--------------------------
 
-:doc:`/agentic-ai-guide/building-agents/skills` covers reusable instruction files that several
-agents can share.
+

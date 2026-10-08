@@ -316,8 +316,3 @@ The example below triggers an agent, polls until the run completes, approves any
     print(json.dumps(status.get("outputs"), indent=2))
 
 
-Next: watch the runs
---------------------
-
-Runs started over the API appear on **Agents → Executions** like any other, with
-the same token and step detail - see :doc:`/agentic-ai-guide/deploy-monitor/monitor-govern`.

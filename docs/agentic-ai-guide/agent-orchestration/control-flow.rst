@@ -321,8 +321,4 @@ vendor, and if it is big, ask a manager first.* That is the standard to aim for 
 someone who has never opened Sparkflows should be able to read your canvas and
 describe the process.
 
-Next: every node in detail
---------------------------
 
-:doc:`/agentic-ai-guide/agent-orchestration/orchestration-overview` covers the canvas itself and
-the Supervisor node.

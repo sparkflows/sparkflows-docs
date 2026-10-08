@@ -311,9 +311,4 @@ failed.
 Use the **Executions** tab to inspect past runs: the inputs, the path taken, the
 tool calls made, and any approvals.
 
-Next: the nodes themselves
---------------------------
 
-:doc:`/agentic-ai-guide/safety-guardrails/human-in-the-loop` covers approvals, and
-:doc:`/agentic-ai-guide/agent-orchestration/control-flow` the branching nodes that decide which cases
-reach them.

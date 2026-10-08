@@ -227,7 +227,5 @@ A monthly review worth doing
    * - ☐
      - Scheduled agents: is each one still succeeding, and does anyone read it?
 
-Next: the controls themselves
------------------------------
 
-:doc:`/agentic-ai-guide/safety-guardrails/security-guardrails` for the controls themselves.
+

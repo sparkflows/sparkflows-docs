@@ -203,7 +203,4 @@ Reviewing an agent before production
    * - ☐
      - Someone other than the author has run it on real inputs.
 
-Next: watch it in production
-----------------------------
 
-:doc:`/agentic-ai-guide/deploy-monitor/monitor-govern` covers what to watch once it is live.

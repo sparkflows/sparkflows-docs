@@ -184,8 +184,5 @@ check simply ends.
    steps. How to pick those values without typing them is on
    :doc:`/agentic-ai-guide/agent-orchestration/passing-data`.
 
-Next: act in an app
--------------------
 
-A Trigger starts the run; :doc:`/agentic-ai-guide/tools-integrations/app-actions` is how the run
-reads from and writes to your business apps.
+

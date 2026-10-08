@@ -95,7 +95,5 @@ Before you deploy
    * - ☐
      - You know how to turn it off.
 
-Next: keep it running
----------------------
 
-:doc:`/agentic-ai-guide/deploy-monitor/monitor-govern`.
+

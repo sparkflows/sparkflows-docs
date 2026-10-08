@@ -124,7 +124,5 @@ Decide the bar before you measure, and make it about consequences:
   it and measure how often reviewers disagree with the agent. That
   disagreement rate is the most honest quality metric you have.
 
-Next: ship it
--------------
 
-:doc:`/agentic-ai-guide/deploy-monitor/deploy-agents`.
+

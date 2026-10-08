@@ -440,8 +440,5 @@ Three failure modes account for most tool problems.
    one only then. Debugging one new tool at a time is far quicker than debugging
    six at once.
 
-Next: credentials for tools
----------------------------
 
-Tools need credentials. :doc:`/agentic-ai-guide/quick-start/model-connections` covers how those are
-created and shared.
+

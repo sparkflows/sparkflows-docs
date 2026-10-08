@@ -193,8 +193,5 @@ When not to use a workflow
 * **For something an available connector already does** - check its operations
   first, such as Jira issue reads. A **Coming soon** tile cannot be used yet.
 
-Next: control the flow
-----------------------
 
-:doc:`/agentic-ai-guide/tools-integrations/mcp-servers` covers the other way to extend what an agent
-can do.
+

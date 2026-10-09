@@ -80,19 +80,19 @@ Before installing Sparkflows, choose the deployment model that best fits your en
 
    ---
 
-   :doc:`/aws/admin-guide/deploy-aws`
+   :doc:`AWS Installation </aws/admin-guide/deploy-aws>`
 
    Deploy Sparkflows on AWS
 
    ---
 
-   :doc:`/azure/admin-guide/deploy-azure`
+   :doc:`Azure Installation </azure/admin-guide/deploy-azure>`
 
    Deploy Sparkflows on Azure
 
    ---
 
-   :doc:`/gcp/admin-guide/Infrastructure-gcp`
+   :doc:`GCP Installation </gcp/admin-guide/installation-guide/index>`
 
    Deploy Sparkflows on GCP
 

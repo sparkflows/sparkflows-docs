@@ -1,0 +1,13 @@
+section,metric,value,note
+Revenue,July revenue (INR),1000000,
+Revenue,August revenue (INR),1250000,Growth of 25% from July
+Orders,July orders,300,
+Orders,August orders,340,
+Region,West revenue August (INR),500000,Largest contributor
+Region,South revenue August (INR),350000,
+Region,North revenue August (INR),250000,
+Region,East revenue August (INR),150000,
+Leads,Qualified leads from online campaigns,120,
+Customers,Orders from repeat customers,140,
+Stock,Accessories unavailable last week of August,USB-C Hub; Laptop Stand,Affected accessory sales
+Plan,September revenue target (INR),1400000,Bundle campaigns depend on confirmed accessory stock

@@ -7,7 +7,7 @@ Build End-to-End Agentic AI Flows
 
 .. container:: tutorial-intro
 
-   Build a useful process, one step at a time. These eight walkthroughs show
+   Build a useful process, one step at a time. These walkthroughs show
    how to connect apps, work with records, add AI where it helps, and keep a
    person in control of important decisions.
 
@@ -26,7 +26,7 @@ Choose what you want to build
 -----------------------------
 
 You can follow one tutorial on its own. Start with a familiar task; there
-is no need to work through all eight or connect every app.
+is no need to work through all of them or connect every app.
 
 Files and reporting
 ~~~~~~~~~~~~~~~~~~~
@@ -45,6 +45,12 @@ Files and reporting
        <h3><a href="revenue-report.html">Publish a weekly revenue report</a></h3>
        <p>Calculate regional totals, publish an Excel report to a test SharePoint folder and prepare a summary email draft.</p>
        <p class="tutorial-tools">Summarize · Excel · SharePoint · Outlook</p>
+     </article>
+     <article class="tutorial-card">
+       <p class="tutorial-kicker">Documents · Multiple sources</p>
+       <h3><a href="document-summarization.html">Document Summarization Agent</a></h3>
+       <p>One agent reads sales, support and operations reports with three Read CSV tools and returns one combined summary.</p>
+       <p class="tutorial-tools">Agent Node · Read CSV ×3</p>
      </article>
      <article class="tutorial-card">
        <p class="tutorial-kicker">Documents · AI summaries</p>
@@ -136,6 +142,7 @@ Before your first run
 
    order-file-loader
    revenue-report
+   document-summarization
    email-attachments
    spreadsheet-dedup-google
    spreadsheet-dedup-microsoft

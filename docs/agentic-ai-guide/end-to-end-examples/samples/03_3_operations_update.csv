@@ -1,0 +1,10 @@
+section,metric,value,note
+Delivery,August orders delivered,340,
+Delivery,Delivered on time,306,90% on time
+Delivery,Delivered late,34,20 carrier delays; 14 stock delays
+Stock,Accessory stockouts,Late August,Restocked by September 7
+Support,Availability and delivery estimates sent to Support,September 8,
+Stock,Reorder buffer,Increased from 7 to 10 days of demand,Completed September 14
+Stock,USB-C Hub and Laptop Stand available,September 16,Meets prerequisite for sales campaigns
+Carrier,Carrier reliability review,September 20,Corrective plan due September 23
+Monitoring,Stock and delivery monitoring,Weekly,

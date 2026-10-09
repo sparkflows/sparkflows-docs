@@ -1,0 +1,15 @@
+section,metric,value,note
+Volume,Tickets received August,500,
+Volume,Tickets resolved August,450,360 met service target; 90 missed it
+Volume,Tickets open at month end,50,
+Response,Median first response July (hours),3,
+Response,Median first response August (hours),2,
+Category,Login issues,150,
+Category,Billing,120,
+Category,Delivery status,100,
+Category,Product availability,80,
+Category,Other,50,
+Satisfaction,Positive responses (%),84,100 survey respondents
+Feedback,Customer requests,Clearer delivery estimates; earlier warnings for out-of-stock accessories,
+Action,Password reset guide,Planned for September 10,
+Action,Updated accessory availability,Requested from Operations for September 8,

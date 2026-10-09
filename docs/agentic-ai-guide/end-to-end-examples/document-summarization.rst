@@ -5,27 +5,59 @@ Document Summarization Agent
 
 .. container:: tutorial-intro
 
-   This example shows a single agent that reads three separate reports - sales,
-   support and operations - and combines them into one cross-source summary.
-   One Agent Node does the work, using three ``Read CSV`` tools.
+   Build one agent that reads a sales report, a support report and an
+   operations update, summarizes each one and combines them into a single
+   cross-source answer. One Agent Node does the work, using three
+   ``Read CSV`` tools.
 
 .. container:: tutorial-start
 
-   **What this example shows:** how one agent can pull from several data
-   sources and return one consolidated answer. The result has a **Sales**, a
-   **Support** and an **Operations** section, built from all three reports.
+   **Expected practice result:** one summary with a **Sales**, a **Support**
+   and an **Operations** section, built from all three files. The run shows
+   three tool calls: ``read_csv``, ``read_csv_2`` and ``read_csv_3``. Nothing
+   is written or sent anywhere.
 
-How the agent is built
-----------------------
+Prepare the reports
+-------------------
 
-The agent is built on the **Agent Orchestration** canvas and is named
-**02-Document-Summarization-Agent**. It has two nodes:
+Download the three practice files. They contain fictional figures for
+August 2026:
+
+* :download:`02_1_sales_report.csv <samples/02_1_sales_report.csv>`: revenue,
+  orders, regional totals and the September target
+* :download:`02_2_support_report.csv <samples/02_2_support_report.csv>`: ticket
+  volume, resolution, response time and open actions
+* :download:`03_3_operations_update.csv <samples/03_3_operations_update.csv>`:
+  delivery performance, stock and carrier follow-ups
+
+You need:
+
+.. list-table:: Prepare only what this tutorial uses
+   :header-rows: 1
+   :widths: 30 70
+
+   * - Item
+     - What to prepare
+   * - Project
+     - A training project, for example ``AgenticAI-Basic``.
+   * - Files
+     - Upload the three CSVs to ``data/AgenticAI-Training/``. See
+       :doc:`/user-guide/quick-start/2-upload-data-files`.
+   * - LLM connection
+     - An approved :doc:`LLM connection </agentic-ai-guide/quick-start/model-connections>`,
+       for example ``AZURE_FOUNDRY-4.1`` (GPT-4.1).
+
+Build the flow
+--------------
+
+Open your project's **Agents** page and choose
+**Create Agents → Agent Orchestration**. Name the agent
+**02-Document-Summarization-Agent**. From **Add Nodes**, add:
 
 **Input → Agent Node**
 
-The Input node feeds the Agent Node, and three ``Read CSV`` tools are attached
-to the Agent Node. These are tools, not steps: the model decides when to call
-each one.
+Then add three ``Read CSV`` tools to the Agent Node. These are tools, not
+steps: the model decides when to call each one.
 
 .. figure:: ../../_assets/agentic-ai-guide/tutorials/document-summarization/canvas.png
    :alt: Canvas with an Input node wired to an Agent Node that has three Read CSV tools attached
@@ -34,20 +66,22 @@ each one.
    The Input node feeds the Agent Node. The three **Read CSV** chips under the
    Agent Node are its tools; the **3** badge shows how many are attached.
 
-The request
------------
+1. Pass in the request
+----------------------
 
-The **Input** node passes the request to the agent as one parameter:
+Open **Input** and add one parameter:
 
 * **Key:** ``userQuery``
 * **Value:** ``provide a summary for sales, support and operations``
 
-The value can be changed each time the agent runs.
+You can change the value each time you run the agent.
 
-One tool per report
--------------------
+2. Add one tool per report
+--------------------------
 
-Each ``Read CSV`` tool reads one report:
+On the Agent Node, click **+ Tool**, choose **Built In → Read CSV**, then
+choose **Fixed settings**. Click **Browse File System**, pick the sales file
+and save. Repeat for the other two files.
 
 .. list-table:: Read CSV tools
    :header-rows: 1
@@ -66,14 +100,14 @@ Each ``Read CSV`` tool reads one report:
      - ``data/AgenticAI-Training/03_3_operations_update.csv``
      - ``Reads the operations update``
 
-Each tool has a clear, distinct description. The model sees three tools of the
-same type, so the description is the only way it can tell them apart. See
-:doc:`/agentic-ai-guide/tools-integrations/tools-connectors`.
+Give each tool a clear, distinct description. The model sees three tools of
+the same type, so the description is the only way it can tell them apart.
+See :doc:`/agentic-ai-guide/tools-integrations/tools-connectors`.
 
-Model settings
---------------
+3. Configure the model
+----------------------
 
-The Agent Node's **LLM Configuration** tab uses these settings:
+Open the Agent Node. On the **LLM Configuration** tab, set:
 
 .. list-table:: LLM settings
    :header-rows: 1
@@ -82,7 +116,7 @@ The Agent Node's **LLM Configuration** tab uses these settings:
    * - Setting
      - Value
    * - **Select Connection**
-     - An LLM connection, here ``AZURE_FOUNDRY-4.1`` (GPT-4.1)
+     - Your LLM connection, for example ``AZURE_FOUNDRY-4.1``
    * - **Temperature**
      - ``0``
    * - **Top P**
@@ -99,11 +133,10 @@ The Agent Node's **LLM Configuration** tab uses these settings:
 **Temperature 0** keeps the summary close to the source figures. **Max Tool
 Rounds 8** leaves room for the three reads.
 
-The instructions
-----------------
+4. Write the instructions
+-------------------------
 
-The **Agent Instruction** tab tells the agent to read all three sources with
-the ``Read CSV`` tools, summarize each one, then compare their key points:
+Open the **Agent Instruction** tab and enter:
 
 .. code-block:: text
 
@@ -116,11 +149,14 @@ the ``Read CSV`` tools, summarize each one, then compare their key points:
    Then compare their key points and finish with a short list of priorities.
    Verify every claim against the tool results. Do not invent figures.
 
-Running the agent
------------------
+Save the Agent Node, then save the agent.
 
-On the **Execute Agent** screen, **Agent Parameters** shows ``userQuery`` with
-the request. Clicking **Execute** runs the agent.
+5. Run the agent
+----------------
+
+Click **Execute**. On the **Execute Agent** screen, check that
+**Agent Parameters** shows ``userQuery`` with your request, then click
+**Execute**.
 
 .. figure:: ../../_assets/agentic-ai-guide/tutorials/document-summarization/execute.png
    :alt: Execute Agent screen with the userQuery parameter set to provide a summary for sales, support and operations
@@ -128,17 +164,23 @@ the request. Clicking **Execute** runs the agent.
 
    The run starts with the ``userQuery`` value from the Input node.
 
-The **Execution Timeline** shows each step as it completes. The Agent Node
-makes one tool call per report:
+The **Execution Timeline** shows each step as it completes. Expand the Agent
+Node to see its tool calls:
 
 .. figure:: ../../_assets/agentic-ai-guide/tutorials/document-summarization/timeline.png
    :alt: Execution timeline showing the Agent Node calling read_csv, read_csv_2 and read_csv_3 with their file paths
    :width: 680px
 
-   ``read_csv``, ``read_csv_2`` and ``read_csv_3``, each with the file it read.
+   One call per report. Each line shows the file the tool read.
 
-The result
-----------
+.. container:: tutorial-checkpoint
+
+   **Checkpoint:** the timeline shows **three** tool calls, one for each file.
+   If one is missing, check that tool's file path and description before
+   changing the instructions.
+
+6. Read the result
+------------------
 
 The Agent Node's output combines all three reports into one summary:
 
@@ -146,23 +188,46 @@ The Agent Node's output combines all three reports into one summary:
    :alt: Agent Node output with Sales, Support and Operations sections for August 2026
    :width: 680px
 
-   **Sales** covers August revenue and order trends. **Support** covers ticket
-   volume and resolution rates. **Operations** covers delivery performance and
+   **Sales** covers revenue and order trends. **Support** covers ticket
+   volume and resolution. **Operations** covers delivery performance and
    accessory restocking.
 
-The summary closes with a short set of priorities drawn from all three
-reports. Every figure in it comes from one of the three tool results.
+.. container:: tutorial-checkpoint
 
-Design notes
-------------
+   **Final check:** compare a few figures with the files.
 
-* **One tool per source.** Each report has its own ``Read CSV`` tool, so the
-  agent can read each one separately and the timeline shows which file each
-  fact came from.
-* **Distinct descriptions.** Without them, the agent may read only one or two
-  of the reports.
-* **Grounded output.** Temperature ``0`` and the instruction *Verify every
-  claim against the tool results* keep the summary to the figures in the
-  reports.
-* **Output length.** **Max Tokens** ``500`` suits three short reports. Longer
-  reports need a higher limit, or the summary stops mid-sentence.
+   * Sales: August revenue **INR 1,250,000**, up **25%** from July; **340**
+     orders.
+   * Support: **500** tickets received, **450** resolved, **50** open.
+   * Operations: **306** of **340** orders on time (**90%**).
+
+   Every figure in the summary should appear in one of the three files.
+
+If the summary looks wrong
+--------------------------
+
+.. dropdown:: The summary covers only one or two reports
+
+   The agent did not call every tool. Check that each tool has a distinct
+   description, that the instructions name all three reports, and that
+   **Max Tool Rounds** is at least ``3``.
+
+.. dropdown:: A tool call fails or returns no rows
+
+   The file path is wrong or the file is missing. Open the tool and use
+   **Browse File System** to pick the file again. Check the folder name,
+   ``data/AgenticAI-Training/``, and the exact filename.
+
+.. dropdown:: The summary contains figures that are not in the files
+
+   Set **Temperature** to ``0`` and keep the line *Verify every claim against
+   the tool results* in the instructions. Compare the summary with the tool
+   results in the timeline.
+
+.. dropdown:: The summary stops mid-sentence
+
+   **Max Tokens** is too low for your reports. Raise it, for example to
+   ``1000``, and run again.
+
+Next, try it with your own reports: replace the three files, update each
+tool's description, and keep one tool per source.

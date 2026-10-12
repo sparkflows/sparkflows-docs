@@ -80,19 +80,19 @@ Before installing Sparkflows, choose the deployment model that best fits your en
 
    ---
 
-   :doc:`AWS Installation </aws/admin-guide/deploy-aws>`
+   :doc:`/installation/installation/aws`
 
    Deploy Sparkflows on AWS
 
    ---
 
-   :doc:`Azure Installation </azure/admin-guide/deploy-azure>`
+   :doc:`/installation/installation/azure`
 
    Deploy Sparkflows on Azure
 
    ---
 
-   :doc:`GCP Installation </gcp/admin-guide/installation-guide/index>`
+   :doc:`/installation/installation/gcp`
 
    Deploy Sparkflows on GCP
 
@@ -107,3 +107,6 @@ Before installing Sparkflows, choose the deployment model that best fits your en
    docker-windows-install.rst
    docker-linux-install.rst
    kubernetes-install.rst
+   aws.rst
+   azure.rst
+   gcp.rst

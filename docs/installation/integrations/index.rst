@@ -13,31 +13,31 @@ Connect Sparkflows to compute engines, pipelines, and external platforms.
 
    ---
 
-   :doc:`/databricks/index`
+   :doc:`/installation/integrations/databricks`
 
    Databricks admin and user guides.
 
    ---
 
-   :doc:`/aws/admin-guide/emr/index`
+   :doc:`/installation/integrations/emr`
 
    AWS EMR integration.
 
    ---
 
-   :doc:`/aws/admin-guide/emr_serverless/index`
+   :doc:`/installation/integrations/emr-serverless`
 
    Amazon EMR Serverless integration.
 
    ---
 
-   :doc:`/aws/admin-guide/glue-integration/index`
+   :doc:`/installation/integrations/glue`
 
    AWS Glue integration.
 
    ---
 
-   :doc:`/gcp/admin-guide/dataproc/index`
+   :doc:`/installation/integrations/dataproc`
 
    Google Dataproc integration.
 
@@ -45,3 +45,8 @@ Connect Sparkflows to compute engines, pipelines, and external platforms.
    :hidden:
 
    pipeline/index
+   databricks.rst
+   emr.rst
+   emr-serverless.rst
+   glue.rst
+   dataproc.rst

@@ -13,7 +13,7 @@ Diagnose Sparkflows issues using built-in diagnostics and the troubleshooting gu
 
    ---
 
-   :doc:`/troubleshooting/index`
+   :doc:`/installation/troubleshooting/common-issues`
 
    Common installation, authentication, Python, Kubernetes, and cloud issues.
 
@@ -21,3 +21,4 @@ Diagnose Sparkflows issues using built-in diagnostics and the troubleshooting gu
    :hidden:
 
    diagnostics/index
+   common-issues.rst

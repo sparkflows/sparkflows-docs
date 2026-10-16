@@ -1,0 +1,76 @@
+:orphan:
+
+.. rst-class:: agentic-tutorial
+
+.. raw:: html
+
+   <p class="tool-crumbs"><a href="../index.html">Connector Tools</a> › <a href="../sharepoint-online.html">SharePoint Online</a> › Drive</p>
+
+List document libraries
+=======================
+
+.. raw:: html
+
+   <div class="tool-hero">
+     <img class="tool-hero-logo" src="../../../../_static/img/tools/sharepoint_online.svg" alt="SharePoint Online logo">
+     <dl class="tool-facts">
+     <div><dt>Connector</dt><dd>SharePoint Online</dd></div>
+     <div><dt>Resource</dt><dd>Drive</dd></div>
+     <div><dt>Type</dt><dd>Read</dd></div>
+     <div><dt>Available as</dt><dd>Agent tool · <a href="../../app-action-apps/sharepoint-online.html">App Action</a></dd></div>
+     </dl>
+   </div>
+
+.. container:: tutorial-intro
+
+   Lists the document libraries of a site with their ids, names and web addresses. The file operations always work in the site's default library (Documents).
+
+Prerequisites
+-------------
+
+* **Connection:** Microsoft Graph or SharePoint connection. See :doc:`the SharePoint Online prerequisites <../sharepoint-online>`.
+
+Parameters
+----------
+
+As an agent tool, the model fills in each parameter unless you fix it under **Fixed settings**, and in an App Action each one is a box on the **Details** step.
+
+.. list-table::
+   :header-rows: 1
+   :widths: 18 17 11 12 42
+   :class: tool-params
+
+   * - Parameter
+     - App Action input
+     - Type
+     - Required
+     - Description
+   * - ``site``
+     - Site
+     - text
+     - No
+     - The site as its URL, name or id; blank uses the site on the connection. Example: https://contoso.sharepoint.com/sites/Finance.
+   * - ``fields``
+     - Fields to return
+     - list of text
+     - No
+     - Graph drive properties to return, such as id, name, driveType and webUrl; blank returns them all. Example: ["id", "name", "webUrl"].
+   * - ``limit``
+     - Limit
+     - whole number
+     - No
+     - How many libraries at most. Default: 50.
+
+Use it
+------
+
+**As an agent tool.** Open the Agent Node's **+ Tool**, choose **SharePoint Online**, connect, and tick **list** in the **Drive** row. The model sees it as ``sharepoint_online_drive_getmany``.
+
+**As an App Action.** Drop **App Action** on the canvas, pick **SharePoint**, then **List document libraries**, and fill in the inputs above. It runs every time the flow reaches it.
+
+Other Drive tools
+-----------------
+
+.. raw:: html
+
+   <div class="tool-related"><a href="drive-get.html">Get a document library</a></div>

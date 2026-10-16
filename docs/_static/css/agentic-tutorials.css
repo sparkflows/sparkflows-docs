@@ -155,7 +155,6 @@
     }
 }
 
-/* Tool reference pages: the facts strip under a page title, logo cards, tool tables. */
 
 .tool-hero {
     display: flex;
@@ -323,7 +322,6 @@
     box-shadow: 0 4px 14px rgb(15 23 42 / 6%);
 }
 
-/* Tool / action cards on connector and App Action pages. */
 .tool-ops {
     display: grid;
     grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -414,7 +412,6 @@
     scroll-margin-top: 90px;
 }
 
-/* "On this page" as one row of pills instead of a bulleted list. */
 .rst-content .tool-toc {
     margin: 0 0 1.8rem;
     padding: 0;
@@ -474,7 +471,6 @@
     text-decoration: none;
 }
 
-/* Resource chips above a long tool list, with the tool count. */
 .tool-jump {
     display: flex;
     flex-wrap: wrap;
@@ -511,7 +507,6 @@
     }
 }
 
-/* Two screenshots side by side, laid out with a borderless list-table. */
 .rst-content table.figure-pair,
 .rst-content table.figure-pair td {
     border: 0;

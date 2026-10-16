@@ -64,27 +64,27 @@ Event
 .. raw:: html
 
    <div class="tool-ops">
-     <a class="tool-op" href="../connector-tools/google-calendar/event-get.html" target="_blank" rel="noopener">
+     <a class="tool-op" href="google-calendar/event-get.html" target="_blank" rel="noopener">
        <span class="tool-op-head"><span class="tool-op-title">Get an event</span><span class="tool-op-kind is-read">Reads</span></span>
        <span class="tool-op-desc">Returns one event with its title, start and end, guests and their responses, location, description and Meet link.</span>
      </a>
-     <a class="tool-op" href="../connector-tools/google-calendar/event-getmany.html" target="_blank" rel="noopener">
+     <a class="tool-op" href="google-calendar/event-getmany.html" target="_blank" rel="noopener">
        <span class="tool-op-head"><span class="tool-op-title">List events</span><span class="tool-op-kind is-read">Reads</span></span>
        <span class="tool-op-desc">Lists the events on a calendar, with repeating events expanded into single occurrences and sorted by start time by default.</span>
      </a>
-     <a class="tool-op" href="../connector-tools/google-calendar/event-create.html" target="_blank" rel="noopener">
+     <a class="tool-op" href="google-calendar/event-create.html" target="_blank" rel="noopener">
        <span class="tool-op-head"><span class="tool-op-title">Create an event</span><span class="tool-op-kind is-write">Changes data</span></span>
        <span class="tool-op-desc">Creates an event on a calendar and returns it, with its id, link and, when conferenceType asks for one, its Meet link.</span>
      </a>
-     <a class="tool-op" href="../connector-tools/google-calendar/event-update.html" target="_blank" rel="noopener">
+     <a class="tool-op" href="google-calendar/event-update.html" target="_blank" rel="noopener">
        <span class="tool-op-head"><span class="tool-op-title">Update an event</span><span class="tool-op-kind is-write">Changes data</span></span>
        <span class="tool-op-desc">Changes only the given fields of an existing event and returns the updated event.</span>
      </a>
-     <a class="tool-op" href="../connector-tools/google-calendar/event-delete.html" target="_blank" rel="noopener">
+     <a class="tool-op" href="google-calendar/event-delete.html" target="_blank" rel="noopener">
        <span class="tool-op-head"><span class="tool-op-title">Delete an event</span><span class="tool-op-kind is-delete">Changes data</span></span>
        <span class="tool-op-desc">Deletes an event from a calendar and returns an empty result.</span>
      </a>
-     <a class="tool-op" href="../connector-tools/google-calendar/event-quickadd.html" target="_blank" rel="noopener">
+     <a class="tool-op" href="google-calendar/event-quickadd.html" target="_blank" rel="noopener">
        <span class="tool-op-head"><span class="tool-op-title">Quick add an event</span><span class="tool-op-kind is-write">Changes data</span></span>
        <span class="tool-op-desc">Creates an event from one sentence, the way Google Calendar&#x27;s quick-add box does, and returns the event it made.</span>
      </a>
@@ -96,11 +96,11 @@ Calendar
 .. raw:: html
 
    <div class="tool-ops">
-     <a class="tool-op" href="../connector-tools/google-calendar/calendar-getmany.html" target="_blank" rel="noopener">
+     <a class="tool-op" href="google-calendar/calendar-getmany.html" target="_blank" rel="noopener">
        <span class="tool-op-head"><span class="tool-op-title">List calendars</span><span class="tool-op-kind is-read">Reads</span></span>
        <span class="tool-op-desc">Lists every calendar the account can see, its own, shared ones and subscribed ones such as holidays, with each calendar&#x27;s id, name, time zone and access role.</span>
      </a>
-     <a class="tool-op" href="../connector-tools/google-calendar/calendar-get.html" target="_blank" rel="noopener">
+     <a class="tool-op" href="google-calendar/calendar-get.html" target="_blank" rel="noopener">
        <span class="tool-op-head"><span class="tool-op-title">Get a calendar</span><span class="tool-op-kind is-read">Reads</span></span>
        <span class="tool-op-desc">Returns one calendar&#x27;s name, description and time zone.</span>
      </a>
@@ -112,7 +112,7 @@ Free Time
 .. raw:: html
 
    <div class="tool-ops">
-     <a class="tool-op" href="../connector-tools/google-calendar/free-time-find.html" target="_blank" rel="noopener">
+     <a class="tool-op" href="google-calendar/free-time-find.html" target="_blank" rel="noopener">
        <span class="tool-op-head"><span class="tool-op-title">Find busy times</span><span class="tool-op-kind is-read">Reads</span></span>
        <span class="tool-op-desc">Returns the busy intervals of one or more calendars between timeMin and timeMax, so the free slots are the gaps between them.</span>
      </a>

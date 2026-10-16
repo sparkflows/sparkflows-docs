@@ -64,23 +64,23 @@ Request
 .. raw:: html
 
    <div class="tool-ops">
-     <a class="tool-op" href="../connector-tools/web-search/request-get.html" target="_blank" rel="noopener">
+     <a class="tool-op" href="web-search/request-get.html" target="_blank" rel="noopener">
        <span class="tool-op-head"><span class="tool-op-title">Send a GET request</span><span class="tool-op-kind is-read">Reads</span></span>
        <span class="tool-op-desc">Sends an HTTP GET to a URL and returns the HTTP status (status and httpStatus), content type, size and the response as JSON text (json) or as text (body), cut to maxChars.</span>
      </a>
-     <a class="tool-op" href="../connector-tools/web-search/request-post.html" target="_blank" rel="noopener">
+     <a class="tool-op" href="web-search/request-post.html" target="_blank" rel="noopener">
        <span class="tool-op-head"><span class="tool-op-title">Send a POST request</span><span class="tool-op-kind is-write">Changes data</span></span>
        <span class="tool-op-desc">Sends an HTTP POST with a JSON body to a URL and returns the response as JSON text (json) or as text (body).</span>
      </a>
-     <a class="tool-op" href="../connector-tools/web-search/request-put.html" target="_blank" rel="noopener">
+     <a class="tool-op" href="web-search/request-put.html" target="_blank" rel="noopener">
        <span class="tool-op-head"><span class="tool-op-title">Send a PUT request</span><span class="tool-op-kind is-write">Changes data</span></span>
        <span class="tool-op-desc">Sends an HTTP PUT with a JSON body to a URL, usually to replace a resource, and returns the response as JSON text (json) or as text (body).</span>
      </a>
-     <a class="tool-op" href="../connector-tools/web-search/request-patch.html" target="_blank" rel="noopener">
+     <a class="tool-op" href="web-search/request-patch.html" target="_blank" rel="noopener">
        <span class="tool-op-head"><span class="tool-op-title">Send a PATCH request</span><span class="tool-op-kind is-write">Changes data</span></span>
        <span class="tool-op-desc">Sends an HTTP PATCH with a JSON body to a URL, usually to change part of a resource, and returns the response as JSON text (json) or as text (body).</span>
      </a>
-     <a class="tool-op" href="../connector-tools/web-search/request-delete.html" target="_blank" rel="noopener">
+     <a class="tool-op" href="web-search/request-delete.html" target="_blank" rel="noopener">
        <span class="tool-op-head"><span class="tool-op-title">Send a DELETE request</span><span class="tool-op-kind is-delete">Changes data</span></span>
        <span class="tool-op-desc">Sends an HTTP DELETE to a URL and returns the response as JSON text (json) or as text (body).</span>
      </a>
@@ -92,19 +92,19 @@ Page
 .. raw:: html
 
    <div class="tool-ops">
-     <a class="tool-op" href="../connector-tools/web-search/page-fetch.html" target="_blank" rel="noopener">
+     <a class="tool-op" href="web-search/page-fetch.html" target="_blank" rel="noopener">
        <span class="tool-op-head"><span class="tool-op-title">Fetch a web page</span><span class="tool-op-kind is-read">Reads</span></span>
        <span class="tool-op-desc">Downloads a web page and returns its title and readable text with scripts and styles removed, cut to maxChars, or the raw HTML when stripTags is false.</span>
      </a>
-     <a class="tool-op" href="../connector-tools/web-search/page-links.html" target="_blank" rel="noopener">
+     <a class="tool-op" href="web-search/page-links.html" target="_blank" rel="noopener">
        <span class="tool-op-head"><span class="tool-op-title">List the links on a page</span><span class="tool-op-kind is-read">Reads</span></span>
        <span class="tool-op-desc">Fetches a page and returns the unique links in it as absolute URLs with their host, capped at limit; by default only links to the page&#x27;s own host.</span>
      </a>
-     <a class="tool-op" href="../connector-tools/web-search/page-status.html" target="_blank" rel="noopener">
+     <a class="tool-op" href="web-search/page-status.html" target="_blank" rel="noopener">
        <span class="tool-op-head"><span class="tool-op-title">Check a URL</span><span class="tool-op-kind is-read">Reads</span></span>
        <span class="tool-op-desc">Sends a HEAD request, following redirects, and returns the HTTP status and the final URL after them.</span>
      </a>
-     <a class="tool-op" href="../connector-tools/web-search/page-crawl.html" target="_blank" rel="noopener">
+     <a class="tool-op" href="web-search/page-crawl.html" target="_blank" rel="noopener">
        <span class="tool-op-head"><span class="tool-op-title">Crawl a site</span><span class="tool-op-kind is-read">Reads</span></span>
        <span class="tool-op-desc">Starts at a URL and follows links breadth-first, returning one row per page visited with its URL, title and the first 4,000 characters of its text, up to limit pages.</span>
      </a>
@@ -116,19 +116,19 @@ Search
 .. raw:: html
 
    <div class="tool-ops">
-     <a class="tool-op" href="../connector-tools/web-search/search-web.html" target="_blank" rel="noopener">
+     <a class="tool-op" href="web-search/search-web.html" target="_blank" rel="noopener">
        <span class="tool-op-head"><span class="tool-op-title">Search the web</span><span class="tool-op-kind is-read">Reads</span></span>
        <span class="tool-op-desc">Searches Google through Serper and returns the organic results with title, link, snippet and position.</span>
      </a>
-     <a class="tool-op" href="../connector-tools/web-search/search-news.html" target="_blank" rel="noopener">
+     <a class="tool-op" href="web-search/search-news.html" target="_blank" rel="noopener">
        <span class="tool-op-head"><span class="tool-op-title">Search the news</span><span class="tool-op-kind is-read">Reads</span></span>
        <span class="tool-op-desc">Searches Google News through Serper and returns articles with title, link, snippet, date and source.</span>
      </a>
-     <a class="tool-op" href="../connector-tools/web-search/search-images.html" target="_blank" rel="noopener">
+     <a class="tool-op" href="web-search/search-images.html" target="_blank" rel="noopener">
        <span class="tool-op-head"><span class="tool-op-title">Search images</span><span class="tool-op-kind is-read">Reads</span></span>
        <span class="tool-op-desc">Searches Google Images through Serper and returns images with title, imageUrl, the page link and source.</span>
      </a>
-     <a class="tool-op" href="../connector-tools/web-search/search-places.html" target="_blank" rel="noopener">
+     <a class="tool-op" href="web-search/search-places.html" target="_blank" rel="noopener">
        <span class="tool-op-head"><span class="tool-op-title">Search places</span><span class="tool-op-kind is-read">Reads</span></span>
        <span class="tool-op-desc">Searches Google Maps through Serper and returns places with title, address, rating, category, phone number and website.</span>
      </a>
@@ -140,7 +140,7 @@ Feed
 .. raw:: html
 
    <div class="tool-ops">
-     <a class="tool-op" href="../connector-tools/web-search/feed-read.html" target="_blank" rel="noopener">
+     <a class="tool-op" href="web-search/feed-read.html" target="_blank" rel="noopener">
        <span class="tool-op-head"><span class="tool-op-title">Read a feed</span><span class="tool-op-kind is-read">Reads</span></span>
        <span class="tool-op-desc">Downloads an RSS or Atom feed and returns its entries with title, link, published date and summary, capped at limit.</span>
      </a>

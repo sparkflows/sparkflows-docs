@@ -65,27 +65,27 @@ Message
 .. raw:: html
 
    <div class="tool-ops">
-     <a class="tool-op" href="../connector-tools/slack/message-send.html" target="_blank" rel="noopener">
+     <a class="tool-op" href="slack/message-send.html" target="_blank" rel="noopener">
        <span class="tool-op-head"><span class="tool-op-title">Send a message</span><span class="tool-op-kind is-write">Changes data</span></span>
        <span class="tool-op-desc">Posts a message to a channel, a private channel or a person&#x27;s direct message with the app, and returns the posted message with its ts, the id later operations use.</span>
      </a>
-     <a class="tool-op" href="../connector-tools/slack/message-update.html" target="_blank" rel="noopener">
+     <a class="tool-op" href="slack/message-update.html" target="_blank" rel="noopener">
        <span class="tool-op-head"><span class="tool-op-title">Update a message</span><span class="tool-op-kind is-write">Changes data</span></span>
        <span class="tool-op-desc">Changes the text of a message the app posted earlier and returns the updated message.</span>
      </a>
-     <a class="tool-op" href="../connector-tools/slack/message-delete.html" target="_blank" rel="noopener">
+     <a class="tool-op" href="slack/message-delete.html" target="_blank" rel="noopener">
        <span class="tool-op-head"><span class="tool-op-title">Delete a message</span><span class="tool-op-kind is-delete">Changes data</span></span>
        <span class="tool-op-desc">Deletes a message from a channel.</span>
      </a>
-     <a class="tool-op" href="../connector-tools/slack/message-sendephemeral.html" target="_blank" rel="noopener">
+     <a class="tool-op" href="slack/message-sendephemeral.html" target="_blank" rel="noopener">
        <span class="tool-op-head"><span class="tool-op-title">Send an ephemeral message</span><span class="tool-op-kind is-write">Changes data</span></span>
        <span class="tool-op-desc">Shows a message to one member of a channel only; nobody else sees it and Slack does not keep it.</span>
      </a>
-     <a class="tool-op" href="../connector-tools/slack/message-getpermalink.html" target="_blank" rel="noopener">
+     <a class="tool-op" href="slack/message-getpermalink.html" target="_blank" rel="noopener">
        <span class="tool-op-head"><span class="tool-op-title">Get a message link</span><span class="tool-op-kind is-read">Reads</span></span>
        <span class="tool-op-desc">Returns the permanent link (permalink) to one message, for sharing or citing it outside Slack.</span>
      </a>
-     <a class="tool-op" href="../connector-tools/slack/message-search.html" target="_blank" rel="noopener">
+     <a class="tool-op" href="slack/message-search.html" target="_blank" rel="noopener">
        <span class="tool-op-head"><span class="tool-op-title">Search messages</span><span class="tool-op-kind is-read">Reads</span></span>
        <span class="tool-op-desc">Searches messages across the workspace with Slack&#x27;s search syntax and returns the matches, best first, with text, user, username, channel, ts and permalink.</span>
      </a>
@@ -97,63 +97,63 @@ Channel
 .. raw:: html
 
    <div class="tool-ops">
-     <a class="tool-op" href="../connector-tools/slack/channel-get.html" target="_blank" rel="noopener">
+     <a class="tool-op" href="slack/channel-get.html" target="_blank" rel="noopener">
        <span class="tool-op-head"><span class="tool-op-title">Get a channel</span><span class="tool-op-kind is-read">Reads</span></span>
        <span class="tool-op-desc">Returns one channel&#x27;s details: name, topic, purpose, created, creator, is_private, is_archived and, when asked, num_members.</span>
      </a>
-     <a class="tool-op" href="../connector-tools/slack/channel-getmany.html" target="_blank" rel="noopener">
+     <a class="tool-op" href="slack/channel-getmany.html" target="_blank" rel="noopener">
        <span class="tool-op-head"><span class="tool-op-title">List channels</span><span class="tool-op-kind is-read">Reads</span></span>
        <span class="tool-op-desc">Lists the workspace&#x27;s channels with id, name, is_private, is_archived, topic, purpose and num_members.</span>
      </a>
-     <a class="tool-op" href="../connector-tools/slack/channel-history.html" target="_blank" rel="noopener">
+     <a class="tool-op" href="slack/channel-history.html" target="_blank" rel="noopener">
        <span class="tool-op-head"><span class="tool-op-title">Read channel history</span><span class="tool-op-kind is-read">Reads</span></span>
        <span class="tool-op-desc">Returns the messages of one channel, newest first, each with ts, user, text, thread_ts and reply_count; thread replies are not included.</span>
      </a>
-     <a class="tool-op" href="../connector-tools/slack/channel-replies.html" target="_blank" rel="noopener">
+     <a class="tool-op" href="slack/channel-replies.html" target="_blank" rel="noopener">
        <span class="tool-op-head"><span class="tool-op-title">Read thread replies</span><span class="tool-op-kind is-read">Reads</span></span>
        <span class="tool-op-desc">Returns one thread: the parent message followed by its replies, oldest first, each with ts, user and text.</span>
      </a>
-     <a class="tool-op" href="../connector-tools/slack/channel-members.html" target="_blank" rel="noopener">
+     <a class="tool-op" href="slack/channel-members.html" target="_blank" rel="noopener">
        <span class="tool-op-head"><span class="tool-op-title">List channel members</span><span class="tool-op-kind is-read">Reads</span></span>
        <span class="tool-op-desc">Lists the members of one channel, one row per member with the user ID in id.</span>
      </a>
-     <a class="tool-op" href="../connector-tools/slack/channel-create.html" target="_blank" rel="noopener">
+     <a class="tool-op" href="slack/channel-create.html" target="_blank" rel="noopener">
        <span class="tool-op-head"><span class="tool-op-title">Create a channel</span><span class="tool-op-kind is-write">Changes data</span></span>
        <span class="tool-op-desc">Creates a public or private channel and returns it with its new ID; the app becomes its first member.</span>
      </a>
-     <a class="tool-op" href="../connector-tools/slack/channel-invite.html" target="_blank" rel="noopener">
+     <a class="tool-op" href="slack/channel-invite.html" target="_blank" rel="noopener">
        <span class="tool-op-head"><span class="tool-op-title">Invite members to a channel</span><span class="tool-op-kind is-write">Changes data</span></span>
        <span class="tool-op-desc">Adds up to 1,000 members to a channel and returns the channel.</span>
      </a>
-     <a class="tool-op" href="../connector-tools/slack/channel-kick.html" target="_blank" rel="noopener">
+     <a class="tool-op" href="slack/channel-kick.html" target="_blank" rel="noopener">
        <span class="tool-op-head"><span class="tool-op-title">Remove a member from a channel</span><span class="tool-op-kind is-delete">Changes data</span></span>
        <span class="tool-op-desc">Removes one member from a channel.</span>
      </a>
-     <a class="tool-op" href="../connector-tools/slack/channel-join.html" target="_blank" rel="noopener">
+     <a class="tool-op" href="slack/channel-join.html" target="_blank" rel="noopener">
        <span class="tool-op-head"><span class="tool-op-title">Join a channel</span><span class="tool-op-kind is-write">Changes data</span></span>
        <span class="tool-op-desc">Adds the app to a public channel so it can read and post there, and returns the channel.</span>
      </a>
-     <a class="tool-op" href="../connector-tools/slack/channel-leave.html" target="_blank" rel="noopener">
+     <a class="tool-op" href="slack/channel-leave.html" target="_blank" rel="noopener">
        <span class="tool-op-head"><span class="tool-op-title">Leave a channel</span><span class="tool-op-kind is-delete">Changes data</span></span>
        <span class="tool-op-desc">Removes the app from a channel, so it stops reading and posting there.</span>
      </a>
-     <a class="tool-op" href="../connector-tools/slack/channel-archive.html" target="_blank" rel="noopener">
+     <a class="tool-op" href="slack/channel-archive.html" target="_blank" rel="noopener">
        <span class="tool-op-head"><span class="tool-op-title">Archive a channel</span><span class="tool-op-kind is-delete">Changes data</span></span>
        <span class="tool-op-desc">Archives a channel: it becomes read-only and leaves the channel list, while its history is kept.</span>
      </a>
-     <a class="tool-op" href="../connector-tools/slack/channel-unarchive.html" target="_blank" rel="noopener">
+     <a class="tool-op" href="slack/channel-unarchive.html" target="_blank" rel="noopener">
        <span class="tool-op-head"><span class="tool-op-title">Unarchive a channel</span><span class="tool-op-kind is-write">Changes data</span></span>
        <span class="tool-op-desc">Reopens an archived channel so members can post in it again.</span>
      </a>
-     <a class="tool-op" href="../connector-tools/slack/channel-rename.html" target="_blank" rel="noopener">
+     <a class="tool-op" href="slack/channel-rename.html" target="_blank" rel="noopener">
        <span class="tool-op-head"><span class="tool-op-title">Rename a channel</span><span class="tool-op-kind is-write">Changes data</span></span>
        <span class="tool-op-desc">Renames a channel and returns it with the new name.</span>
      </a>
-     <a class="tool-op" href="../connector-tools/slack/channel-settopic.html" target="_blank" rel="noopener">
+     <a class="tool-op" href="slack/channel-settopic.html" target="_blank" rel="noopener">
        <span class="tool-op-head"><span class="tool-op-title">Set a channel topic</span><span class="tool-op-kind is-write">Changes data</span></span>
        <span class="tool-op-desc">Sets the topic shown in the channel header and returns the channel.</span>
      </a>
-     <a class="tool-op" href="../connector-tools/slack/channel-setpurpose.html" target="_blank" rel="noopener">
+     <a class="tool-op" href="slack/channel-setpurpose.html" target="_blank" rel="noopener">
        <span class="tool-op-head"><span class="tool-op-title">Set a channel purpose</span><span class="tool-op-kind is-write">Changes data</span></span>
        <span class="tool-op-desc">Sets the channel&#x27;s description (purpose) and returns the channel.</span>
      </a>
@@ -165,23 +165,23 @@ User
 .. raw:: html
 
    <div class="tool-ops">
-     <a class="tool-op" href="../connector-tools/slack/user-get.html" target="_blank" rel="noopener">
+     <a class="tool-op" href="slack/user-get.html" target="_blank" rel="noopener">
        <span class="tool-op-head"><span class="tool-op-title">Get a user</span><span class="tool-op-kind is-read">Reads</span></span>
        <span class="tool-op-desc">Returns one member&#x27;s account: id, name, real_name, profile (display name, email, title, phone), tz, is_admin, is_bot and deleted.</span>
      </a>
-     <a class="tool-op" href="../connector-tools/slack/user-getmany.html" target="_blank" rel="noopener">
+     <a class="tool-op" href="slack/user-getmany.html" target="_blank" rel="noopener">
        <span class="tool-op-head"><span class="tool-op-title">List users</span><span class="tool-op-kind is-read">Reads</span></span>
        <span class="tool-op-desc">Lists the workspace&#x27;s members, bots and deactivated accounts included (deleted is true), with id, name, real_name, profile and tz.</span>
      </a>
-     <a class="tool-op" href="../connector-tools/slack/user-getprofile.html" target="_blank" rel="noopener">
+     <a class="tool-op" href="slack/user-getprofile.html" target="_blank" rel="noopener">
        <span class="tool-op-head"><span class="tool-op-title">Get a user&#x27;s profile</span><span class="tool-op-kind is-read">Reads</span></span>
        <span class="tool-op-desc">Returns a member&#x27;s profile: display_name, real_name, email, phone, title, status_text and status_emoji.</span>
      </a>
-     <a class="tool-op" href="../connector-tools/slack/user-getstatus.html" target="_blank" rel="noopener">
+     <a class="tool-op" href="slack/user-getstatus.html" target="_blank" rel="noopener">
        <span class="tool-op-head"><span class="tool-op-title">Get a user&#x27;s presence</span><span class="tool-op-kind is-read">Reads</span></span>
        <span class="tool-op-desc">Returns whether a member is active or away (presence) and, for the token&#x27;s own user, online and auto_away details.</span>
      </a>
-     <a class="tool-op" href="../connector-tools/slack/user-lookupbyemail.html" target="_blank" rel="noopener">
+     <a class="tool-op" href="slack/user-lookupbyemail.html" target="_blank" rel="noopener">
        <span class="tool-op-head"><span class="tool-op-title">Find a user by email</span><span class="tool-op-kind is-read">Reads</span></span>
        <span class="tool-op-desc">Finds the member who uses an email address and returns their account with id, name, real_name and profile.</span>
      </a>
@@ -193,15 +193,15 @@ File
 .. raw:: html
 
    <div class="tool-ops">
-     <a class="tool-op" href="../connector-tools/slack/file-get.html" target="_blank" rel="noopener">
+     <a class="tool-op" href="slack/file-get.html" target="_blank" rel="noopener">
        <span class="tool-op-head"><span class="tool-op-title">Get a file</span><span class="tool-op-kind is-read">Reads</span></span>
        <span class="tool-op-desc">Returns one file&#x27;s details: name, title, filetype, size, user, created, permalink and the channels it was shared in.</span>
      </a>
-     <a class="tool-op" href="../connector-tools/slack/file-getmany.html" target="_blank" rel="noopener">
+     <a class="tool-op" href="slack/file-getmany.html" target="_blank" rel="noopener">
        <span class="tool-op-head"><span class="tool-op-title">List files</span><span class="tool-op-kind is-read">Reads</span></span>
        <span class="tool-op-desc">Lists files shared in the workspace, newest first, with id, name, title, filetype, size, user, created and permalink; filter by channel, user, type or time.</span>
      </a>
-     <a class="tool-op" href="../connector-tools/slack/file-delete.html" target="_blank" rel="noopener">
+     <a class="tool-op" href="slack/file-delete.html" target="_blank" rel="noopener">
        <span class="tool-op-head"><span class="tool-op-title">Delete a file</span><span class="tool-op-kind is-delete">Changes data</span></span>
        <span class="tool-op-desc">Deletes a file from Slack for everyone.</span>
      </a>
@@ -213,15 +213,15 @@ Reaction
 .. raw:: html
 
    <div class="tool-ops">
-     <a class="tool-op" href="../connector-tools/slack/reaction-add.html" target="_blank" rel="noopener">
+     <a class="tool-op" href="slack/reaction-add.html" target="_blank" rel="noopener">
        <span class="tool-op-head"><span class="tool-op-title">Add a reaction</span><span class="tool-op-kind is-write">Changes data</span></span>
        <span class="tool-op-desc">Adds an emoji reaction to a message as the app, for example to acknowledge it.</span>
      </a>
-     <a class="tool-op" href="../connector-tools/slack/reaction-get.html" target="_blank" rel="noopener">
+     <a class="tool-op" href="slack/reaction-get.html" target="_blank" rel="noopener">
        <span class="tool-op-head"><span class="tool-op-title">Get a message&#x27;s reactions</span><span class="tool-op-kind is-read">Reads</span></span>
        <span class="tool-op-desc">Returns one message with its reactions: each emoji name, its count and the users who added it.</span>
      </a>
-     <a class="tool-op" href="../connector-tools/slack/reaction-remove.html" target="_blank" rel="noopener">
+     <a class="tool-op" href="slack/reaction-remove.html" target="_blank" rel="noopener">
        <span class="tool-op-head"><span class="tool-op-title">Remove a reaction</span><span class="tool-op-kind is-delete">Changes data</span></span>
        <span class="tool-op-desc">Removes a reaction the app added to a message.</span>
      </a>
@@ -233,23 +233,23 @@ User Group
 .. raw:: html
 
    <div class="tool-ops">
-     <a class="tool-op" href="../connector-tools/slack/user-group-getmany.html" target="_blank" rel="noopener">
+     <a class="tool-op" href="slack/user-group-getmany.html" target="_blank" rel="noopener">
        <span class="tool-op-head"><span class="tool-op-title">List user groups</span><span class="tool-op-kind is-read">Reads</span></span>
        <span class="tool-op-desc">Lists the workspace&#x27;s user groups (the @handles that mention a team) with id, name, handle, description and, when asked, their user count and member IDs.</span>
      </a>
-     <a class="tool-op" href="../connector-tools/slack/user-group-create.html" target="_blank" rel="noopener">
+     <a class="tool-op" href="slack/user-group-create.html" target="_blank" rel="noopener">
        <span class="tool-op-head"><span class="tool-op-title">Create a user group</span><span class="tool-op-kind is-write">Changes data</span></span>
        <span class="tool-op-desc">Creates a user group, an @handle that mentions several people at once, and returns it with its ID (S0123ABC).</span>
      </a>
-     <a class="tool-op" href="../connector-tools/slack/user-group-update.html" target="_blank" rel="noopener">
+     <a class="tool-op" href="slack/user-group-update.html" target="_blank" rel="noopener">
        <span class="tool-op-head"><span class="tool-op-title">Update a user group</span><span class="tool-op-kind is-write">Changes data</span></span>
        <span class="tool-op-desc">Changes a user group&#x27;s name, handle, description or default channels and returns the group.</span>
      </a>
-     <a class="tool-op" href="../connector-tools/slack/user-group-enable.html" target="_blank" rel="noopener">
+     <a class="tool-op" href="slack/user-group-enable.html" target="_blank" rel="noopener">
        <span class="tool-op-head"><span class="tool-op-title">Enable a user group</span><span class="tool-op-kind is-write">Changes data</span></span>
        <span class="tool-op-desc">Re-enables a disabled user group so its @handle works again, and returns the group.</span>
      </a>
-     <a class="tool-op" href="../connector-tools/slack/user-group-disable.html" target="_blank" rel="noopener">
+     <a class="tool-op" href="slack/user-group-disable.html" target="_blank" rel="noopener">
        <span class="tool-op-head"><span class="tool-op-title">Disable a user group</span><span class="tool-op-kind is-delete">Changes data</span></span>
        <span class="tool-op-desc">Disables a user group: its @handle stops notifying anyone, while the group and its settings are kept.</span>
      </a>

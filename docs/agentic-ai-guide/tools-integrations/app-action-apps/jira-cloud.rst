@@ -63,43 +63,43 @@ Issue
 .. raw:: html
 
    <div class="tool-ops">
-     <a class="tool-op" href="../connector-tools/jira-cloud/issue-get.html" target="_blank" rel="noopener">
+     <a class="tool-op" href="jira-cloud/issue-get.html" target="_blank" rel="noopener">
        <span class="tool-op-head"><span class="tool-op-title">Get an issue</span><span class="tool-op-kind is-read">Reads</span></span>
        <span class="tool-op-desc">Fetches one issue by its key and returns its fields: summary, status, assignee, reporter, priority, labels, description, dates and custom fields.</span>
      </a>
-     <a class="tool-op" href="../connector-tools/jira-cloud/issue-getmany.html" target="_blank" rel="noopener">
+     <a class="tool-op" href="jira-cloud/issue-getmany.html" target="_blank" rel="noopener">
        <span class="tool-op-head"><span class="tool-op-title">List issues</span><span class="tool-op-kind is-read">Reads</span></span>
        <span class="tool-op-desc">Lists issues that match an optional JQL filter (without one, the most recently created first), following Jira&#x27;s paging up to the limit, with each issue&#x27;s key, summary, status, assignee, priority and other navigable fields.</span>
      </a>
-     <a class="tool-op" href="../connector-tools/jira-cloud/issue-search.html" target="_blank" rel="noopener">
+     <a class="tool-op" href="jira-cloud/issue-search.html" target="_blank" rel="noopener">
        <span class="tool-op-head"><span class="tool-op-title">Search issues</span><span class="tool-op-kind is-read">Reads</span></span>
        <span class="tool-op-desc">Finds issues with a JQL query and returns each match&#x27;s key, summary, status, assignee, priority and other navigable fields, following Jira&#x27;s paging up to the limit.</span>
      </a>
-     <a class="tool-op" href="../connector-tools/jira-cloud/issue-create.html" target="_blank" rel="noopener">
+     <a class="tool-op" href="jira-cloud/issue-create.html" target="_blank" rel="noopener">
        <span class="tool-op-head"><span class="tool-op-title">Create an issue</span><span class="tool-op-kind is-write">Changes data</span></span>
        <span class="tool-op-desc">Creates an issue in a project and returns its id, key and URL. Values go in as plain text: the connector turns the project key, issue type, priority, assignee and parent into the objects Jira expects and the description into Jira&#x27;s rich-text format.</span>
      </a>
-     <a class="tool-op" href="../connector-tools/jira-cloud/issue-update.html" target="_blank" rel="noopener">
+     <a class="tool-op" href="jira-cloud/issue-update.html" target="_blank" rel="noopener">
        <span class="tool-op-head"><span class="tool-op-title">Update an issue</span><span class="tool-op-kind is-write">Changes data</span></span>
        <span class="tool-op-desc">Changes fields on an existing issue; only the fields given change, and labels, components and fix versions replace the current lists.</span>
      </a>
-     <a class="tool-op" href="../connector-tools/jira-cloud/issue-delete.html" target="_blank" rel="noopener">
+     <a class="tool-op" href="jira-cloud/issue-delete.html" target="_blank" rel="noopener">
        <span class="tool-op-head"><span class="tool-op-title">Delete an issue</span><span class="tool-op-kind is-delete">Changes data</span></span>
        <span class="tool-op-desc">Permanently deletes an issue; Jira refuses one that has sub-tasks unless deleteSubtasks is true.</span>
      </a>
-     <a class="tool-op" href="../connector-tools/jira-cloud/issue-transition.html" target="_blank" rel="noopener">
+     <a class="tool-op" href="jira-cloud/issue-transition.html" target="_blank" rel="noopener">
        <span class="tool-op-head"><span class="tool-op-title">Change an issue&#x27;s status</span><span class="tool-op-kind is-write">Changes data</span></span>
        <span class="tool-op-desc">Moves an issue to another status, such as In Progress or Done, by performing one of its workflow&#x27;s transitions.</span>
      </a>
-     <a class="tool-op" href="../connector-tools/jira-cloud/issue-listtransitions.html" target="_blank" rel="noopener">
+     <a class="tool-op" href="jira-cloud/issue-listtransitions.html" target="_blank" rel="noopener">
        <span class="tool-op-head"><span class="tool-op-title">List an issue&#x27;s transitions</span><span class="tool-op-kind is-read">Reads</span></span>
        <span class="tool-op-desc">Lists the transitions the issue can take from its current status, each with its id, name and the status it leads to.</span>
      </a>
-     <a class="tool-op" href="../connector-tools/jira-cloud/issue-assign.html" target="_blank" rel="noopener">
+     <a class="tool-op" href="jira-cloud/issue-assign.html" target="_blank" rel="noopener">
        <span class="tool-op-head"><span class="tool-op-title">Assign an issue</span><span class="tool-op-kind is-write">Changes data</span></span>
        <span class="tool-op-desc">Assigns an issue to one person, or to the project&#x27;s default assignee with -1.</span>
      </a>
-     <a class="tool-op" href="../connector-tools/jira-cloud/issue-changelog.html" target="_blank" rel="noopener">
+     <a class="tool-op" href="jira-cloud/issue-changelog.html" target="_blank" rel="noopener">
        <span class="tool-op-head"><span class="tool-op-title">Get an issue&#x27;s history</span><span class="tool-op-kind is-read">Reads</span></span>
        <span class="tool-op-desc">Returns an issue&#x27;s change history, oldest first and following Jira&#x27;s paging up to the limit: who changed which field, when, and from which value to which.</span>
      </a>
@@ -111,23 +111,23 @@ Comment
 .. raw:: html
 
    <div class="tool-ops">
-     <a class="tool-op" href="../connector-tools/jira-cloud/comment-get.html" target="_blank" rel="noopener">
+     <a class="tool-op" href="jira-cloud/comment-get.html" target="_blank" rel="noopener">
        <span class="tool-op-head"><span class="tool-op-title">Get a comment</span><span class="tool-op-kind is-read">Reads</span></span>
        <span class="tool-op-desc">Fetches one comment on an issue by its id and returns its author, body (in Atlassian Document Format) and created and updated times.</span>
      </a>
-     <a class="tool-op" href="../connector-tools/jira-cloud/comment-getmany.html" target="_blank" rel="noopener">
+     <a class="tool-op" href="jira-cloud/comment-getmany.html" target="_blank" rel="noopener">
        <span class="tool-op-head"><span class="tool-op-title">List comments on an issue</span><span class="tool-op-kind is-read">Reads</span></span>
        <span class="tool-op-desc">Lists the comments on an issue, oldest first unless ordered otherwise, each with its id, author, body (in Atlassian Document Format) and created and updated times.</span>
      </a>
-     <a class="tool-op" href="../connector-tools/jira-cloud/comment-create.html" target="_blank" rel="noopener">
+     <a class="tool-op" href="jira-cloud/comment-create.html" target="_blank" rel="noopener">
        <span class="tool-op-head"><span class="tool-op-title">Add a comment</span><span class="tool-op-kind is-write">Changes data</span></span>
        <span class="tool-op-desc">Adds a comment to an issue and returns it with its id.</span>
      </a>
-     <a class="tool-op" href="../connector-tools/jira-cloud/comment-update.html" target="_blank" rel="noopener">
+     <a class="tool-op" href="jira-cloud/comment-update.html" target="_blank" rel="noopener">
        <span class="tool-op-head"><span class="tool-op-title">Edit a comment</span><span class="tool-op-kind is-write">Changes data</span></span>
        <span class="tool-op-desc">Replaces the text of an existing comment and returns the updated comment.</span>
      </a>
-     <a class="tool-op" href="../connector-tools/jira-cloud/comment-delete.html" target="_blank" rel="noopener">
+     <a class="tool-op" href="jira-cloud/comment-delete.html" target="_blank" rel="noopener">
        <span class="tool-op-head"><span class="tool-op-title">Delete a comment</span><span class="tool-op-kind is-delete">Changes data</span></span>
        <span class="tool-op-desc">Permanently deletes one comment from an issue.</span>
      </a>
@@ -139,15 +139,15 @@ Attachment
 .. raw:: html
 
    <div class="tool-ops">
-     <a class="tool-op" href="../connector-tools/jira-cloud/attachment-get.html" target="_blank" rel="noopener">
+     <a class="tool-op" href="jira-cloud/attachment-get.html" target="_blank" rel="noopener">
        <span class="tool-op-head"><span class="tool-op-title">Get an attachment&#x27;s details</span><span class="tool-op-kind is-read">Reads</span></span>
        <span class="tool-op-desc">Returns the details of one attachment: file name, size, MIME type, author, created time and the URL of its content; it does not download the file.</span>
      </a>
-     <a class="tool-op" href="../connector-tools/jira-cloud/attachment-getmany.html" target="_blank" rel="noopener">
+     <a class="tool-op" href="jira-cloud/attachment-getmany.html" target="_blank" rel="noopener">
        <span class="tool-op-head"><span class="tool-op-title">List an issue&#x27;s attachments</span><span class="tool-op-kind is-read">Reads</span></span>
        <span class="tool-op-desc">Lists the files attached to an issue, each with its id, file name, size, MIME type, author, created time and content URL. Use it to find the attachment id that Attachment get and Attachment delete need.</span>
      </a>
-     <a class="tool-op" href="../connector-tools/jira-cloud/attachment-delete.html" target="_blank" rel="noopener">
+     <a class="tool-op" href="jira-cloud/attachment-delete.html" target="_blank" rel="noopener">
        <span class="tool-op-head"><span class="tool-op-title">Delete an attachment</span><span class="tool-op-kind is-delete">Changes data</span></span>
        <span class="tool-op-desc">Permanently deletes one attachment from its issue.</span>
      </a>
@@ -159,11 +159,11 @@ Worklog
 .. raw:: html
 
    <div class="tool-ops">
-     <a class="tool-op" href="../connector-tools/jira-cloud/worklog-getmany.html" target="_blank" rel="noopener">
+     <a class="tool-op" href="jira-cloud/worklog-getmany.html" target="_blank" rel="noopener">
        <span class="tool-op-head"><span class="tool-op-title">List an issue&#x27;s worklogs</span><span class="tool-op-kind is-read">Reads</span></span>
        <span class="tool-op-desc">Lists the time logged on an issue, each entry with its id, author, time spent, start time and note.</span>
      </a>
-     <a class="tool-op" href="../connector-tools/jira-cloud/worklog-create.html" target="_blank" rel="noopener">
+     <a class="tool-op" href="jira-cloud/worklog-create.html" target="_blank" rel="noopener">
        <span class="tool-op-head"><span class="tool-op-title">Log work on an issue</span><span class="tool-op-kind is-write">Changes data</span></span>
        <span class="tool-op-desc">Logs time spent on an issue and returns the new worklog with its id.</span>
      </a>
@@ -175,11 +175,11 @@ Project
 .. raw:: html
 
    <div class="tool-ops">
-     <a class="tool-op" href="../connector-tools/jira-cloud/project-get.html" target="_blank" rel="noopener">
+     <a class="tool-op" href="jira-cloud/project-get.html" target="_blank" rel="noopener">
        <span class="tool-op-head"><span class="tool-op-title">Get a project</span><span class="tool-op-kind is-read">Reads</span></span>
        <span class="tool-op-desc">Fetches one project by its key or id and returns its name, type, lead, description, issue types and components.</span>
      </a>
-     <a class="tool-op" href="../connector-tools/jira-cloud/project-getmany.html" target="_blank" rel="noopener">
+     <a class="tool-op" href="jira-cloud/project-getmany.html" target="_blank" rel="noopener">
        <span class="tool-op-head"><span class="tool-op-title">List projects</span><span class="tool-op-kind is-read">Reads</span></span>
        <span class="tool-op-desc">Lists the projects the connection can see, with key, name, type and id, following Jira&#x27;s paging up to the limit.</span>
      </a>
@@ -191,11 +191,11 @@ Sprint
 .. raw:: html
 
    <div class="tool-ops">
-     <a class="tool-op" href="../connector-tools/jira-cloud/sprint-get.html" target="_blank" rel="noopener">
+     <a class="tool-op" href="jira-cloud/sprint-get.html" target="_blank" rel="noopener">
        <span class="tool-op-head"><span class="tool-op-title">Get a sprint</span><span class="tool-op-kind is-read">Reads</span></span>
        <span class="tool-op-desc">Fetches one sprint by its id and returns its name, state (future, active or closed), goal, board and start, end and completion dates.</span>
      </a>
-     <a class="tool-op" href="../connector-tools/jira-cloud/sprint-getmany.html" target="_blank" rel="noopener">
+     <a class="tool-op" href="jira-cloud/sprint-getmany.html" target="_blank" rel="noopener">
        <span class="tool-op-head"><span class="tool-op-title">List a board&#x27;s sprints</span><span class="tool-op-kind is-read">Reads</span></span>
        <span class="tool-op-desc">Lists the sprints of a Scrum board, each with its id, name, state, goal and dates, following Jira&#x27;s paging up to the limit.</span>
      </a>
@@ -207,7 +207,7 @@ Board
 .. raw:: html
 
    <div class="tool-ops">
-     <a class="tool-op" href="../connector-tools/jira-cloud/board-getmany.html" target="_blank" rel="noopener">
+     <a class="tool-op" href="jira-cloud/board-getmany.html" target="_blank" rel="noopener">
        <span class="tool-op-head"><span class="tool-op-title">List boards</span><span class="tool-op-kind is-read">Reads</span></span>
        <span class="tool-op-desc">Lists the Scrum and Kanban boards the connection can see, with each board&#x27;s id, name, type and project, following Jira&#x27;s paging up to the limit.</span>
      </a>
@@ -219,15 +219,15 @@ User
 .. raw:: html
 
    <div class="tool-ops">
-     <a class="tool-op" href="../connector-tools/jira-cloud/user-get.html" target="_blank" rel="noopener">
+     <a class="tool-op" href="jira-cloud/user-get.html" target="_blank" rel="noopener">
        <span class="tool-op-head"><span class="tool-op-title">Get a user</span><span class="tool-op-kind is-read">Reads</span></span>
        <span class="tool-op-desc">Fetches one user by Atlassian account id and returns the display name, email address (when the user&#x27;s privacy settings show it), active flag and time zone.</span>
      </a>
-     <a class="tool-op" href="../connector-tools/jira-cloud/user-getmany.html" target="_blank" rel="noopener">
+     <a class="tool-op" href="jira-cloud/user-getmany.html" target="_blank" rel="noopener">
        <span class="tool-op-head"><span class="tool-op-title">List users</span><span class="tool-op-kind is-read">Reads</span></span>
        <span class="tool-op-desc">Lists every user of the site, including app and bot accounts, with account id, display name, account type and active flag, following Jira&#x27;s paging up to the limit.</span>
      </a>
-     <a class="tool-op" href="../connector-tools/jira-cloud/user-search.html" target="_blank" rel="noopener">
+     <a class="tool-op" href="jira-cloud/user-search.html" target="_blank" rel="noopener">
        <span class="tool-op-head"><span class="tool-op-title">Find users</span><span class="tool-op-kind is-read">Reads</span></span>
        <span class="tool-op-desc">Finds users whose display name or email address starts with the given text and returns their account ids, display names and active flags.</span>
      </a>

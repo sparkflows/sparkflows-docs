@@ -64,39 +64,39 @@ File
 .. raw:: html
 
    <div class="tool-ops">
-     <a class="tool-op" href="../connector-tools/google-drive/file-get.html" target="_blank" rel="noopener">
+     <a class="tool-op" href="google-drive/file-get.html" target="_blank" rel="noopener">
        <span class="tool-op-head"><span class="tool-op-title">Get a file</span><span class="tool-op-kind is-read">Reads</span></span>
        <span class="tool-op-desc">Returns one file&#x27;s or folder&#x27;s metadata: name, type, size, created and modified time, parent folders and web link.</span>
      </a>
-     <a class="tool-op" href="../connector-tools/google-drive/file-getmany.html" target="_blank" rel="noopener">
+     <a class="tool-op" href="google-drive/file-getmany.html" target="_blank" rel="noopener">
        <span class="tool-op-head"><span class="tool-op-title">List files</span><span class="tool-op-kind is-read">Reads</span></span>
        <span class="tool-op-desc">Lists files and folders with their name, type, size, dates and web link.</span>
      </a>
-     <a class="tool-op" href="../connector-tools/google-drive/file-search.html" target="_blank" rel="noopener">
+     <a class="tool-op" href="google-drive/file-search.html" target="_blank" rel="noopener">
        <span class="tool-op-head"><span class="tool-op-title">Search files</span><span class="tool-op-kind is-read">Reads</span></span>
        <span class="tool-op-desc">Finds files and folders that match a Drive query and returns their name, type, size, dates and web link.</span>
      </a>
-     <a class="tool-op" href="../connector-tools/google-drive/file-download.html" target="_blank" rel="noopener">
+     <a class="tool-op" href="google-drive/file-download.html" target="_blank" rel="noopener">
        <span class="tool-op-head"><span class="tool-op-title">Download a file</span><span class="tool-op-kind is-read">Reads</span></span>
        <span class="tool-op-desc">Fetches a file&#x27;s content and returns it as text in a response column.</span>
      </a>
-     <a class="tool-op" href="../connector-tools/google-drive/file-create.html" target="_blank" rel="noopener">
+     <a class="tool-op" href="google-drive/file-create.html" target="_blank" rel="noopener">
        <span class="tool-op-head"><span class="tool-op-title">Create a file or folder</span><span class="tool-op-kind is-write">Changes data</span></span>
        <span class="tool-op-desc">Creates an empty file or a folder from metadata alone and returns its id, name and web link.</span>
      </a>
-     <a class="tool-op" href="../connector-tools/google-drive/file-update.html" target="_blank" rel="noopener">
+     <a class="tool-op" href="google-drive/file-update.html" target="_blank" rel="noopener">
        <span class="tool-op-head"><span class="tool-op-title">Update a file</span><span class="tool-op-kind is-write">Changes data</span></span>
        <span class="tool-op-desc">Changes a file&#x27;s or folder&#x27;s metadata, such as renaming it, starring it, moving it to another folder or to the bin, and returns the updated file.</span>
      </a>
-     <a class="tool-op" href="../connector-tools/google-drive/file-copy.html" target="_blank" rel="noopener">
+     <a class="tool-op" href="google-drive/file-copy.html" target="_blank" rel="noopener">
        <span class="tool-op-head"><span class="tool-op-title">Copy a file</span><span class="tool-op-kind is-write">Changes data</span></span>
        <span class="tool-op-desc">Makes a copy of a file, optionally into another folder, and returns the new file&#x27;s id, name and web link.</span>
      </a>
-     <a class="tool-op" href="../connector-tools/google-drive/file-delete.html" target="_blank" rel="noopener">
+     <a class="tool-op" href="google-drive/file-delete.html" target="_blank" rel="noopener">
        <span class="tool-op-head"><span class="tool-op-title">Delete a file permanently</span><span class="tool-op-kind is-delete">Changes data</span></span>
        <span class="tool-op-desc">Permanently deletes a file or folder, skipping the bin; deleting a folder also deletes everything the account owns inside it.</span>
      </a>
-     <a class="tool-op" href="../connector-tools/google-drive/file-upload.html" target="_blank" rel="noopener">
+     <a class="tool-op" href="google-drive/file-upload.html" target="_blank" rel="noopener">
        <span class="tool-op-head"><span class="tool-op-title">Upload a file</span><span class="tool-op-kind is-write">Changes data</span></span>
        <span class="tool-op-desc">Uploads a file from the engine&#x27;s disk into Drive and returns the new file&#x27;s id, name and web link.</span>
      </a>
@@ -108,11 +108,11 @@ Permission
 .. raw:: html
 
    <div class="tool-ops">
-     <a class="tool-op" href="../connector-tools/google-drive/permission-getmany.html" target="_blank" rel="noopener">
+     <a class="tool-op" href="google-drive/permission-getmany.html" target="_blank" rel="noopener">
        <span class="tool-op-head"><span class="tool-op-title">List who has access</span><span class="tool-op-kind is-read">Reads</span></span>
        <span class="tool-op-desc">Lists the permissions on a file or folder: who has access (a user, group, domain or anyone with the link) and with which role.</span>
      </a>
-     <a class="tool-op" href="../connector-tools/google-drive/permission-create.html" target="_blank" rel="noopener">
+     <a class="tool-op" href="google-drive/permission-create.html" target="_blank" rel="noopener">
        <span class="tool-op-head"><span class="tool-op-title">Share a file</span><span class="tool-op-kind is-write">Changes data</span></span>
        <span class="tool-op-desc">Gives a user, a group, a whole domain or anyone with the link access to a file or folder with the given role, and returns the new permission.</span>
      </a>
@@ -124,7 +124,7 @@ Drive
 .. raw:: html
 
    <div class="tool-ops">
-     <a class="tool-op" href="../connector-tools/google-drive/drive-getmany.html" target="_blank" rel="noopener">
+     <a class="tool-op" href="google-drive/drive-getmany.html" target="_blank" rel="noopener">
        <span class="tool-op-head"><span class="tool-op-title">List shared drives</span><span class="tool-op-kind is-read">Reads</span></span>
        <span class="tool-op-desc">Lists the shared drives the account is a member of, with each drive&#x27;s id and name.</span>
      </a>

@@ -64,39 +64,39 @@ File
 .. raw:: html
 
    <div class="tool-ops">
-     <a class="tool-op" href="../connector-tools/onedrive/file-getmany.html" target="_blank" rel="noopener">
+     <a class="tool-op" href="onedrive/file-getmany.html" target="_blank" rel="noopener">
        <span class="tool-op-head"><span class="tool-op-title">List files in a folder</span><span class="tool-op-kind is-read">Reads</span></span>
        <span class="tool-op-desc">Lists the files and folders directly inside one folder of a user&#x27;s OneDrive, each with id, name, type, size, web address and who last changed it and when.</span>
      </a>
-     <a class="tool-op" href="../connector-tools/onedrive/file-get.html" target="_blank" rel="noopener">
+     <a class="tool-op" href="onedrive/file-get.html" target="_blank" rel="noopener">
        <span class="tool-op-head"><span class="tool-op-title">Get a file or folder</span><span class="tool-op-kind is-read">Reads</span></span>
        <span class="tool-op-desc">Returns one file or folder by its item id with its type, size, path, web address and who last changed it and when.</span>
      </a>
-     <a class="tool-op" href="../connector-tools/onedrive/file-download.html" target="_blank" rel="noopener">
+     <a class="tool-op" href="onedrive/file-download.html" target="_blank" rel="noopener">
        <span class="tool-op-head"><span class="tool-op-title">Download a file and read its text</span><span class="tool-op-kind is-read">Reads</span></span>
        <span class="tool-op-desc">Saves one file to the engine&#x27;s disk and returns its details with the saved path and its text: the words of a PDF, Word, Excel, text or CSV file, with text_status ok, password_protected, no_text (a scan) or unsupported.</span>
      </a>
-     <a class="tool-op" href="../connector-tools/onedrive/file-upload.html" target="_blank" rel="noopener">
+     <a class="tool-op" href="onedrive/file-upload.html" target="_blank" rel="noopener">
        <span class="tool-op-head"><span class="tool-op-title">Upload a file</span><span class="tool-op-kind is-write">Changes data</span></span>
        <span class="tool-op-desc">Uploads a file from the engine&#x27;s disk into a folder of a user&#x27;s OneDrive and returns the stored file; a file of the same name there is replaced.</span>
      </a>
-     <a class="tool-op" href="../connector-tools/onedrive/file-delete.html" target="_blank" rel="noopener">
+     <a class="tool-op" href="onedrive/file-delete.html" target="_blank" rel="noopener">
        <span class="tool-op-head"><span class="tool-op-title">Delete a file or folder</span><span class="tool-op-kind is-delete">Changes data</span></span>
        <span class="tool-op-desc">Deletes a file, or a folder with everything in it, moving it to the OneDrive recycle bin.</span>
      </a>
-     <a class="tool-op" href="../connector-tools/onedrive/file-move.html" target="_blank" rel="noopener">
+     <a class="tool-op" href="onedrive/file-move.html" target="_blank" rel="noopener">
        <span class="tool-op-head"><span class="tool-op-title">Move or rename a file</span><span class="tool-op-kind is-write">Changes data</span></span>
        <span class="tool-op-desc">Moves a file or folder into another folder, renames it, or both, and returns it.</span>
      </a>
-     <a class="tool-op" href="../connector-tools/onedrive/file-copy.html" target="_blank" rel="noopener">
+     <a class="tool-op" href="onedrive/file-copy.html" target="_blank" rel="noopener">
        <span class="tool-op-head"><span class="tool-op-title">Copy a file</span><span class="tool-op-kind is-write">Changes data</span></span>
        <span class="tool-op-desc">Copies a file or folder into another folder, optionally under a new name.</span>
      </a>
-     <a class="tool-op" href="../connector-tools/onedrive/file-createfolder.html" target="_blank" rel="noopener">
+     <a class="tool-op" href="onedrive/file-createfolder.html" target="_blank" rel="noopener">
        <span class="tool-op-head"><span class="tool-op-title">Create a folder</span><span class="tool-op-kind is-write">Changes data</span></span>
        <span class="tool-op-desc">Creates a folder in a user&#x27;s OneDrive, at the top or inside another folder, and returns it with its id.</span>
      </a>
-     <a class="tool-op" href="../connector-tools/onedrive/file-sharelink.html" target="_blank" rel="noopener">
+     <a class="tool-op" href="onedrive/file-sharelink.html" target="_blank" rel="noopener">
        <span class="tool-op-head"><span class="tool-op-title">Create a sharing link</span><span class="tool-op-kind is-write">Changes data</span></span>
        <span class="tool-op-desc">Creates a sharing link to a file or folder and returns the link with its web address, type and scope.</span>
      </a>
@@ -108,11 +108,11 @@ Drive
 .. raw:: html
 
    <div class="tool-ops">
-     <a class="tool-op" href="../connector-tools/onedrive/drive-get.html" target="_blank" rel="noopener">
+     <a class="tool-op" href="onedrive/drive-get.html" target="_blank" rel="noopener">
        <span class="tool-op-head"><span class="tool-op-title">Get a user&#x27;s OneDrive</span><span class="tool-op-kind is-read">Reads</span></span>
        <span class="tool-op-desc">Returns a user&#x27;s OneDrive with its id, owner, web address and storage quota (total, used and remaining).</span>
      </a>
-     <a class="tool-op" href="../connector-tools/onedrive/drive-getmany.html" target="_blank" rel="noopener">
+     <a class="tool-op" href="onedrive/drive-getmany.html" target="_blank" rel="noopener">
        <span class="tool-op-head"><span class="tool-op-title">List drives</span><span class="tool-op-kind is-read">Reads</span></span>
        <span class="tool-op-desc">Lists a user&#x27;s drives with their ids, names, types and owners.</span>
      </a>

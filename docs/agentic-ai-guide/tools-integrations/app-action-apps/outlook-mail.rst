@@ -64,47 +64,47 @@ Message
 .. raw:: html
 
    <div class="tool-ops">
-     <a class="tool-op" href="../connector-tools/outlook-mail/message-getmany.html" target="_blank" rel="noopener">
+     <a class="tool-op" href="outlook-mail/message-getmany.html" target="_blank" rel="noopener">
        <span class="tool-op-head"><span class="tool-op-title">List emails</span><span class="tool-op-kind is-read">Reads</span></span>
        <span class="tool-op-desc">Lists the emails in a mailbox or in one of its folders, with sender, recipients, subject, dates, read state and the body as plain text cut at 6000 characters.</span>
      </a>
-     <a class="tool-op" href="../connector-tools/outlook-mail/message-get.html" target="_blank" rel="noopener">
+     <a class="tool-op" href="outlook-mail/message-get.html" target="_blank" rel="noopener">
        <span class="tool-op-head"><span class="tool-op-title">Get an email</span><span class="tool-op-kind is-read">Reads</span></span>
        <span class="tool-op-desc">Returns one email by its id, with sender, recipients, subject, dates, flags and the body as plain text cut at 6000 characters.</span>
      </a>
-     <a class="tool-op" href="../connector-tools/outlook-mail/message-search.html" target="_blank" rel="noopener">
+     <a class="tool-op" href="outlook-mail/message-search.html" target="_blank" rel="noopener">
        <span class="tool-op-head"><span class="tool-op-title">Search emails</span><span class="tool-op-kind is-read">Reads</span></span>
        <span class="tool-op-desc">Finds emails with Outlook&#x27;s search over sender, recipients, subject, body and attachment names, and returns them in the same columns as Message getMany.</span>
      </a>
-     <a class="tool-op" href="../connector-tools/outlook-mail/message-send.html" target="_blank" rel="noopener">
+     <a class="tool-op" href="outlook-mail/message-send.html" target="_blank" rel="noopener">
        <span class="tool-op-head"><span class="tool-op-title">Send an email</span><span class="tool-op-kind is-write">Changes data</span></span>
        <span class="tool-op-desc">Sends a new email from the mailbox and keeps a copy in its Sent Items.</span>
      </a>
-     <a class="tool-op" href="../connector-tools/outlook-mail/message-reply.html" target="_blank" rel="noopener">
+     <a class="tool-op" href="outlook-mail/message-reply.html" target="_blank" rel="noopener">
        <span class="tool-op-head"><span class="tool-op-title">Reply to an email</span><span class="tool-op-kind is-write">Changes data</span></span>
        <span class="tool-op-desc">Replies to the sender of an email in the same conversation, with the reply text above the quoted original.</span>
      </a>
-     <a class="tool-op" href="../connector-tools/outlook-mail/message-replyall.html" target="_blank" rel="noopener">
+     <a class="tool-op" href="outlook-mail/message-replyall.html" target="_blank" rel="noopener">
        <span class="tool-op-head"><span class="tool-op-title">Reply to everyone on an email</span><span class="tool-op-kind is-write">Changes data</span></span>
        <span class="tool-op-desc">Replies to the sender and every other recipient of an email in the same conversation, with the reply text above the quoted original.</span>
      </a>
-     <a class="tool-op" href="../connector-tools/outlook-mail/message-forward.html" target="_blank" rel="noopener">
+     <a class="tool-op" href="outlook-mail/message-forward.html" target="_blank" rel="noopener">
        <span class="tool-op-head"><span class="tool-op-title">Forward an email</span><span class="tool-op-kind is-write">Changes data</span></span>
        <span class="tool-op-desc">Forwards an email, attachments included, to other people with an optional note above it.</span>
      </a>
-     <a class="tool-op" href="../connector-tools/outlook-mail/message-update.html" target="_blank" rel="noopener">
+     <a class="tool-op" href="outlook-mail/message-update.html" target="_blank" rel="noopener">
        <span class="tool-op-head"><span class="tool-op-title">Update an email</span><span class="tool-op-kind is-write">Changes data</span></span>
        <span class="tool-op-desc">Changes an email&#x27;s read state, importance, categories or follow-up flag and returns the updated email.</span>
      </a>
-     <a class="tool-op" href="../connector-tools/outlook-mail/message-move.html" target="_blank" rel="noopener">
+     <a class="tool-op" href="outlook-mail/message-move.html" target="_blank" rel="noopener">
        <span class="tool-op-head"><span class="tool-op-title">Move an email to a folder</span><span class="tool-op-kind is-write">Changes data</span></span>
        <span class="tool-op-desc">Moves an email to another folder and returns it; the moved email has a new id.</span>
      </a>
-     <a class="tool-op" href="../connector-tools/outlook-mail/message-delete.html" target="_blank" rel="noopener">
+     <a class="tool-op" href="outlook-mail/message-delete.html" target="_blank" rel="noopener">
        <span class="tool-op-head"><span class="tool-op-title">Delete an email</span><span class="tool-op-kind is-delete">Changes data</span></span>
        <span class="tool-op-desc">Deletes an email; Outlook moves it to the mailbox&#x27;s Deleted Items folder.</span>
      </a>
-     <a class="tool-op" href="../connector-tools/outlook-mail/message-createdraft.html" target="_blank" rel="noopener">
+     <a class="tool-op" href="outlook-mail/message-createdraft.html" target="_blank" rel="noopener">
        <span class="tool-op-head"><span class="tool-op-title">Create a draft email</span><span class="tool-op-kind is-write">Changes data</span></span>
        <span class="tool-op-desc">Saves a new email in the mailbox&#x27;s Drafts folder without sending it, and returns the draft with its id.</span>
      </a>
@@ -116,23 +116,23 @@ Folder
 .. raw:: html
 
    <div class="tool-ops">
-     <a class="tool-op" href="../connector-tools/outlook-mail/folder-getmany.html" target="_blank" rel="noopener">
+     <a class="tool-op" href="outlook-mail/folder-getmany.html" target="_blank" rel="noopener">
        <span class="tool-op-head"><span class="tool-op-title">List mail folders</span><span class="tool-op-kind is-read">Reads</span></span>
        <span class="tool-op-desc">Lists the top-level mail folders of a mailbox with their ids, names and unread and total counts; child folders are not included.</span>
      </a>
-     <a class="tool-op" href="../connector-tools/outlook-mail/folder-get.html" target="_blank" rel="noopener">
+     <a class="tool-op" href="outlook-mail/folder-get.html" target="_blank" rel="noopener">
        <span class="tool-op-head"><span class="tool-op-title">Get a mail folder</span><span class="tool-op-kind is-read">Reads</span></span>
        <span class="tool-op-desc">Returns one mail folder with its id, name, parent and unread, total and child folder counts.</span>
      </a>
-     <a class="tool-op" href="../connector-tools/outlook-mail/folder-getmessages.html" target="_blank" rel="noopener">
+     <a class="tool-op" href="outlook-mail/folder-getmessages.html" target="_blank" rel="noopener">
        <span class="tool-op-head"><span class="tool-op-title">List the emails in a folder</span><span class="tool-op-kind is-read">Reads</span></span>
        <span class="tool-op-desc">Lists the emails inside one mail folder, named by a well-known name or its id, as Microsoft Graph returns them: subject, sender, recipients, dates, read state and a preview.</span>
      </a>
-     <a class="tool-op" href="../connector-tools/outlook-mail/folder-create.html" target="_blank" rel="noopener">
+     <a class="tool-op" href="outlook-mail/folder-create.html" target="_blank" rel="noopener">
        <span class="tool-op-head"><span class="tool-op-title">Create a mail folder</span><span class="tool-op-kind is-write">Changes data</span></span>
        <span class="tool-op-desc">Creates a mail folder at the top level of the mailbox and returns it with its id.</span>
      </a>
-     <a class="tool-op" href="../connector-tools/outlook-mail/folder-delete.html" target="_blank" rel="noopener">
+     <a class="tool-op" href="outlook-mail/folder-delete.html" target="_blank" rel="noopener">
        <span class="tool-op-head"><span class="tool-op-title">Delete a mail folder</span><span class="tool-op-kind is-delete">Changes data</span></span>
        <span class="tool-op-desc">Deletes a mail folder together with the emails in it.</span>
      </a>
@@ -144,15 +144,15 @@ Attachment
 .. raw:: html
 
    <div class="tool-ops">
-     <a class="tool-op" href="../connector-tools/outlook-mail/attachment-getmany.html" target="_blank" rel="noopener">
+     <a class="tool-op" href="outlook-mail/attachment-getmany.html" target="_blank" rel="noopener">
        <span class="tool-op-head"><span class="tool-op-title">Read email attachments</span><span class="tool-op-kind is-read">Reads</span></span>
        <span class="tool-op-desc">Saves the attachments of one or more emails to the engine&#x27;s disk and returns one row per file: the email it came in, the file name, type and size, the saved path, and with extractText the file&#x27;s text, text_status and text_source.</span>
      </a>
-     <a class="tool-op" href="../connector-tools/outlook-mail/attachment-download.html" target="_blank" rel="noopener">
+     <a class="tool-op" href="outlook-mail/attachment-download.html" target="_blank" rel="noopener">
        <span class="tool-op-head"><span class="tool-op-title">Download email attachments</span><span class="tool-op-kind is-read">Reads</span></span>
        <span class="tool-op-desc">Saves the attachments of one or more emails into a folder on the engine&#x27;s disk, without reading them, and returns one row per file: the email it came in, the file name, type and size, path (where the file was saved) and save_status (saved, skipped when the file was already there, or not_a_file for an attached item or link).</span>
      </a>
-     <a class="tool-op" href="../connector-tools/outlook-mail/attachment-get.html" target="_blank" rel="noopener">
+     <a class="tool-op" href="outlook-mail/attachment-get.html" target="_blank" rel="noopener">
        <span class="tool-op-head"><span class="tool-op-title">Read one email attachment</span><span class="tool-op-kind is-read">Reads</span></span>
        <span class="tool-op-desc">Saves one attachment to the engine&#x27;s disk and returns it as one row with its email, name, type, size, saved path and, with extractText, its text, text_status and text_source, read the same way Attachment getMany reads them.</span>
      </a>

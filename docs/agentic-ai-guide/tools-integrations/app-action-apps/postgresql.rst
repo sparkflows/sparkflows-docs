@@ -13,7 +13,7 @@ PostgreSQL App Actions
      <div><dt>Node</dt><dd>App Action</dd></div>
      <div><dt>Actions</dt><dd>11 across 2 resources</dd></div>
      <div><dt>Reads / changes data</dt><dd>6 / 5</dd></div>
-     <div><dt>Connection</dt><dd>PostgreSQL connection</dd></div>
+     <div><dt>Connection</dt><dd>PostgreSQL</dd></div>
      </dl>
    </div>
 
@@ -41,7 +41,7 @@ Add a PostgreSQL App Action
 #. Drag **App Action** from **Commonly used** onto the canvas and connect it where the step belongs in the flow.
 #. **App:** choose **PostgreSQL**, or type ``postgresql`` in **Search apps**.
 #. **Action:** pick one of the 11 actions below. Each is marked **reads** or **changes data**.
-#. **Details:** choose the PostgreSQL connection connection and click **Test**, then fill in the inputs. Click a field under **What arrives here** to insert a value from an earlier step.
+#. **Details:** choose the PostgreSQL connection and click **Test**, then fill in the inputs. Click a field under **What arrives here** to insert a value from an earlier step.
 #. For a read, click **Load the fields** so later steps can use the columns it returns. Then click **Save action**.
 
 .. figure:: ../../../_assets/agentic-ai-guide/tools/app-actions/postgresql-actions.png
@@ -65,43 +65,43 @@ Table
 .. raw:: html
 
    <div class="tool-ops">
-     <a class="tool-op" href="../connector-tools/postgresql/table-getmany.html" target="_blank" rel="noopener">
+     <a class="tool-op" href="postgresql/table-getmany.html" target="_blank" rel="noopener">
        <span class="tool-op-head"><span class="tool-op-title">List rows</span><span class="tool-op-kind is-read">Reads</span></span>
        <span class="tool-op-desc">Reads rows from one table, with an optional where filter, sort order and column list, and returns at most limit rows; the limit is part of the SQL (LIMIT), so a large table is never read whole.</span>
      </a>
-     <a class="tool-op" href="../connector-tools/postgresql/table-get.html" target="_blank" rel="noopener">
+     <a class="tool-op" href="postgresql/table-get.html" target="_blank" rel="noopener">
        <span class="tool-op-head"><span class="tool-op-title">Get a row by key</span><span class="tool-op-kind is-read">Reads</span></span>
        <span class="tool-op-desc">Reads the one row whose key column equals the given value and returns all its columns, or no row when none matches.</span>
      </a>
-     <a class="tool-op" href="../connector-tools/postgresql/table-count.html" target="_blank" rel="noopener">
+     <a class="tool-op" href="postgresql/table-count.html" target="_blank" rel="noopener">
        <span class="tool-op-head"><span class="tool-op-title">Count rows</span><span class="tool-op-kind is-read">Reads</span></span>
        <span class="tool-op-desc">Counts the rows of a table, or only those matching where, and returns the number as row_count.</span>
      </a>
-     <a class="tool-op" href="../connector-tools/postgresql/table-describe.html" target="_blank" rel="noopener">
+     <a class="tool-op" href="postgresql/table-describe.html" target="_blank" rel="noopener">
        <span class="tool-op-head"><span class="tool-op-title">Describe a table</span><span class="tool-op-kind is-read">Reads</span></span>
        <span class="tool-op-desc">Returns each column of a table with its name, type, nullable flag and default.</span>
      </a>
-     <a class="tool-op" href="../connector-tools/postgresql/table-insert.html" target="_blank" rel="noopener">
+     <a class="tool-op" href="postgresql/table-insert.html" target="_blank" rel="noopener">
        <span class="tool-op-head"><span class="tool-op-title">Insert a row</span><span class="tool-op-kind is-write">Changes data</span></span>
        <span class="tool-op-desc">Adds one row to a table and returns how many rows were written.</span>
      </a>
-     <a class="tool-op" href="../connector-tools/postgresql/table-update.html" target="_blank" rel="noopener">
+     <a class="tool-op" href="postgresql/table-update.html" target="_blank" rel="noopener">
        <span class="tool-op-head"><span class="tool-op-title">Update a row by key</span><span class="tool-op-kind is-write">Changes data</span></span>
        <span class="tool-op-desc">Sets the columns given in row on the rows whose key column equals the key value inside row, and returns how many rows changed.</span>
      </a>
-     <a class="tool-op" href="../connector-tools/postgresql/table-upsert.html" target="_blank" rel="noopener">
+     <a class="tool-op" href="postgresql/table-upsert.html" target="_blank" rel="noopener">
        <span class="tool-op-head"><span class="tool-op-title">Insert or update a row</span><span class="tool-op-kind is-write">Changes data</span></span>
        <span class="tool-op-desc">Updates the rows whose key column matches the key value inside row, or inserts row when none matches, and returns how many rows were updated and inserted.</span>
      </a>
-     <a class="tool-op" href="../connector-tools/postgresql/table-delete.html" target="_blank" rel="noopener">
+     <a class="tool-op" href="postgresql/table-delete.html" target="_blank" rel="noopener">
        <span class="tool-op-head"><span class="tool-op-title">Delete rows</span><span class="tool-op-kind is-delete">Changes data</span></span>
        <span class="tool-op-desc">Deletes the row whose key column equals keyValue, or every row matching where when no key value is given, and returns how many rows were deleted.</span>
      </a>
-     <a class="tool-op" href="../connector-tools/postgresql/table-listtables.html" target="_blank" rel="noopener">
+     <a class="tool-op" href="postgresql/table-listtables.html" target="_blank" rel="noopener">
        <span class="tool-op-head"><span class="tool-op-title">List tables</span><span class="tool-op-kind is-read">Reads</span></span>
        <span class="tool-op-desc">Lists the tables in one schema, one row per table with its schema and name.</span>
      </a>
-     <a class="tool-op" href="../connector-tools/postgresql/table-listschemas.html" target="_blank" rel="noopener">
+     <a class="tool-op" href="postgresql/table-listschemas.html" target="_blank" rel="noopener">
        <span class="tool-op-head"><span class="tool-op-title">List schemas</span><span class="tool-op-kind is-read">Reads</span></span>
        <span class="tool-op-desc">Lists the schemas in the database, one row each, including system schemas such as information_schema.</span>
      </a>
@@ -113,7 +113,7 @@ Query
 .. raw:: html
 
    <div class="tool-ops">
-     <a class="tool-op" href="../connector-tools/postgresql/query-run.html" target="_blank" rel="noopener">
+     <a class="tool-op" href="postgresql/query-run.html" target="_blank" rel="noopener">
        <span class="tool-op-head"><span class="tool-op-title">Run a SQL statement</span><span class="tool-op-kind is-write">Changes data</span></span>
        <span class="tool-op-desc">Runs one PostgreSQL statement and commits it: a SELECT, WITH, VALUES or EXPLAIN statement returns its rows up to limit, and any other statement returns rowsAffected.</span>
      </a>

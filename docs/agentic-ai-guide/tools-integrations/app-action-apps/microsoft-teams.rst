@@ -66,15 +66,15 @@ Team
 .. raw:: html
 
    <div class="tool-ops">
-     <a class="tool-op" href="../connector-tools/microsoft-teams/team-getmany.html" target="_blank" rel="noopener">
+     <a class="tool-op" href="microsoft-teams/team-getmany.html" target="_blank" rel="noopener">
        <span class="tool-op-head"><span class="tool-op-title">List teams</span><span class="tool-op-kind is-read">Reads</span></span>
        <span class="tool-op-desc">Lists the organisation&#x27;s teams (Microsoft 365 groups that have a team) with id, displayName, description, mail and visibility.</span>
      </a>
-     <a class="tool-op" href="../connector-tools/microsoft-teams/team-get.html" target="_blank" rel="noopener">
+     <a class="tool-op" href="microsoft-teams/team-get.html" target="_blank" rel="noopener">
        <span class="tool-op-head"><span class="tool-op-title">Get a team</span><span class="tool-op-kind is-read">Reads</span></span>
        <span class="tool-op-desc">Returns one team&#x27;s settings: displayName, description, visibility, isArchived, webUrl and its member, guest, messaging and fun settings.</span>
      </a>
-     <a class="tool-op" href="../connector-tools/microsoft-teams/team-members.html" target="_blank" rel="noopener">
+     <a class="tool-op" href="microsoft-teams/team-members.html" target="_blank" rel="noopener">
        <span class="tool-op-head"><span class="tool-op-title">List team members</span><span class="tool-op-kind is-read">Reads</span></span>
        <span class="tool-op-desc">Lists the members of a team with displayName, email, userId and roles (owner, or empty for a member).</span>
      </a>
@@ -86,23 +86,23 @@ Channel
 .. raw:: html
 
    <div class="tool-ops">
-     <a class="tool-op" href="../connector-tools/microsoft-teams/channel-getmany.html" target="_blank" rel="noopener">
+     <a class="tool-op" href="microsoft-teams/channel-getmany.html" target="_blank" rel="noopener">
        <span class="tool-op-head"><span class="tool-op-title">List channels</span><span class="tool-op-kind is-read">Reads</span></span>
        <span class="tool-op-desc">Lists the channels of a team with id, displayName, description, membershipType (standard, private or shared) and webUrl.</span>
      </a>
-     <a class="tool-op" href="../connector-tools/microsoft-teams/channel-get.html" target="_blank" rel="noopener">
+     <a class="tool-op" href="microsoft-teams/channel-get.html" target="_blank" rel="noopener">
        <span class="tool-op-head"><span class="tool-op-title">Get a channel</span><span class="tool-op-kind is-read">Reads</span></span>
        <span class="tool-op-desc">Returns one channel of a team: displayName, description, membershipType, email, webUrl and createdDateTime.</span>
      </a>
-     <a class="tool-op" href="../connector-tools/microsoft-teams/channel-create.html" target="_blank" rel="noopener">
+     <a class="tool-op" href="microsoft-teams/channel-create.html" target="_blank" rel="noopener">
        <span class="tool-op-head"><span class="tool-op-title">Create a channel</span><span class="tool-op-kind is-write">Changes data</span></span>
        <span class="tool-op-desc">Creates a channel in a team and returns it with its new id.</span>
      </a>
-     <a class="tool-op" href="../connector-tools/microsoft-teams/channel-delete.html" target="_blank" rel="noopener">
+     <a class="tool-op" href="microsoft-teams/channel-delete.html" target="_blank" rel="noopener">
        <span class="tool-op-head"><span class="tool-op-title">Delete a channel</span><span class="tool-op-kind is-delete">Changes data</span></span>
        <span class="tool-op-desc">Deletes a channel and its conversations from a team.</span>
      </a>
-     <a class="tool-op" href="../connector-tools/microsoft-teams/channel-members.html" target="_blank" rel="noopener">
+     <a class="tool-op" href="microsoft-teams/channel-members.html" target="_blank" rel="noopener">
        <span class="tool-op-head"><span class="tool-op-title">List channel members</span><span class="tool-op-kind is-read">Reads</span></span>
        <span class="tool-op-desc">Lists the members of one channel with displayName, email, userId and roles.</span>
      </a>
@@ -114,15 +114,15 @@ Channel Message
 .. raw:: html
 
    <div class="tool-ops">
-     <a class="tool-op" href="../connector-tools/microsoft-teams/channel-message-getmany.html" target="_blank" rel="noopener">
+     <a class="tool-op" href="microsoft-teams/channel-message-getmany.html" target="_blank" rel="noopener">
        <span class="tool-op-head"><span class="tool-op-title">List channel messages</span><span class="tool-op-kind is-read">Reads</span></span>
        <span class="tool-op-desc">Lists the top-level posts of a channel with id, from, subject, body (HTML), createdDateTime and webUrl; replies are left out unless expand is replies.</span>
      </a>
-     <a class="tool-op" href="../connector-tools/microsoft-teams/channel-message-send.html" target="_blank" rel="noopener">
+     <a class="tool-op" href="microsoft-teams/channel-message-send.html" target="_blank" rel="noopener">
        <span class="tool-op-head"><span class="tool-op-title">Post a channel message</span><span class="tool-op-kind is-write">Changes data</span></span>
        <span class="tool-op-desc">Posts a new message in a channel and returns it with its id and webUrl; the text is sent as HTML. Microsoft Graph posts only for a signed-in user, so the connection needs a user (delegated) access token; with app-only credentials the call is refused before anything is sent.</span>
      </a>
-     <a class="tool-op" href="../connector-tools/microsoft-teams/channel-message-replies.html" target="_blank" rel="noopener">
+     <a class="tool-op" href="microsoft-teams/channel-message-replies.html" target="_blank" rel="noopener">
        <span class="tool-op-head"><span class="tool-op-title">List replies to a post</span><span class="tool-op-kind is-read">Reads</span></span>
        <span class="tool-op-desc">Lists the replies to one channel post with id, from, body (HTML) and createdDateTime.</span>
      </a>
@@ -134,19 +134,19 @@ Chat
 .. raw:: html
 
    <div class="tool-ops">
-     <a class="tool-op" href="../connector-tools/microsoft-teams/chat-getmany.html" target="_blank" rel="noopener">
+     <a class="tool-op" href="microsoft-teams/chat-getmany.html" target="_blank" rel="noopener">
        <span class="tool-op-head"><span class="tool-op-title">List chats</span><span class="tool-op-kind is-read">Reads</span></span>
        <span class="tool-op-desc">Lists one-on-one, group and meeting chats with id, topic, chatType, createdDateTime and lastUpdatedDateTime.</span>
      </a>
-     <a class="tool-op" href="../connector-tools/microsoft-teams/chat-get.html" target="_blank" rel="noopener">
+     <a class="tool-op" href="microsoft-teams/chat-get.html" target="_blank" rel="noopener">
        <span class="tool-op-head"><span class="tool-op-title">Get a chat</span><span class="tool-op-kind is-read">Reads</span></span>
        <span class="tool-op-desc">Returns one chat: topic, chatType (oneOnOne, group or meeting), createdDateTime, lastUpdatedDateTime and webUrl.</span>
      </a>
-     <a class="tool-op" href="../connector-tools/microsoft-teams/chat-messages.html" target="_blank" rel="noopener">
+     <a class="tool-op" href="microsoft-teams/chat-messages.html" target="_blank" rel="noopener">
        <span class="tool-op-head"><span class="tool-op-title">List chat messages</span><span class="tool-op-kind is-read">Reads</span></span>
        <span class="tool-op-desc">Lists the messages of one chat, most recently changed first, with id, from, body (HTML) and createdDateTime.</span>
      </a>
-     <a class="tool-op" href="../connector-tools/microsoft-teams/chat-send.html" target="_blank" rel="noopener">
+     <a class="tool-op" href="microsoft-teams/chat-send.html" target="_blank" rel="noopener">
        <span class="tool-op-head"><span class="tool-op-title">Send a chat message</span><span class="tool-op-kind is-write">Changes data</span></span>
        <span class="tool-op-desc">Sends a message in an existing chat and returns it with its id; the text is sent as HTML. Graph sends only for a signed-in user, so the connection needs a user (delegated) access token; with app-only credentials the call is refused before anything is sent.</span>
      </a>
@@ -158,11 +158,11 @@ Meeting
 .. raw:: html
 
    <div class="tool-ops">
-     <a class="tool-op" href="../connector-tools/microsoft-teams/meeting-create.html" target="_blank" rel="noopener">
+     <a class="tool-op" href="microsoft-teams/meeting-create.html" target="_blank" rel="noopener">
        <span class="tool-op-head"><span class="tool-op-title">Create an online meeting</span><span class="tool-op-kind is-write">Changes data</span></span>
        <span class="tool-op-desc">Creates a Teams online meeting on behalf of a user and returns its joinWebUrl, id, start and end.</span>
      </a>
-     <a class="tool-op" href="../connector-tools/microsoft-teams/meeting-get.html" target="_blank" rel="noopener">
+     <a class="tool-op" href="microsoft-teams/meeting-get.html" target="_blank" rel="noopener">
        <span class="tool-op-head"><span class="tool-op-title">Get an online meeting</span><span class="tool-op-kind is-read">Reads</span></span>
        <span class="tool-op-desc">Returns one online meeting: subject, startDateTime, endDateTime, joinWebUrl, participants and dial-in details.</span>
      </a>

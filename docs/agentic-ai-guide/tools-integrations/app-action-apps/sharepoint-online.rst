@@ -64,15 +64,15 @@ Site
 .. raw:: html
 
    <div class="tool-ops">
-     <a class="tool-op" href="../connector-tools/sharepoint-online/site-get.html" target="_blank" rel="noopener">
+     <a class="tool-op" href="sharepoint-online/site-get.html" target="_blank" rel="noopener">
        <span class="tool-op-head"><span class="tool-op-title">Get a site</span><span class="tool-op-kind is-read">Reads</span></span>
        <span class="tool-op-desc">Returns one site with its id, name, title, description and web address.</span>
      </a>
-     <a class="tool-op" href="../connector-tools/sharepoint-online/site-getmany.html" target="_blank" rel="noopener">
+     <a class="tool-op" href="sharepoint-online/site-getmany.html" target="_blank" rel="noopener">
        <span class="tool-op-head"><span class="tool-op-title">List sites</span><span class="tool-op-kind is-read">Reads</span></span>
        <span class="tool-op-desc">Lists the SharePoint sites of the organization with their ids, names and web addresses.</span>
      </a>
-     <a class="tool-op" href="../connector-tools/sharepoint-online/site-search.html" target="_blank" rel="noopener">
+     <a class="tool-op" href="sharepoint-online/site-search.html" target="_blank" rel="noopener">
        <span class="tool-op-head"><span class="tool-op-title">Search sites</span><span class="tool-op-kind is-read">Reads</span></span>
        <span class="tool-op-desc">Finds sites whose name or description matches keywords and returns their ids, names and web addresses.</span>
      </a>
@@ -84,11 +84,11 @@ Drive
 .. raw:: html
 
    <div class="tool-ops">
-     <a class="tool-op" href="../connector-tools/sharepoint-online/drive-getmany.html" target="_blank" rel="noopener">
+     <a class="tool-op" href="sharepoint-online/drive-getmany.html" target="_blank" rel="noopener">
        <span class="tool-op-head"><span class="tool-op-title">List document libraries</span><span class="tool-op-kind is-read">Reads</span></span>
        <span class="tool-op-desc">Lists the document libraries of a site with their ids, names and web addresses.</span>
      </a>
-     <a class="tool-op" href="../connector-tools/sharepoint-online/drive-get.html" target="_blank" rel="noopener">
+     <a class="tool-op" href="sharepoint-online/drive-get.html" target="_blank" rel="noopener">
        <span class="tool-op-head"><span class="tool-op-title">Get a document library</span><span class="tool-op-kind is-read">Reads</span></span>
        <span class="tool-op-desc">Returns one document library by its id with its name, owner, storage quota and web address.</span>
      </a>
@@ -100,39 +100,39 @@ File
 .. raw:: html
 
    <div class="tool-ops">
-     <a class="tool-op" href="../connector-tools/sharepoint-online/file-getmany.html" target="_blank" rel="noopener">
+     <a class="tool-op" href="sharepoint-online/file-getmany.html" target="_blank" rel="noopener">
        <span class="tool-op-head"><span class="tool-op-title">List files in a folder</span><span class="tool-op-kind is-read">Reads</span></span>
        <span class="tool-op-desc">Lists the files and folders directly inside one folder of the site&#x27;s default document library, each with id, name, type, path, size, web address and who last changed it and when.</span>
      </a>
-     <a class="tool-op" href="../connector-tools/sharepoint-online/file-get.html" target="_blank" rel="noopener">
+     <a class="tool-op" href="sharepoint-online/file-get.html" target="_blank" rel="noopener">
        <span class="tool-op-head"><span class="tool-op-title">Get a file or folder</span><span class="tool-op-kind is-read">Reads</span></span>
        <span class="tool-op-desc">Returns one file or folder, by path or id, with its id, type, size, web address and who last changed it and when.</span>
      </a>
-     <a class="tool-op" href="../connector-tools/sharepoint-online/file-search.html" target="_blank" rel="noopener">
+     <a class="tool-op" href="sharepoint-online/file-search.html" target="_blank" rel="noopener">
        <span class="tool-op-head"><span class="tool-op-title">Search files</span><span class="tool-op-kind is-read">Reads</span></span>
        <span class="tool-op-desc">Finds files and folders in the site&#x27;s default document library whose names or contents match words, and returns them in the same columns as File getMany.</span>
      </a>
-     <a class="tool-op" href="../connector-tools/sharepoint-online/file-download.html" target="_blank" rel="noopener">
+     <a class="tool-op" href="sharepoint-online/file-download.html" target="_blank" rel="noopener">
        <span class="tool-op-head"><span class="tool-op-title">Download a file and read its text</span><span class="tool-op-kind is-read">Reads</span></span>
        <span class="tool-op-desc">Saves one file to the engine&#x27;s disk and returns its details with the saved path and its text: the words of a PDF, Word, Excel, text or CSV file, with text_status ok, password_protected, no_text (a scan) or unsupported.</span>
      </a>
-     <a class="tool-op" href="../connector-tools/sharepoint-online/file-upload.html" target="_blank" rel="noopener">
+     <a class="tool-op" href="sharepoint-online/file-upload.html" target="_blank" rel="noopener">
        <span class="tool-op-head"><span class="tool-op-title">Upload a file</span><span class="tool-op-kind is-write">Changes data</span></span>
        <span class="tool-op-desc">Uploads a file from the engine&#x27;s disk into a folder of the site&#x27;s default document library and returns the stored file; a file of the same name there is replaced.</span>
      </a>
-     <a class="tool-op" href="../connector-tools/sharepoint-online/file-createfolder.html" target="_blank" rel="noopener">
+     <a class="tool-op" href="sharepoint-online/file-createfolder.html" target="_blank" rel="noopener">
        <span class="tool-op-head"><span class="tool-op-title">Create a folder</span><span class="tool-op-kind is-write">Changes data</span></span>
        <span class="tool-op-desc">Creates a folder in the site&#x27;s default document library and returns it with its id.</span>
      </a>
-     <a class="tool-op" href="../connector-tools/sharepoint-online/file-delete.html" target="_blank" rel="noopener">
+     <a class="tool-op" href="sharepoint-online/file-delete.html" target="_blank" rel="noopener">
        <span class="tool-op-head"><span class="tool-op-title">Delete a file or folder</span><span class="tool-op-kind is-delete">Changes data</span></span>
        <span class="tool-op-desc">Deletes a file, or a folder with everything in it, moving it to the site&#x27;s recycle bin.</span>
      </a>
-     <a class="tool-op" href="../connector-tools/sharepoint-online/file-move.html" target="_blank" rel="noopener">
+     <a class="tool-op" href="sharepoint-online/file-move.html" target="_blank" rel="noopener">
        <span class="tool-op-head"><span class="tool-op-title">Move or rename a file</span><span class="tool-op-kind is-write">Changes data</span></span>
        <span class="tool-op-desc">Moves a file or folder into another folder of the same library, renames it, or both, and returns it.</span>
      </a>
-     <a class="tool-op" href="../connector-tools/sharepoint-online/file-copy.html" target="_blank" rel="noopener">
+     <a class="tool-op" href="sharepoint-online/file-copy.html" target="_blank" rel="noopener">
        <span class="tool-op-head"><span class="tool-op-title">Copy a file</span><span class="tool-op-kind is-write">Changes data</span></span>
        <span class="tool-op-desc">Copies a file or folder into another folder, optionally under a new name.</span>
      </a>
@@ -144,19 +144,19 @@ List
 .. raw:: html
 
    <div class="tool-ops">
-     <a class="tool-op" href="../connector-tools/sharepoint-online/list-getmany.html" target="_blank" rel="noopener">
+     <a class="tool-op" href="sharepoint-online/list-getmany.html" target="_blank" rel="noopener">
        <span class="tool-op-head"><span class="tool-op-title">List the site&#x27;s lists</span><span class="tool-op-kind is-read">Reads</span></span>
        <span class="tool-op-desc">Lists the lists and libraries of a site with their ids, names and web addresses.</span>
      </a>
-     <a class="tool-op" href="../connector-tools/sharepoint-online/list-get.html" target="_blank" rel="noopener">
+     <a class="tool-op" href="sharepoint-online/list-get.html" target="_blank" rel="noopener">
        <span class="tool-op-head"><span class="tool-op-title">Get a list</span><span class="tool-op-kind is-read">Reads</span></span>
        <span class="tool-op-desc">Returns one list, by name or id, with its display name, template and web address, plus its column definitions when expand is columns.</span>
      </a>
-     <a class="tool-op" href="../connector-tools/sharepoint-online/list-create.html" target="_blank" rel="noopener">
+     <a class="tool-op" href="sharepoint-online/list-create.html" target="_blank" rel="noopener">
        <span class="tool-op-head"><span class="tool-op-title">Create a list</span><span class="tool-op-kind is-write">Changes data</span></span>
        <span class="tool-op-desc">Creates a list on the site with a Title column plus any text columns named, and returns it with its id.</span>
      </a>
-     <a class="tool-op" href="../connector-tools/sharepoint-online/list-delete.html" target="_blank" rel="noopener">
+     <a class="tool-op" href="sharepoint-online/list-delete.html" target="_blank" rel="noopener">
        <span class="tool-op-head"><span class="tool-op-title">Delete a list</span><span class="tool-op-kind is-delete">Changes data</span></span>
        <span class="tool-op-desc">Deletes a list together with all its items, moving it to the site&#x27;s recycle bin.</span>
      </a>
@@ -168,23 +168,23 @@ List Item
 .. raw:: html
 
    <div class="tool-ops">
-     <a class="tool-op" href="../connector-tools/sharepoint-online/list-item-getmany.html" target="_blank" rel="noopener">
+     <a class="tool-op" href="sharepoint-online/list-item-getmany.html" target="_blank" rel="noopener">
        <span class="tool-op-head"><span class="tool-op-title">List items in a list</span><span class="tool-op-kind is-read">Reads</span></span>
        <span class="tool-op-desc">Lists the items of a list, each as one row with its id, dates, author and every column of the list.</span>
      </a>
-     <a class="tool-op" href="../connector-tools/sharepoint-online/list-item-get.html" target="_blank" rel="noopener">
+     <a class="tool-op" href="sharepoint-online/list-item-get.html" target="_blank" rel="noopener">
        <span class="tool-op-head"><span class="tool-op-title">Get a list item</span><span class="tool-op-kind is-read">Reads</span></span>
        <span class="tool-op-desc">Returns one list item by its id with its dates, author and every column.</span>
      </a>
-     <a class="tool-op" href="../connector-tools/sharepoint-online/list-item-create.html" target="_blank" rel="noopener">
+     <a class="tool-op" href="sharepoint-online/list-item-create.html" target="_blank" rel="noopener">
        <span class="tool-op-head"><span class="tool-op-title">Create a list item</span><span class="tool-op-kind is-write">Changes data</span></span>
        <span class="tool-op-desc">Adds an item to a list and returns it with its id and columns.</span>
      </a>
-     <a class="tool-op" href="../connector-tools/sharepoint-online/list-item-update.html" target="_blank" rel="noopener">
+     <a class="tool-op" href="sharepoint-online/list-item-update.html" target="_blank" rel="noopener">
        <span class="tool-op-head"><span class="tool-op-title">Update a list item</span><span class="tool-op-kind is-write">Changes data</span></span>
        <span class="tool-op-desc">Changes columns of an existing list item and returns its columns; columns not named keep their values.</span>
      </a>
-     <a class="tool-op" href="../connector-tools/sharepoint-online/list-item-delete.html" target="_blank" rel="noopener">
+     <a class="tool-op" href="sharepoint-online/list-item-delete.html" target="_blank" rel="noopener">
        <span class="tool-op-head"><span class="tool-op-title">Delete a list item</span><span class="tool-op-kind is-delete">Changes data</span></span>
        <span class="tool-op-desc">Deletes an item from a list, moving it to the site&#x27;s recycle bin.</span>
      </a>
@@ -196,11 +196,11 @@ Page
 .. raw:: html
 
    <div class="tool-ops">
-     <a class="tool-op" href="../connector-tools/sharepoint-online/page-getmany.html" target="_blank" rel="noopener">
+     <a class="tool-op" href="sharepoint-online/page-getmany.html" target="_blank" rel="noopener">
        <span class="tool-op-head"><span class="tool-op-title">List site pages</span><span class="tool-op-kind is-read">Reads</span></span>
        <span class="tool-op-desc">Lists the pages of a site with their ids, names, titles, web addresses and dates.</span>
      </a>
-     <a class="tool-op" href="../connector-tools/sharepoint-online/page-get.html" target="_blank" rel="noopener">
+     <a class="tool-op" href="sharepoint-online/page-get.html" target="_blank" rel="noopener">
        <span class="tool-op-head"><span class="tool-op-title">Get a site page</span><span class="tool-op-kind is-read">Reads</span></span>
        <span class="tool-op-desc">Returns one site page by its id with its name, title, layout, web address and dates.</span>
      </a>

@@ -65,19 +65,19 @@ Document
 .. raw:: html
 
    <div class="tool-ops">
-     <a class="tool-op" href="../connector-tools/google-docs/document-get.html" target="_blank" rel="noopener">
+     <a class="tool-op" href="google-docs/document-get.html" target="_blank" rel="noopener">
        <span class="tool-op-head"><span class="tool-op-title">Get a document</span><span class="tool-op-kind is-read">Reads</span></span>
        <span class="tool-op-desc">Returns a document&#x27;s full structure: title, revision id and body content with the start and end index of every paragraph, table and text run.</span>
      </a>
-     <a class="tool-op" href="../connector-tools/google-docs/document-gettext.html" target="_blank" rel="noopener">
+     <a class="tool-op" href="google-docs/document-gettext.html" target="_blank" rel="noopener">
        <span class="tool-op-head"><span class="tool-op-title">Read a document as text</span><span class="tool-op-kind is-read">Reads</span></span>
        <span class="tool-op-desc">Returns a document&#x27;s id, title and its whole text as one plain-text value, table cells included.</span>
      </a>
-     <a class="tool-op" href="../connector-tools/google-docs/document-create.html" target="_blank" rel="noopener">
+     <a class="tool-op" href="google-docs/document-create.html" target="_blank" rel="noopener">
        <span class="tool-op-head"><span class="tool-op-title">Create a document</span><span class="tool-op-kind is-write">Changes data</span></span>
        <span class="tool-op-desc">Creates an empty document with the given title in the connection&#x27;s Google Drive and returns its documentId and link.</span>
      </a>
-     <a class="tool-op" href="../connector-tools/google-docs/document-update.html" target="_blank" rel="noopener">
+     <a class="tool-op" href="google-docs/document-update.html" target="_blank" rel="noopener">
        <span class="tool-op-head"><span class="tool-op-title">Update a document</span><span class="tool-op-kind is-write">Changes data</span></span>
        <span class="tool-op-desc">Edits a document through the Docs batchUpdate API and returns the document id and its new revision.</span>
      </a>

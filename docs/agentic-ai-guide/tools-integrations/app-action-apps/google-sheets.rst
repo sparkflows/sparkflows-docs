@@ -64,19 +64,19 @@ Row
 .. raw:: html
 
    <div class="tool-ops">
-     <a class="tool-op" href="../connector-tools/google-sheets/row-getmany.html" target="_blank" rel="noopener">
+     <a class="tool-op" href="google-sheets/row-getmany.html" target="_blank" rel="noopener">
        <span class="tool-op-head"><span class="tool-op-title">Read rows</span><span class="tool-op-kind is-read">Reads</span></span>
        <span class="tool-op-desc">Reads the cell values of a tab or A1 range and returns one row per sheet row.</span>
      </a>
-     <a class="tool-op" href="../connector-tools/google-sheets/row-append.html" target="_blank" rel="noopener">
+     <a class="tool-op" href="google-sheets/row-append.html" target="_blank" rel="noopener">
        <span class="tool-op-head"><span class="tool-op-title">Append rows</span><span class="tool-op-kind is-write">Changes data</span></span>
        <span class="tool-op-desc">Adds rows below the last row of the table in a tab and returns the range that was written.</span>
      </a>
-     <a class="tool-op" href="../connector-tools/google-sheets/row-update.html" target="_blank" rel="noopener">
+     <a class="tool-op" href="google-sheets/row-update.html" target="_blank" rel="noopener">
        <span class="tool-op-head"><span class="tool-op-title">Update rows</span><span class="tool-op-kind is-write">Changes data</span></span>
        <span class="tool-op-desc">Overwrites the cells of an exact range and returns the range and the number of cells updated.</span>
      </a>
-     <a class="tool-op" href="../connector-tools/google-sheets/row-clear.html" target="_blank" rel="noopener">
+     <a class="tool-op" href="google-sheets/row-clear.html" target="_blank" rel="noopener">
        <span class="tool-op-head"><span class="tool-op-title">Clear a range</span><span class="tool-op-kind is-delete">Changes data</span></span>
        <span class="tool-op-desc">Empties the values in a range and returns the range that was cleared; formatting and the rows themselves stay.</span>
      </a>
@@ -88,11 +88,11 @@ Spreadsheet
 .. raw:: html
 
    <div class="tool-ops">
-     <a class="tool-op" href="../connector-tools/google-sheets/spreadsheet-get.html" target="_blank" rel="noopener">
+     <a class="tool-op" href="google-sheets/spreadsheet-get.html" target="_blank" rel="noopener">
        <span class="tool-op-head"><span class="tool-op-title">Get a spreadsheet</span><span class="tool-op-kind is-read">Reads</span></span>
        <span class="tool-op-desc">Returns a spreadsheet&#x27;s metadata: title, locale, time zone, URL and each tab&#x27;s properties such as sheetId, title and grid size.</span>
      </a>
-     <a class="tool-op" href="../connector-tools/google-sheets/spreadsheet-create.html" target="_blank" rel="noopener">
+     <a class="tool-op" href="google-sheets/spreadsheet-create.html" target="_blank" rel="noopener">
        <span class="tool-op-head"><span class="tool-op-title">Create a spreadsheet</span><span class="tool-op-kind is-write">Changes data</span></span>
        <span class="tool-op-desc">Creates a new spreadsheet in the connection&#x27;s Google Drive and returns its spreadsheetId, URL and tabs.</span>
      </a>
@@ -104,15 +104,15 @@ Sheet
 .. raw:: html
 
    <div class="tool-ops">
-     <a class="tool-op" href="../connector-tools/google-sheets/sheet-getmany.html" target="_blank" rel="noopener">
+     <a class="tool-op" href="google-sheets/sheet-getmany.html" target="_blank" rel="noopener">
        <span class="tool-op-head"><span class="tool-op-title">List tabs</span><span class="tool-op-kind is-read">Reads</span></span>
        <span class="tool-op-desc">Lists the tabs of a spreadsheet with each tab&#x27;s sheetId, title, index and grid size.</span>
      </a>
-     <a class="tool-op" href="../connector-tools/google-sheets/sheet-add.html" target="_blank" rel="noopener">
+     <a class="tool-op" href="google-sheets/sheet-add.html" target="_blank" rel="noopener">
        <span class="tool-op-head"><span class="tool-op-title">Add a tab</span><span class="tool-op-kind is-write">Changes data</span></span>
        <span class="tool-op-desc">Adds a new tab to an existing spreadsheet and returns its sheetId, title and index.</span>
      </a>
-     <a class="tool-op" href="../connector-tools/google-sheets/sheet-delete.html" target="_blank" rel="noopener">
+     <a class="tool-op" href="google-sheets/sheet-delete.html" target="_blank" rel="noopener">
        <span class="tool-op-head"><span class="tool-op-title">Delete a tab</span><span class="tool-op-kind is-delete">Changes data</span></span>
        <span class="tool-op-desc">Deletes a tab and everything on it from a spreadsheet.</span>
      </a>

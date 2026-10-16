@@ -141,17 +141,17 @@ Databases
      <article class="tutorial-card tool-card">
        <div class="tool-card-head"><img src="../../../_static/img/tools/mysql.svg" alt=""><h3><a href="mysql.html">MySQL</a></h3></div>
        <p>Read, filter and count rows, describe tables, and write rows.</p>
-       <p class="tutorial-tools">11 actions · 6 read, 5 change data<br>12 trigger events · MySQL connection connection</p>
+       <p class="tutorial-tools">11 actions · 6 read, 5 change data<br>12 trigger events · MySQL connection</p>
      </article>
      <article class="tutorial-card tool-card">
        <div class="tool-card-head"><img src="../../../_static/img/tools/postgresql.svg" alt=""><h3><a href="postgresql.html">PostgreSQL</a></h3></div>
        <p>Read, filter and count rows, describe tables, and write rows.</p>
-       <p class="tutorial-tools">11 actions · 6 read, 5 change data<br>12 trigger events · PostgreSQL connection connection</p>
+       <p class="tutorial-tools">11 actions · 6 read, 5 change data<br>12 trigger events · PostgreSQL connection</p>
      </article>
      <article class="tutorial-card tool-card">
        <div class="tool-card-head"><img src="../../../_static/img/tools/sqlserver.svg" alt=""><h3><a href="sql-server.html">SQL Server</a></h3></div>
        <p>Read, filter and count rows, describe tables, and write rows.</p>
-       <p class="tutorial-tools">11 actions · 6 read, 5 change data<br>12 trigger events · SQL Server connection connection</p>
+       <p class="tutorial-tools">11 actions · 6 read, 5 change data<br>12 trigger events · SQL Server connection</p>
      </article>
    </div>
 
@@ -170,7 +170,7 @@ Web
 
 .. note::
 
-   GitHub, Notion, Stripe and Email (IMAP and SMTP) are available as :doc:`agent tools </agentic-ai-guide/tools-integrations/connector-tools/index>` only. Their App Actions are still marked **Coming soon**.
+   GitHub, Notion, Stripe, Email (IMAP and SMTP) and SQL Database are available as :doc:`agent tools </agentic-ai-guide/tools-integrations/connector-tools/index>` only. Their App Actions are still marked **Coming soon**.
 
 App Action or agent tool?
 -------------------------

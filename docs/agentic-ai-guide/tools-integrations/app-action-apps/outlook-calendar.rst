@@ -64,35 +64,35 @@ Event
 .. raw:: html
 
    <div class="tool-ops">
-     <a class="tool-op" href="../connector-tools/outlook-calendar/event-getmany.html" target="_blank" rel="noopener">
+     <a class="tool-op" href="outlook-calendar/event-getmany.html" target="_blank" rel="noopener">
        <span class="tool-op-head"><span class="tool-op-title">List events</span><span class="tool-op-kind is-read">Reads</span></span>
        <span class="tool-op-desc">Lists events in the mailbox&#x27;s default calendar with subject, start and end, location, organizer, attendees, online meeting link and status.</span>
      </a>
-     <a class="tool-op" href="../connector-tools/outlook-calendar/event-get.html" target="_blank" rel="noopener">
+     <a class="tool-op" href="outlook-calendar/event-get.html" target="_blank" rel="noopener">
        <span class="tool-op-head"><span class="tool-op-title">Get an event</span><span class="tool-op-kind is-read">Reads</span></span>
        <span class="tool-op-desc">Returns one event by its id with its times, location, organizer, attendees, online meeting link and status.</span>
      </a>
-     <a class="tool-op" href="../connector-tools/outlook-calendar/event-create.html" target="_blank" rel="noopener">
+     <a class="tool-op" href="outlook-calendar/event-create.html" target="_blank" rel="noopener">
        <span class="tool-op-head"><span class="tool-op-title">Create an event</span><span class="tool-op-kind is-write">Changes data</span></span>
        <span class="tool-op-desc">Creates an event in the mailbox&#x27;s default calendar, sends invitations to any attendees, and returns the event with its id.</span>
      </a>
-     <a class="tool-op" href="../connector-tools/outlook-calendar/event-update.html" target="_blank" rel="noopener">
+     <a class="tool-op" href="outlook-calendar/event-update.html" target="_blank" rel="noopener">
        <span class="tool-op-head"><span class="tool-op-title">Update an event</span><span class="tool-op-kind is-write">Changes data</span></span>
        <span class="tool-op-desc">Changes an existing event&#x27;s title, times, location, description or attendees and returns the updated event.</span>
      </a>
-     <a class="tool-op" href="../connector-tools/outlook-calendar/event-delete.html" target="_blank" rel="noopener">
+     <a class="tool-op" href="outlook-calendar/event-delete.html" target="_blank" rel="noopener">
        <span class="tool-op-head"><span class="tool-op-title">Delete an event</span><span class="tool-op-kind is-delete">Changes data</span></span>
        <span class="tool-op-desc">Deletes an event from the calendar; when the mailbox organizes the meeting, the attendees receive a cancellation.</span>
      </a>
-     <a class="tool-op" href="../connector-tools/outlook-calendar/event-accept.html" target="_blank" rel="noopener">
+     <a class="tool-op" href="outlook-calendar/event-accept.html" target="_blank" rel="noopener">
        <span class="tool-op-head"><span class="tool-op-title">Accept a meeting invitation</span><span class="tool-op-kind is-write">Changes data</span></span>
        <span class="tool-op-desc">Accepts a meeting invitation in the mailbox&#x27;s calendar, optionally with a note to the organizer.</span>
      </a>
-     <a class="tool-op" href="../connector-tools/outlook-calendar/event-decline.html" target="_blank" rel="noopener">
+     <a class="tool-op" href="outlook-calendar/event-decline.html" target="_blank" rel="noopener">
        <span class="tool-op-head"><span class="tool-op-title">Decline a meeting invitation</span><span class="tool-op-kind is-write">Changes data</span></span>
        <span class="tool-op-desc">Declines a meeting invitation, optionally with a note to the organizer, and takes the meeting off the calendar.</span>
      </a>
-     <a class="tool-op" href="../connector-tools/outlook-calendar/event-cancel.html" target="_blank" rel="noopener">
+     <a class="tool-op" href="outlook-calendar/event-cancel.html" target="_blank" rel="noopener">
        <span class="tool-op-head"><span class="tool-op-title">Cancel a meeting</span><span class="tool-op-kind is-delete">Changes data</span></span>
        <span class="tool-op-desc">Cancels a meeting the mailbox organizes and sends every attendee a cancellation carrying the comment.</span>
      </a>
@@ -104,11 +104,11 @@ Calendar
 .. raw:: html
 
    <div class="tool-ops">
-     <a class="tool-op" href="../connector-tools/outlook-calendar/calendar-getmany.html" target="_blank" rel="noopener">
+     <a class="tool-op" href="outlook-calendar/calendar-getmany.html" target="_blank" rel="noopener">
        <span class="tool-op-head"><span class="tool-op-title">List calendars</span><span class="tool-op-kind is-read">Reads</span></span>
        <span class="tool-op-desc">Lists the calendars of a mailbox with their ids, names, colours, owners and which one is the default.</span>
      </a>
-     <a class="tool-op" href="../connector-tools/outlook-calendar/calendar-get.html" target="_blank" rel="noopener">
+     <a class="tool-op" href="outlook-calendar/calendar-get.html" target="_blank" rel="noopener">
        <span class="tool-op-head"><span class="tool-op-title">Get a calendar</span><span class="tool-op-kind is-read">Reads</span></span>
        <span class="tool-op-desc">Returns one calendar by its id with its name, colour, owner and edit and sharing rights.</span>
      </a>
@@ -120,11 +120,11 @@ Free Time
 .. raw:: html
 
    <div class="tool-ops">
-     <a class="tool-op" href="../connector-tools/outlook-calendar/free-time-find.html" target="_blank" rel="noopener">
+     <a class="tool-op" href="outlook-calendar/free-time-find.html" target="_blank" rel="noopener">
        <span class="tool-op-head"><span class="tool-op-title">Find meeting times</span><span class="tool-op-kind is-read">Reads</span></span>
        <span class="tool-op-desc">Suggests meeting times when the organizer and the attendees are free, one row per suggestion with its time, a confidence score and who is available; when nothing fits, one row gives Graph&#x27;s emptySuggestionsReason.</span>
      </a>
-     <a class="tool-op" href="../connector-tools/outlook-calendar/free-time-schedule.html" target="_blank" rel="noopener">
+     <a class="tool-op" href="outlook-calendar/free-time-schedule.html" target="_blank" rel="noopener">
        <span class="tool-op-head"><span class="tool-op-title">Get free/busy schedules</span><span class="tool-op-kind is-read">Reads</span></span>
        <span class="tool-op-desc">Returns the free/busy schedule of people or rooms over a period, one row per address: an availability view with one digit per slot (0 free, 1 tentative, 2 busy, 3 out of office, 4 working elsewhere) and the busy items.</span>
      </a>

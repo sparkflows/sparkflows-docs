@@ -58,7 +58,7 @@ Type a value, or click a field under **What arrives here** to put a value from a
      - The id of the comment to act on, or the board a sprint list belongs to. A status change takes its transition id in Fields to set, as transition. For example ``10042 (a comment id or a board id)``.
    * - **Issue key**
      - No
-     - The issue key, for example FIN-12 (or the attachment id, project key or sprint id where the operation names one). For example ``FIN-12``.
+     - The issue key, for example FIN-12 (or the attachment id, project key or sprint id where the operation names one).
 
 Under **Advanced settings**:
 
@@ -72,7 +72,10 @@ Under **Advanced settings**:
      - What to enter
    * - **If a row is rejected**
      - No
-     - stop fails the run at the first rejected row. continue writes the rest and marks that row failed in result\_status and result\_error. Choices: ``stop``, ``continue``. Default: ``stop``.
+     - What happens when a row cannot be written.
+
+       * ``stop`` (default): The run stops at the first row that fails.
+       * ``continue``: The other rows are still written. The failed row is marked ``failed`` in ``result_status``, with the reason in ``result_error``.
 
 What it passes on
 -----------------

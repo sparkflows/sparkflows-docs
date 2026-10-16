@@ -58,10 +58,13 @@ Type a value, or click a field under **What arrives here** to put a value from a
      - The spreadsheet's id, or its full URL.
    * - **Range**
      - No
-     - The sheet or A1 range to read or write, for example Sheet1 or Sheet1!A1:D100. Blank means Sheet1. For example ``Sheet1 or Sheet1!A1:D100``.
+     - The sheet or A1 range to read or write, for example Sheet1 or Sheet1!A1:D100. Blank means Sheet1.
    * - **Use the first row as column names**
      - No
-     - match: an append puts each value under the column of the same name (an empty sheet gets the names as its first row), and a read names its columns after the first row. none: values are written in the order they arrive and read back as columns A, B, C. Choices: ``match``, ``none``. Default: ``match``.
+     - How the first row of the sheet is used.
+
+       * ``match`` (default): Each value goes under the column with the same name, and a read names its columns after the first row. An empty sheet gets the names as its first row.
+       * ``none``: Values are written in the order they arrive, and read back as columns A, B, C.
 
 Under **Advanced settings**:
 
@@ -75,7 +78,10 @@ Under **Advanced settings**:
      - What to enter
    * - **If a row is rejected**
      - No
-     - stop fails the run at the first rejected row. continue writes the rest and marks that row failed in result\_status and result\_error. Choices: ``stop``, ``continue``. Default: ``stop``.
+     - What happens when a row cannot be written.
+
+       * ``stop`` (default): The run stops at the first row that fails.
+       * ``continue``: The other rows are still written. The failed row is marked ``failed`` in ``result_status``, with the reason in ``result_error``.
 
 What it passes on
 -----------------

@@ -55,7 +55,7 @@ Type a value, or click a field under **What arrives here** to put a value from a
      - What to enter
    * - **Record Id**
      - No
-     - The Salesforce Id of the record, for example 001XX000003DHPh. For example ``001XX000003DHPh``.
+     - The Salesforce Id of the record, for example 001XX000003DHPh.
 
 Under **Advanced settings**:
 
@@ -69,7 +69,10 @@ Under **Advanced settings**:
      - What to enter
    * - **If a row is rejected**
      - No
-     - stop fails the run at the first rejected row. continue writes the rest and marks that row failed in result\_status and result\_error. Choices: ``stop``, ``continue``. Default: ``stop``.
+     - What happens when a row cannot be written.
+
+       * ``stop`` (default): The run stops at the first row that fails.
+       * ``continue``: The other rows are still written. The failed row is marked ``failed`` in ``result_status``, with the reason in ``result_error``.
    * - **Use the Bulk API from this many rows**
      - No
      - Below this many rows each row is one REST call; from this many the whole set goes as one Bulk API job. 0 never uses the Bulk API. Default: ``200``.

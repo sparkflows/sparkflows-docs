@@ -54,7 +54,7 @@ Type a value, or click a field under **What arrives here** to put a value from a
      - What to enter
    * - **Mailbox**
      - No
-     - The address of the mailbox, for example someone@company.com. For example ``someone@company.com``.
+     - The address of the mailbox, for example someone@company.com.
    * - **Message, folder or attachment id**
      - No
      - The message to act on (several comma-separated for attachments); for a list or search, the folder (inbox, sentitems, drafts, archive or a folder id); for one attachment messageId/attachmentId. For example ``inbox, or a message id from a list step``.
@@ -69,16 +69,27 @@ Type a value, or click a field under **What arrives here** to put a value from a
      - How many rows at most. A run from the canvas previews 20. Default: ``100``.
    * - **File types**
      - No
-     - Only attachments with these extensions, comma-separated, for example pdf,docx. Blank takes every attachment. For example ``pdf, docx, csv``.
+     - Only attachments with these extensions, comma-separated, for example pdf,docx. Blank takes every attachment.
    * - **Save into folder**
      - No
      - A folder on the machine the engine runs on, for example C:\\Data\\Invoices or /data/invoices. The full path of each saved file comes back in the path column. Blank uses ~/.fireagent/outlook\_attachments.
    * - **A folder per email**
      - No
-     - true saves each email's files in a sub-folder named after the email; false puts every file straight into the folder. Two files with one name are kept apart as name-2. Choices: ``true``, ``false``. Default: ``true``.
+     - Where the saved files go.
+
+       * ``true`` (default): Each email's files go in their own sub-folder, named after the email.
+       * ``false``: Every file goes straight into the folder.
+
+       Two files with the same name are kept apart as ``name-2``.
    * - **If the file is already there**
      - No
-     - For a file name the folder holds from before: overwrite it, keep both (the new file takes the next free number) or skip it. save\_status says saved or skipped. Choices: ``overwrite``, ``keep both``, ``skip``. Default: ``overwrite``.
+     - What to do when the folder already holds a file with the same name.
+
+       * ``overwrite`` (default): Replace the old file.
+       * ``keep both``: Keep both. The new file gets the next free number.
+       * ``skip``: Keep the old file and skip the new one.
+
+       The ``save_status`` column says ``saved`` or ``skipped``.
    * - **PDF password (optional)**
      - No
      - For PDFs that arrive locked. Without it a locked PDF comes back with text\_status = password\_protected.
@@ -87,7 +98,12 @@ Type a value, or click a field under **What arrives here** to put a value from a
      - Characters of text kept per file; the rest is cut. Default: ``20000``.
    * - **Read the text of each file**
      - No
-     - true adds a text column with the words of each file: PDF, Word, Excel, PowerPoint, OpenDocument, RTF, attached emails, zip archives, text and CSV; with a model under Read pictures and scans with, photos, screenshots and scanned PDFs too. text\_status says ok, password\_protected, no\_text (a scan read with no model), small\_image, unsupported or vision\_error, and text\_source whether the words came from the file or from the vision model. false only saves the files. Choices: ``true``, ``false``. Default: ``true``.
+     - Whether to read the words inside each file.
+
+       * ``true`` (default): Adds a ``text`` column with the words of each file: PDF, Word, Excel, PowerPoint, OpenDocument, RTF, attached emails, zip archives, text and CSV. With a model set under **Read pictures and scans with**, photos, screenshots and scanned PDFs too.
+       * ``false``: Only saves the files.
+
+       The ``text_status`` column says how it went: ``ok``, ``password_protected``, ``no_text``, ``small_image``, ``unsupported`` or ``vision_error``.
    * - **Read pictures and scans with**
      - No
      - An LLM connection (OpenAI, Azure OpenAI or Gemini) whose model reads the words in photos, screenshots and scanned PDFs, which hold no text of their own. Blank leaves them unread. Used in an agent's App Action; an agent that uses this app as a tool reads them with its own model.
@@ -104,10 +120,34 @@ Under **Advanced settings**:
      - What to enter
    * - **Extra query parameters (JSON)**
      - No
-     - Sent to the API unchanged, for a filter this form has no field for. For example {"timeMin": "2026-09-01T00:00:00Z"}. For example ``{"$filter": "isRead eq false"}``.
+     - Sent to the API unchanged, for a filter this form has no field for. For example {"timeMin": "2026-09-01T00:00:00Z"}.
    * - **Nested fields**
      - No
-     - deep spreads nested objects all the way into dotted columns, for example fields.priority.name. oneLevel stops after one level (fields.priority holds JSON). json keeps each object as one JSON text column. Choices: ``deep``, ``oneLevel``, ``json``. Default: ``deep``.
+     - Some records keep a value inside another value, such as a priority inside an issue. This decides how those inner values become columns.
+
+       * ``deep`` (default): Every inner value gets its own column, named with dots, such as ``fields.priority.name``.
+       * ``oneLevel``: Only the first level is split. Anything deeper stays in one column as JSON text.
+       * ``json``: Each inner value stays whole, in one column of JSON text.
+
+       See the example below the table.
+
+**Nested fields, by example.** Take a record ``{"id": 7, "fields": {"priority": {"name": "High"}}}``. Each choice gives you these columns:
+
+.. list-table::
+   :header-rows: 1
+   :widths: 20 80
+   :class: tool-table
+
+   * - Choice
+     - Columns you get
+   * - ``deep``
+     - ``id`` = ``7`` and ``fields.priority.name`` = ``High``
+   * - ``oneLevel``
+     - ``id`` = ``7`` and ``fields.priority`` = ``{"name": "High"}``
+   * - ``json``
+     - ``id`` = ``7`` and ``fields`` = ``{"priority": {"name": "High"}}``
+
+Keep ``deep`` unless a later step needs the whole inner value as JSON.
 
 What it passes on
 -----------------

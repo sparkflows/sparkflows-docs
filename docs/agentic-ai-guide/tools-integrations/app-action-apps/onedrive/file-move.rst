@@ -55,7 +55,7 @@ Type a value, or click a field under **What arrives here** to put a value from a
      - What to enter
    * - **User**
      - No
-     - The address whose OneDrive this is, for example someone@company.com. For example ``someone@company.com``.
+     - The address whose OneDrive this is, for example someone@company.com.
    * - **File or folder id**
      - No
      - The id of the file or folder to act on. For upload, the folder to put the files in: an id or a path such as Reports/2026; blank is the top.
@@ -72,7 +72,10 @@ Under **Advanced settings**:
      - What to enter
    * - **If a row is rejected**
      - No
-     - stop fails the run at the first rejected row. continue writes the rest and marks that row failed in result\_status and result\_error. Choices: ``stop``, ``continue``. Default: ``stop``.
+     - What happens when a row cannot be written.
+
+       * ``stop`` (default): The run stops at the first row that fails.
+       * ``continue``: The other rows are still written. The failed row is marked ``failed`` in ``result_status``, with the reason in ``result_error``.
 
 Fields to set
 -------------

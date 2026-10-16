@@ -72,7 +72,10 @@ Under **Advanced settings**:
      - What to enter
    * - **If a row is rejected**
      - No
-     - stop fails the run at the first rejected row. continue writes the rest and marks that row failed in result\_status and result\_error. Choices: ``stop``, ``continue``. Default: ``stop``.
+     - What happens when a row cannot be written.
+
+       * ``stop`` (default): The run stops at the first row that fails.
+       * ``continue``: The other rows are still written. The failed row is marked ``failed`` in ``result_status``, with the reason in ``result_error``.
 
 Fields to set
 -------------

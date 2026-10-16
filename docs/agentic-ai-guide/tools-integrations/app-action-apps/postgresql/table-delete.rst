@@ -55,19 +55,19 @@ Type a value, or click a field under **What arrives here** to put a value from a
      - What to enter
    * - **Table**
      - No
-     - The table to work with, for example customers. A schema goes in its own field. For example ``customers``.
+     - The table to work with, for example customers. A schema goes in its own field.
    * - **Row key value**
      - No
-     - The value of the key column that identifies the row, for example 1042. For example ``1042``.
+     - The value of the key column that identifies the row, for example 1042.
    * - **Schema (optional)**
      - No
      - The schema the table lives in, when it is not the connection's default. For example ``public``.
    * - **Key column**
      - No
-     - The column that identifies a row, for example id. Update, upsert and delete match on it; get reads the row whose key equals the row key value. For example ``id``.
+     - The column that identifies a row, for example id. Update, upsert and delete match on it; get reads the row whose key equals the row key value.
    * - **Where**
      - No
-     - A filter in SQL, without the word WHERE, for example status = 'open'. Blank returns everything up to the limit. For example ``status = 'open'``.
+     - A filter in SQL, without the word WHERE, for example status = 'open'. Blank returns everything up to the limit.
 
 Under **Advanced settings**:
 
@@ -81,7 +81,10 @@ Under **Advanced settings**:
      - What to enter
    * - **If a row is rejected**
      - No
-     - stop fails the run at the first rejected row. continue writes the rest and marks that row failed in result\_status and result\_error. Choices: ``stop``, ``continue``. Default: ``stop``.
+     - What happens when a row cannot be written.
+
+       * ``stop`` (default): The run stops at the first row that fails.
+       * ``continue``: The other rows are still written. The failed row is marked ``failed`` in ``result_status``, with the reason in ``result_error``.
 
 What it passes on
 -----------------

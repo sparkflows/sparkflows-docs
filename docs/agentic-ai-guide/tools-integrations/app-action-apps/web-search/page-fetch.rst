@@ -63,7 +63,10 @@ Type a value, or click a field under **What arrives here** to put a value from a
      - The most characters of the response kept.
    * - **Readable text only**
      - No
-     - true returns readable text, false the HTML. Choices: ``true``, ``false``, or blank.
+     - What the page comes back as.
+
+       * ``true``: Readable text.
+       * ``false``: The page's HTML.
 
 Under **Advanced settings**:
 
@@ -77,7 +80,31 @@ Under **Advanced settings**:
      - What to enter
    * - **Nested fields**
      - No
-     - deep spreads nested objects all the way into dotted columns, for example fields.priority.name. oneLevel stops after one level (fields.priority holds JSON). json keeps each object as one JSON text column. Choices: ``deep``, ``oneLevel``, ``json``. Default: ``deep``.
+     - Some records keep a value inside another value, such as a priority inside an issue. This decides how those inner values become columns.
+
+       * ``deep`` (default): Every inner value gets its own column, named with dots, such as ``fields.priority.name``.
+       * ``oneLevel``: Only the first level is split. Anything deeper stays in one column as JSON text.
+       * ``json``: Each inner value stays whole, in one column of JSON text.
+
+       See the example below the table.
+
+**Nested fields, by example.** Take a record ``{"id": 7, "fields": {"priority": {"name": "High"}}}``. Each choice gives you these columns:
+
+.. list-table::
+   :header-rows: 1
+   :widths: 20 80
+   :class: tool-table
+
+   * - Choice
+     - Columns you get
+   * - ``deep``
+     - ``id`` = ``7`` and ``fields.priority.name`` = ``High``
+   * - ``oneLevel``
+     - ``id`` = ``7`` and ``fields.priority`` = ``{"name": "High"}``
+   * - ``json``
+     - ``id`` = ``7`` and ``fields`` = ``{"priority": {"name": "High"}}``
+
+Keep ``deep`` unless a later step needs the whole inner value as JSON.
 
 What it passes on
 -----------------

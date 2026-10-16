@@ -154,3 +154,405 @@
         grid-template-columns: 1fr;
     }
 }
+
+/* Tool reference pages: the facts strip under a page title, logo cards, tool tables. */
+
+.tool-hero {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 14px 22px;
+    margin: 0.4rem 0 1.4rem;
+    padding: 16px 20px;
+    background: #fff;
+    border: 1px solid #dbe3ef;
+    border-radius: 12px;
+    box-shadow: 0 3px 10px rgb(15 23 42 / 4%);
+}
+
+.rst-content .tool-hero img.tool-hero-logo {
+    flex: none;
+    width: 56px;
+    height: 56px;
+    padding: 11px;
+    box-sizing: border-box;
+    background: #f8fafc;
+    border: 1px solid #e2e8f0;
+    border-radius: 12px;
+    box-shadow: none;
+}
+
+.rst-content dl.tool-facts {
+    flex: 1;
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 6px 22px;
+    margin: 0;
+}
+
+.rst-content dl.tool-facts dt {
+    display: block;
+    margin: 0;
+    padding: 0;
+    background: none;
+    border: 0;
+    color: #64748b;
+    font-size: 0.7rem;
+    font-weight: 600;
+    letter-spacing: 0.06em;
+    line-height: 1.4;
+    text-transform: uppercase;
+}
+
+.rst-content dl.tool-facts dd {
+    margin: 2px 0 0;
+    color: var(--tutorial-ink);
+    font-size: 0.95rem;
+    font-weight: 500;
+    line-height: 1.35;
+}
+
+.tool-chips {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px 8px;
+    width: 100%;
+}
+
+.tool-card .tool-chips {
+    margin: -2px 0 10px;
+}
+
+.tool-chip {
+    display: inline-block;
+    padding: 2px 10px;
+    color: #3730a3;
+    background: #eef2ff;
+    border: 1px solid #c7d2fe;
+    border-radius: 999px;
+    font-size: 0.72rem;
+    font-weight: 600;
+    letter-spacing: 0.02em;
+    line-height: 1.6;
+    white-space: nowrap;
+}
+
+.tool-chip.is-new {
+    color: #047857;
+    background: #ecfdf5;
+    border-color: #a7f3d0;
+}
+
+.tool-grid-3 {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.tool-card {
+    display: flex;
+    flex-direction: column;
+}
+
+.tool-card .tutorial-tools {
+    margin-top: auto;
+}
+
+.tool-card-head {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 8px 12px;
+    margin-bottom: 10px;
+}
+
+.rst-content .tool-card-head img {
+    width: 34px;
+    height: 34px;
+    padding: 6px;
+    box-sizing: border-box;
+    background: #f8fafc;
+    border: 1px solid #e2e8f0;
+    border-radius: 9px;
+    box-shadow: none;
+}
+
+.agentic-tutorial .tool-card-head h3 {
+    flex: 1 1 auto;
+    min-width: 0;
+    margin: 0;
+    font-size: 1.05rem;
+}
+
+.tool-card p {
+    font-size: 0.95rem;
+}
+
+.rst-content table.tool-table td,
+.rst-content table.tool-params td {
+    font-size: 0.9rem;
+    vertical-align: top;
+}
+
+.rst-content table.tool-table td:first-child p:first-child {
+    color: var(--tutorial-ink);
+}
+
+.rst-content table.tool-table td:first-child code {
+    font-size: 0.78rem;
+    word-break: break-all;
+}
+
+.rst-content table.tool-table td:nth-child(2) {
+    white-space: nowrap;
+}
+
+.agentic-tutorial .sphinx-bs details.dropdown,
+.agentic-tutorial .sphinx-bs .dropdown.card {
+    margin-bottom: 10px;
+}
+
+.agentic-tutorial .sphinx-bs .dropdown.card:hover {
+    transform: none;
+}
+
+.agentic-tutorial .sphinx-bs .dropdown .card-body p:first-child {
+    font-weight: 400;
+}
+
+.agentic-tutorial figure img,
+.agentic-tutorial .figure img {
+    box-shadow: 0 4px 14px rgb(15 23 42 / 6%);
+}
+
+/* Tool / action cards on connector and App Action pages. */
+.tool-ops {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 14px;
+    margin: 0.6rem 0 1.8rem;
+}
+
+.rst-content a.tool-op,
+.rst-content a.tool-op:not(.btn):not(.headerlink):hover,
+.rst-content a.tool-op * {
+    text-decoration: none;
+}
+
+.rst-content a.tool-op {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    padding: 14px 16px;
+    color: inherit;
+    background: #fff;
+    border: 1px solid #dbe3ef;
+    border-radius: 12px;
+    box-shadow: 0 1px 3px rgb(15 23 42 / 4%);
+    transition: border-color .15s, box-shadow .15s, transform .15s;
+}
+
+.rst-content a.tool-op:hover {
+    border-color: #a5b4fc;
+    box-shadow: 0 6px 18px rgb(15 23 42 / 8%);
+    transform: translateY(-1px);
+}
+
+.tool-op-head {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.tool-op-title {
+    flex: 1;
+    color: var(--tutorial-ink);
+    font-size: 0.98rem;
+    font-weight: 600;
+    line-height: 1.35;
+}
+
+.tool-op-title::after {
+    content: "↗";
+    margin-left: 4px;
+    color: #6366f1;
+    font-weight: 400;
+    opacity: 0;
+    transition: opacity .15s;
+}
+
+.rst-content a.tool-op:hover .tool-op-title::after {
+    opacity: 1;
+}
+
+.tool-op-kind {
+    flex: none;
+    padding: 0 8px;
+    border-radius: 999px;
+    font-size: 0.68rem;
+    font-weight: 600;
+    line-height: 1.6;
+    letter-spacing: 0.03em;
+    color: #0f766e;
+    background: #f0fdfa;
+    border: 1px solid #99f6e4;
+}
+
+.tool-op-kind.is-write { color: #9a3412; background: #fff7ed; border-color: #fed7aa; }
+.tool-op-kind.is-delete { color: #b91c1c; background: #fef2f2; border-color: #fecaca; }
+
+.tool-op-desc {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    color: #64748b;
+    font-size: 0.86rem;
+    line-height: 1.5;
+}
+
+.tool-anchor {
+    display: block;
+    scroll-margin-top: 90px;
+}
+
+/* "On this page" as one row of pills instead of a bulleted list. */
+.rst-content .tool-toc {
+    margin: 0 0 1.8rem;
+    padding: 0;
+    background: none;
+    border: 0;
+}
+
+.rst-content .tool-toc .topic-title {
+    margin: 0 0 8px;
+    color: #64748b;
+    font-size: 0.72rem;
+    font-weight: 600;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+
+.rst-content .tool-toc ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.rst-content .tool-toc ul li {
+    margin: 0;
+    list-style: none;
+}
+
+.rst-content .tool-toc ul li p {
+    margin: 0;
+}
+
+.rst-content .tool-toc a,
+.tool-jump a,
+.tool-related a {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 4px 12px;
+    color: #334155;
+    background: #f8fafc;
+    border: 1px solid #e2e8f0;
+    border-radius: 999px;
+    font-size: 0.85rem;
+    line-height: 1.5;
+    transition: color .15s, background .15s, border-color .15s;
+}
+
+.rst-content .tool-toc a:not(.btn):not(.headerlink):hover,
+.rst-content .tool-jump a:not(.btn):not(.headerlink):hover,
+.rst-content .tool-related a:not(.btn):not(.headerlink):hover {
+    color: #3730a3;
+    background: #eef2ff;
+    border-color: #c7d2fe;
+    text-decoration: none;
+}
+
+/* Resource chips above a long tool list, with the tool count. */
+.tool-jump {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin: 0.8rem 0 1.2rem;
+}
+
+.tool-jump a span {
+    min-width: 1.4em;
+    padding: 0 6px;
+    color: #64748b;
+    background: #fff;
+    border: 1px solid #e2e8f0;
+    border-radius: 999px;
+    font-size: 0.72rem;
+    font-weight: 600;
+    text-align: center;
+}
+
+.tool-related {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin: 0.4rem 0 1.6rem;
+}
+
+.tool-facts dd a {
+    font-weight: 600;
+}
+
+@media (max-width: 700px) {
+    .tool-ops {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* Two screenshots side by side, laid out with a borderless list-table. */
+.rst-content table.figure-pair,
+.rst-content table.figure-pair td {
+    border: 0;
+    background: transparent !important;
+    box-shadow: none;
+}
+
+.rst-content table.figure-pair td {
+    padding: 0 12px 0 0;
+    vertical-align: top;
+    white-space: normal;
+}
+
+.rst-content table.figure-pair td + td {
+    padding: 0 0 0 12px;
+}
+
+.rst-content table.figure-pair figure,
+.rst-content table.figure-pair .figure {
+    margin: 0 0 12px;
+}
+
+@media (max-width: 700px) {
+    .rst-content table.figure-pair td {
+        display: block;
+        padding: 0;
+    }
+}
+
+@media (max-width: 1050px) {
+    .tool-grid-3 {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .rst-content dl.tool-facts {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+}
+
+@media (max-width: 700px) {
+    .tool-grid-3 {
+        grid-template-columns: 1fr;
+    }
+}

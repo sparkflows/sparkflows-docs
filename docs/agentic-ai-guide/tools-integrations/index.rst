@@ -2,7 +2,7 @@ Tools and Integrations
 ======================
 
 Tools and Integrations covers how agents and flows connect to other systems.
-It explains connector and built-in tools, App Actions, workflows as tools, MCP servers,
+It explains Sparkflows and connector tools, App Actions, workflows as tools, MCP servers,
 the REST API, files and documents, and custom code.
 Use tools when the agent should decide what to call, and fixed steps when an action must always happen.
 
@@ -12,7 +12,19 @@ Use tools when the agent should decide what to call, and fixed steps when an act
 
     :doc:`/agentic-ai-guide/tools-integrations/tools-connectors`
 
-    Adding connector and built-in tools to an agent, and choosing the operations it needs.
+    How tools work: where they come from, adding a connector, and choosing the operations an agent needs.
+
+    ---
+
+    :doc:`/agentic-ai-guide/tools-integrations/sparkflows-tools`
+
+    The 37 tools that ship with the platform, from Read CSV to REST API Client.
+
+    ---
+
+    :doc:`/agentic-ai-guide/tools-integrations/connector-tools/index`
+
+    Tools for 21 business apps, including Slack, GitHub, Notion, Stripe and Email: connection and every tool.
 
     ---
 
@@ -54,6 +66,8 @@ Use tools when the agent should decide what to call, and fixed steps when an act
    :hidden:
 
    tools-connectors.rst
+   sparkflows-tools.rst
+   connector-tools/index.rst
    app-actions.rst
    workflows-as-tools.rst
    mcp-servers.rst

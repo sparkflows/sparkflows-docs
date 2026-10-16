@@ -20,7 +20,7 @@ Tools Overview
      </article>
      <article class="tutorial-card tool-card">
        <div class="tool-card-head"><img src="../../_static/img/tools/slack.svg" alt=""><h3><a href="connector-tools/index.html">Connector tools</a></h3></div>
-       <p>21 connectors, from Gmail, Slack and Salesforce to GitHub, Notion, Stripe and databases. Each one expands into a named tool per operation you tick.</p>
+       <p>22 connectors, from Gmail, Slack and Salesforce to GitHub, Notion, Stripe and databases. Each one expands into a named tool per operation you tick.</p>
        <p class="tutorial-tools">Connectors · one node, many tools</p>
      </article>
    </div>
@@ -86,9 +86,9 @@ connector that can.
 .. note::
 
    Tiles marked **Coming soon** are greyed out and cannot be added. They are
-   left out of this guide until they are available. GitHub, Notion, Stripe and
-   Email (IMAP and SMTP) are available as agent tools only; their App Action
-   nodes are still marked Coming soon.
+   left out of this guide until they are available. GitHub, Notion, Stripe,
+   Email (IMAP and SMTP) and SQL Database are available as agent tools only;
+   their App Action nodes are still marked Coming soon.
 
 Read, write and delete tools
 ----------------------------

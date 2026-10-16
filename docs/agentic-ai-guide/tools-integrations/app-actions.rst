@@ -285,9 +285,9 @@ takes on the **Details** step, and the trigger events that can start a flow.
      - Serper
      - :doc:`Web Search App Actions <app-action-apps/web-search>`
 
-GitHub, Notion, Stripe and Email (IMAP and SMTP) are available as agent tools
-only. Their App Actions are still marked **Coming soon**, so use them from an
-Agent Node for now.
+GitHub, Notion, Stripe, Email (IMAP and SMTP) and SQL Database are available as
+agent tools only. Their App Actions are still marked **Coming soon**, so use
+them from an Agent Node for now.
 
 Reading from an app
 -------------------

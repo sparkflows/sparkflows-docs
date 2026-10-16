@@ -24,7 +24,7 @@ Use tools when the agent should decide what to call, and fixed steps when an act
 
     :doc:`/agentic-ai-guide/tools-integrations/connector-tools/index`
 
-    Tools for 21 business apps, including Slack, GitHub, Notion, Stripe and Email: connection and every tool.
+    Tools for 22 business apps and databases, including Slack, GitHub, Notion, Stripe and Email: connection and every tool.
 
     ---
 

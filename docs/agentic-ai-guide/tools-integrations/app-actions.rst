@@ -25,6 +25,7 @@ one of the :doc:`/agentic-ai-guide/index`.
 .. contents:: On this page
    :local:
    :depth: 1
+   :class: tool-toc
 
 Choose the right kind of step
 -----------------------------
@@ -91,8 +92,8 @@ Connect and verify once
        a signed-in person; ordinary Teams message posting needs delegated
        access, which the standard wizard does not supply.
    * - **Business apps** — Salesforce, Jira and Slack
-     - The matching provider credentials. Slack has no dedicated connection
-       type in this build; ask an administrator to provision a supported one.
+     - **Salesforce** and **Jira** connections, and a **Slack** connection that
+       holds a Bot Token. See :doc:`connector-tools/slack` for the scopes.
      - List a few Salesforce records or search one Jira test project. Check
        provider permissions before attempting a write.
    * - **Databases** — PostgreSQL, MySQL and SQL Server
@@ -132,31 +133,161 @@ proof that an external connection or write succeeded.
 Add an App Action in three steps
 --------------------------------
 
-Drop **App Action** onto the canvas. The drawer walks you through **App**,
-**Action** and **Details**; the bar at the top shows what you picked, and you
-can click any step to go back to it.
+**App Action** sits in **Commonly used** at the top of the node list, next to
+the Agent Node. Drag it onto the canvas. The panel that opens says what kind of
+step it is - *A fixed step. It always runs, exactly as you set it. No AI
+decides.* - and walks you through **App**, **Action** and **Details**. The bar
+at the top shows what you picked, and you can click any step to go back to it.
 
-**1. Pick the app.** Each card says how many actions the app offers. Type in
-**Search apps** to narrow the list.
+.. figure:: ../../_assets/agentic-ai-guide/tools/app-actions/palette.png
+   :alt: The Commonly used nodes: Trigger, Input, Agent Node, App Action, Read/Write Files, Human Approval, Condition and Output
+   :width: 260px
 
-.. figure:: ../../_assets/agentic-ai-guide/app-actions/app-grid.png
-   :alt: The top of the current App Action drawer, with Search apps and the first six available apps
-   :width: 580px
+   **App Action** in the node list: *Runs an operation in a connected app*.
 
-   Search for your app or scroll for more. The number on a card is its action
-   count, not the number of configured connections.
+**1. Pick the app.** Each card says what the app does and how many actions it
+offers. Type in **Search apps** to narrow the list.
 
-**2. Pick what it should do.** Actions are grouped by what they work on (rows,
-spreadsheets, sheets) and each says in one line what it does. **reads** leaves
-the app as it was; **changes data** writes to it.
+**2. Pick what it should do.** Actions are grouped by what they work on
+(messages, drafts, labels for Gmail) and each says in a line or two what it
+does. **reads** leaves the app as it was; **changes data** writes to it.
 
-.. figure:: ../../_assets/agentic-ai-guide/app-actions/action-list.png
-   :alt: Google Sheets actions grouped as Row, Spreadsheet and Sheet, each marked reads or changes data; Append is selected
-   :width: 580px
+.. list-table::
+   :class: figure-pair
+   :widths: 50 50
+
+   * - .. figure:: ../../_assets/agentic-ai-guide/tools/app-actions/step-app.png
+          :alt: App Action step 1, App: Search apps and the app cards Salesforce, Microsoft Teams, Slack, OneDrive, Outlook Calendar, Outlook Mail, SharePoint, Gmail and Google Calendar with their action counts
+          :width: 100%
+
+          **1 App.** The number on a card is its action count, not the
+          number of configured connections.
+     - .. figure:: ../../_assets/agentic-ai-guide/tools/app-actions/step-action.png
+          :alt: App Action step 2, Action, for Gmail: List messages, Get a message and Search messages marked reads; Send an email, Move a message to trash and Delete a message permanently marked changes data
+          :width: 100%
+
+          **2 Action.** *What should Gmail do?* Each action is marked
+          **reads** or **changes data**.
 
 **3. Fill in the details.** The right side holds the connection and the action's
-own settings. The left side shows **What arrives here** - the fields of the
+own settings; **Test** checks the connection and **Add / manage** opens the
+connections. The left side shows **What arrives here** - the fields of the
 records reaching this step - so you can click a field instead of typing it.
+**Explore <app>** browses what the app holds through the same connection.
+
+.. figure:: ../../_assets/agentic-ai-guide/tools/app-actions/step-details.png
+   :alt: App Action step 3, Details, for Gmail List messages: What arrives here on the left; on the right the connection picker with Test and Add / manage, Mailbox, Fields to return, Limit 100 and Advanced settings, and a disabled Save action button
+   :width: 100%
+
+   **3 Details** for Gmail **List messages**. **Save action** stays disabled
+   until the fields are loaded.
+
+Apps you can use
+~~~~~~~~~~~~~~~~
+
+An App Action offers the same apps and operations as the agent's
+:doc:`connector tools <connector-tools/index>`; one definition serves both.
+:doc:`app-action-apps/index` has a page per app with every action, the inputs it
+takes on the **Details** step, and the trigger events that can start a flow.
+
+.. list-table:: Apps you can pick in an App Action
+   :header-rows: 1
+   :widths: 24 12 18 22 24
+
+   * - App
+     - Actions
+     - Reads / writes
+     - Connection
+     - Actions, inputs and triggers
+   * - **Salesforce**
+     - 79
+     - 35 / 44
+     - Salesforce
+     - :doc:`Salesforce App Actions <app-action-apps/salesforce>`
+   * - **Microsoft Teams**
+     - 17
+     - 12 / 5
+     - Microsoft Graph
+     - :doc:`Microsoft Teams App Actions <app-action-apps/microsoft-teams>`
+   * - **Slack**
+     - 37
+     - 16 / 21
+     - Slack
+     - :doc:`Slack App Actions <app-action-apps/slack>`
+   * - **OneDrive**
+     - 11
+     - 5 / 6
+     - Microsoft Graph
+     - :doc:`OneDrive App Actions <app-action-apps/onedrive>`
+   * - **Outlook Calendar**
+     - 12
+     - 6 / 6
+     - Microsoft Graph
+     - :doc:`Outlook Calendar App Actions <app-action-apps/outlook-calendar>`
+   * - **Outlook Mail**
+     - 19
+     - 9 / 10
+     - Microsoft Graph
+     - :doc:`Outlook Mail App Actions <app-action-apps/outlook-mail>`
+   * - **SharePoint**
+     - 25
+     - 15 / 10
+     - Microsoft Graph or SharePoint
+     - :doc:`SharePoint App Actions <app-action-apps/sharepoint-online>`
+   * - **Gmail**
+     - 22
+     - 11 / 11
+     - Google
+     - :doc:`Gmail App Actions <app-action-apps/gmail>`
+   * - **Google Calendar**
+     - 9
+     - 5 / 4
+     - Google
+     - :doc:`Google Calendar App Actions <app-action-apps/google-calendar>`
+   * - **Google Docs**
+     - 4
+     - 2 / 2
+     - Google
+     - :doc:`Google Docs App Actions <app-action-apps/google-docs>`
+   * - **Google Drive**
+     - 12
+     - 6 / 6
+     - Google
+     - :doc:`Google Drive App Actions <app-action-apps/google-drive>`
+   * - **Google Sheets**
+     - 9
+     - 3 / 6
+     - Google
+     - :doc:`Google Sheets App Actions <app-action-apps/google-sheets>`
+   * - **Jira**
+     - 28
+     - 18 / 10
+     - Jira
+     - :doc:`Jira App Actions <app-action-apps/jira-cloud>`
+   * - **MySQL**
+     - 11
+     - 6 / 5
+     - MySQL connection
+     - :doc:`MySQL App Actions <app-action-apps/mysql>`
+   * - **PostgreSQL**
+     - 11
+     - 6 / 5
+     - PostgreSQL connection
+     - :doc:`PostgreSQL App Actions <app-action-apps/postgresql>`
+   * - **SQL Server**
+     - 11
+     - 6 / 5
+     - SQL Server connection
+     - :doc:`SQL Server App Actions <app-action-apps/sql-server>`
+   * - **Web Search**
+     - 14
+     - 10 / 4
+     - Serper
+     - :doc:`Web Search App Actions <app-action-apps/web-search>`
+
+GitHub, Notion, Stripe, Email (IMAP and SMTP) and SQL Database are available as
+agent tools only. Their App Actions are still marked **Coming soon**, so use
+them from an Agent Node for now.
 
 Reading from an app
 -------------------
@@ -164,7 +295,7 @@ Reading from an app
 A read returns records, and those records become the rows the next step
 receives. Fill in what to read—a PostgreSQL table, a trusted ``Where`` filter
 if needed, and a small limit—then press **Load the fields from PostgreSQL**.
-For predictable database ordering, follow :doc:`/agentic-ai-guide/database-connectors-setup`;
+For predictable database ordering, follow :doc:`app-action-apps/postgresql`;
 do not assume that a preview's row order is a guarantee.
 
 .. figure:: ../../_assets/agentic-ai-guide/app-actions/read-details.png
@@ -278,7 +409,7 @@ MySQL, PostgreSQL and SQL Server offer the same business actions:
   :doc:`/agentic-ai-guide/triggers-automation/triggers`.
 
 For connection types, schemas, keys, each action's inputs, result checks and
-safe retry behavior, use :doc:`/agentic-ai-guide/database-connectors-setup`.
+safe retry behavior, use :doc:`PostgreSQL <connector-tools/postgresql>`, :doc:`MySQL <connector-tools/mysql>` or :doc:`SQL Server <connector-tools/sql-server>`.
 
 .. raw:: html
 
@@ -373,15 +504,15 @@ Next
    * - When you need…
      - Open this reference
    * - Google OAuth APIs, scopes and refresh-token setup
-     - :doc:`Google Workspace </agentic-ai-guide/google-connectors-setup>`
+     - :doc:`Gmail <connector-tools/gmail>`, :doc:`Google Drive <connector-tools/google-drive>`, :doc:`Sheets <connector-tools/google-sheets>`
    * - Microsoft Graph app registration and permission notes
-     - :doc:`Microsoft 365 </agentic-ai-guide/microsoft-connectors-setup>`
+     - :doc:`Outlook Mail <connector-tools/outlook-mail>`, :doc:`Teams <connector-tools/microsoft-teams>`, :doc:`OneDrive <connector-tools/onedrive>`
    * - Salesforce, Jira or Slack credentials and constraints
-     - :doc:`Business apps </agentic-ai-guide/business-connectors-setup>`
+     - :doc:`Salesforce <connector-tools/salesforce>`, :doc:`Jira <connector-tools/jira-cloud>`, :doc:`Slack <connector-tools/slack>`
    * - Database connection fields, keys and all eleven database actions
-     - :doc:`Database actions </agentic-ai-guide/database-connectors-setup>`
+     - :doc:`Database App Actions <app-action-apps/postgresql>`
    * - Required inputs for a particular app operation
-     - :doc:`App Action lookup </agentic-ai-guide/app-action-catalogue>`
+     - :doc:`App Action apps <app-action-apps/index>`
 
 .. raw:: html
 
@@ -389,3 +520,8 @@ Next
 
 These technical references open only when needed and are not separate entries
 under App Actions in the sidebar.
+
+.. toctree::
+   :hidden:
+
+   app-action-apps/index

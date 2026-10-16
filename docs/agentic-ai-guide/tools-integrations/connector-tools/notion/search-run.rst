@@ -17,7 +17,7 @@ Search pages and databases
      <div><dt>Connector</dt><dd>Notion</dd></div>
      <div><dt>Resource</dt><dd>Search</dd></div>
      <div><dt>Type</dt><dd>Read</dd></div>
-     <div><dt>Available as</dt><dd>Agent tool only</dd></div>
+     <div><dt>Tool name</dt><dd><code>notion_search_run</code></dd></div>
      </dl>
    </div>
 
@@ -25,15 +25,24 @@ Search pages and databases
 
    Finds the pages and databases shared with the integration whose titles match words, and returns them with ids, URLs and last edited times, following Notion's pages up to the limit. To find database rows by property values use Database query.
 
-Prerequisites
--------------
+Before you start
+----------------
 
-* **Connection:** Notion connection. See :doc:`the Notion prerequisites <../notion>`.
+* A Notion connection. See :doc:`how to set one up <../notion>`.
 
-Parameters
-----------
+Add it to your agent
+--------------------
 
-As an agent tool, the model fills in each parameter unless you fix it under **Fixed settings**.
+#. In Agent Studio, open the **Tools** group and click **Add tools**, or click **+ Tool** on an Agent Node.
+#. Choose **Notion** under **Connectors** and connect your Notion connection.
+#. Tick **run** in the **Search** row, then click **Add to agent**.
+
+The agent now sees ``notion_search_run`` and calls it when a request needs it.
+
+What the agent fills in
+-----------------------
+
+The agent fills these in from each request. To pin a value so the agent cannot change it, set it under **Fixed settings**.
 
 .. list-table::
    :header-rows: 1
@@ -43,7 +52,7 @@ As an agent tool, the model fills in each parameter unless you fix it under **Fi
    * - Parameter
      - Type
      - Required
-     - Description
+     - What it means
    * - ``query``
      - text
      - No
@@ -60,8 +69,3 @@ As an agent tool, the model fills in each parameter unless you fix it under **Fi
      - whole number
      - No
      - How many results at most. Default: 50.
-
-Use it
-------
-
-**As an agent tool.** Open the Agent Node's **+ Tool**, choose **Notion**, connect, and tick **run** in the **Search** row. The model sees it as ``notion_search_run``.

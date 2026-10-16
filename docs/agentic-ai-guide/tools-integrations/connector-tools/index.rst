@@ -7,7 +7,7 @@ Connector Tools
 
 .. container:: tutorial-intro
 
-   Connector tools let an agent read from and act in the systems your business runs on. Each connector is one node on the canvas that expands into one named tool per operation you tick. 21 connectors and 401 operations are available today.
+   Connector tools let an agent read from and act in the systems your business runs on. Each connector is one node on the canvas that expands into one named tool per operation you tick. 22 connectors and 418 operations are available today.
 
 .. container:: tutorial-start
 
@@ -69,7 +69,7 @@ Microsoft 365
      <article class="tutorial-card tool-card">
        <div class="tool-card-head"><img src="../../../_static/img/tools/outlook_mail.svg" alt=""><h3><a href="outlook-mail.html">Outlook Mail</a></h3></div>
        <p>Search and read email, reply, forward, draft, move and flag.</p>
-       <p class="tutorial-tools">19 tools · 9 read, 10 write<br>Microsoft Graph connection</p>
+       <p class="tutorial-tools">18 tools · 8 read, 10 write<br>Microsoft Graph connection</p>
      </article>
      <article class="tutorial-card tool-card">
        <div class="tool-card-head"><img src="../../../_static/img/tools/outlook_calendar.svg" alt=""><h3><a href="outlook-calendar.html">Outlook Calendar</a></h3></div>
@@ -165,17 +165,23 @@ Databases
      <article class="tutorial-card tool-card">
        <div class="tool-card-head"><img src="../../../_static/img/tools/mysql.svg" alt=""><h3><a href="mysql.html">MySQL</a></h3></div>
        <p>Read, filter and count rows, describe tables, and write rows.</p>
-       <p class="tutorial-tools">11 tools · 6 read, 5 write<br>MySQL connection connection</p>
+       <p class="tutorial-tools">11 tools · 6 read, 5 write<br>MySQL connection</p>
      </article>
      <article class="tutorial-card tool-card">
        <div class="tool-card-head"><img src="../../../_static/img/tools/postgresql.svg" alt=""><h3><a href="postgresql.html">PostgreSQL</a></h3></div>
        <p>Read, filter and count rows, describe tables, and write rows.</p>
-       <p class="tutorial-tools">11 tools · 6 read, 5 write<br>PostgreSQL connection connection</p>
+       <p class="tutorial-tools">11 tools · 6 read, 5 write<br>PostgreSQL connection</p>
      </article>
      <article class="tutorial-card tool-card">
        <div class="tool-card-head"><img src="../../../_static/img/tools/sqlserver.svg" alt=""><h3><a href="sql-server.html">SQL Server</a></h3></div>
        <p>Read, filter and count rows, describe tables, and write rows.</p>
-       <p class="tutorial-tools">11 tools · 6 read, 5 write<br>SQL Server connection connection</p>
+       <p class="tutorial-tools">11 tools · 6 read, 5 write<br>SQL Server connection</p>
+     </article>
+     <article class="tutorial-card tool-card">
+       <div class="tool-card-head"><img src="../../../_static/img/tools/database.svg" alt=""><h3><a href="sql-database.html">SQL Database</a></h3></div>
+       <div class="tool-chips"><span class="tool-chip is-new">New</span><span class="tool-chip">Agent tool only</span></div>
+       <p>Work with any SQL database: read and write rows, run SQL, manage tables.</p>
+       <p class="tutorial-tools">18 tools · 8 read, 10 write<br>Database connection</p>
      </article>
    </div>
 
@@ -292,4 +298,5 @@ The full walkthrough, with packs and fixed settings, is in :doc:`/agentic-ai-gui
    MySQL <mysql>
    PostgreSQL <postgresql>
    SQL Server <sql-server>
+   SQL Database <sql-database>
    Web Search <web-search>

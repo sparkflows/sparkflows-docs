@@ -16,8 +16,8 @@ Upload a file
      <dl class="tool-facts">
      <div><dt>Connector</dt><dd>Google Drive</dd></div>
      <div><dt>Resource</dt><dd>File</dd></div>
-     <div><dt>Type</dt><dd>Write · approval-gated</dd></div>
-     <div><dt>Available as</dt><dd>Agent tool · <a href="../../app-action-apps/google-drive.html">App Action</a></dd></div>
+     <div><dt>Type</dt><dd>Write · asks for approval</dd></div>
+     <div><dt>Tool name</dt><dd><code>google_drive_file_upload</code></dd></div>
      </dl>
    </div>
 
@@ -25,54 +25,60 @@ Upload a file
 
    Uploads a file from the engine's disk into Drive and returns the new file's id, name and web link. The path is a local file, such as one an email attachment step saved; set mimeType to a Google type to convert it on the way in, for example a .docx into a Google Doc.
 
-Prerequisites
--------------
+Before you start
+----------------
 
-* **Connection:** Google connection. See :doc:`the Google Drive prerequisites <../google-drive>`.
-* The connection's account must be allowed to change this data in Google Drive.
+* A Google connection. See :doc:`how to set one up <../google-drive>`.
+* The account behind the connection must be allowed to change this data in Google Drive.
 
-Parameters
-----------
+Add it to your agent
+--------------------
 
-As an agent tool, the model fills in each parameter unless you fix it under **Fixed settings**, and in an App Action each one is a box on the **Details** step.
+#. In Agent Studio, open the **Tools** group and click **Add tools**, or click **+ Tool** on an Agent Node.
+#. Choose **Google Drive** under **Connectors** and connect your Google connection.
+#. Tick **upload** in the **File** row, then click **Add to agent**.
+
+The agent now sees ``google_drive_file_upload`` and calls it when a request needs it.
+
+What the agent fills in
+-----------------------
+
+The agent fills these in from each request. To pin a value so the agent cannot change it, set it under **Fixed settings**.
 
 .. list-table::
    :header-rows: 1
-   :widths: 18 17 11 12 42
+   :widths: 22 14 12 52
    :class: tool-params
 
    * - Parameter
-     - App Action input
      - Type
      - Required
-     - Description
+     - What it means
    * - ``path``
-     - File path
      - text
      - Yes
      - The file's full path on the engine's disk, for example the path column an attachment step returns. Example: /home/sparkflows/.fireagent/gmail\_attachments/INV-1001/invoice.pdf.
    * - ``folderId``
-     - Into folder
      - text
      - No
      - The id of the folder to upload into; blank puts the file at the top of My Drive. Example: 1Hh5TzqLmN0pQrS7uVwXyZ2aBcDeFgHiJ.
    * - ``name``
-     - Name in Drive
      - text
      - No
      - The name to give the file in Drive; blank keeps its own. Example: Invoice INV-1001.pdf.
    * - ``mimeType``
-     - Convert to
      - text
      - No
      - A Google type to convert the file into (a Doc, Sheet or Slides deck); blank uploads it unchanged. Example: application/vnd.google-apps.document. One of: application/vnd.google-apps.document, application/vnd.google-apps.spreadsheet, application/vnd.google-apps.presentation.
 
-Use it
-------
+.. note::
 
-**As an agent tool.** Open the Agent Node's **+ Tool**, choose **Google Drive**, connect, and tick **upload** in the **File** row. The model sees it as ``google_drive_file_upload``. Each call waits for human approval before it changes anything.
+   Each call waits for :doc:`your approval </agentic-ai-guide/safety-guardrails/human-in-the-loop>` before it changes anything in Google Drive.
 
-**As an App Action.** Drop **App Action** on the canvas, pick **Google Drive**, then **Upload a file**, and fill in the inputs above. It runs every time the flow reaches it. A canvas run skips it unless **Write when run from the canvas** is on.
+Need it on every run?
+---------------------
+
+To run **Upload a file** every time a flow reaches it, without the agent deciding, use the :doc:`Upload a file App Action </agentic-ai-guide/tools-integrations/app-action-apps/google-drive/file-upload>`.
 
 Other File tools
 ----------------

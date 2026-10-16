@@ -17,7 +17,7 @@ Get an account
      <div><dt>Connector</dt><dd>Salesforce</dd></div>
      <div><dt>Resource</dt><dd>Account</dd></div>
      <div><dt>Type</dt><dd>Read</dd></div>
-     <div><dt>Available as</dt><dd>Agent tool · <a href="../../app-action-apps/salesforce.html">App Action</a></dd></div>
+     <div><dt>Tool name</dt><dd><code>salesforce_account_get</code></dd></div>
      </dl>
    </div>
 
@@ -25,38 +25,43 @@ Get an account
 
    Fetches one account by its Salesforce Id and returns all of its fields, custom fields included. Use it when the Id is known; to find accounts by name or another value use List accounts.
 
-Prerequisites
--------------
+Before you start
+----------------
 
-* **Connection:** Salesforce connection. See :doc:`the Salesforce prerequisites <../salesforce>`.
+* A Salesforce connection. See :doc:`how to set one up <../salesforce>`.
 
-Parameters
-----------
+Add it to your agent
+--------------------
 
-As an agent tool, the model fills in each parameter unless you fix it under **Fixed settings**, and in an App Action each one is a box on the **Details** step.
+#. In Agent Studio, open the **Tools** group and click **Add tools**, or click **+ Tool** on an Agent Node.
+#. Choose **Salesforce** under **Connectors** and connect your Salesforce connection.
+#. Tick **get** in the **Account** row, then click **Add to agent**.
+
+The agent now sees ``salesforce_account_get`` and calls it when a request needs it.
+
+What the agent fills in
+-----------------------
+
+The agent fills these in from each request. To pin a value so the agent cannot change it, set it under **Fixed settings**.
 
 .. list-table::
    :header-rows: 1
-   :widths: 18 17 11 12 42
+   :widths: 22 14 12 52
    :class: tool-params
 
    * - Parameter
-     - App Action input
      - Type
      - Required
-     - Description
+     - What it means
    * - ``accountId``
-     - Account Id
      - text
      - Yes
      - The account's Salesforce Id, 15 or 18 characters starting 001, for example 001XX000003DHPh; List accounts returns it.
 
-Use it
-------
+Need it on every run?
+---------------------
 
-**As an agent tool.** Open the Agent Node's **+ Tool**, choose **Salesforce**, connect, and tick **get** in the **Account** row. The model sees it as ``salesforce_account_get``.
-
-**As an App Action.** Drop **App Action** on the canvas, pick **Salesforce**, then **Get an account**, and fill in the inputs above. It runs every time the flow reaches it.
+To run **Get an account** every time a flow reaches it, without the agent deciding, use the :doc:`Get an account App Action </agentic-ai-guide/tools-integrations/app-action-apps/salesforce/account-get>`.
 
 Other Account tools
 -------------------

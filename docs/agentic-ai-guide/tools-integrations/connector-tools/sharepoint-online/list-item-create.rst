@@ -16,8 +16,8 @@ Create a list item
      <dl class="tool-facts">
      <div><dt>Connector</dt><dd>SharePoint Online</dd></div>
      <div><dt>Resource</dt><dd>List Item</dd></div>
-     <div><dt>Type</dt><dd>Write · approval-gated</dd></div>
-     <div><dt>Available as</dt><dd>Agent tool · <a href="../../app-action-apps/sharepoint-online.html">App Action</a></dd></div>
+     <div><dt>Type</dt><dd>Write · asks for approval</dd></div>
+     <div><dt>Tool name</dt><dd><code>sharepoint_online_list_item_create</code></dd></div>
      </dl>
    </div>
 
@@ -25,54 +25,60 @@ Create a list item
 
    Adds an item to a list and returns it with its id and columns. Give the Title in title and any other columns by internal name in columns; List get with expand columns shows the names.
 
-Prerequisites
--------------
+Before you start
+----------------
 
-* **Connection:** Microsoft Graph or SharePoint connection. See :doc:`the SharePoint Online prerequisites <../sharepoint-online>`.
-* The connection's account must be allowed to change this data in SharePoint Online.
+* A Microsoft Graph or SharePoint connection. See :doc:`how to set one up <../sharepoint-online>`.
+* The account behind the connection must be allowed to change this data in SharePoint Online.
 
-Parameters
-----------
+Add it to your agent
+--------------------
 
-As an agent tool, the model fills in each parameter unless you fix it under **Fixed settings**, and in an App Action each one is a box on the **Details** step.
+#. In Agent Studio, open the **Tools** group and click **Add tools**, or click **+ Tool** on an Agent Node.
+#. Choose **SharePoint Online** under **Connectors** and connect your Microsoft Graph or SharePoint connection.
+#. Tick **create** in the **List Item** row, then click **Add to agent**.
+
+The agent now sees ``sharepoint_online_list_item_create`` and calls it when a request needs it.
+
+What the agent fills in
+-----------------------
+
+The agent fills these in from each request. To pin a value so the agent cannot change it, set it under **Fixed settings**.
 
 .. list-table::
    :header-rows: 1
-   :widths: 18 17 11 12 42
+   :widths: 22 14 12 52
    :class: tool-params
 
    * - Parameter
-     - App Action input
      - Type
      - Required
-     - Description
+     - What it means
    * - ``list``
-     - List
      - text
      - Yes
      - The list to add the item to: its name, such as Tasks, or its id.
    * - ``site``
-     - Site
      - text
      - No
      - The site as its URL, name or id; blank uses the site on the connection. Example: https://contoso.sharepoint.com/sites/Finance.
    * - ``title``
-     - Title
      - text
      - No
      - The item's Title column. Example: Replace printer.
    * - ``columns``
-     - Other columns
      - JSON object
      - No
      - Other column values by internal column name, set beside title. Example: {"Status": "Open", "Priority": "High"}.
 
-Use it
-------
+.. note::
 
-**As an agent tool.** Open the Agent Node's **+ Tool**, choose **SharePoint Online**, connect, and tick **create** in the **List Item** row. The model sees it as ``sharepoint_online_list_item_create``. Each call waits for human approval before it changes anything.
+   Each call waits for :doc:`your approval </agentic-ai-guide/safety-guardrails/human-in-the-loop>` before it changes anything in SharePoint Online.
 
-**As an App Action.** Drop **App Action** on the canvas, pick **SharePoint**, then **Create a list item**, and fill in the inputs above. It runs every time the flow reaches it. A canvas run skips it unless **Write when run from the canvas** is on.
+Need it on every run?
+---------------------
+
+To run **Create a list item** every time a flow reaches it, without the agent deciding, use the :doc:`Create a list item App Action </agentic-ai-guide/tools-integrations/app-action-apps/sharepoint-online/list-item-create>`.
 
 Other List Item tools
 ---------------------

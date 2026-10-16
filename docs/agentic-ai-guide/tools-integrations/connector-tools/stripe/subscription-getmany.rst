@@ -17,7 +17,7 @@ List subscriptions
      <div><dt>Connector</dt><dd>Stripe</dd></div>
      <div><dt>Resource</dt><dd>Subscription</dd></div>
      <div><dt>Type</dt><dd>Read</dd></div>
-     <div><dt>Available as</dt><dd>Agent tool only</dd></div>
+     <div><dt>Tool name</dt><dd><code>stripe_subscription_getmany</code></dd></div>
      </dl>
    </div>
 
@@ -25,15 +25,24 @@ List subscriptions
 
    Lists subscriptions, newest first, from one Stripe page of up to 100; canceled subscriptions are left out unless status asks for them. Returns id, customer, status, items with their prices, trial dates, cancel\_at\_period\_end and created for each. Use it to find a customer's active, trialing or past-due subscriptions; for one known subscription use Subscription get.
 
-Prerequisites
--------------
+Before you start
+----------------
 
-* **Connection:** Stripe connection. See :doc:`the Stripe prerequisites <../stripe>`.
+* A Stripe connection. See :doc:`how to set one up <../stripe>`.
 
-Parameters
-----------
+Add it to your agent
+--------------------
 
-As an agent tool, the model fills in each parameter unless you fix it under **Fixed settings**.
+#. In Agent Studio, open the **Tools** group and click **Add tools**, or click **+ Tool** on an Agent Node.
+#. Choose **Stripe** under **Connectors** and connect your Stripe connection.
+#. Tick **list** in the **Subscription** row, then click **Add to agent**.
+
+The agent now sees ``stripe_subscription_getmany`` and calls it when a request needs it.
+
+What the agent fills in
+-----------------------
+
+The agent fills these in from each request. To pin a value so the agent cannot change it, set it under **Fixed settings**.
 
 .. list-table::
    :header-rows: 1
@@ -43,7 +52,7 @@ As an agent tool, the model fills in each parameter unless you fix it under **Fi
    * - Parameter
      - Type
      - Required
-     - Description
+     - What it means
    * - ``customer``
      - text
      - No
@@ -72,11 +81,6 @@ As an agent tool, the model fills in each parameter unless you fix it under **Fi
      - whole number
      - No
      - How many subscriptions to return at most, up to 100, since one call reads a single Stripe page. Default: 50.
-
-Use it
-------
-
-**As an agent tool.** Open the Agent Node's **+ Tool**, choose **Stripe**, connect, and tick **list** in the **Subscription** row. The model sees it as ``stripe_subscription_getmany``.
 
 Other Subscription tools
 ------------------------

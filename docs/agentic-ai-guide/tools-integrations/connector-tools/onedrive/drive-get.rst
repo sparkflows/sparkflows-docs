@@ -17,7 +17,7 @@ Get a user's OneDrive
      <div><dt>Connector</dt><dd>OneDrive</dd></div>
      <div><dt>Resource</dt><dd>Drive</dd></div>
      <div><dt>Type</dt><dd>Read</dd></div>
-     <div><dt>Available as</dt><dd>Agent tool · <a href="../../app-action-apps/onedrive.html">App Action</a></dd></div>
+     <div><dt>Tool name</dt><dd><code>onedrive_drive_get</code></dd></div>
      </dl>
    </div>
 
@@ -25,43 +25,47 @@ Get a user's OneDrive
 
    Returns a user's OneDrive with its id, owner, web address and storage quota (total, used and remaining). Use the id as destinationDriveId in File copy.
 
-Prerequisites
--------------
+Before you start
+----------------
 
-* **Connection:** Microsoft Graph connection. See :doc:`the OneDrive prerequisites <../onedrive>`.
+* A Microsoft Graph connection. See :doc:`how to set one up <../onedrive>`.
 
-Parameters
-----------
+Add it to your agent
+--------------------
 
-As an agent tool, the model fills in each parameter unless you fix it under **Fixed settings**, and in an App Action each one is a box on the **Details** step.
+#. In Agent Studio, open the **Tools** group and click **Add tools**, or click **+ Tool** on an Agent Node.
+#. Choose **OneDrive** under **Connectors** and connect your Microsoft Graph connection.
+#. Tick **get** in the **Drive** row, then click **Add to agent**.
+
+The agent now sees ``onedrive_drive_get`` and calls it when a request needs it.
+
+What the agent fills in
+-----------------------
+
+The agent fills these in from each request. To pin a value so the agent cannot change it, set it under **Fixed settings**.
 
 .. list-table::
    :header-rows: 1
-   :widths: 18 17 11 12 42
+   :widths: 22 14 12 52
    :class: tool-params
 
    * - Parameter
-     - App Action input
      - Type
      - Required
-     - Description
+     - What it means
    * - ``user``
-     - User
      - text
      - Yes
      - The address whose OneDrive to read. Example: asha.rao@contoso.com.
    * - ``fields``
-     - Fields to return
      - list of text
      - No
      - Graph drive properties to return, such as id, owner, quota and webUrl; blank returns them all. Example: ["id", "quota", "webUrl"].
 
-Use it
-------
+Need it on every run?
+---------------------
 
-**As an agent tool.** Open the Agent Node's **+ Tool**, choose **OneDrive**, connect, and tick **get** in the **Drive** row. The model sees it as ``onedrive_drive_get``.
-
-**As an App Action.** Drop **App Action** on the canvas, pick **OneDrive**, then **Get a user's OneDrive**, and fill in the inputs above. It runs every time the flow reaches it.
+To run **Get a user's OneDrive** every time a flow reaches it, without the agent deciding, use the :doc:`Get a user's OneDrive App Action </agentic-ai-guide/tools-integrations/app-action-apps/onedrive/drive-get>`.
 
 Other Drive tools
 -----------------

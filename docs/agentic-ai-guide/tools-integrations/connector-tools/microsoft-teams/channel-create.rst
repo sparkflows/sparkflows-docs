@@ -16,8 +16,8 @@ Create a channel
      <dl class="tool-facts">
      <div><dt>Connector</dt><dd>Microsoft Teams</dd></div>
      <div><dt>Resource</dt><dd>Channel</dd></div>
-     <div><dt>Type</dt><dd>Write · approval-gated</dd></div>
-     <div><dt>Available as</dt><dd>Agent tool · <a href="../../app-action-apps/microsoft-teams.html">App Action</a></dd></div>
+     <div><dt>Type</dt><dd>Write · asks for approval</dd></div>
+     <div><dt>Tool name</dt><dd><code>msteams_channel_create</code></dd></div>
      </dl>
    </div>
 
@@ -25,54 +25,60 @@ Create a channel
 
    Creates a channel in a team and returns it with its new id. A standard channel is open to everyone in the team; private and shared channels created with an app-only connection also need an owner, which this operation does not set.
 
-Prerequisites
--------------
+Before you start
+----------------
 
-* **Connection:** Microsoft Graph connection. See :doc:`the Microsoft Teams prerequisites <../microsoft-teams>`.
-* The connection's account must be allowed to change this data in Microsoft Teams.
+* A Microsoft Graph connection. See :doc:`how to set one up <../microsoft-teams>`.
+* The account behind the connection must be allowed to change this data in Microsoft Teams.
 
-Parameters
-----------
+Add it to your agent
+--------------------
 
-As an agent tool, the model fills in each parameter unless you fix it under **Fixed settings**, and in an App Action each one is a box on the **Details** step.
+#. In Agent Studio, open the **Tools** group and click **Add tools**, or click **+ Tool** on an Agent Node.
+#. Choose **Microsoft Teams** under **Connectors** and connect your Microsoft Graph connection.
+#. Tick **create** in the **Channel** row, then click **Add to agent**.
+
+The agent now sees ``msteams_channel_create`` and calls it when a request needs it.
+
+What the agent fills in
+-----------------------
+
+The agent fills these in from each request. To pin a value so the agent cannot change it, set it under **Fixed settings**.
 
 .. list-table::
    :header-rows: 1
-   :widths: 18 17 11 12 42
+   :widths: 22 14 12 52
    :class: tool-params
 
    * - Parameter
-     - App Action input
      - Type
      - Required
-     - Description
+     - What it means
    * - ``teamId``
-     - Team
      - text
      - Yes
      - The team id (a GUID), from Team getMany. Example: b1f0c3d2-1234-4c5d-9e8f-0a1b2c3d4e5f.
    * - ``displayName``
-     - Name
      - text
      - Yes
      - The channel name, up to 50 characters. Example: Launch Planning.
    * - ``description``
-     - Description
      - text
      - No
      - What the channel is for.
    * - ``membershipType``
-     - Membership
      - text
      - No
      - standard (the default), private or shared. One of: standard, private, shared.
 
-Use it
-------
+.. note::
 
-**As an agent tool.** Open the Agent Node's **+ Tool**, choose **Microsoft Teams**, connect, and tick **create** in the **Channel** row. The model sees it as ``msteams_channel_create``. Each call waits for human approval before it changes anything.
+   Each call waits for :doc:`your approval </agentic-ai-guide/safety-guardrails/human-in-the-loop>` before it changes anything in Microsoft Teams.
 
-**As an App Action.** Drop **App Action** on the canvas, pick **Microsoft Teams**, then **Create a channel**, and fill in the inputs above. It runs every time the flow reaches it. A canvas run skips it unless **Write when run from the canvas** is on.
+Need it on every run?
+---------------------
+
+To run **Create a channel** every time a flow reaches it, without the agent deciding, use the :doc:`Create a channel App Action </agentic-ai-guide/tools-integrations/app-action-apps/microsoft-teams/channel-create>`.
 
 Other Channel tools
 -------------------

@@ -17,7 +17,7 @@ Get a database
      <div><dt>Connector</dt><dd>Notion</dd></div>
      <div><dt>Resource</dt><dd>Database</dd></div>
      <div><dt>Type</dt><dd>Read</dd></div>
-     <div><dt>Available as</dt><dd>Agent tool only</dd></div>
+     <div><dt>Tool name</dt><dd><code>notion_database_get</code></dd></div>
      </dl>
    </div>
 
@@ -25,15 +25,24 @@ Get a database
 
    Returns a database's title, parent and property schema: each property's name and type and, for select properties, their options. Use it before Database query or Page create to learn the exact property names.
 
-Prerequisites
--------------
+Before you start
+----------------
 
-* **Connection:** Notion connection. See :doc:`the Notion prerequisites <../notion>`.
+* A Notion connection. See :doc:`how to set one up <../notion>`.
 
-Parameters
-----------
+Add it to your agent
+--------------------
 
-As an agent tool, the model fills in each parameter unless you fix it under **Fixed settings**.
+#. In Agent Studio, open the **Tools** group and click **Add tools**, or click **+ Tool** on an Agent Node.
+#. Choose **Notion** under **Connectors** and connect your Notion connection.
+#. Tick **get** in the **Database** row, then click **Add to agent**.
+
+The agent now sees ``notion_database_get`` and calls it when a request needs it.
+
+What the agent fills in
+-----------------------
+
+The agent fills these in from each request. To pin a value so the agent cannot change it, set it under **Fixed settings**.
 
 .. list-table::
    :header-rows: 1
@@ -43,16 +52,11 @@ As an agent tool, the model fills in each parameter unless you fix it under **Fi
    * - Parameter
      - Type
      - Required
-     - Description
+     - What it means
    * - ``databaseId``
      - text
      - Yes
      - The database's id, from Search run or the database's URL. Example: d9824bdc-8445-4327-be8b-5b47500af6ce.
-
-Use it
-------
-
-**As an agent tool.** Open the Agent Node's **+ Tool**, choose **Notion**, connect, and tick **get** in the **Database** row. The model sees it as ``notion_database_get``.
 
 Other Database tools
 --------------------

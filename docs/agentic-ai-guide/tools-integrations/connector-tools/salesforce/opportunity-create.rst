@@ -16,8 +16,8 @@ Create an opportunity
      <dl class="tool-facts">
      <div><dt>Connector</dt><dd>Salesforce</dd></div>
      <div><dt>Resource</dt><dd>Opportunity</dd></div>
-     <div><dt>Type</dt><dd>Write · approval-gated</dd></div>
-     <div><dt>Available as</dt><dd>Agent tool · <a href="../../app-action-apps/salesforce.html">App Action</a></dd></div>
+     <div><dt>Type</dt><dd>Write · asks for approval</dd></div>
+     <div><dt>Tool name</dt><dd><code>salesforce_opportunity_create</code></dd></div>
      </dl>
    </div>
 
@@ -25,84 +25,84 @@ Create an opportunity
 
    Creates an opportunity (a deal in progress) from the given fields and returns its new Id. It needs name, stageName and closeDate, and stageName must be a stage from the org's sales process.
 
-Prerequisites
--------------
+Before you start
+----------------
 
-* **Connection:** Salesforce connection. See :doc:`the Salesforce prerequisites <../salesforce>`.
-* The connection's account must be allowed to change this data in Salesforce.
+* A Salesforce connection. See :doc:`how to set one up <../salesforce>`.
+* The account behind the connection must be allowed to change this data in Salesforce.
 
-Parameters
-----------
+Add it to your agent
+--------------------
 
-As an agent tool, the model fills in each parameter unless you fix it under **Fixed settings**, and in an App Action each one is a box on the **Details** step.
+#. In Agent Studio, open the **Tools** group and click **Add tools**, or click **+ Tool** on an Agent Node.
+#. Choose **Salesforce** under **Connectors** and connect your Salesforce connection.
+#. Tick **create** in the **Opportunity** row, then click **Add to agent**.
+
+The agent now sees ``salesforce_opportunity_create`` and calls it when a request needs it.
+
+What the agent fills in
+-----------------------
+
+The agent fills these in from each request. To pin a value so the agent cannot change it, set it under **Fixed settings**.
 
 .. list-table::
    :header-rows: 1
-   :widths: 18 17 11 12 42
+   :widths: 22 14 12 52
    :class: tool-params
 
    * - Parameter
-     - App Action input
      - Type
      - Required
-     - Description
+     - What it means
    * - ``name``
-     - Opportunity name
      - text
      - Yes
      - The deal's name. Example: Acme Energy - 500 licences.
    * - ``stageName``
-     - Stage
      - text
      - Yes
      - A stage from the org's sales process, for example Prospecting, Proposal/Price Quote or Closed Won.
    * - ``closeDate``
-     - Close date
      - text
      - Yes
      - The expected close date as YYYY-MM-DD. Example: 2026-12-15.
    * - ``accountId``
-     - Account Id
      - text
      - No
      - The Id of the account the deal is with, starting 001; List accounts returns it. Example: 001XX000003DHPh.
    * - ``amount``
-     - Amount
      - number
      - No
      - The deal value as a number, in the org's currency. Example: 48000.
    * - ``probability``
-     - Probability (%)
      - number
      - No
      - The chance of winning from 0 to 100; blank takes the stage's default. Example: 60.
    * - ``type``
-     - Type
      - text
      - No
      - The opportunity type, for example New Business or Existing Business.
    * - ``leadSource``
-     - Lead source
      - text
      - No
      - Where the deal came from, for example Web or Partner Referral.
    * - ``nextStep``
-     - Next step
      - text
      - No
      - The next action planned on the deal. Example: Send the revised quote by Friday.
    * - ``description``
-     - Description
      - text
      - No
      - Free-text notes about the deal. Example: Replaces their legacy SCADA reporting..
 
-Use it
-------
+.. note::
 
-**As an agent tool.** Open the Agent Node's **+ Tool**, choose **Salesforce**, connect, and tick **create** in the **Opportunity** row. The model sees it as ``salesforce_opportunity_create``. Each call waits for human approval before it changes anything.
+   Each call waits for :doc:`your approval </agentic-ai-guide/safety-guardrails/human-in-the-loop>` before it changes anything in Salesforce.
 
-**As an App Action.** Drop **App Action** on the canvas, pick **Salesforce**, then **Create an opportunity**, and fill in the inputs above. It runs every time the flow reaches it. A canvas run skips it unless **Write when run from the canvas** is on.
+Need it on every run?
+---------------------
+
+To run **Create an opportunity** every time a flow reaches it, without the agent deciding, use the :doc:`Create an opportunity App Action </agentic-ai-guide/tools-integrations/app-action-apps/salesforce/opportunity-create>`.
 
 Other Opportunity tools
 -----------------------

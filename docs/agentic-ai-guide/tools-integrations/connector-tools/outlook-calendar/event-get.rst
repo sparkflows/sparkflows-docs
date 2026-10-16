@@ -17,7 +17,7 @@ Get an event
      <div><dt>Connector</dt><dd>Outlook Calendar</dd></div>
      <div><dt>Resource</dt><dd>Event</dd></div>
      <div><dt>Type</dt><dd>Read</dd></div>
-     <div><dt>Available as</dt><dd>Agent tool · <a href="../../app-action-apps/outlook-calendar.html">App Action</a></dd></div>
+     <div><dt>Tool name</dt><dd><code>outlook_calendar_event_get</code></dd></div>
      </dl>
    </div>
 
@@ -25,53 +25,55 @@ Get an event
 
    Returns one event by its id with its times, location, organizer, attendees, online meeting link and status. Use it when the id is known from Event getMany.
 
-Prerequisites
--------------
+Before you start
+----------------
 
-* **Connection:** Microsoft Graph connection. See :doc:`the Outlook Calendar prerequisites <../outlook-calendar>`.
+* A Microsoft Graph connection. See :doc:`how to set one up <../outlook-calendar>`.
 
-Parameters
-----------
+Add it to your agent
+--------------------
 
-As an agent tool, the model fills in each parameter unless you fix it under **Fixed settings**, and in an App Action each one is a box on the **Details** step.
+#. In Agent Studio, open the **Tools** group and click **Add tools**, or click **+ Tool** on an Agent Node.
+#. Choose **Outlook Calendar** under **Connectors** and connect your Microsoft Graph connection.
+#. Tick **get** in the **Event** row, then click **Add to agent**.
+
+The agent now sees ``outlook_calendar_event_get`` and calls it when a request needs it.
+
+What the agent fills in
+-----------------------
+
+The agent fills these in from each request. To pin a value so the agent cannot change it, set it under **Fixed settings**.
 
 .. list-table::
    :header-rows: 1
-   :widths: 18 17 11 12 42
+   :widths: 22 14 12 52
    :class: tool-params
 
    * - Parameter
-     - App Action input
      - Type
      - Required
-     - Description
+     - What it means
    * - ``mailbox``
-     - Mailbox
      - text
      - Yes
      - The address whose calendar holds the event. Example: asha.rao@contoso.com.
    * - ``eventId``
-     - Event id
      - text
      - Yes
      - The id of the event, from the id column of Event getMany. Example: AAMkAGI2TGuLAAA=.
    * - ``fields``
-     - Fields to return
      - list of text
      - No
      - Graph event properties to return, such as subject, start, end and attendees; keep start in the list, or the row comes back in Graph's raw shape.
    * - ``timeZone``
-     - Show times in
      - text
      - No
      - The time zone to return start and end in, as a Windows or IANA name; blank returns them in UTC. Example: India Standard Time.
 
-Use it
-------
+Need it on every run?
+---------------------
 
-**As an agent tool.** Open the Agent Node's **+ Tool**, choose **Outlook Calendar**, connect, and tick **get** in the **Event** row. The model sees it as ``outlook_calendar_event_get``.
-
-**As an App Action.** Drop **App Action** on the canvas, pick **Outlook Calendar**, then **Get an event**, and fill in the inputs above. It runs every time the flow reaches it.
+To run **Get an event** every time a flow reaches it, without the agent deciding, use the :doc:`Get an event App Action </agentic-ai-guide/tools-integrations/app-action-apps/outlook-calendar/event-get>`.
 
 Other Event tools
 -----------------

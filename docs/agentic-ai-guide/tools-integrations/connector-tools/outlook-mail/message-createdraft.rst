@@ -16,8 +16,8 @@ Create a draft email
      <dl class="tool-facts">
      <div><dt>Connector</dt><dd>Outlook Mail</dd></div>
      <div><dt>Resource</dt><dd>Message</dd></div>
-     <div><dt>Type</dt><dd>Write · approval-gated</dd></div>
-     <div><dt>Available as</dt><dd>Agent tool · <a href="../../app-action-apps/outlook-mail.html">App Action</a></dd></div>
+     <div><dt>Type</dt><dd>Write · asks for approval</dd></div>
+     <div><dt>Tool name</dt><dd><code>outlook_mail_message_createdraft</code></dd></div>
      </dl>
    </div>
 
@@ -25,74 +25,76 @@ Create a draft email
 
    Saves a new email in the mailbox's Drafts folder without sending it, and returns the draft with its id. Use it when a person should review the email before it goes out; Message send sends at once, and no operation here sends a saved draft.
 
-Prerequisites
--------------
+Before you start
+----------------
 
-* **Connection:** Microsoft Graph connection. See :doc:`the Outlook Mail prerequisites <../outlook-mail>`.
-* The connection's account must be allowed to change this data in Outlook Mail.
+* A Microsoft Graph connection. See :doc:`how to set one up <../outlook-mail>`.
+* The account behind the connection must be allowed to change this data in Outlook Mail.
 
-Parameters
-----------
+Add it to your agent
+--------------------
 
-As an agent tool, the model fills in each parameter unless you fix it under **Fixed settings**, and in an App Action each one is a box on the **Details** step.
+#. In Agent Studio, open the **Tools** group and click **Add tools**, or click **+ Tool** on an Agent Node.
+#. Choose **Outlook Mail** under **Connectors** and connect your Microsoft Graph connection.
+#. Tick **createDraft** in the **Message** row, then click **Add to agent**.
+
+The agent now sees ``outlook_mail_message_createdraft`` and calls it when a request needs it.
+
+What the agent fills in
+-----------------------
+
+The agent fills these in from each request. To pin a value so the agent cannot change it, set it under **Fixed settings**.
 
 .. list-table::
    :header-rows: 1
-   :widths: 18 17 11 12 42
+   :widths: 22 14 12 52
    :class: tool-params
 
    * - Parameter
-     - App Action input
      - Type
      - Required
-     - Description
+     - What it means
    * - ``mailbox``
-     - Mailbox
      - text
      - Yes
      - The address of the mailbox the draft is saved in. Example: asha.rao@contoso.com.
    * - ``to``
-     - To
      - list of text
      - No
      - The recipients' email addresses; a draft may have none yet. Example: ["ravi.menon@contoso.com"].
    * - ``cc``
-     - Cc
      - list of text
      - No
      - Addresses to copy in.
    * - ``bcc``
-     - Bcc
      - list of text
      - No
      - Addresses to copy in without the other recipients seeing them.
    * - ``subject``
-     - Subject
      - text
      - No
      - The subject line; blank leaves it empty. Example: Draft: vendor payment schedule.
    * - ``body``
-     - Body
      - text
      - No
      - The message as plain text.
    * - ``html``
-     - Body as HTML
      - text
      - No
      - The message as HTML; when given it is used instead of body.
    * - ``importance``
-     - Importance
      - text
      - No
      - The importance the recipients will see; blank is normal. One of: low, normal, high.
 
-Use it
-------
+.. note::
 
-**As an agent tool.** Open the Agent Node's **+ Tool**, choose **Outlook Mail**, connect, and tick **createDraft** in the **Message** row. The model sees it as ``outlook_mail_message_createdraft``. Each call waits for human approval before it changes anything.
+   Each call waits for :doc:`your approval </agentic-ai-guide/safety-guardrails/human-in-the-loop>` before it changes anything in Outlook Mail.
 
-**As an App Action.** Drop **App Action** on the canvas, pick **Outlook Mail**, then **Create a draft email**, and fill in the inputs above. It runs every time the flow reaches it. A canvas run skips it unless **Write when run from the canvas** is on.
+Need it on every run?
+---------------------
+
+To run **Create a draft email** every time a flow reaches it, without the agent deciding, use the :doc:`Create a draft email App Action </agentic-ai-guide/tools-integrations/app-action-apps/outlook-mail/message-createdraft>`.
 
 Other Message tools
 -------------------

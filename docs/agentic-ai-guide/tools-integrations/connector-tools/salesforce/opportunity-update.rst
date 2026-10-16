@@ -16,8 +16,8 @@ Update an opportunity
      <dl class="tool-facts">
      <div><dt>Connector</dt><dd>Salesforce</dd></div>
      <div><dt>Resource</dt><dd>Opportunity</dd></div>
-     <div><dt>Type</dt><dd>Write · approval-gated</dd></div>
-     <div><dt>Available as</dt><dd>Agent tool · <a href="../../app-action-apps/salesforce.html">App Action</a></dd></div>
+     <div><dt>Type</dt><dd>Write · asks for approval</dd></div>
+     <div><dt>Tool name</dt><dd><code>salesforce_opportunity_update</code></dd></div>
      </dl>
    </div>
 
@@ -25,84 +25,84 @@ Update an opportunity
 
    Changes the given fields on an existing opportunity and leaves the others as they are; returns the opportunity's Id. The opportunity is named by its Salesforce Id, which List opportunities returns.
 
-Prerequisites
--------------
+Before you start
+----------------
 
-* **Connection:** Salesforce connection. See :doc:`the Salesforce prerequisites <../salesforce>`.
-* The connection's account must be allowed to change this data in Salesforce.
+* A Salesforce connection. See :doc:`how to set one up <../salesforce>`.
+* The account behind the connection must be allowed to change this data in Salesforce.
 
-Parameters
-----------
+Add it to your agent
+--------------------
 
-As an agent tool, the model fills in each parameter unless you fix it under **Fixed settings**, and in an App Action each one is a box on the **Details** step.
+#. In Agent Studio, open the **Tools** group and click **Add tools**, or click **+ Tool** on an Agent Node.
+#. Choose **Salesforce** under **Connectors** and connect your Salesforce connection.
+#. Tick **update** in the **Opportunity** row, then click **Add to agent**.
+
+The agent now sees ``salesforce_opportunity_update`` and calls it when a request needs it.
+
+What the agent fills in
+-----------------------
+
+The agent fills these in from each request. To pin a value so the agent cannot change it, set it under **Fixed settings**.
 
 .. list-table::
    :header-rows: 1
-   :widths: 18 17 11 12 42
+   :widths: 22 14 12 52
    :class: tool-params
 
    * - Parameter
-     - App Action input
      - Type
      - Required
-     - Description
+     - What it means
    * - ``opportunityId``
-     - Opportunity Id
      - text
      - Yes
      - The Salesforce Id of the opportunity to change, starting 006, for example 006XX000002kLmN; List opportunities returns it.
    * - ``name``
-     - Opportunity name
      - text
      - No
      - The deal's name. Example: Acme Energy - 500 licences.
    * - ``stageName``
-     - Stage
      - text
      - No
      - A stage from the org's sales process, for example Prospecting, Proposal/Price Quote or Closed Won.
    * - ``closeDate``
-     - Close date
      - text
      - No
      - The expected close date as YYYY-MM-DD. Example: 2026-12-15.
    * - ``amount``
-     - Amount
      - number
      - No
      - The deal value as a number, in the org's currency. Example: 48000.
    * - ``probability``
-     - Probability (%)
      - number
      - No
      - The chance of winning from 0 to 100; blank takes the stage's default. Example: 60.
    * - ``type``
-     - Type
      - text
      - No
      - The opportunity type, for example New Business or Existing Business.
    * - ``nextStep``
-     - Next step
      - text
      - No
      - The next action planned on the deal. Example: Send the revised quote by Friday.
    * - ``ownerId``
-     - Owner Id
      - text
      - No
      - The Id of the user who owns the deal, starting 005; List users returns it. Example: 005XX000001Sv6e.
    * - ``description``
-     - Description
      - text
      - No
      - Free-text notes about the deal. Example: Replaces their legacy SCADA reporting..
 
-Use it
-------
+.. note::
 
-**As an agent tool.** Open the Agent Node's **+ Tool**, choose **Salesforce**, connect, and tick **update** in the **Opportunity** row. The model sees it as ``salesforce_opportunity_update``. Each call waits for human approval before it changes anything.
+   Each call waits for :doc:`your approval </agentic-ai-guide/safety-guardrails/human-in-the-loop>` before it changes anything in Salesforce.
 
-**As an App Action.** Drop **App Action** on the canvas, pick **Salesforce**, then **Update an opportunity**, and fill in the inputs above. It runs every time the flow reaches it. A canvas run skips it unless **Write when run from the canvas** is on.
+Need it on every run?
+---------------------
+
+To run **Update an opportunity** every time a flow reaches it, without the agent deciding, use the :doc:`Update an opportunity App Action </agentic-ai-guide/tools-integrations/app-action-apps/salesforce/opportunity-update>`.
 
 Other Opportunity tools
 -----------------------

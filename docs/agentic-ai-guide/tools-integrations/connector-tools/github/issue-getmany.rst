@@ -17,7 +17,7 @@ List issues
      <div><dt>Connector</dt><dd>GitHub</dd></div>
      <div><dt>Resource</dt><dd>Issue</dd></div>
      <div><dt>Type</dt><dd>Read</dd></div>
-     <div><dt>Available as</dt><dd>Agent tool only</dd></div>
+     <div><dt>Tool name</dt><dd><code>github_issue_getmany</code></dd></div>
      </dl>
    </div>
 
@@ -25,15 +25,24 @@ List issues
 
    Lists a repository's issues, newest first, with number, title, state, labels, assignees and dates; GitHub includes pull requests in this list, marked by a pull\_request field. Use Search issues for text search or for issues across repositories.
 
-Prerequisites
--------------
+Before you start
+----------------
 
-* **Connection:** GitHub connection. See :doc:`the GitHub prerequisites <../github>`.
+* A GitHub connection. See :doc:`how to set one up <../github>`.
 
-Parameters
-----------
+Add it to your agent
+--------------------
 
-As an agent tool, the model fills in each parameter unless you fix it under **Fixed settings**.
+#. In Agent Studio, open the **Tools** group and click **Add tools**, or click **+ Tool** on an Agent Node.
+#. Choose **GitHub** under **Connectors** and connect your GitHub connection.
+#. Tick **list** in the **Issue** row, then click **Add to agent**.
+
+The agent now sees ``github_issue_getmany`` and calls it when a request needs it.
+
+What the agent fills in
+-----------------------
+
+The agent fills these in from each request. To pin a value so the agent cannot change it, set it under **Fixed settings**.
 
 .. list-table::
    :header-rows: 1
@@ -43,7 +52,7 @@ As an agent tool, the model fills in each parameter unless you fix it under **Fi
    * - Parameter
      - Type
      - Required
-     - Description
+     - What it means
    * - ``repository``
      - text
      - Yes
@@ -76,11 +85,6 @@ As an agent tool, the model fills in each parameter unless you fix it under **Fi
      - whole number
      - No
      - How many issues at most. Default: 50.
-
-Use it
-------
-
-**As an agent tool.** Open the Agent Node's **+ Tool**, choose **GitHub**, connect, and tick **list** in the **Issue** row. The model sees it as ``github_issue_getmany``.
 
 Other Issue tools
 -----------------

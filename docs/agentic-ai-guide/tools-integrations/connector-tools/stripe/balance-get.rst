@@ -17,7 +17,7 @@ Get the account balance
      <div><dt>Connector</dt><dd>Stripe</dd></div>
      <div><dt>Resource</dt><dd>Balance</dd></div>
      <div><dt>Type</dt><dd>Read</dd></div>
-     <div><dt>Available as</dt><dd>Agent tool only</dd></div>
+     <div><dt>Tool name</dt><dd><code>stripe_balance_get</code></dd></div>
      </dl>
    </div>
 
@@ -25,20 +25,24 @@ Get the account balance
 
    Returns the account's current balance: the available and pending amounts per currency, in the currency's smallest unit. Use it to see what can be paid out now; for the movements behind the balance use Balance getMany.
 
-Prerequisites
--------------
+Before you start
+----------------
 
-* **Connection:** Stripe connection. See :doc:`the Stripe prerequisites <../stripe>`.
+* A Stripe connection. See :doc:`how to set one up <../stripe>`.
 
-Parameters
-----------
+Add it to your agent
+--------------------
 
-This tool takes no parameters.
+#. In Agent Studio, open the **Tools** group and click **Add tools**, or click **+ Tool** on an Agent Node.
+#. Choose **Stripe** under **Connectors** and connect your Stripe connection.
+#. Tick **get** in the **Balance** row, then click **Add to agent**.
 
-Use it
-------
+The agent now sees ``stripe_balance_get`` and calls it when a request needs it.
 
-**As an agent tool.** Open the Agent Node's **+ Tool**, choose **Stripe**, connect, and tick **get** in the **Balance** row. The model sees it as ``stripe_balance_get``.
+What the agent fills in
+-----------------------
+
+Nothing. The agent calls it as it is.
 
 Other Balance tools
 -------------------

@@ -16,8 +16,8 @@ Create an online meeting
      <dl class="tool-facts">
      <div><dt>Connector</dt><dd>Microsoft Teams</dd></div>
      <div><dt>Resource</dt><dd>Meeting</dd></div>
-     <div><dt>Type</dt><dd>Write · approval-gated</dd></div>
-     <div><dt>Available as</dt><dd>Agent tool · <a href="../../app-action-apps/microsoft-teams.html">App Action</a></dd></div>
+     <div><dt>Type</dt><dd>Write · asks for approval</dd></div>
+     <div><dt>Tool name</dt><dd><code>msteams_meeting_create</code></dd></div>
      </dl>
    </div>
 
@@ -25,54 +25,60 @@ Create an online meeting
 
    Creates a Teams online meeting on behalf of a user and returns its joinWebUrl, id, start and end. The meeting is not put in anyone's calendar, and an app-only connection also needs an application access policy for that user, granted by a Teams admin.
 
-Prerequisites
--------------
+Before you start
+----------------
 
-* **Connection:** Microsoft Graph connection. See :doc:`the Microsoft Teams prerequisites <../microsoft-teams>`.
-* The connection's account must be allowed to change this data in Microsoft Teams.
+* A Microsoft Graph connection. See :doc:`how to set one up <../microsoft-teams>`.
+* The account behind the connection must be allowed to change this data in Microsoft Teams.
 
-Parameters
-----------
+Add it to your agent
+--------------------
 
-As an agent tool, the model fills in each parameter unless you fix it under **Fixed settings**, and in an App Action each one is a box on the **Details** step.
+#. In Agent Studio, open the **Tools** group and click **Add tools**, or click **+ Tool** on an Agent Node.
+#. Choose **Microsoft Teams** under **Connectors** and connect your Microsoft Graph connection.
+#. Tick **create** in the **Meeting** row, then click **Add to agent**.
+
+The agent now sees ``msteams_meeting_create`` and calls it when a request needs it.
+
+What the agent fills in
+-----------------------
+
+The agent fills these in from each request. To pin a value so the agent cannot change it, set it under **Fixed settings**.
 
 .. list-table::
    :header-rows: 1
-   :widths: 18 17 11 12 42
+   :widths: 22 14 12 52
    :class: tool-params
 
    * - Parameter
-     - App Action input
      - Type
      - Required
-     - Description
+     - What it means
    * - ``organizer``
-     - Organizer
      - text
      - Yes
      - The organizer's Microsoft Entra user object id (a GUID), which Team members and Channel members return as userId; the meeting belongs to this user. Example: 6e0f2c1a-9b8d-4f3e-a2c1-7d6e5f4a3b2c.
    * - ``subject``
-     - Subject
      - text
      - Yes
      - The meeting title. Example: Quarterly review.
    * - ``startDateTime``
-     - Starts
      - text
      - No
      - When the meeting starts, with a time zone, for example 2026-10-01T10:00:00Z.
    * - ``endDateTime``
-     - Ends
      - text
      - No
      - When the meeting ends, with a time zone, for example 2026-10-01T10:30:00Z.
 
-Use it
-------
+.. note::
 
-**As an agent tool.** Open the Agent Node's **+ Tool**, choose **Microsoft Teams**, connect, and tick **create** in the **Meeting** row. The model sees it as ``msteams_meeting_create``. Each call waits for human approval before it changes anything.
+   Each call waits for :doc:`your approval </agentic-ai-guide/safety-guardrails/human-in-the-loop>` before it changes anything in Microsoft Teams.
 
-**As an App Action.** Drop **App Action** on the canvas, pick **Microsoft Teams**, then **Create an online meeting**, and fill in the inputs above. It runs every time the flow reaches it. A canvas run skips it unless **Write when run from the canvas** is on.
+Need it on every run?
+---------------------
+
+To run **Create an online meeting** every time a flow reaches it, without the agent deciding, use the :doc:`Create an online meeting App Action </agentic-ai-guide/tools-integrations/app-action-apps/microsoft-teams/meeting-create>`.
 
 Other Meeting tools
 -------------------

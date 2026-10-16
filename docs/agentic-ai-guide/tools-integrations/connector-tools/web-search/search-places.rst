@@ -17,7 +17,7 @@ Search places
      <div><dt>Connector</dt><dd>Web Search</dd></div>
      <div><dt>Resource</dt><dd>Search</dd></div>
      <div><dt>Type</dt><dd>Read</dd></div>
-     <div><dt>Available as</dt><dd>Agent tool · <a href="../../app-action-apps/web-search.html">App Action</a></dd></div>
+     <div><dt>Tool name</dt><dd><code>web_tools_search_places</code></dd></div>
      </dl>
    </div>
 
@@ -25,48 +25,51 @@ Search places
 
    Searches Google Maps through Serper and returns places with title, address, rating, category, phone number and website. Use it for businesses and locations, adding the city to the search text.
 
-Prerequisites
--------------
+Before you start
+----------------
 
-* **Connection:** Serper (searches only) connection. See :doc:`the Web Search prerequisites <../web-search>`.
+* A Serper (searches only) connection. See :doc:`how to set one up <../web-search>`.
 
-Parameters
-----------
+Add it to your agent
+--------------------
 
-As an agent tool, the model fills in each parameter unless you fix it under **Fixed settings**, and in an App Action each one is a box on the **Details** step.
+#. In Agent Studio, open the **Tools** group and click **Add tools**, or click **+ Tool** on an Agent Node.
+#. Choose **Web Search** under **Connectors** and connect your Serper (searches only) connection.
+#. Tick **places** in the **Search** row, then click **Add to agent**.
+
+The agent now sees ``web_tools_search_places`` and calls it when a request needs it.
+
+What the agent fills in
+-----------------------
+
+The agent fills these in from each request. To pin a value so the agent cannot change it, set it under **Fixed settings**.
 
 .. list-table::
    :header-rows: 1
-   :widths: 18 17 11 12 42
+   :widths: 22 14 12 52
    :class: tool-params
 
    * - Parameter
-     - App Action input
      - Type
      - Required
-     - Description
+     - What it means
    * - ``query``
-     - Search text
      - text
      - Yes
      - What to search for, as it would be typed into Google; operators such as site: and quotes work. Example: sparkflows agent platform site:sparkflows.io.
    * - ``country``
-     - Country
      - text
      - No
      - Two-letter country code for local results, for example us or in.
    * - ``limit``
-     - Limit
      - whole number
      - No
      - How many results at most (up to 100). Default: 10.
 
-Use it
-------
+Need it on every run?
+---------------------
 
-**As an agent tool.** Open the Agent Node's **+ Tool**, choose **Web Search**, connect, and tick **places** in the **Search** row. The model sees it as ``web_tools_search_places``.
-
-**As an App Action.** Drop **App Action** on the canvas, pick **Web Search**, then **Search places**, and fill in the inputs above. It runs every time the flow reaches it.
+To run **Search places** every time a flow reaches it, without the agent deciding, use the :doc:`Search places App Action </agentic-ai-guide/tools-integrations/app-action-apps/web-search/search-places>`.
 
 Other Search tools
 ------------------

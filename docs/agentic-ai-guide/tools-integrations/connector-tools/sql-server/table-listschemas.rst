@@ -17,7 +17,7 @@ List schemas
      <div><dt>Connector</dt><dd>SQL Server</dd></div>
      <div><dt>Resource</dt><dd>Table</dd></div>
      <div><dt>Type</dt><dd>Read</dd></div>
-     <div><dt>Available as</dt><dd>Agent tool · <a href="../../app-action-apps/sql-server.html">App Action</a></dd></div>
+     <div><dt>Tool name</dt><dd><code>sqlserver_table_listschemas</code></dd></div>
      </dl>
    </div>
 
@@ -25,22 +25,29 @@ List schemas
 
    Lists the schemas in the database, one row each, such as dbo and the built-in ones. Use it to find where a table lives, then Table listTables.
 
-Prerequisites
--------------
+Before you start
+----------------
 
-* **Connection:** SQL Server connection connection. See :doc:`the SQL Server prerequisites <../sql-server>`.
+* A SQL Server connection. See :doc:`how to set one up <../sql-server>`.
 
-Parameters
-----------
+Add it to your agent
+--------------------
 
-This tool takes no parameters.
+#. In Agent Studio, open the **Tools** group and click **Add tools**, or click **+ Tool** on an Agent Node.
+#. Choose **SQL Server** under **Connectors** and connect your SQL Server connection.
+#. Tick **listSchemas** in the **Table** row, then click **Add to agent**.
 
-Use it
-------
+The agent now sees ``sqlserver_table_listschemas`` and calls it when a request needs it.
 
-**As an agent tool.** Open the Agent Node's **+ Tool**, choose **SQL Server**, connect, and tick **listSchemas** in the **Table** row. The model sees it as ``sqlserver_table_listschemas``.
+What the agent fills in
+-----------------------
 
-**As an App Action.** Drop **App Action** on the canvas, pick **SQL Server**, then **List schemas**, and fill in the inputs above. It runs every time the flow reaches it.
+Nothing. The agent calls it as it is.
+
+Need it on every run?
+---------------------
+
+To run **List schemas** every time a flow reaches it, without the agent deciding, use the :doc:`List schemas App Action </agentic-ai-guide/tools-integrations/app-action-apps/sql-server/table-listschemas>`.
 
 Other Table tools
 -----------------

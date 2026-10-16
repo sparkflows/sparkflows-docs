@@ -17,7 +17,7 @@ List who has access
      <div><dt>Connector</dt><dd>Google Drive</dd></div>
      <div><dt>Resource</dt><dd>Permission</dd></div>
      <div><dt>Type</dt><dd>Read</dd></div>
-     <div><dt>Available as</dt><dd>Agent tool · <a href="../../app-action-apps/google-drive.html">App Action</a></dd></div>
+     <div><dt>Tool name</dt><dd><code>google_drive_permission_getmany</code></dd></div>
      </dl>
    </div>
 
@@ -25,53 +25,55 @@ List who has access
 
    Lists the permissions on a file or folder: who has access (a user, group, domain or anyone with the link) and with which role. Use it to check current access before sharing or after it.
 
-Prerequisites
--------------
+Before you start
+----------------
 
-* **Connection:** Google connection. See :doc:`the Google Drive prerequisites <../google-drive>`.
+* A Google connection. See :doc:`how to set one up <../google-drive>`.
 
-Parameters
-----------
+Add it to your agent
+--------------------
 
-As an agent tool, the model fills in each parameter unless you fix it under **Fixed settings**, and in an App Action each one is a box on the **Details** step.
+#. In Agent Studio, open the **Tools** group and click **Add tools**, or click **+ Tool** on an Agent Node.
+#. Choose **Google Drive** under **Connectors** and connect your Google connection.
+#. Tick **list** in the **Permission** row, then click **Add to agent**.
+
+The agent now sees ``google_drive_permission_getmany`` and calls it when a request needs it.
+
+What the agent fills in
+-----------------------
+
+The agent fills these in from each request. To pin a value so the agent cannot change it, set it under **Fixed settings**.
 
 .. list-table::
    :header-rows: 1
-   :widths: 18 17 11 12 42
+   :widths: 22 14 12 52
    :class: tool-params
 
    * - Parameter
-     - App Action input
      - Type
      - Required
-     - Description
+     - What it means
    * - ``fileId``
-     - File id
      - text
      - Yes
      - The file or folder's id, from Search files or List files, never its name. Example: 1Q2w3E4r5T6y7U8i9O0pAsDfGhJkLzXcVb.
    * - ``limit``
-     - Limit
      - whole number
      - No
      - How many permissions at most. Example: 50. Default: 50.
    * - ``fields``
-     - Fields to return
      - list of text
      - No
      - Permission fields to return, for example ["id", "type", "role", "emailAddress", "displayName"]; blank returns Google's default set.
    * - ``supportsAllDrives``
-     - Reach shared drives
      - true or false
      - No
      - true lets the call reach files that live in shared drives as well as My Drive; keep it on. Default: True.
 
-Use it
-------
+Need it on every run?
+---------------------
 
-**As an agent tool.** Open the Agent Node's **+ Tool**, choose **Google Drive**, connect, and tick **list** in the **Permission** row. The model sees it as ``google_drive_permission_getmany``.
-
-**As an App Action.** Drop **App Action** on the canvas, pick **Google Drive**, then **List who has access**, and fill in the inputs above. It runs every time the flow reaches it.
+To run **List who has access** every time a flow reaches it, without the agent deciding, use the :doc:`List who has access App Action </agentic-ai-guide/tools-integrations/app-action-apps/google-drive/permission-getmany>`.
 
 Other Permission tools
 ----------------------

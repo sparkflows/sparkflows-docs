@@ -16,8 +16,8 @@ Create a folder
      <dl class="tool-facts">
      <div><dt>Connector</dt><dd>OneDrive</dd></div>
      <div><dt>Resource</dt><dd>File</dd></div>
-     <div><dt>Type</dt><dd>Write · approval-gated</dd></div>
-     <div><dt>Available as</dt><dd>Agent tool · <a href="../../app-action-apps/onedrive.html">App Action</a></dd></div>
+     <div><dt>Type</dt><dd>Write · asks for approval</dd></div>
+     <div><dt>Tool name</dt><dd><code>onedrive_file_createfolder</code></dd></div>
      </dl>
    </div>
 
@@ -25,49 +25,56 @@ Create a folder
 
    Creates a folder in a user's OneDrive, at the top or inside another folder, and returns it with its id. A name already in use there makes the call fail.
 
-Prerequisites
--------------
+Before you start
+----------------
 
-* **Connection:** Microsoft Graph connection. See :doc:`the OneDrive prerequisites <../onedrive>`.
-* The connection's account must be allowed to change this data in OneDrive.
+* A Microsoft Graph connection. See :doc:`how to set one up <../onedrive>`.
+* The account behind the connection must be allowed to change this data in OneDrive.
 
-Parameters
-----------
+Add it to your agent
+--------------------
 
-As an agent tool, the model fills in each parameter unless you fix it under **Fixed settings**, and in an App Action each one is a box on the **Details** step.
+#. In Agent Studio, open the **Tools** group and click **Add tools**, or click **+ Tool** on an Agent Node.
+#. Choose **OneDrive** under **Connectors** and connect your Microsoft Graph connection.
+#. Tick **createFolder** in the **File** row, then click **Add to agent**.
+
+The agent now sees ``onedrive_file_createfolder`` and calls it when a request needs it.
+
+What the agent fills in
+-----------------------
+
+The agent fills these in from each request. To pin a value so the agent cannot change it, set it under **Fixed settings**.
 
 .. list-table::
    :header-rows: 1
-   :widths: 18 17 11 12 42
+   :widths: 22 14 12 52
    :class: tool-params
 
    * - Parameter
-     - App Action input
      - Type
      - Required
-     - Description
+     - What it means
    * - ``user``
-     - User
      - text
      - Yes
      - The address whose OneDrive gets the folder. Example: asha.rao@contoso.com.
    * - ``name``
-     - Folder name
      - text
      - Yes
      - The new folder's name. Example: Reports.
    * - ``parentFolder``
-     - Inside folder
      - text
      - No
      - The folder to create it in, as an item id or a path such as Reports; blank is the top of the drive.
 
-Use it
-------
+.. note::
 
-**As an agent tool.** Open the Agent Node's **+ Tool**, choose **OneDrive**, connect, and tick **createFolder** in the **File** row. The model sees it as ``onedrive_file_createfolder``. Each call waits for human approval before it changes anything.
+   Each call waits for :doc:`your approval </agentic-ai-guide/safety-guardrails/human-in-the-loop>` before it changes anything in OneDrive.
 
-**As an App Action.** Drop **App Action** on the canvas, pick **OneDrive**, then **Create a folder**, and fill in the inputs above. It runs every time the flow reaches it. A canvas run skips it unless **Write when run from the canvas** is on.
+Need it on every run?
+---------------------
+
+To run **Create a folder** every time a flow reaches it, without the agent deciding, use the :doc:`Create a folder App Action </agentic-ai-guide/tools-integrations/app-action-apps/onedrive/file-createfolder>`.
 
 Other File tools
 ----------------

@@ -17,7 +17,7 @@ Get an invoice
      <div><dt>Connector</dt><dd>Stripe</dd></div>
      <div><dt>Resource</dt><dd>Invoice</dd></div>
      <div><dt>Type</dt><dd>Read</dd></div>
-     <div><dt>Available as</dt><dd>Agent tool only</dd></div>
+     <div><dt>Tool name</dt><dd><code>stripe_invoice_get</code></dd></div>
      </dl>
    </div>
 
@@ -25,15 +25,24 @@ Get an invoice
 
    Fetches one invoice by id and returns its number, status, customer, amount\_due, amount\_paid and amount\_remaining (in the currency's smallest unit, such as cents), due\_date, hosted\_invoice\_url and lines. Use it when the invoice id (in\_...) is known; to find invoices by customer, status or date use Invoice getMany.
 
-Prerequisites
--------------
+Before you start
+----------------
 
-* **Connection:** Stripe connection. See :doc:`the Stripe prerequisites <../stripe>`.
+* A Stripe connection. See :doc:`how to set one up <../stripe>`.
 
-Parameters
-----------
+Add it to your agent
+--------------------
 
-As an agent tool, the model fills in each parameter unless you fix it under **Fixed settings**.
+#. In Agent Studio, open the **Tools** group and click **Add tools**, or click **+ Tool** on an Agent Node.
+#. Choose **Stripe** under **Connectors** and connect your Stripe connection.
+#. Tick **get** in the **Invoice** row, then click **Add to agent**.
+
+The agent now sees ``stripe_invoice_get`` and calls it when a request needs it.
+
+What the agent fills in
+-----------------------
+
+The agent fills these in from each request. To pin a value so the agent cannot change it, set it under **Fixed settings**.
 
 .. list-table::
    :header-rows: 1
@@ -43,16 +52,11 @@ As an agent tool, the model fills in each parameter unless you fix it under **Fi
    * - Parameter
      - Type
      - Required
-     - Description
+     - What it means
    * - ``invoiceId``
      - text
      - Yes
      - The Stripe invoice id, which starts with in\_; Invoice getMany returns it. Example: in\_1QzT2bLkdIwHu7ixV3pXw9Kd.
-
-Use it
-------
-
-**As an agent tool.** Open the Agent Node's **+ Tool**, choose **Stripe**, connect, and tick **get** in the **Invoice** row. The model sees it as ``stripe_invoice_get``.
 
 Other Invoice tools
 -------------------

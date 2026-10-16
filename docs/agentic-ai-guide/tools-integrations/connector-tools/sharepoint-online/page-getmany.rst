@@ -17,7 +17,7 @@ List site pages
      <div><dt>Connector</dt><dd>SharePoint Online</dd></div>
      <div><dt>Resource</dt><dd>Page</dd></div>
      <div><dt>Type</dt><dd>Read</dd></div>
-     <div><dt>Available as</dt><dd>Agent tool · <a href="../../app-action-apps/sharepoint-online.html">App Action</a></dd></div>
+     <div><dt>Tool name</dt><dd><code>sharepoint_online_page_getmany</code></dd></div>
      </dl>
    </div>
 
@@ -25,48 +25,51 @@ List site pages
 
    Lists the pages of a site with their ids, names, titles, web addresses and dates. The page content itself is not returned.
 
-Prerequisites
--------------
+Before you start
+----------------
 
-* **Connection:** Microsoft Graph or SharePoint connection. See :doc:`the SharePoint Online prerequisites <../sharepoint-online>`.
+* A Microsoft Graph or SharePoint connection. See :doc:`how to set one up <../sharepoint-online>`.
 
-Parameters
-----------
+Add it to your agent
+--------------------
 
-As an agent tool, the model fills in each parameter unless you fix it under **Fixed settings**, and in an App Action each one is a box on the **Details** step.
+#. In Agent Studio, open the **Tools** group and click **Add tools**, or click **+ Tool** on an Agent Node.
+#. Choose **SharePoint Online** under **Connectors** and connect your Microsoft Graph or SharePoint connection.
+#. Tick **list** in the **Page** row, then click **Add to agent**.
+
+The agent now sees ``sharepoint_online_page_getmany`` and calls it when a request needs it.
+
+What the agent fills in
+-----------------------
+
+The agent fills these in from each request. To pin a value so the agent cannot change it, set it under **Fixed settings**.
 
 .. list-table::
    :header-rows: 1
-   :widths: 18 17 11 12 42
+   :widths: 22 14 12 52
    :class: tool-params
 
    * - Parameter
-     - App Action input
      - Type
      - Required
-     - Description
+     - What it means
    * - ``site``
-     - Site
      - text
      - No
      - The site as its URL, name or id; blank uses the site on the connection. Example: https://contoso.sharepoint.com/sites/Finance.
    * - ``fields``
-     - Fields to return
      - list of text
      - No
      - Graph page properties to return, such as id, title, name and webUrl; blank returns them all. Example: ["id", "title", "webUrl"].
    * - ``limit``
-     - Limit
      - whole number
      - No
      - How many pages at most. Default: 50.
 
-Use it
-------
+Need it on every run?
+---------------------
 
-**As an agent tool.** Open the Agent Node's **+ Tool**, choose **SharePoint Online**, connect, and tick **list** in the **Page** row. The model sees it as ``sharepoint_online_page_getmany``.
-
-**As an App Action.** Drop **App Action** on the canvas, pick **SharePoint**, then **List site pages**, and fill in the inputs above. It runs every time the flow reaches it.
+To run **List site pages** every time a flow reaches it, without the agent deciding, use the :doc:`List site pages App Action </agentic-ai-guide/tools-integrations/app-action-apps/sharepoint-online/page-getmany>`.
 
 Other Page tools
 ----------------

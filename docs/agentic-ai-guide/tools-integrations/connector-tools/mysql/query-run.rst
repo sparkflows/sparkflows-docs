@@ -16,8 +16,8 @@ Run a SQL statement
      <dl class="tool-facts">
      <div><dt>Connector</dt><dd>MySQL</dd></div>
      <div><dt>Resource</dt><dd>Query</dd></div>
-     <div><dt>Type</dt><dd>Write · approval-gated</dd></div>
-     <div><dt>Available as</dt><dd>Agent tool · <a href="../../app-action-apps/mysql.html">App Action</a></dd></div>
+     <div><dt>Type</dt><dd>Write · asks for approval</dd></div>
+     <div><dt>Tool name</dt><dd><code>mysql_query_run</code></dd></div>
      </dl>
    </div>
 
@@ -25,41 +25,49 @@ Run a SQL statement
 
    Runs one MySQL statement and commits it: a SELECT, WITH, SHOW, DESCRIBE or EXPLAIN statement returns its rows up to limit, and any other statement returns rowsAffected. Use it for joins, grouping and anything Table getMany cannot express; since it can also change data, it counts as a change.
 
-Prerequisites
--------------
+Before you start
+----------------
 
-* **Connection:** MySQL connection connection. See :doc:`the MySQL prerequisites <../mysql>`.
-* The connection's account must be allowed to change this data in MySQL.
+* A MySQL connection. See :doc:`how to set one up <../mysql>`.
+* The account behind the connection must be allowed to change this data in MySQL.
 
-Parameters
-----------
+Add it to your agent
+--------------------
 
-As an agent tool, the model fills in each parameter unless you fix it under **Fixed settings**, and in an App Action each one is a box on the **Details** step.
+#. In Agent Studio, open the **Tools** group and click **Add tools**, or click **+ Tool** on an Agent Node.
+#. Choose **MySQL** under **Connectors** and connect your MySQL connection.
+#. Tick **run** in the **Query** row, then click **Add to agent**.
+
+The agent now sees ``mysql_query_run`` and calls it when a request needs it.
+
+What the agent fills in
+-----------------------
+
+The agent fills these in from each request. To pin a value so the agent cannot change it, set it under **Fixed settings**.
 
 .. list-table::
    :header-rows: 1
-   :widths: 18 17 11 12 42
+   :widths: 22 14 12 52
    :class: tool-params
 
    * - Parameter
-     - App Action input
      - Type
      - Required
-     - Description
+     - What it means
    * - ``sql``
-     - SQL
      - text
      - Yes
      - One MySQL statement, run as written and committed; add LIMIT for large results, since limit only cuts the rows after the database has returned them. Example: SELECT c.name, COUNT(\*) AS orders FROM customers c JOIN orders o ON o.customer\_id = c.id GROUP BY c.name ORDER BY orders DESC LIMIT 20.
    * - ``limit``
-     - Limit
      - whole number
      - No
      - How many rows of a query's result to return at most. Default: 50.
 
-Use it
-------
+.. note::
 
-**As an agent tool.** Open the Agent Node's **+ Tool**, choose **MySQL**, connect, and tick **run** in the **Query** row. The model sees it as ``mysql_query_run``. Each call waits for human approval before it changes anything.
+   Each call waits for :doc:`your approval </agentic-ai-guide/safety-guardrails/human-in-the-loop>` before it changes anything in MySQL.
 
-**As an App Action.** Drop **App Action** on the canvas, pick **MySQL**, then **Run a SQL statement**, and fill in the inputs above. It runs every time the flow reaches it. A canvas run skips it unless **Write when run from the canvas** is on.
+Need it on every run?
+---------------------
+
+To run **Run a SQL statement** every time a flow reaches it, without the agent deciding, use the :doc:`Run a SQL statement App Action </agentic-ai-guide/tools-integrations/app-action-apps/mysql/query-run>`.

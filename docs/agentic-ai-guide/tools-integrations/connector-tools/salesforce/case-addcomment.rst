@@ -16,8 +16,8 @@ Add a case comment
      <dl class="tool-facts">
      <div><dt>Connector</dt><dd>Salesforce</dd></div>
      <div><dt>Resource</dt><dd>Case</dd></div>
-     <div><dt>Type</dt><dd>Write · approval-gated</dd></div>
-     <div><dt>Available as</dt><dd>Agent tool · <a href="../../app-action-apps/salesforce.html">App Action</a></dd></div>
+     <div><dt>Type</dt><dd>Write · asks for approval</dd></div>
+     <div><dt>Tool name</dt><dd><code>salesforce_case_addcomment</code></dd></div>
      </dl>
    </div>
 
@@ -25,49 +25,56 @@ Add a case comment
 
    Adds a comment to the case's Case Comments and returns the comment's Id. Use it for working notes on a case; the comment stays internal unless publishToCustomer is true.
 
-Prerequisites
--------------
+Before you start
+----------------
 
-* **Connection:** Salesforce connection. See :doc:`the Salesforce prerequisites <../salesforce>`.
-* The connection's account must be allowed to change this data in Salesforce.
+* A Salesforce connection. See :doc:`how to set one up <../salesforce>`.
+* The account behind the connection must be allowed to change this data in Salesforce.
 
-Parameters
-----------
+Add it to your agent
+--------------------
 
-As an agent tool, the model fills in each parameter unless you fix it under **Fixed settings**, and in an App Action each one is a box on the **Details** step.
+#. In Agent Studio, open the **Tools** group and click **Add tools**, or click **+ Tool** on an Agent Node.
+#. Choose **Salesforce** under **Connectors** and connect your Salesforce connection.
+#. Tick **addComment** in the **Case** row, then click **Add to agent**.
+
+The agent now sees ``salesforce_case_addcomment`` and calls it when a request needs it.
+
+What the agent fills in
+-----------------------
+
+The agent fills these in from each request. To pin a value so the agent cannot change it, set it under **Fixed settings**.
 
 .. list-table::
    :header-rows: 1
-   :widths: 18 17 11 12 42
+   :widths: 22 14 12 52
    :class: tool-params
 
    * - Parameter
-     - App Action input
      - Type
      - Required
-     - Description
+     - What it means
    * - ``caseId``
-     - Case Id
      - text
      - Yes
      - The Salesforce Id of the case, starting 500, for example 500XX000001AbCd; List cases returns it.
    * - ``comment``
-     - Comment
      - text
      - Yes
      - The comment's text; several lines are fine. Example: Customer confirmed the fix works on their side..
    * - ``publishToCustomer``
-     - Visible to the customer
      - true or false
      - No
      - true publishes the comment where the customer sees the case, such as a portal or community; blank keeps it internal. Example: false.
 
-Use it
-------
+.. note::
 
-**As an agent tool.** Open the Agent Node's **+ Tool**, choose **Salesforce**, connect, and tick **addComment** in the **Case** row. The model sees it as ``salesforce_case_addcomment``. Each call waits for human approval before it changes anything.
+   Each call waits for :doc:`your approval </agentic-ai-guide/safety-guardrails/human-in-the-loop>` before it changes anything in Salesforce.
 
-**As an App Action.** Drop **App Action** on the canvas, pick **Salesforce**, then **Add a case comment**, and fill in the inputs above. It runs every time the flow reaches it. A canvas run skips it unless **Write when run from the canvas** is on.
+Need it on every run?
+---------------------
+
+To run **Add a case comment** every time a flow reaches it, without the agent deciding, use the :doc:`Add a case comment App Action </agentic-ai-guide/tools-integrations/app-action-apps/salesforce/case-addcomment>`.
 
 Other Case tools
 ----------------

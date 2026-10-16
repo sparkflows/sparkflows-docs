@@ -17,7 +17,7 @@ Get a calendar
      <div><dt>Connector</dt><dd>Outlook Calendar</dd></div>
      <div><dt>Resource</dt><dd>Calendar</dd></div>
      <div><dt>Type</dt><dd>Read</dd></div>
-     <div><dt>Available as</dt><dd>Agent tool · <a href="../../app-action-apps/outlook-calendar.html">App Action</a></dd></div>
+     <div><dt>Tool name</dt><dd><code>outlook_calendar_calendar_get</code></dd></div>
      </dl>
    </div>
 
@@ -25,48 +25,51 @@ Get a calendar
 
    Returns one calendar by its id with its name, colour, owner and edit and sharing rights. Use Calendar getMany to find the id.
 
-Prerequisites
--------------
+Before you start
+----------------
 
-* **Connection:** Microsoft Graph connection. See :doc:`the Outlook Calendar prerequisites <../outlook-calendar>`.
+* A Microsoft Graph connection. See :doc:`how to set one up <../outlook-calendar>`.
 
-Parameters
-----------
+Add it to your agent
+--------------------
 
-As an agent tool, the model fills in each parameter unless you fix it under **Fixed settings**, and in an App Action each one is a box on the **Details** step.
+#. In Agent Studio, open the **Tools** group and click **Add tools**, or click **+ Tool** on an Agent Node.
+#. Choose **Outlook Calendar** under **Connectors** and connect your Microsoft Graph connection.
+#. Tick **get** in the **Calendar** row, then click **Add to agent**.
+
+The agent now sees ``outlook_calendar_calendar_get`` and calls it when a request needs it.
+
+What the agent fills in
+-----------------------
+
+The agent fills these in from each request. To pin a value so the agent cannot change it, set it under **Fixed settings**.
 
 .. list-table::
    :header-rows: 1
-   :widths: 18 17 11 12 42
+   :widths: 22 14 12 52
    :class: tool-params
 
    * - Parameter
-     - App Action input
      - Type
      - Required
-     - Description
+     - What it means
    * - ``mailbox``
-     - Mailbox
      - text
      - Yes
      - The address the calendar belongs to. Example: asha.rao@contoso.com.
    * - ``calendarId``
-     - Calendar id
      - text
      - Yes
      - The id of the calendar, from the id column of Calendar getMany. Example: AAMkAGI2TGuLAAAuAAAAAAAiQ8W967B7TKBjgx9rVEURAQAiIsqMbYjsT5e-T7KzowPTAAAAAAEGAAA=.
    * - ``fields``
-     - Fields to return
      - list of text
      - No
      - Graph calendar properties to return, such as name, owner and canEdit; blank returns them all.
 
-Use it
-------
+Need it on every run?
+---------------------
 
-**As an agent tool.** Open the Agent Node's **+ Tool**, choose **Outlook Calendar**, connect, and tick **get** in the **Calendar** row. The model sees it as ``outlook_calendar_calendar_get``.
-
-**As an App Action.** Drop **App Action** on the canvas, pick **Outlook Calendar**, then **Get a calendar**, and fill in the inputs above. It runs every time the flow reaches it.
+To run **Get a calendar** every time a flow reaches it, without the agent deciding, use the :doc:`Get a calendar App Action </agentic-ai-guide/tools-integrations/app-action-apps/outlook-calendar/calendar-get>`.
 
 Other Calendar tools
 --------------------

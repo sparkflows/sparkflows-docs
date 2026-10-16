@@ -17,7 +17,7 @@ Count rows
      <div><dt>Connector</dt><dd>SQL Server</dd></div>
      <div><dt>Resource</dt><dd>Table</dd></div>
      <div><dt>Type</dt><dd>Read</dd></div>
-     <div><dt>Available as</dt><dd>Agent tool · <a href="../../app-action-apps/sql-server.html">App Action</a></dd></div>
+     <div><dt>Tool name</dt><dd><code>sqlserver_table_count</code></dd></div>
      </dl>
    </div>
 
@@ -25,48 +25,51 @@ Count rows
 
    Counts the rows of a table, or only those matching where, and returns the number as row\_count. Use it instead of listing when only the number is needed.
 
-Prerequisites
--------------
+Before you start
+----------------
 
-* **Connection:** SQL Server connection connection. See :doc:`the SQL Server prerequisites <../sql-server>`.
+* A SQL Server connection. See :doc:`how to set one up <../sql-server>`.
 
-Parameters
-----------
+Add it to your agent
+--------------------
 
-As an agent tool, the model fills in each parameter unless you fix it under **Fixed settings**, and in an App Action each one is a box on the **Details** step.
+#. In Agent Studio, open the **Tools** group and click **Add tools**, or click **+ Tool** on an Agent Node.
+#. Choose **SQL Server** under **Connectors** and connect your SQL Server connection.
+#. Tick **count** in the **Table** row, then click **Add to agent**.
+
+The agent now sees ``sqlserver_table_count`` and calls it when a request needs it.
+
+What the agent fills in
+-----------------------
+
+The agent fills these in from each request. To pin a value so the agent cannot change it, set it under **Fixed settings**.
 
 .. list-table::
    :header-rows: 1
-   :widths: 18 17 11 12 42
+   :widths: 22 14 12 52
    :class: tool-params
 
    * - Parameter
-     - App Action input
      - Type
      - Required
-     - Description
+     - What it means
    * - ``table``
-     - Table
      - text
      - Yes
      - The table name as Table listTables returns it, for example customers or, with its schema, sales.customers, in letters, digits, underscore, dot and $ only (quoted names are refused).
    * - ``where``
-     - Where
      - text
      - No
      - A T-SQL condition without the word WHERE that picks the rows to count, used as written as one condition, so a semicolon or a comment outside quoted text is refused; blank counts every row. Example: status = 'open'.
    * - ``schema``
-     - Schema
      - text
      - No
      - The schema that holds the table, for example sales; blank uses the login's default schema, usually dbo.
 
-Use it
-------
+Need it on every run?
+---------------------
 
-**As an agent tool.** Open the Agent Node's **+ Tool**, choose **SQL Server**, connect, and tick **count** in the **Table** row. The model sees it as ``sqlserver_table_count``.
-
-**As an App Action.** Drop **App Action** on the canvas, pick **SQL Server**, then **Count rows**, and fill in the inputs above. It runs every time the flow reaches it.
+To run **Count rows** every time a flow reaches it, without the agent deciding, use the :doc:`Count rows App Action </agentic-ai-guide/tools-integrations/app-action-apps/sql-server/table-count>`.
 
 Other Table tools
 -----------------

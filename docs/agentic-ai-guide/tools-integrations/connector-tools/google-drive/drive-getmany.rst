@@ -17,7 +17,7 @@ List shared drives
      <div><dt>Connector</dt><dd>Google Drive</dd></div>
      <div><dt>Resource</dt><dd>Drive</dd></div>
      <div><dt>Type</dt><dd>Read</dd></div>
-     <div><dt>Available as</dt><dd>Agent tool · <a href="../../app-action-apps/google-drive.html">App Action</a></dd></div>
+     <div><dt>Tool name</dt><dd><code>google_drive_drive_getmany</code></dd></div>
      </dl>
    </div>
 
@@ -25,45 +25,48 @@ List shared drives
 
    Lists the shared drives the account is a member of, with each drive's id and name. Pass a drive's id as driveId, with corpora drive, to List files or Search files to see what is inside it.
 
-Prerequisites
--------------
+Before you start
+----------------
 
-* **Connection:** Google connection. See :doc:`the Google Drive prerequisites <../google-drive>`.
+* A Google connection. See :doc:`how to set one up <../google-drive>`.
 
-Parameters
-----------
+Add it to your agent
+--------------------
 
-As an agent tool, the model fills in each parameter unless you fix it under **Fixed settings**, and in an App Action each one is a box on the **Details** step.
+#. In Agent Studio, open the **Tools** group and click **Add tools**, or click **+ Tool** on an Agent Node.
+#. Choose **Google Drive** under **Connectors** and connect your Google connection.
+#. Tick **list** in the **Drive** row, then click **Add to agent**.
+
+The agent now sees ``google_drive_drive_getmany`` and calls it when a request needs it.
+
+What the agent fills in
+-----------------------
+
+The agent fills these in from each request. To pin a value so the agent cannot change it, set it under **Fixed settings**.
 
 .. list-table::
    :header-rows: 1
-   :widths: 18 17 11 12 42
+   :widths: 22 14 12 52
    :class: tool-params
 
    * - Parameter
-     - App Action input
      - Type
      - Required
-     - Description
+     - What it means
    * - ``limit``
-     - Limit
      - whole number
      - No
      - How many shared drives at most, from 1 to 100; sent as Google's page size, since only one page is read. Example: 50. Default: 50.
    * - ``query``
-     - Drive name filter
      - text
      - No
      - A shared-drive query, for example name contains 'Finance'.
    * - ``fields``
-     - Fields to return
      - list of text
      - No
      - Shared-drive fields to return, for example ["id", "name", "createdTime"]; blank returns Google's default set, which has id and name.
 
-Use it
-------
+Need it on every run?
+---------------------
 
-**As an agent tool.** Open the Agent Node's **+ Tool**, choose **Google Drive**, connect, and tick **list** in the **Drive** row. The model sees it as ``google_drive_drive_getmany``.
-
-**As an App Action.** Drop **App Action** on the canvas, pick **Google Drive**, then **List shared drives**, and fill in the inputs above. It runs every time the flow reaches it.
+To run **List shared drives** every time a flow reaches it, without the agent deciding, use the :doc:`List shared drives App Action </agentic-ai-guide/tools-integrations/app-action-apps/google-drive/drive-getmany>`.

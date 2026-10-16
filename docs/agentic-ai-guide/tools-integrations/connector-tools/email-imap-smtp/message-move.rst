@@ -16,8 +16,8 @@ Move a message
      <dl class="tool-facts">
      <div><dt>Connector</dt><dd>Email (IMAP and SMTP)</dd></div>
      <div><dt>Resource</dt><dd>Message</dd></div>
-     <div><dt>Type</dt><dd>Write · approval-gated</dd></div>
-     <div><dt>Available as</dt><dd>Agent tool only</dd></div>
+     <div><dt>Type</dt><dd>Write · asks for approval</dd></div>
+     <div><dt>Tool name</dt><dd><code>mail_tools_message_move</code></dd></div>
      </dl>
    </div>
 
@@ -25,16 +25,25 @@ Move a message
 
    Moves one message from folder to another folder, with UID MOVE where the server offers it and otherwise a copy and a delete, and returns the folder it went to. The message gets a new UID there, which List messages on that folder shows.
 
-Prerequisites
--------------
+Before you start
+----------------
 
-* **Connection:** Email (IMAP and SMTP) connection. See :doc:`the Email (IMAP and SMTP) prerequisites <../email-imap-smtp>`.
-* The connection's account must be allowed to change this data in Email (IMAP and SMTP).
+* A Email (IMAP and SMTP) connection. See :doc:`how to set one up <../email-imap-smtp>`.
+* The account behind the connection must be allowed to change this data in the mailbox.
 
-Parameters
-----------
+Add it to your agent
+--------------------
 
-As an agent tool, the model fills in each parameter unless you fix it under **Fixed settings**.
+#. In Agent Studio, open the **Tools** group and click **Add tools**, or click **+ Tool** on an Agent Node.
+#. Choose **Email, IMAP and SMTP** under **Connectors** and connect your Email (IMAP and SMTP) connection.
+#. Tick **move** in the **Message** row, then click **Add to agent**.
+
+The agent now sees ``mail_tools_message_move`` and calls it when a request needs it.
+
+What the agent fills in
+-----------------------
+
+The agent fills these in from each request. To pin a value so the agent cannot change it, set it under **Fixed settings**.
 
 .. list-table::
    :header-rows: 1
@@ -44,7 +53,7 @@ As an agent tool, the model fills in each parameter unless you fix it under **Fi
    * - Parameter
      - Type
      - Required
-     - Description
+     - What it means
    * - ``messageId``
      - text
      - Yes
@@ -58,10 +67,9 @@ As an agent tool, the model fills in each parameter unless you fix it under **Fi
      - No
      - The folder the message is in now, as List folders names it; blank means INBOX.
 
-Use it
-------
+.. note::
 
-**As an agent tool.** Open the Agent Node's **+ Tool**, choose **Email, IMAP and SMTP**, connect, and tick **move** in the **Message** row. The model sees it as ``mail_tools_message_move``. Each call waits for human approval before it changes anything.
+   Each call waits for :doc:`your approval </agentic-ai-guide/safety-guardrails/human-in-the-loop>` before it changes anything in the mailbox.
 
 Other Message tools
 -------------------

@@ -17,7 +17,7 @@ Send a GET request
      <div><dt>Connector</dt><dd>Web Search</dd></div>
      <div><dt>Resource</dt><dd>Request</dd></div>
      <div><dt>Type</dt><dd>Read</dd></div>
-     <div><dt>Available as</dt><dd>Agent tool · <a href="../../app-action-apps/web-search.html">App Action</a></dd></div>
+     <div><dt>Tool name</dt><dd><code>web_tools_request_get</code></dd></div>
      </dl>
    </div>
 
@@ -25,48 +25,51 @@ Send a GET request
 
    Sends an HTTP GET to a URL and returns the HTTP status (status and httpStatus), content type, size and the response as JSON text (json) or as text (body), cut to maxChars. Error statuses are returned rather than raised; Page fetch is better for reading a web page.
 
-Prerequisites
--------------
+Before you start
+----------------
 
-* **Connection:** Serper (searches only) connection. See :doc:`the Web Search prerequisites <../web-search>`.
+* A Serper (searches only) connection. See :doc:`how to set one up <../web-search>`.
 
-Parameters
-----------
+Add it to your agent
+--------------------
 
-As an agent tool, the model fills in each parameter unless you fix it under **Fixed settings**, and in an App Action each one is a box on the **Details** step.
+#. In Agent Studio, open the **Tools** group and click **Add tools**, or click **+ Tool** on an Agent Node.
+#. Choose **Web Search** under **Connectors** and connect your Serper (searches only) connection.
+#. Tick **get** in the **Request** row, then click **Add to agent**.
+
+The agent now sees ``web_tools_request_get`` and calls it when a request needs it.
+
+What the agent fills in
+-----------------------
+
+The agent fills these in from each request. To pin a value so the agent cannot change it, set it under **Fixed settings**.
 
 .. list-table::
    :header-rows: 1
-   :widths: 18 17 11 12 42
+   :widths: 22 14 12 52
    :class: tool-params
 
    * - Parameter
-     - App Action input
      - Type
      - Required
-     - Description
+     - What it means
    * - ``url``
-     - URL
      - text
      - Yes
      - The address to request, with any query parameters in it; https:// is added when no scheme is given, and cloud metadata and link-local addresses such as 169.254.169.254 are refused. Example: https://api.example.com/v1/orders?status=open.
    * - ``headers``
-     - Headers
      - JSON object
      - No
      - Extra request headers as a JSON object, such as Authorization, sent beside a Sparkflows User-Agent. Example: {"Authorization": "Bearer <token>", "Accept": "application/json"}.
    * - ``maxChars``
-     - Characters kept
      - whole number
      - No
      - The most characters of the response kept. Default: 60000.
 
-Use it
-------
+Need it on every run?
+---------------------
 
-**As an agent tool.** Open the Agent Node's **+ Tool**, choose **Web Search**, connect, and tick **get** in the **Request** row. The model sees it as ``web_tools_request_get``.
-
-**As an App Action.** Drop **App Action** on the canvas, pick **Web Search**, then **Send a GET request**, and fill in the inputs above. It runs every time the flow reaches it.
+To run **Send a GET request** every time a flow reaches it, without the agent deciding, use the :doc:`Send a GET request App Action </agentic-ai-guide/tools-integrations/app-action-apps/web-search/request-get>`.
 
 Other Request tools
 -------------------

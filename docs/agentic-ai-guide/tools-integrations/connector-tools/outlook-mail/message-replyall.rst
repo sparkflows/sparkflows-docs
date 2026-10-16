@@ -16,8 +16,8 @@ Reply to everyone on an email
      <dl class="tool-facts">
      <div><dt>Connector</dt><dd>Outlook Mail</dd></div>
      <div><dt>Resource</dt><dd>Message</dd></div>
-     <div><dt>Type</dt><dd>Write · approval-gated</dd></div>
-     <div><dt>Available as</dt><dd>Agent tool · <a href="../../app-action-apps/outlook-mail.html">App Action</a></dd></div>
+     <div><dt>Type</dt><dd>Write · asks for approval</dd></div>
+     <div><dt>Tool name</dt><dd><code>outlook_mail_message_replyall</code></dd></div>
      </dl>
    </div>
 
@@ -25,49 +25,56 @@ Reply to everyone on an email
 
    Replies to the sender and every other recipient of an email in the same conversation, with the reply text above the quoted original. Use Message reply to answer the sender only.
 
-Prerequisites
--------------
+Before you start
+----------------
 
-* **Connection:** Microsoft Graph connection. See :doc:`the Outlook Mail prerequisites <../outlook-mail>`.
-* The connection's account must be allowed to change this data in Outlook Mail.
+* A Microsoft Graph connection. See :doc:`how to set one up <../outlook-mail>`.
+* The account behind the connection must be allowed to change this data in Outlook Mail.
 
-Parameters
-----------
+Add it to your agent
+--------------------
 
-As an agent tool, the model fills in each parameter unless you fix it under **Fixed settings**, and in an App Action each one is a box on the **Details** step.
+#. In Agent Studio, open the **Tools** group and click **Add tools**, or click **+ Tool** on an Agent Node.
+#. Choose **Outlook Mail** under **Connectors** and connect your Microsoft Graph connection.
+#. Tick **replyAll** in the **Message** row, then click **Add to agent**.
+
+The agent now sees ``outlook_mail_message_replyall`` and calls it when a request needs it.
+
+What the agent fills in
+-----------------------
+
+The agent fills these in from each request. To pin a value so the agent cannot change it, set it under **Fixed settings**.
 
 .. list-table::
    :header-rows: 1
-   :widths: 18 17 11 12 42
+   :widths: 22 14 12 52
    :class: tool-params
 
    * - Parameter
-     - App Action input
      - Type
      - Required
-     - Description
+     - What it means
    * - ``mailbox``
-     - Mailbox
      - text
      - Yes
      - The address of the mailbox the email is in; the reply is sent from it. Example: asha.rao@contoso.com.
    * - ``messageId``
-     - Message id
      - text
      - Yes
      - The id of the email to reply to, from the id column of Message getMany or Message search. Example: AAMkAGI2TG93AAA=.
    * - ``body``
-     - Reply text
      - text
      - Yes
      - The reply as plain text. Example: Agreed, let us meet on Thursday.
 
-Use it
-------
+.. note::
 
-**As an agent tool.** Open the Agent Node's **+ Tool**, choose **Outlook Mail**, connect, and tick **replyAll** in the **Message** row. The model sees it as ``outlook_mail_message_replyall``. Each call waits for human approval before it changes anything.
+   Each call waits for :doc:`your approval </agentic-ai-guide/safety-guardrails/human-in-the-loop>` before it changes anything in Outlook Mail.
 
-**As an App Action.** Drop **App Action** on the canvas, pick **Outlook Mail**, then **Reply to everyone on an email**, and fill in the inputs above. It runs every time the flow reaches it. A canvas run skips it unless **Write when run from the canvas** is on.
+Need it on every run?
+---------------------
+
+To run **Reply to everyone on an email** every time a flow reaches it, without the agent deciding, use the :doc:`Reply to everyone on an email App Action </agentic-ai-guide/tools-integrations/app-action-apps/outlook-mail/message-replyall>`.
 
 Other Message tools
 -------------------

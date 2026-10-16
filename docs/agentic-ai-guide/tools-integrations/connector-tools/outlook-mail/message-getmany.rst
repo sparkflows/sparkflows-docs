@@ -17,7 +17,7 @@ List emails
      <div><dt>Connector</dt><dd>Outlook Mail</dd></div>
      <div><dt>Resource</dt><dd>Message</dd></div>
      <div><dt>Type</dt><dd>Read</dd></div>
-     <div><dt>Available as</dt><dd>Agent tool · <a href="../../app-action-apps/outlook-mail.html">App Action</a></dd></div>
+     <div><dt>Tool name</dt><dd><code>outlook_mail_message_getmany</code></dd></div>
      </dl>
    </div>
 
@@ -25,63 +25,63 @@ List emails
 
    Lists the emails in a mailbox or in one of its folders, with sender, recipients, subject, dates, read state and the body as plain text cut at 6000 characters. Use it to browse a folder or to filter by date, read state or sender with an OData filter; to find emails by words use Message search, and to read one email by id use Message get.
 
-Prerequisites
--------------
+Before you start
+----------------
 
-* **Connection:** Microsoft Graph connection. See :doc:`the Outlook Mail prerequisites <../outlook-mail>`.
+* A Microsoft Graph connection. See :doc:`how to set one up <../outlook-mail>`.
 
-Parameters
-----------
+Add it to your agent
+--------------------
 
-As an agent tool, the model fills in each parameter unless you fix it under **Fixed settings**, and in an App Action each one is a box on the **Details** step.
+#. In Agent Studio, open the **Tools** group and click **Add tools**, or click **+ Tool** on an Agent Node.
+#. Choose **Outlook Mail** under **Connectors** and connect your Microsoft Graph connection.
+#. Tick **list** in the **Message** row, then click **Add to agent**.
+
+The agent now sees ``outlook_mail_message_getmany`` and calls it when a request needs it.
+
+What the agent fills in
+-----------------------
+
+The agent fills these in from each request. To pin a value so the agent cannot change it, set it under **Fixed settings**.
 
 .. list-table::
    :header-rows: 1
-   :widths: 18 17 11 12 42
+   :widths: 22 14 12 52
    :class: tool-params
 
    * - Parameter
-     - App Action input
      - Type
      - Required
-     - Description
+     - What it means
    * - ``mailbox``
-     - Mailbox
      - text
      - Yes
      - The address of the mailbox to read. Example: asha.rao@contoso.com.
    * - ``folder``
-     - Folder
      - text
      - No
      - The folder to list: a well-known name (inbox, sentitems, drafts, archive, deleteditems, junkemail) or a folder id from Folder getMany; blank lists the whole mailbox, Sent Items and Deleted Items included.
    * - ``filter``
-     - Filter
      - text
      - No
      - An OData filter on message properties, such as isRead eq false, hasAttachments eq true or receivedDateTime ge 2026-09-01T00:00:00Z.
    * - ``orderBy``
-     - Order by
      - text
      - No
      - A property and a direction, such as receivedDateTime desc; when filter is also set, the property sorted on must appear in the filter as well.
    * - ``fields``
-     - Columns to return
      - list of text
      - No
      - Columns to keep, from id, conversationId, from, to, cc, subject, receivedDateTime, sentDateTime, preview, body, isRead, isDraft, importance, hasAttachments, categories, webLink and folderId; blank keeps them all. Example: ["from", "subject", "receivedDateTime", "preview"].
    * - ``limit``
-     - Limit
      - whole number
      - No
      - How many emails at most. Default: 50.
 
-Use it
-------
+Need it on every run?
+---------------------
 
-**As an agent tool.** Open the Agent Node's **+ Tool**, choose **Outlook Mail**, connect, and tick **list** in the **Message** row. The model sees it as ``outlook_mail_message_getmany``.
-
-**As an App Action.** Drop **App Action** on the canvas, pick **Outlook Mail**, then **List emails**, and fill in the inputs above. It runs every time the flow reaches it.
+To run **List emails** every time a flow reaches it, without the agent deciding, use the :doc:`List emails App Action </agentic-ai-guide/tools-integrations/app-action-apps/outlook-mail/message-getmany>`.
 
 Other Message tools
 -------------------

@@ -16,8 +16,8 @@ Append content to a page
      <dl class="tool-facts">
      <div><dt>Connector</dt><dd>Notion</dd></div>
      <div><dt>Resource</dt><dd>Block</dd></div>
-     <div><dt>Type</dt><dd>Write · approval-gated</dd></div>
-     <div><dt>Available as</dt><dd>Agent tool only</dd></div>
+     <div><dt>Type</dt><dd>Write · asks for approval</dd></div>
+     <div><dt>Tool name</dt><dd><code>notion_block_append</code></dd></div>
      </dl>
    </div>
 
@@ -25,16 +25,25 @@ Append content to a page
 
    Adds content blocks at the end of a page or block, or after a given child block, and returns the new blocks. Up to 100 blocks go in one call.
 
-Prerequisites
--------------
+Before you start
+----------------
 
-* **Connection:** Notion connection. See :doc:`the Notion prerequisites <../notion>`.
-* The connection's account must be allowed to change this data in Notion.
+* A Notion connection. See :doc:`how to set one up <../notion>`.
+* The account behind the connection must be allowed to change this data in Notion.
 
-Parameters
-----------
+Add it to your agent
+--------------------
 
-As an agent tool, the model fills in each parameter unless you fix it under **Fixed settings**.
+#. In Agent Studio, open the **Tools** group and click **Add tools**, or click **+ Tool** on an Agent Node.
+#. Choose **Notion** under **Connectors** and connect your Notion connection.
+#. Tick **append** in the **Block** row, then click **Add to agent**.
+
+The agent now sees ``notion_block_append`` and calls it when a request needs it.
+
+What the agent fills in
+-----------------------
+
+The agent fills these in from each request. To pin a value so the agent cannot change it, set it under **Fixed settings**.
 
 .. list-table::
    :header-rows: 1
@@ -44,7 +53,7 @@ As an agent tool, the model fills in each parameter unless you fix it under **Fi
    * - Parameter
      - Type
      - Required
-     - Description
+     - What it means
    * - ``blockId``
      - text
      - Yes
@@ -58,10 +67,9 @@ As an agent tool, the model fills in each parameter unless you fix it under **Fi
      - No
      - The id of an existing child block to insert after; blank adds at the end. Example: c02fc1d3-db8b-45c5-a222-27595b15aea7.
 
-Use it
-------
+.. note::
 
-**As an agent tool.** Open the Agent Node's **+ Tool**, choose **Notion**, connect, and tick **append** in the **Block** row. The model sees it as ``notion_block_append``. Each call waits for human approval before it changes anything.
+   Each call waits for :doc:`your approval </agentic-ai-guide/safety-guardrails/human-in-the-loop>` before it changes anything in Notion.
 
 Other Block tools
 -----------------

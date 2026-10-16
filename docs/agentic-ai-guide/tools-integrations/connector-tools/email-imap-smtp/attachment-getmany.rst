@@ -17,7 +17,7 @@ List attachments
      <div><dt>Connector</dt><dd>Email (IMAP and SMTP)</dd></div>
      <div><dt>Resource</dt><dd>Attachment</dd></div>
      <div><dt>Type</dt><dd>Read</dd></div>
-     <div><dt>Available as</dt><dd>Agent tool only</dd></div>
+     <div><dt>Tool name</dt><dd><code>mail_tools_attachment_getmany</code></dd></div>
      </dl>
    </div>
 
@@ -25,15 +25,24 @@ List attachments
 
    Lists the attachments of one message with filename, content type and size in bytes; the file contents are not returned. Reading them leaves the message unread if it was.
 
-Prerequisites
--------------
+Before you start
+----------------
 
-* **Connection:** Email (IMAP and SMTP) connection. See :doc:`the Email (IMAP and SMTP) prerequisites <../email-imap-smtp>`.
+* A Email (IMAP and SMTP) connection. See :doc:`how to set one up <../email-imap-smtp>`.
 
-Parameters
-----------
+Add it to your agent
+--------------------
 
-As an agent tool, the model fills in each parameter unless you fix it under **Fixed settings**.
+#. In Agent Studio, open the **Tools** group and click **Add tools**, or click **+ Tool** on an Agent Node.
+#. Choose **Email, IMAP and SMTP** under **Connectors** and connect your Email (IMAP and SMTP) connection.
+#. Tick **list** in the **Attachment** row, then click **Add to agent**.
+
+The agent now sees ``mail_tools_attachment_getmany`` and calls it when a request needs it.
+
+What the agent fills in
+-----------------------
+
+The agent fills these in from each request. To pin a value so the agent cannot change it, set it under **Fixed settings**.
 
 .. list-table::
    :header-rows: 1
@@ -43,7 +52,7 @@ As an agent tool, the model fills in each parameter unless you fix it under **Fi
    * - Parameter
      - Type
      - Required
-     - Description
+     - What it means
    * - ``messageId``
      - text
      - Yes
@@ -52,8 +61,3 @@ As an agent tool, the model fills in each parameter unless you fix it under **Fi
      - text
      - No
      - The folder to work in, as List folders names it, for example INBOX or [Gmail]/All Mail; blank means INBOX.
-
-Use it
-------
-
-**As an agent tool.** Open the Agent Node's **+ Tool**, choose **Email, IMAP and SMTP**, connect, and tick **list** in the **Attachment** row. The model sees it as ``mail_tools_attachment_getmany``.

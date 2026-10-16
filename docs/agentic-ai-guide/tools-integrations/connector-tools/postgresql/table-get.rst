@@ -17,7 +17,7 @@ Get a row by key
      <div><dt>Connector</dt><dd>PostgreSQL</dd></div>
      <div><dt>Resource</dt><dd>Table</dd></div>
      <div><dt>Type</dt><dd>Read</dd></div>
-     <div><dt>Available as</dt><dd>Agent tool · <a href="../../app-action-apps/postgresql.html">App Action</a></dd></div>
+     <div><dt>Tool name</dt><dd><code>postgresql_table_get</code></dd></div>
      </dl>
    </div>
 
@@ -25,53 +25,55 @@ Get a row by key
 
    Reads the one row whose key column equals the given value and returns all its columns, or no row when none matches. Use it when the key is known; Table getMany finds rows by other columns.
 
-Prerequisites
--------------
+Before you start
+----------------
 
-* **Connection:** PostgreSQL connection connection. See :doc:`the PostgreSQL prerequisites <../postgresql>`.
+* A PostgreSQL connection. See :doc:`how to set one up <../postgresql>`.
 
-Parameters
-----------
+Add it to your agent
+--------------------
 
-As an agent tool, the model fills in each parameter unless you fix it under **Fixed settings**, and in an App Action each one is a box on the **Details** step.
+#. In Agent Studio, open the **Tools** group and click **Add tools**, or click **+ Tool** on an Agent Node.
+#. Choose **PostgreSQL** under **Connectors** and connect your PostgreSQL connection.
+#. Tick **get** in the **Table** row, then click **Add to agent**.
+
+The agent now sees ``postgresql_table_get`` and calls it when a request needs it.
+
+What the agent fills in
+-----------------------
+
+The agent fills these in from each request. To pin a value so the agent cannot change it, set it under **Fixed settings**.
 
 .. list-table::
    :header-rows: 1
-   :widths: 18 17 11 12 42
+   :widths: 22 14 12 52
    :class: tool-params
 
    * - Parameter
-     - App Action input
      - Type
      - Required
-     - Description
+     - What it means
    * - ``table``
-     - Table
      - text
      - Yes
      - The table name as Table listTables returns it, for example customers or, with its schema, sales.customers, in letters, digits, underscore, dot and $ only (quoted names are refused, and PostgreSQL folds it to lower case).
    * - ``keyValue``
-     - Row key value
      - text
      - Yes
      - The value of the key column that identifies the row, as Table getMany returns it. Example: 1042.
    * - ``keyColumn``
-     - Key column
      - text
      - No
      - The column that holds the key; blank means id. Example: customer\_id.
    * - ``schema``
-     - Schema
      - text
      - No
      - The schema that holds the table, for example sales; blank uses the connection's search path, usually public.
 
-Use it
-------
+Need it on every run?
+---------------------
 
-**As an agent tool.** Open the Agent Node's **+ Tool**, choose **PostgreSQL**, connect, and tick **get** in the **Table** row. The model sees it as ``postgresql_table_get``.
-
-**As an App Action.** Drop **App Action** on the canvas, pick **PostgreSQL**, then **Get a row by key**, and fill in the inputs above. It runs every time the flow reaches it.
+To run **Get a row by key** every time a flow reaches it, without the agent deciding, use the :doc:`Get a row by key App Action </agentic-ai-guide/tools-integrations/app-action-apps/postgresql/table-get>`.
 
 Other Table tools
 -----------------

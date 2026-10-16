@@ -17,7 +17,7 @@ Read a message
      <div><dt>Connector</dt><dd>Email (IMAP and SMTP)</dd></div>
      <div><dt>Resource</dt><dd>Message</dd></div>
      <div><dt>Type</dt><dd>Read</dd></div>
-     <div><dt>Available as</dt><dd>Agent tool only</dd></div>
+     <div><dt>Tool name</dt><dd><code>mail_tools_message_get</code></dd></div>
      </dl>
    </div>
 
@@ -25,15 +25,24 @@ Read a message
 
    Returns one message by its UID in the folder, with subject, sender, recipients, date, Message-ID, attachment count and plain-text body. Reading it leaves the message unread if it was.
 
-Prerequisites
--------------
+Before you start
+----------------
 
-* **Connection:** Email (IMAP and SMTP) connection. See :doc:`the Email (IMAP and SMTP) prerequisites <../email-imap-smtp>`.
+* A Email (IMAP and SMTP) connection. See :doc:`how to set one up <../email-imap-smtp>`.
 
-Parameters
-----------
+Add it to your agent
+--------------------
 
-As an agent tool, the model fills in each parameter unless you fix it under **Fixed settings**.
+#. In Agent Studio, open the **Tools** group and click **Add tools**, or click **+ Tool** on an Agent Node.
+#. Choose **Email, IMAP and SMTP** under **Connectors** and connect your Email (IMAP and SMTP) connection.
+#. Tick **get** in the **Message** row, then click **Add to agent**.
+
+The agent now sees ``mail_tools_message_get`` and calls it when a request needs it.
+
+What the agent fills in
+-----------------------
+
+The agent fills these in from each request. To pin a value so the agent cannot change it, set it under **Fixed settings**.
 
 .. list-table::
    :header-rows: 1
@@ -43,7 +52,7 @@ As an agent tool, the model fills in each parameter unless you fix it under **Fi
    * - Parameter
      - Type
      - Required
-     - Description
+     - What it means
    * - ``messageId``
      - text
      - Yes
@@ -56,11 +65,6 @@ As an agent tool, the model fills in each parameter unless you fix it under **Fi
      - true or false
      - No
      - false leaves the body column out; the whole message is still downloaded. Default: True.
-
-Use it
-------
-
-**As an agent tool.** Open the Agent Node's **+ Tool**, choose **Email, IMAP and SMTP**, connect, and tick **get** in the **Message** row. The model sees it as ``mail_tools_message_get``.
 
 Other Message tools
 -------------------

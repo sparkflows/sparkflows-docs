@@ -16,8 +16,8 @@ Create an account
      <dl class="tool-facts">
      <div><dt>Connector</dt><dd>Salesforce</dd></div>
      <div><dt>Resource</dt><dd>Account</dd></div>
-     <div><dt>Type</dt><dd>Write · approval-gated</dd></div>
-     <div><dt>Available as</dt><dd>Agent tool · <a href="../../app-action-apps/salesforce.html">App Action</a></dd></div>
+     <div><dt>Type</dt><dd>Write · asks for approval</dd></div>
+     <div><dt>Tool name</dt><dd><code>salesforce_account_create</code></dd></div>
      </dl>
    </div>
 
@@ -25,84 +25,84 @@ Create an account
 
    Creates an account (a company or organisation) from the given fields and returns its new Id. Use Create or update an account by external id instead when syncing records that another system keys.
 
-Prerequisites
--------------
+Before you start
+----------------
 
-* **Connection:** Salesforce connection. See :doc:`the Salesforce prerequisites <../salesforce>`.
-* The connection's account must be allowed to change this data in Salesforce.
+* A Salesforce connection. See :doc:`how to set one up <../salesforce>`.
+* The account behind the connection must be allowed to change this data in Salesforce.
 
-Parameters
-----------
+Add it to your agent
+--------------------
 
-As an agent tool, the model fills in each parameter unless you fix it under **Fixed settings**, and in an App Action each one is a box on the **Details** step.
+#. In Agent Studio, open the **Tools** group and click **Add tools**, or click **+ Tool** on an Agent Node.
+#. Choose **Salesforce** under **Connectors** and connect your Salesforce connection.
+#. Tick **create** in the **Account** row, then click **Add to agent**.
+
+The agent now sees ``salesforce_account_create`` and calls it when a request needs it.
+
+What the agent fills in
+-----------------------
+
+The agent fills these in from each request. To pin a value so the agent cannot change it, set it under **Fixed settings**.
 
 .. list-table::
    :header-rows: 1
-   :widths: 18 17 11 12 42
+   :widths: 22 14 12 52
    :class: tool-params
 
    * - Parameter
-     - App Action input
      - Type
      - Required
-     - Description
+     - What it means
    * - ``name``
-     - Account name
      - text
      - Yes
      - The company or organisation name. Example: Acme Energy Ltd.
    * - ``type``
-     - Type
      - text
      - No
      - The account type as the org's picklist names it, for example Prospect or Customer - Direct.
    * - ``industry``
-     - Industry
      - text
      - No
      - The industry picklist value, for example Energy or Banking.
    * - ``phone``
-     - Phone
      - text
      - No
      - The main phone number. Example: +44 20 7946 0958.
    * - ``website``
-     - Website
      - text
      - No
      - The company's website address. Example: https://www.acme-energy.example.com.
    * - ``billingCity``
-     - Billing city
      - text
      - No
      - The city of the billing address. Example: Pune.
    * - ``billingCountry``
-     - Billing country
      - text
      - No
      - The country of the billing address. Example: India.
    * - ``annualRevenue``
-     - Annual revenue
      - number
      - No
      - Yearly revenue as a number, in the org's currency. Example: 25000000.
    * - ``numberOfEmployees``
-     - Employees
      - whole number
      - No
      - The number of employees. Example: 1200.
    * - ``description``
-     - Description
      - text
      - No
      - Free-text notes about the account. Example: Key account for the western region; renewal due in March..
 
-Use it
-------
+.. note::
 
-**As an agent tool.** Open the Agent Node's **+ Tool**, choose **Salesforce**, connect, and tick **create** in the **Account** row. The model sees it as ``salesforce_account_create``. Each call waits for human approval before it changes anything.
+   Each call waits for :doc:`your approval </agentic-ai-guide/safety-guardrails/human-in-the-loop>` before it changes anything in Salesforce.
 
-**As an App Action.** Drop **App Action** on the canvas, pick **Salesforce**, then **Create an account**, and fill in the inputs above. It runs every time the flow reaches it. A canvas run skips it unless **Write when run from the canvas** is on.
+Need it on every run?
+---------------------
+
+To run **Create an account** every time a flow reaches it, without the agent deciding, use the :doc:`Create an account App Action </agentic-ai-guide/tools-integrations/app-action-apps/salesforce/account-create>`.
 
 Other Account tools
 -------------------

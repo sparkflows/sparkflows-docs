@@ -11,8 +11,8 @@ Outlook Mail Tools
      <img class="tool-hero-logo" src="../../../_static/img/tools/outlook_mail.svg" alt="Outlook Mail logo">
      <dl class="tool-facts">
      <div><dt>Connection</dt><dd>Microsoft Graph</dd></div>
-     <div><dt>Tools</dt><dd>19 across 3 resources</dd></div>
-     <div><dt>Reads / writes</dt><dd>9 / 10</dd></div>
+     <div><dt>Tools</dt><dd>18 across 3 resources</dd></div>
+     <div><dt>Reads / writes</dt><dd>8 / 10</dd></div>
      <div><dt>Available as</dt><dd>Agent tool · App Action</dd></div>
      </dl>
    </div>
@@ -62,7 +62,7 @@ Each ticked operation becomes one tool, named ``outlook_mail_<resource>_<operati
 
 .. raw:: html
 
-   <nav class="tool-jump" aria-label="Jump to a resource"><a href="#res-message">Message<span>11</span></a><a href="#res-folder">Folder<span>5</span></a><a href="#res-attachment">Attachment<span>3</span></a></nav>
+   <nav class="tool-jump" aria-label="Jump to a resource"><a href="#res-message">Message<span>11</span></a><a href="#res-folder">Folder<span>5</span></a><a href="#res-attachment">Attachment<span>2</span></a></nav>
 
 .. raw:: html
 
@@ -166,10 +166,6 @@ Attachment
        <span class="tool-op-head"><span class="tool-op-title">Read email attachments</span><span class="tool-op-kind is-read">Read</span></span>
        <span class="tool-op-desc">Saves the attachments of one or more emails to the engine&#x27;s disk and returns one row per file: the email it came in, the file name, type and size, the saved path, and with extractText the file&#x27;s text, text_status and text_source.</span>
      </a>
-     <a class="tool-op" href="outlook-mail/attachment-download.html" target="_blank" rel="noopener">
-       <span class="tool-op-head"><span class="tool-op-title">Download email attachments</span><span class="tool-op-kind is-read">Read</span></span>
-       <span class="tool-op-desc">Saves the attachments of one or more emails into a folder on the engine&#x27;s disk, without reading them, and returns one row per file: the email it came in, the file name, type and size, path (where the file was saved) and save_status (saved, skipped when the file was already there, or not_a_file for an attached item or link).</span>
-     </a>
      <a class="tool-op" href="outlook-mail/attachment-get.html" target="_blank" rel="noopener">
        <span class="tool-op-head"><span class="tool-op-title">Read one email attachment</span><span class="tool-op-kind is-read">Read</span></span>
        <span class="tool-op-desc">Saves one attachment to the engine&#x27;s disk and returns it as one row with its email, name, type, size, saved path and, with extractText, its text, text_status and text_source, read the same way Attachment getMany reads them.</span>
@@ -179,7 +175,7 @@ Attachment
 Use Outlook Mail as an App Action
 ---------------------------------
 
-The same 19 operations are also a fixed workflow step. Drop **App Action** on the canvas, pick **Outlook Mail**, choose the action and fill in its details. It runs every time the flow reaches it, exactly as set; no model decides. Use it for the steps that must always happen, such as saving an approved result, and keep the agent tool for what the model should choose. See :doc:`Outlook Mail App Actions </agentic-ai-guide/tools-integrations/app-action-apps/outlook-mail>` for every action, its inputs and the trigger events.
+Outlook Mail also has 19 App Actions, fixed workflow steps for the same work. Drop **App Action** on the canvas, pick **Outlook Mail**, choose the action and fill in its details. It runs every time the flow reaches it, exactly as set; no model decides. Use it for the steps that must always happen, such as saving an approved result, and keep the agent tool for what the model should choose. See :doc:`Outlook Mail App Actions </agentic-ai-guide/tools-integrations/app-action-apps/outlook-mail>` for every action, its inputs and the trigger events.
 
 Good to know
 ------------

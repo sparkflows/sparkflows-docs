@@ -16,8 +16,8 @@ Update a file
      <dl class="tool-facts">
      <div><dt>Connector</dt><dd>Google Drive</dd></div>
      <div><dt>Resource</dt><dd>File</dd></div>
-     <div><dt>Type</dt><dd>Write · approval-gated</dd></div>
-     <div><dt>Available as</dt><dd>Agent tool · <a href="../../app-action-apps/google-drive.html">App Action</a></dd></div>
+     <div><dt>Type</dt><dd>Write · asks for approval</dd></div>
+     <div><dt>Tool name</dt><dd><code>google_drive_file_update</code></dd></div>
      </dl>
    </div>
 
@@ -25,74 +25,76 @@ Update a file
 
    Changes a file's or folder's metadata, such as renaming it, starring it, moving it to another folder or to the bin, and returns the updated file. It does not change the content.
 
-Prerequisites
--------------
+Before you start
+----------------
 
-* **Connection:** Google connection. See :doc:`the Google Drive prerequisites <../google-drive>`.
-* The connection's account must be allowed to change this data in Google Drive.
+* A Google connection. See :doc:`how to set one up <../google-drive>`.
+* The account behind the connection must be allowed to change this data in Google Drive.
 
-Parameters
-----------
+Add it to your agent
+--------------------
 
-As an agent tool, the model fills in each parameter unless you fix it under **Fixed settings**, and in an App Action each one is a box on the **Details** step.
+#. In Agent Studio, open the **Tools** group and click **Add tools**, or click **+ Tool** on an Agent Node.
+#. Choose **Google Drive** under **Connectors** and connect your Google connection.
+#. Tick **update** in the **File** row, then click **Add to agent**.
+
+The agent now sees ``google_drive_file_update`` and calls it when a request needs it.
+
+What the agent fills in
+-----------------------
+
+The agent fills these in from each request. To pin a value so the agent cannot change it, set it under **Fixed settings**.
 
 .. list-table::
    :header-rows: 1
-   :widths: 18 17 11 12 42
+   :widths: 22 14 12 52
    :class: tool-params
 
    * - Parameter
-     - App Action input
      - Type
      - Required
-     - Description
+     - What it means
    * - ``fileId``
-     - File id
      - text
      - Yes
      - The file or folder's id, from Search files or List files, never its name. Example: 1Q2w3E4r5T6y7U8i9O0pAsDfGhJkLzXcVb.
    * - ``name``
-     - New name
      - text
      - No
      - The new name. Example: Q3 Report - final.
    * - ``description``
-     - Description
      - text
      - No
      - A new description for the file's details. Example: Signed off by finance on 30 Sep..
    * - ``starred``
-     - Starred
      - true or false
      - No
      - true stars the file, false unstars it.
    * - ``trashed``
-     - In the bin
      - true or false
      - No
      - true moves the file to the bin, where it stays restorable for 30 days; false restores it.
    * - ``addParents``
-     - Move into folder
      - text
      - No
      - Folder ids to move the file into, comma-separated; pair it with removeParents to move rather than add, and give at least one other field such as name, because the call needs a body. Example: 1Hh5TzqLmN0pQrS7uVwXyZ2aBcDeFgHiJ.
    * - ``removeParents``
-     - Take out of folder
      - text
      - No
      - Folder ids to take the file out of, comma-separated; Get a file shows its current parents. Example: 0B7x9QpLmS4tUVwXyZ012345678.
    * - ``supportsAllDrives``
-     - Reach shared drives
      - true or false
      - No
      - true lets the call reach files that live in shared drives as well as My Drive; keep it on. Default: True.
 
-Use it
-------
+.. note::
 
-**As an agent tool.** Open the Agent Node's **+ Tool**, choose **Google Drive**, connect, and tick **update** in the **File** row. The model sees it as ``google_drive_file_update``. Each call waits for human approval before it changes anything.
+   Each call waits for :doc:`your approval </agentic-ai-guide/safety-guardrails/human-in-the-loop>` before it changes anything in Google Drive.
 
-**As an App Action.** Drop **App Action** on the canvas, pick **Google Drive**, then **Update a file**, and fill in the inputs above. It runs every time the flow reaches it. A canvas run skips it unless **Write when run from the canvas** is on.
+Need it on every run?
+---------------------
+
+To run **Update a file** every time a flow reaches it, without the agent deciding, use the :doc:`Update a file App Action </agentic-ai-guide/tools-integrations/app-action-apps/google-drive/file-update>`.
 
 Other File tools
 ----------------

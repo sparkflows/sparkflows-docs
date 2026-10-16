@@ -17,7 +17,7 @@ List folders
      <div><dt>Connector</dt><dd>Email (IMAP and SMTP)</dd></div>
      <div><dt>Resource</dt><dd>Folder</dd></div>
      <div><dt>Type</dt><dd>Read</dd></div>
-     <div><dt>Available as</dt><dd>Agent tool only</dd></div>
+     <div><dt>Tool name</dt><dd><code>mail_tools_folder_getmany</code></dd></div>
      </dl>
    </div>
 
@@ -25,17 +25,21 @@ List folders
 
    Lists the mailbox's folders, one row per folder name, for use as folder in the other operations. Names are split on a / hierarchy separator.
 
-Prerequisites
--------------
+Before you start
+----------------
 
-* **Connection:** Email (IMAP and SMTP) connection. See :doc:`the Email (IMAP and SMTP) prerequisites <../email-imap-smtp>`.
+* A Email (IMAP and SMTP) connection. See :doc:`how to set one up <../email-imap-smtp>`.
 
-Parameters
-----------
+Add it to your agent
+--------------------
 
-This tool takes no parameters.
+#. In Agent Studio, open the **Tools** group and click **Add tools**, or click **+ Tool** on an Agent Node.
+#. Choose **Email, IMAP and SMTP** under **Connectors** and connect your Email (IMAP and SMTP) connection.
+#. Tick **list** in the **Folder** row, then click **Add to agent**.
 
-Use it
-------
+The agent now sees ``mail_tools_folder_getmany`` and calls it when a request needs it.
 
-**As an agent tool.** Open the Agent Node's **+ Tool**, choose **Email, IMAP and SMTP**, connect, and tick **list** in the **Folder** row. The model sees it as ``mail_tools_folder_getmany``.
+What the agent fills in
+-----------------------
+
+Nothing. The agent calls it as it is.

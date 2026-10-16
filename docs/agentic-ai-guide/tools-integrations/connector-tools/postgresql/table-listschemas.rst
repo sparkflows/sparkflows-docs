@@ -17,7 +17,7 @@ List schemas
      <div><dt>Connector</dt><dd>PostgreSQL</dd></div>
      <div><dt>Resource</dt><dd>Table</dd></div>
      <div><dt>Type</dt><dd>Read</dd></div>
-     <div><dt>Available as</dt><dd>Agent tool · <a href="../../app-action-apps/postgresql.html">App Action</a></dd></div>
+     <div><dt>Tool name</dt><dd><code>postgresql_table_listschemas</code></dd></div>
      </dl>
    </div>
 
@@ -25,22 +25,29 @@ List schemas
 
    Lists the schemas in the database, one row each, including system schemas such as information\_schema. Use it to find where a table lives, then Table listTables.
 
-Prerequisites
--------------
+Before you start
+----------------
 
-* **Connection:** PostgreSQL connection connection. See :doc:`the PostgreSQL prerequisites <../postgresql>`.
+* A PostgreSQL connection. See :doc:`how to set one up <../postgresql>`.
 
-Parameters
-----------
+Add it to your agent
+--------------------
 
-This tool takes no parameters.
+#. In Agent Studio, open the **Tools** group and click **Add tools**, or click **+ Tool** on an Agent Node.
+#. Choose **PostgreSQL** under **Connectors** and connect your PostgreSQL connection.
+#. Tick **listSchemas** in the **Table** row, then click **Add to agent**.
 
-Use it
-------
+The agent now sees ``postgresql_table_listschemas`` and calls it when a request needs it.
 
-**As an agent tool.** Open the Agent Node's **+ Tool**, choose **PostgreSQL**, connect, and tick **listSchemas** in the **Table** row. The model sees it as ``postgresql_table_listschemas``.
+What the agent fills in
+-----------------------
 
-**As an App Action.** Drop **App Action** on the canvas, pick **PostgreSQL**, then **List schemas**, and fill in the inputs above. It runs every time the flow reaches it.
+Nothing. The agent calls it as it is.
+
+Need it on every run?
+---------------------
+
+To run **List schemas** every time a flow reaches it, without the agent deciding, use the :doc:`List schemas App Action </agentic-ai-guide/tools-integrations/app-action-apps/postgresql/table-listschemas>`.
 
 Other Table tools
 -----------------

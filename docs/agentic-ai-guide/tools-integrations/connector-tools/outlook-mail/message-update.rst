@@ -16,8 +16,8 @@ Update an email
      <dl class="tool-facts">
      <div><dt>Connector</dt><dd>Outlook Mail</dd></div>
      <div><dt>Resource</dt><dd>Message</dd></div>
-     <div><dt>Type</dt><dd>Write · approval-gated</dd></div>
-     <div><dt>Available as</dt><dd>Agent tool · <a href="../../app-action-apps/outlook-mail.html">App Action</a></dd></div>
+     <div><dt>Type</dt><dd>Write · asks for approval</dd></div>
+     <div><dt>Tool name</dt><dd><code>outlook_mail_message_update</code></dd></div>
      </dl>
    </div>
 
@@ -25,64 +25,68 @@ Update an email
 
    Changes an email's read state, importance, categories or follow-up flag and returns the updated email. Use it to mark emails read or unread, flag them or tag them; to file an email elsewhere use Message move.
 
-Prerequisites
--------------
+Before you start
+----------------
 
-* **Connection:** Microsoft Graph connection. See :doc:`the Outlook Mail prerequisites <../outlook-mail>`.
-* The connection's account must be allowed to change this data in Outlook Mail.
+* A Microsoft Graph connection. See :doc:`how to set one up <../outlook-mail>`.
+* The account behind the connection must be allowed to change this data in Outlook Mail.
 
-Parameters
-----------
+Add it to your agent
+--------------------
 
-As an agent tool, the model fills in each parameter unless you fix it under **Fixed settings**, and in an App Action each one is a box on the **Details** step.
+#. In Agent Studio, open the **Tools** group and click **Add tools**, or click **+ Tool** on an Agent Node.
+#. Choose **Outlook Mail** under **Connectors** and connect your Microsoft Graph connection.
+#. Tick **update** in the **Message** row, then click **Add to agent**.
+
+The agent now sees ``outlook_mail_message_update`` and calls it when a request needs it.
+
+What the agent fills in
+-----------------------
+
+The agent fills these in from each request. To pin a value so the agent cannot change it, set it under **Fixed settings**.
 
 .. list-table::
    :header-rows: 1
-   :widths: 18 17 11 12 42
+   :widths: 22 14 12 52
    :class: tool-params
 
    * - Parameter
-     - App Action input
      - Type
      - Required
-     - Description
+     - What it means
    * - ``mailbox``
-     - Mailbox
      - text
      - Yes
      - The address of the mailbox the email is in. Example: asha.rao@contoso.com.
    * - ``messageId``
-     - Message id
      - text
      - Yes
      - The id of the email to change, from the id column of Message getMany or Message search. Example: AAMkAGI2TG93AAA=.
    * - ``isRead``
-     - Read
      - true or false
      - No
      - true marks the email read, false unread.
    * - ``importance``
-     - Importance
      - text
      - No
      - The email's importance. One of: low, normal, high.
    * - ``categories``
-     - Categories
      - list of text
      - No
      - Category names to set; they replace the email's current categories. Example: ["Invoices"].
    * - ``flagStatus``
-     - Follow-up flag
      - text
      - No
      - The follow-up flag: flagged, complete, or notFlagged to clear it. One of: notFlagged, flagged, complete.
 
-Use it
-------
+.. note::
 
-**As an agent tool.** Open the Agent Node's **+ Tool**, choose **Outlook Mail**, connect, and tick **update** in the **Message** row. The model sees it as ``outlook_mail_message_update``. Each call waits for human approval before it changes anything.
+   Each call waits for :doc:`your approval </agentic-ai-guide/safety-guardrails/human-in-the-loop>` before it changes anything in Outlook Mail.
 
-**As an App Action.** Drop **App Action** on the canvas, pick **Outlook Mail**, then **Update an email**, and fill in the inputs above. It runs every time the flow reaches it. A canvas run skips it unless **Write when run from the canvas** is on.
+Need it on every run?
+---------------------
+
+To run **Update an email** every time a flow reaches it, without the agent deciding, use the :doc:`Update an email App Action </agentic-ai-guide/tools-integrations/app-action-apps/outlook-mail/message-update>`.
 
 Other Message tools
 -------------------

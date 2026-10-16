@@ -17,7 +17,7 @@ List files in a folder
      <div><dt>Connector</dt><dd>OneDrive</dd></div>
      <div><dt>Resource</dt><dd>File</dd></div>
      <div><dt>Type</dt><dd>Read</dd></div>
-     <div><dt>Available as</dt><dd>Agent tool · <a href="../../app-action-apps/onedrive.html">App Action</a></dd></div>
+     <div><dt>Tool name</dt><dd><code>onedrive_file_getmany</code></dd></div>
      </dl>
    </div>
 
@@ -25,53 +25,55 @@ List files in a folder
 
    Lists the files and folders directly inside one folder of a user's OneDrive, each with id, name, type, size, web address and who last changed it and when. Use it to browse a folder; the ids it returns are what File get, download, move, copy and delete take.
 
-Prerequisites
--------------
+Before you start
+----------------
 
-* **Connection:** Microsoft Graph connection. See :doc:`the OneDrive prerequisites <../onedrive>`.
+* A Microsoft Graph connection. See :doc:`how to set one up <../onedrive>`.
 
-Parameters
-----------
+Add it to your agent
+--------------------
 
-As an agent tool, the model fills in each parameter unless you fix it under **Fixed settings**, and in an App Action each one is a box on the **Details** step.
+#. In Agent Studio, open the **Tools** group and click **Add tools**, or click **+ Tool** on an Agent Node.
+#. Choose **OneDrive** under **Connectors** and connect your Microsoft Graph connection.
+#. Tick **list** in the **File** row, then click **Add to agent**.
+
+The agent now sees ``onedrive_file_getmany`` and calls it when a request needs it.
+
+What the agent fills in
+-----------------------
+
+The agent fills these in from each request. To pin a value so the agent cannot change it, set it under **Fixed settings**.
 
 .. list-table::
    :header-rows: 1
-   :widths: 18 17 11 12 42
+   :widths: 22 14 12 52
    :class: tool-params
 
    * - Parameter
-     - App Action input
      - Type
      - Required
-     - Description
+     - What it means
    * - ``user``
-     - User
      - text
      - Yes
      - The address whose OneDrive this is. Example: asha.rao@contoso.com.
    * - ``folder``
-     - Folder
      - text
      - No
      - The folder to list, as an item id or a path such as Reports/2026; blank lists the top of the drive.
    * - ``fields``
-     - Fields to return
      - list of text
      - No
      - Graph driveItem properties to return, such as id, name, size and webUrl; blank returns the readable columns, and a list without name comes back in Graph's raw shape. Example: ["id", "name", "size", "webUrl"].
    * - ``limit``
-     - Limit
      - whole number
      - No
      - How many files and folders at most. Default: 50.
 
-Use it
-------
+Need it on every run?
+---------------------
 
-**As an agent tool.** Open the Agent Node's **+ Tool**, choose **OneDrive**, connect, and tick **list** in the **File** row. The model sees it as ``onedrive_file_getmany``.
-
-**As an App Action.** Drop **App Action** on the canvas, pick **OneDrive**, then **List files in a folder**, and fill in the inputs above. It runs every time the flow reaches it.
+To run **List files in a folder** every time a flow reaches it, without the agent deciding, use the :doc:`List files in a folder App Action </agentic-ai-guide/tools-integrations/app-action-apps/onedrive/file-getmany>`.
 
 Other File tools
 ----------------

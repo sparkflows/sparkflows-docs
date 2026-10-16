@@ -16,8 +16,8 @@ Share a file
      <dl class="tool-facts">
      <div><dt>Connector</dt><dd>Google Drive</dd></div>
      <div><dt>Resource</dt><dd>Permission</dd></div>
-     <div><dt>Type</dt><dd>Write · approval-gated</dd></div>
-     <div><dt>Available as</dt><dd>Agent tool · <a href="../../app-action-apps/google-drive.html">App Action</a></dd></div>
+     <div><dt>Type</dt><dd>Write · asks for approval</dd></div>
+     <div><dt>Tool name</dt><dd><code>google_drive_permission_create</code></dd></div>
      </dl>
    </div>
 
@@ -25,74 +25,76 @@ Share a file
 
    Gives a user, a group, a whole domain or anyone with the link access to a file or folder with the given role, and returns the new permission. Users and groups are emailed a notification unless sendNotificationEmail is false.
 
-Prerequisites
--------------
+Before you start
+----------------
 
-* **Connection:** Google connection. See :doc:`the Google Drive prerequisites <../google-drive>`.
-* The connection's account must be allowed to change this data in Google Drive.
+* A Google connection. See :doc:`how to set one up <../google-drive>`.
+* The account behind the connection must be allowed to change this data in Google Drive.
 
-Parameters
-----------
+Add it to your agent
+--------------------
 
-As an agent tool, the model fills in each parameter unless you fix it under **Fixed settings**, and in an App Action each one is a box on the **Details** step.
+#. In Agent Studio, open the **Tools** group and click **Add tools**, or click **+ Tool** on an Agent Node.
+#. Choose **Google Drive** under **Connectors** and connect your Google connection.
+#. Tick **create** in the **Permission** row, then click **Add to agent**.
+
+The agent now sees ``google_drive_permission_create`` and calls it when a request needs it.
+
+What the agent fills in
+-----------------------
+
+The agent fills these in from each request. To pin a value so the agent cannot change it, set it under **Fixed settings**.
 
 .. list-table::
    :header-rows: 1
-   :widths: 18 17 11 12 42
+   :widths: 22 14 12 52
    :class: tool-params
 
    * - Parameter
-     - App Action input
      - Type
      - Required
-     - Description
+     - What it means
    * - ``fileId``
-     - File id
      - text
      - Yes
      - The file or folder's id, from Search files or List files, never its name. Example: 1Q2w3E4r5T6y7U8i9O0pAsDfGhJkLzXcVb.
    * - ``role``
-     - Role
      - text
      - Yes
      - The access to grant: reader, commenter or writer, or fileOrganizer or organizer on a shared drive. One of: reader, commenter, writer, fileOrganizer, organizer.
    * - ``type``
-     - Share with
      - text
      - Yes
      - Who gets the access: user or group (give emailAddress), domain (give domain) or anyone with the link. One of: user, group, domain, anyone.
    * - ``emailAddress``
-     - Email address
      - text
      - No
      - The person's or group's address, for type user or group. Example: asha.rao@company.com.
    * - ``domain``
-     - Domain
      - text
      - No
      - The domain to share with, for type domain. Example: company.com.
    * - ``sendNotificationEmail``
-     - Email a notification
      - true or false
      - No
      - false shares without emailing; blank emails users and groups.
    * - ``emailMessage``
-     - Message
      - text
      - No
      - A note added to the notification email. Example: Here is the Q3 report for your review..
    * - ``supportsAllDrives``
-     - Reach shared drives
      - true or false
      - No
      - true lets the call reach files that live in shared drives as well as My Drive; keep it on. Default: True.
 
-Use it
-------
+.. note::
 
-**As an agent tool.** Open the Agent Node's **+ Tool**, choose **Google Drive**, connect, and tick **create** in the **Permission** row. The model sees it as ``google_drive_permission_create``. Each call waits for human approval before it changes anything.
+   Each call waits for :doc:`your approval </agentic-ai-guide/safety-guardrails/human-in-the-loop>` before it changes anything in Google Drive.
 
-**As an App Action.** Drop **App Action** on the canvas, pick **Google Drive**, then **Share a file**, and fill in the inputs above. It runs every time the flow reaches it. A canvas run skips it unless **Write when run from the canvas** is on.
+Need it on every run?
+---------------------
+
+To run **Share a file** every time a flow reaches it, without the agent deciding, use the :doc:`Share a file App Action </agentic-ai-guide/tools-integrations/app-action-apps/google-drive/permission-create>`.
 
 Other Permission tools
 ----------------------

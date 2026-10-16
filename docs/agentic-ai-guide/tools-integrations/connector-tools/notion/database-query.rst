@@ -17,7 +17,7 @@ Query a database
      <div><dt>Connector</dt><dd>Notion</dd></div>
      <div><dt>Resource</dt><dd>Database</dd></div>
      <div><dt>Type</dt><dd>Read</dd></div>
-     <div><dt>Available as</dt><dd>Agent tool only</dd></div>
+     <div><dt>Tool name</dt><dd><code>notion_database_query</code></dd></div>
      </dl>
    </div>
 
@@ -25,15 +25,24 @@ Query a database
 
    Returns the rows (pages) of a database that match a filter, in the order given, each with its id, URL, times and property values, following Notion's pages up to the limit. Database get shows the property names a filter uses.
 
-Prerequisites
--------------
+Before you start
+----------------
 
-* **Connection:** Notion connection. See :doc:`the Notion prerequisites <../notion>`.
+* A Notion connection. See :doc:`how to set one up <../notion>`.
 
-Parameters
-----------
+Add it to your agent
+--------------------
 
-As an agent tool, the model fills in each parameter unless you fix it under **Fixed settings**.
+#. In Agent Studio, open the **Tools** group and click **Add tools**, or click **+ Tool** on an Agent Node.
+#. Choose **Notion** under **Connectors** and connect your Notion connection.
+#. Tick **query** in the **Database** row, then click **Add to agent**.
+
+The agent now sees ``notion_database_query`` and calls it when a request needs it.
+
+What the agent fills in
+-----------------------
+
+The agent fills these in from each request. To pin a value so the agent cannot change it, set it under **Fixed settings**.
 
 .. list-table::
    :header-rows: 1
@@ -43,7 +52,7 @@ As an agent tool, the model fills in each parameter unless you fix it under **Fi
    * - Parameter
      - Type
      - Required
-     - Description
+     - What it means
    * - ``databaseId``
      - text
      - Yes
@@ -60,11 +69,6 @@ As an agent tool, the model fills in each parameter unless you fix it under **Fi
      - whole number
      - No
      - How many rows at most. Default: 50.
-
-Use it
-------
-
-**As an agent tool.** Open the Agent Node's **+ Tool**, choose **Notion**, connect, and tick **query** in the **Database** row. The model sees it as ``notion_database_query``.
 
 Other Database tools
 --------------------

@@ -17,7 +17,7 @@ List channel messages
      <div><dt>Connector</dt><dd>Microsoft Teams</dd></div>
      <div><dt>Resource</dt><dd>Channel Message</dd></div>
      <div><dt>Type</dt><dd>Read</dd></div>
-     <div><dt>Available as</dt><dd>Agent tool · <a href="../../app-action-apps/microsoft-teams.html">App Action</a></dd></div>
+     <div><dt>Tool name</dt><dd><code>msteams_channel_message_getmany</code></dd></div>
      </dl>
    </div>
 
@@ -25,53 +25,55 @@ List channel messages
 
    Lists the top-level posts of a channel with id, from, subject, body (HTML), createdDateTime and webUrl; replies are left out unless expand is replies. An app-only connection needs the ChannelMessage.Read.All permission.
 
-Prerequisites
--------------
+Before you start
+----------------
 
-* **Connection:** Microsoft Graph connection. See :doc:`the Microsoft Teams prerequisites <../microsoft-teams>`.
+* A Microsoft Graph connection. See :doc:`how to set one up <../microsoft-teams>`.
 
-Parameters
-----------
+Add it to your agent
+--------------------
 
-As an agent tool, the model fills in each parameter unless you fix it under **Fixed settings**, and in an App Action each one is a box on the **Details** step.
+#. In Agent Studio, open the **Tools** group and click **Add tools**, or click **+ Tool** on an Agent Node.
+#. Choose **Microsoft Teams** under **Connectors** and connect your Microsoft Graph connection.
+#. Tick **list** in the **Channel Message** row, then click **Add to agent**.
+
+The agent now sees ``msteams_channel_message_getmany`` and calls it when a request needs it.
+
+What the agent fills in
+-----------------------
+
+The agent fills these in from each request. To pin a value so the agent cannot change it, set it under **Fixed settings**.
 
 .. list-table::
    :header-rows: 1
-   :widths: 18 17 11 12 42
+   :widths: 22 14 12 52
    :class: tool-params
 
    * - Parameter
-     - App Action input
      - Type
      - Required
-     - Description
+     - What it means
    * - ``teamId``
-     - Team
      - text
      - Yes
      - The team id (a GUID), from Team getMany. Example: b1f0c3d2-1234-4c5d-9e8f-0a1b2c3d4e5f.
    * - ``channelId``
-     - Channel
      - text
      - Yes
      - The channel id, for example 19:a1b2c3d4e5f6@thread.tacv2, from Channel getMany.
    * - ``expand``
-     - Include replies
      - text
      - No
      - replies adds each post's replies to its row.
    * - ``limit``
-     - Limit
      - whole number
      - No
      - How many posts at most. Default: 50.
 
-Use it
-------
+Need it on every run?
+---------------------
 
-**As an agent tool.** Open the Agent Node's **+ Tool**, choose **Microsoft Teams**, connect, and tick **list** in the **Channel Message** row. The model sees it as ``msteams_channel_message_getmany``.
-
-**As an App Action.** Drop **App Action** on the canvas, pick **Microsoft Teams**, then **List channel messages**, and fill in the inputs above. It runs every time the flow reaches it.
+To run **List channel messages** every time a flow reaches it, without the agent deciding, use the :doc:`List channel messages App Action </agentic-ai-guide/tools-integrations/app-action-apps/microsoft-teams/channel-message-getmany>`.
 
 Other Channel Message tools
 ---------------------------

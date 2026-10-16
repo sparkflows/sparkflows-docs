@@ -16,8 +16,8 @@ Move a message to trash
      <dl class="tool-facts">
      <div><dt>Connector</dt><dd>Gmail</dd></div>
      <div><dt>Resource</dt><dd>Message</dd></div>
-     <div><dt>Type</dt><dd>Delete · approval-gated</dd></div>
-     <div><dt>Available as</dt><dd>Agent tool · <a href="../../app-action-apps/gmail.html">App Action</a></dd></div>
+     <div><dt>Type</dt><dd>Delete · asks for approval</dd></div>
+     <div><dt>Tool name</dt><dd><code>gmail_message_trash</code></dd></div>
      </dl>
    </div>
 
@@ -25,44 +25,52 @@ Move a message to trash
 
    Moves one message to the Trash, where Gmail deletes it for good after 30 days, and returns it with its new labelIds. Prefer it to Message delete, which cannot be undone.
 
-Prerequisites
--------------
+Before you start
+----------------
 
-* **Connection:** Google connection. See :doc:`the Gmail prerequisites <../gmail>`.
-* The connection's account must be allowed to change this data in Gmail.
+* A Google connection. See :doc:`how to set one up <../gmail>`.
+* The account behind the connection must be allowed to change this data in Gmail.
 
-Parameters
-----------
+Add it to your agent
+--------------------
 
-As an agent tool, the model fills in each parameter unless you fix it under **Fixed settings**, and in an App Action each one is a box on the **Details** step.
+#. In Agent Studio, open the **Tools** group and click **Add tools**, or click **+ Tool** on an Agent Node.
+#. Choose **Gmail** under **Connectors** and connect your Google connection.
+#. Tick **trash** in the **Message** row, then click **Add to agent**.
+
+The agent now sees ``gmail_message_trash`` and calls it when a request needs it.
+
+What the agent fills in
+-----------------------
+
+The agent fills these in from each request. To pin a value so the agent cannot change it, set it under **Fixed settings**.
 
 .. list-table::
    :header-rows: 1
-   :widths: 18 17 11 12 42
+   :widths: 22 14 12 52
    :class: tool-params
 
    * - Parameter
-     - App Action input
      - Type
      - Required
-     - Description
+     - What it means
    * - ``messageId``
-     - Message
      - text
      - Yes
      - The message id, from Message search or getMany. Example: 18c3f2a9b7d4e1f0.
    * - ``mailbox``
-     - Mailbox
      - text
      - No
      - The mailbox to act on; blank means the connection's own mailbox (me). Set it only for a delegated mailbox. Example: someone@company.com.
 
-Use it
-------
+.. note::
 
-**As an agent tool.** Open the Agent Node's **+ Tool**, choose **Gmail**, connect, and tick **trash** in the **Message** row. The model sees it as ``gmail_message_trash``. Each call waits for human approval before it changes anything.
+   Each call waits for :doc:`your approval </agentic-ai-guide/safety-guardrails/human-in-the-loop>` before it changes anything in Gmail.
 
-**As an App Action.** Drop **App Action** on the canvas, pick **Gmail**, then **Move a message to trash**, and fill in the inputs above. It runs every time the flow reaches it. A canvas run skips it unless **Write when run from the canvas** is on.
+Need it on every run?
+---------------------
+
+To run **Move a message to trash** every time a flow reaches it, without the agent deciding, use the :doc:`Move a message to trash App Action </agentic-ai-guide/tools-integrations/app-action-apps/gmail/message-trash>`.
 
 Other Message tools
 -------------------

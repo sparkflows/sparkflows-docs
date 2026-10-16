@@ -17,7 +17,7 @@ List flows
      <div><dt>Connector</dt><dd>Salesforce</dd></div>
      <div><dt>Resource</dt><dd>Flow</dd></div>
      <div><dt>Type</dt><dd>Read</dd></div>
-     <div><dt>Available as</dt><dd>Agent tool · <a href="../../app-action-apps/salesforce.html">App Action</a></dd></div>
+     <div><dt>Tool name</dt><dd><code>salesforce_flow_getmany</code></dd></div>
      </dl>
    </div>
 
@@ -25,22 +25,29 @@ List flows
 
    Lists the active autolaunched flows that can be run through the API, one row per flow with its API name and label. Use it to find the name Run a flow needs.
 
-Prerequisites
--------------
+Before you start
+----------------
 
-* **Connection:** Salesforce connection. See :doc:`the Salesforce prerequisites <../salesforce>`.
+* A Salesforce connection. See :doc:`how to set one up <../salesforce>`.
 
-Parameters
-----------
+Add it to your agent
+--------------------
 
-This tool takes no parameters.
+#. In Agent Studio, open the **Tools** group and click **Add tools**, or click **+ Tool** on an Agent Node.
+#. Choose **Salesforce** under **Connectors** and connect your Salesforce connection.
+#. Tick **list** in the **Flow** row, then click **Add to agent**.
 
-Use it
-------
+The agent now sees ``salesforce_flow_getmany`` and calls it when a request needs it.
 
-**As an agent tool.** Open the Agent Node's **+ Tool**, choose **Salesforce**, connect, and tick **list** in the **Flow** row. The model sees it as ``salesforce_flow_getmany``.
+What the agent fills in
+-----------------------
 
-**As an App Action.** Drop **App Action** on the canvas, pick **Salesforce**, then **List flows**, and fill in the inputs above. It runs every time the flow reaches it.
+Nothing. The agent calls it as it is.
+
+Need it on every run?
+---------------------
+
+To run **List flows** every time a flow reaches it, without the agent deciding, use the :doc:`List flows App Action </agentic-ai-guide/tools-integrations/app-action-apps/salesforce/flow-getmany>`.
 
 Other Flow tools
 ----------------

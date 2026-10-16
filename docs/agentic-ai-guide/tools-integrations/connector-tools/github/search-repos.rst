@@ -17,7 +17,7 @@ Search repositories
      <div><dt>Connector</dt><dd>GitHub</dd></div>
      <div><dt>Resource</dt><dd>Search</dd></div>
      <div><dt>Type</dt><dd>Read</dd></div>
-     <div><dt>Available as</dt><dd>Agent tool only</dd></div>
+     <div><dt>Tool name</dt><dd><code>github_search_repos</code></dd></div>
      </dl>
    </div>
 
@@ -25,15 +25,24 @@ Search repositories
 
    Searches repositories across GitHub by name, description, topic, language or owner and returns each match's full name, description, stars, language and URL. Use Repository getMany for the connection's own repositories.
 
-Prerequisites
--------------
+Before you start
+----------------
 
-* **Connection:** GitHub connection. See :doc:`the GitHub prerequisites <../github>`.
+* A GitHub connection. See :doc:`how to set one up <../github>`.
 
-Parameters
-----------
+Add it to your agent
+--------------------
 
-As an agent tool, the model fills in each parameter unless you fix it under **Fixed settings**.
+#. In Agent Studio, open the **Tools** group and click **Add tools**, or click **+ Tool** on an Agent Node.
+#. Choose **GitHub** under **Connectors** and connect your GitHub connection.
+#. Tick **repos** in the **Search** row, then click **Add to agent**.
+
+The agent now sees ``github_search_repos`` and calls it when a request needs it.
+
+What the agent fills in
+-----------------------
+
+The agent fills these in from each request. To pin a value so the agent cannot change it, set it under **Fixed settings**.
 
 .. list-table::
    :header-rows: 1
@@ -43,7 +52,7 @@ As an agent tool, the model fills in each parameter unless you fix it under **Fi
    * - Parameter
      - Type
      - Required
-     - Description
+     - What it means
    * - ``query``
      - text
      - Yes
@@ -64,11 +73,6 @@ As an agent tool, the model fills in each parameter unless you fix it under **Fi
      - whole number
      - No
      - How many repositories at most. Default: 50.
-
-Use it
-------
-
-**As an agent tool.** Open the Agent Node's **+ Tool**, choose **GitHub**, connect, and tick **repos** in the **Search** row. The model sees it as ``github_search_repos``.
 
 Other Search tools
 ------------------

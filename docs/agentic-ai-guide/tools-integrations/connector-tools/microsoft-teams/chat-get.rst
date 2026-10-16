@@ -17,7 +17,7 @@ Get a chat
      <div><dt>Connector</dt><dd>Microsoft Teams</dd></div>
      <div><dt>Resource</dt><dd>Chat</dd></div>
      <div><dt>Type</dt><dd>Read</dd></div>
-     <div><dt>Available as</dt><dd>Agent tool · <a href="../../app-action-apps/microsoft-teams.html">App Action</a></dd></div>
+     <div><dt>Tool name</dt><dd><code>msteams_chat_get</code></dd></div>
      </dl>
    </div>
 
@@ -25,38 +25,43 @@ Get a chat
 
    Returns one chat: topic, chatType (oneOnOne, group or meeting), createdDateTime, lastUpdatedDateTime and webUrl. The chat id comes from Chat getMany.
 
-Prerequisites
--------------
+Before you start
+----------------
 
-* **Connection:** Microsoft Graph connection. See :doc:`the Microsoft Teams prerequisites <../microsoft-teams>`.
+* A Microsoft Graph connection. See :doc:`how to set one up <../microsoft-teams>`.
 
-Parameters
-----------
+Add it to your agent
+--------------------
 
-As an agent tool, the model fills in each parameter unless you fix it under **Fixed settings**, and in an App Action each one is a box on the **Details** step.
+#. In Agent Studio, open the **Tools** group and click **Add tools**, or click **+ Tool** on an Agent Node.
+#. Choose **Microsoft Teams** under **Connectors** and connect your Microsoft Graph connection.
+#. Tick **get** in the **Chat** row, then click **Add to agent**.
+
+The agent now sees ``msteams_chat_get`` and calls it when a request needs it.
+
+What the agent fills in
+-----------------------
+
+The agent fills these in from each request. To pin a value so the agent cannot change it, set it under **Fixed settings**.
 
 .. list-table::
    :header-rows: 1
-   :widths: 18 17 11 12 42
+   :widths: 22 14 12 52
    :class: tool-params
 
    * - Parameter
-     - App Action input
      - Type
      - Required
-     - Description
+     - What it means
    * - ``chatId``
-     - Chat
      - text
      - Yes
      - The chat id, for example 19:2da4c29f6d7041eca70b638b43d45437@thread.v2, from Chat getMany.
 
-Use it
-------
+Need it on every run?
+---------------------
 
-**As an agent tool.** Open the Agent Node's **+ Tool**, choose **Microsoft Teams**, connect, and tick **get** in the **Chat** row. The model sees it as ``msteams_chat_get``.
-
-**As an App Action.** Drop **App Action** on the canvas, pick **Microsoft Teams**, then **Get a chat**, and fill in the inputs above. It runs every time the flow reaches it.
+To run **Get a chat** every time a flow reaches it, without the agent deciding, use the :doc:`Get a chat App Action </agentic-ai-guide/tools-integrations/app-action-apps/microsoft-teams/chat-get>`.
 
 Other Chat tools
 ----------------

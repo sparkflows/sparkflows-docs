@@ -16,8 +16,8 @@ Log work on an issue
      <dl class="tool-facts">
      <div><dt>Connector</dt><dd>Jira Cloud</dd></div>
      <div><dt>Resource</dt><dd>Worklog</dd></div>
-     <div><dt>Type</dt><dd>Write · approval-gated</dd></div>
-     <div><dt>Available as</dt><dd>Agent tool · <a href="../../app-action-apps/jira-cloud.html">App Action</a></dd></div>
+     <div><dt>Type</dt><dd>Write · asks for approval</dd></div>
+     <div><dt>Tool name</dt><dd><code>jira_cloud_worklog_create</code></dd></div>
      </dl>
    </div>
 
@@ -25,54 +25,60 @@ Log work on an issue
 
    Logs time spent on an issue and returns the new worklog with its id. The time uses Jira's duration format, such as 2h 30m or 1d.
 
-Prerequisites
--------------
+Before you start
+----------------
 
-* **Connection:** Jira connection. See :doc:`the Jira Cloud prerequisites <../jira-cloud>`.
-* The connection's account must be allowed to change this data in Jira Cloud.
+* A Jira connection. See :doc:`how to set one up <../jira-cloud>`.
+* The account behind the connection must be allowed to change this data in Jira Cloud.
 
-Parameters
-----------
+Add it to your agent
+--------------------
 
-As an agent tool, the model fills in each parameter unless you fix it under **Fixed settings**, and in an App Action each one is a box on the **Details** step.
+#. In Agent Studio, open the **Tools** group and click **Add tools**, or click **+ Tool** on an Agent Node.
+#. Choose **Jira Cloud** under **Connectors** and connect your Jira connection.
+#. Tick **create** in the **Worklog** row, then click **Add to agent**.
+
+The agent now sees ``jira_cloud_worklog_create`` and calls it when a request needs it.
+
+What the agent fills in
+-----------------------
+
+The agent fills these in from each request. To pin a value so the agent cannot change it, set it under **Fixed settings**.
 
 .. list-table::
    :header-rows: 1
-   :widths: 18 17 11 12 42
+   :widths: 22 14 12 52
    :class: tool-params
 
    * - Parameter
-     - App Action input
      - Type
      - Required
-     - Description
+     - What it means
    * - ``issueKey``
-     - Issue key
      - text
      - Yes
      - The issue key, for example FIN-12.
    * - ``timeSpent``
-     - Time spent
      - text
      - Yes
      - The duration in Jira's format with w, d, h and m units, for example 2h 30m.
    * - ``started``
-     - Started
      - text
      - Yes
      - When the work started, as an ISO 8601 date and time; a date on its own means midnight UTC. Example: 2026-09-30T09:00:00+05:30.
    * - ``comment``
-     - Note
      - text
      - No
      - A note about the work done. Example: Paired on the SSO timeout fix..
 
-Use it
-------
+.. note::
 
-**As an agent tool.** Open the Agent Node's **+ Tool**, choose **Jira Cloud**, connect, and tick **create** in the **Worklog** row. The model sees it as ``jira_cloud_worklog_create``. Each call waits for human approval before it changes anything.
+   Each call waits for :doc:`your approval </agentic-ai-guide/safety-guardrails/human-in-the-loop>` before it changes anything in Jira Cloud.
 
-**As an App Action.** Drop **App Action** on the canvas, pick **Jira**, then **Log work on an issue**, and fill in the inputs above. It runs every time the flow reaches it. A canvas run skips it unless **Write when run from the canvas** is on.
+Need it on every run?
+---------------------
+
+To run **Log work on an issue** every time a flow reaches it, without the agent deciding, use the :doc:`Log work on an issue App Action </agentic-ai-guide/tools-integrations/app-action-apps/jira-cloud/worklog-create>`.
 
 Other Worklog tools
 -------------------

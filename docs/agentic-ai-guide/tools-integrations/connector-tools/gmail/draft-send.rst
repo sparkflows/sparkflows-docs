@@ -16,8 +16,8 @@ Send a draft
      <dl class="tool-facts">
      <div><dt>Connector</dt><dd>Gmail</dd></div>
      <div><dt>Resource</dt><dd>Draft</dd></div>
-     <div><dt>Type</dt><dd>Write · approval-gated</dd></div>
-     <div><dt>Available as</dt><dd>Agent tool · <a href="../../app-action-apps/gmail.html">App Action</a></dd></div>
+     <div><dt>Type</dt><dd>Write · asks for approval</dd></div>
+     <div><dt>Tool name</dt><dd><code>gmail_draft_send</code></dd></div>
      </dl>
    </div>
 
@@ -25,44 +25,52 @@ Send a draft
 
    Sends a saved draft as it stands and returns the sent message's id, threadId and labelIds; the draft itself is removed. The draft id comes from Draft create or Draft getMany.
 
-Prerequisites
--------------
+Before you start
+----------------
 
-* **Connection:** Google connection. See :doc:`the Gmail prerequisites <../gmail>`.
-* The connection's account must be allowed to change this data in Gmail.
+* A Google connection. See :doc:`how to set one up <../gmail>`.
+* The account behind the connection must be allowed to change this data in Gmail.
 
-Parameters
-----------
+Add it to your agent
+--------------------
 
-As an agent tool, the model fills in each parameter unless you fix it under **Fixed settings**, and in an App Action each one is a box on the **Details** step.
+#. In Agent Studio, open the **Tools** group and click **Add tools**, or click **+ Tool** on an Agent Node.
+#. Choose **Gmail** under **Connectors** and connect your Google connection.
+#. Tick **send** in the **Draft** row, then click **Add to agent**.
+
+The agent now sees ``gmail_draft_send`` and calls it when a request needs it.
+
+What the agent fills in
+-----------------------
+
+The agent fills these in from each request. To pin a value so the agent cannot change it, set it under **Fixed settings**.
 
 .. list-table::
    :header-rows: 1
-   :widths: 18 17 11 12 42
+   :widths: 22 14 12 52
    :class: tool-params
 
    * - Parameter
-     - App Action input
      - Type
      - Required
-     - Description
+     - What it means
    * - ``draftId``
-     - Draft
      - text
      - Yes
      - The draft id, from Draft getMany or Draft create. Example: r-5843521846237418962.
    * - ``mailbox``
-     - Mailbox
      - text
      - No
      - The mailbox to act on; blank means the connection's own mailbox (me). Set it only for a delegated mailbox. Example: someone@company.com.
 
-Use it
-------
+.. note::
 
-**As an agent tool.** Open the Agent Node's **+ Tool**, choose **Gmail**, connect, and tick **send** in the **Draft** row. The model sees it as ``gmail_draft_send``. Each call waits for human approval before it changes anything.
+   Each call waits for :doc:`your approval </agentic-ai-guide/safety-guardrails/human-in-the-loop>` before it changes anything in Gmail.
 
-**As an App Action.** Drop **App Action** on the canvas, pick **Gmail**, then **Send a draft**, and fill in the inputs above. It runs every time the flow reaches it. A canvas run skips it unless **Write when run from the canvas** is on.
+Need it on every run?
+---------------------
+
+To run **Send a draft** every time a flow reaches it, without the agent deciding, use the :doc:`Send a draft App Action </agentic-ai-guide/tools-integrations/app-action-apps/gmail/draft-send>`.
 
 Other Draft tools
 -----------------

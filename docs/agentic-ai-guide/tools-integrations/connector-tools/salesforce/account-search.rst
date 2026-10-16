@@ -17,7 +17,7 @@ Search accounts
      <div><dt>Connector</dt><dd>Salesforce</dd></div>
      <div><dt>Resource</dt><dd>Account</dd></div>
      <div><dt>Type</dt><dd>Read</dd></div>
-     <div><dt>Available as</dt><dd>Agent tool · <a href="../../app-action-apps/salesforce.html">App Action</a></dd></div>
+     <div><dt>Tool name</dt><dd><code>salesforce_account_search</code></dd></div>
      </dl>
    </div>
 
@@ -25,48 +25,51 @@ Search accounts
 
    Finds accounts that match a SOQL condition and returns up to limit rows with the chosen fields. It runs the same query as List accounts, so either serves; use Run a SOQL query for joins, aggregates or other objects.
 
-Prerequisites
--------------
+Before you start
+----------------
 
-* **Connection:** Salesforce connection. See :doc:`the Salesforce prerequisites <../salesforce>`.
+* A Salesforce connection. See :doc:`how to set one up <../salesforce>`.
 
-Parameters
-----------
+Add it to your agent
+--------------------
 
-As an agent tool, the model fills in each parameter unless you fix it under **Fixed settings**, and in an App Action each one is a box on the **Details** step.
+#. In Agent Studio, open the **Tools** group and click **Add tools**, or click **+ Tool** on an Agent Node.
+#. Choose **Salesforce** under **Connectors** and connect your Salesforce connection.
+#. Tick **search** in the **Account** row, then click **Add to agent**.
+
+The agent now sees ``salesforce_account_search`` and calls it when a request needs it.
+
+What the agent fills in
+-----------------------
+
+The agent fills these in from each request. To pin a value so the agent cannot change it, set it under **Fixed settings**.
 
 .. list-table::
    :header-rows: 1
-   :widths: 18 17 11 12 42
+   :widths: 22 14 12 52
    :class: tool-params
 
    * - Parameter
-     - App Action input
      - Type
      - Required
-     - Description
+     - What it means
    * - ``where``
-     - Where
      - text
      - No
      - A SOQL condition without the word WHERE, such as Industry = 'Energy' AND AnnualRevenue > 1000000, with text in single quotes and dates unquoted; it may end with ORDER BY but not LIMIT, and blank returns every account up to the limit.
    * - ``fields``
-     - Fields to return
      - list of text
      - No
      - Field API names to return, such as ["Id", "Name", "Industry", "Owner.Name"]; blank returns the standard fields only.
    * - ``limit``
-     - Limit
      - whole number
      - No
      - How many accounts at most. Example: 50. Default: 50.
 
-Use it
-------
+Need it on every run?
+---------------------
 
-**As an agent tool.** Open the Agent Node's **+ Tool**, choose **Salesforce**, connect, and tick **search** in the **Account** row. The model sees it as ``salesforce_account_search``.
-
-**As an App Action.** Drop **App Action** on the canvas, pick **Salesforce**, then **Search accounts**, and fill in the inputs above. It runs every time the flow reaches it.
+To run **Search accounts** every time a flow reaches it, without the agent deciding, use the :doc:`Search accounts App Action </agentic-ai-guide/tools-integrations/app-action-apps/salesforce/account-search>`.
 
 Other Account tools
 -------------------

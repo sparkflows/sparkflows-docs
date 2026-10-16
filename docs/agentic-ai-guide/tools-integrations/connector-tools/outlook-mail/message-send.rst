@@ -16,8 +16,8 @@ Send an email
      <dl class="tool-facts">
      <div><dt>Connector</dt><dd>Outlook Mail</dd></div>
      <div><dt>Resource</dt><dd>Message</dd></div>
-     <div><dt>Type</dt><dd>Write · approval-gated</dd></div>
-     <div><dt>Available as</dt><dd>Agent tool · <a href="../../app-action-apps/outlook-mail.html">App Action</a></dd></div>
+     <div><dt>Type</dt><dd>Write · asks for approval</dd></div>
+     <div><dt>Tool name</dt><dd><code>outlook_mail_message_send</code></dd></div>
      </dl>
    </div>
 
@@ -25,74 +25,76 @@ Send an email
 
    Sends a new email from the mailbox and keeps a copy in its Sent Items. Use it to start a new conversation; to answer an email use Message reply or Message replyAll, to pass one on use Message forward, and to leave it for review use Message createDraft.
 
-Prerequisites
--------------
+Before you start
+----------------
 
-* **Connection:** Microsoft Graph connection. See :doc:`the Outlook Mail prerequisites <../outlook-mail>`.
-* The connection's account must be allowed to change this data in Outlook Mail.
+* A Microsoft Graph connection. See :doc:`how to set one up <../outlook-mail>`.
+* The account behind the connection must be allowed to change this data in Outlook Mail.
 
-Parameters
-----------
+Add it to your agent
+--------------------
 
-As an agent tool, the model fills in each parameter unless you fix it under **Fixed settings**, and in an App Action each one is a box on the **Details** step.
+#. In Agent Studio, open the **Tools** group and click **Add tools**, or click **+ Tool** on an Agent Node.
+#. Choose **Outlook Mail** under **Connectors** and connect your Microsoft Graph connection.
+#. Tick **send** in the **Message** row, then click **Add to agent**.
+
+The agent now sees ``outlook_mail_message_send`` and calls it when a request needs it.
+
+What the agent fills in
+-----------------------
+
+The agent fills these in from each request. To pin a value so the agent cannot change it, set it under **Fixed settings**.
 
 .. list-table::
    :header-rows: 1
-   :widths: 18 17 11 12 42
+   :widths: 22 14 12 52
    :class: tool-params
 
    * - Parameter
-     - App Action input
      - Type
      - Required
-     - Description
+     - What it means
    * - ``mailbox``
-     - From mailbox
      - text
      - Yes
      - The address of the mailbox the email is sent from. Example: asha.rao@contoso.com.
    * - ``to``
-     - To
      - list of text
      - Yes
      - The recipients' email addresses. Example: ["ravi.menon@contoso.com"].
    * - ``cc``
-     - Cc
      - list of text
      - No
      - Addresses to copy in. Example: ["finance@contoso.com"].
    * - ``bcc``
-     - Bcc
      - list of text
      - No
      - Addresses to copy in without the other recipients seeing them.
    * - ``subject``
-     - Subject
      - text
      - No
      - The subject line; blank sends (no subject). Example: Invoice 4471 received.
    * - ``body``
-     - Body
      - text
      - No
      - The message as plain text. Example: Hello Ravi, invoice 4471 arrived today and is with the approvers.
    * - ``html``
-     - Body as HTML
      - text
      - No
      - The message as HTML; when given it is sent instead of body.
    * - ``importance``
-     - Importance
      - text
      - No
      - The importance the recipients see; blank is normal. One of: low, normal, high.
 
-Use it
-------
+.. note::
 
-**As an agent tool.** Open the Agent Node's **+ Tool**, choose **Outlook Mail**, connect, and tick **send** in the **Message** row. The model sees it as ``outlook_mail_message_send``. Each call waits for human approval before it changes anything.
+   Each call waits for :doc:`your approval </agentic-ai-guide/safety-guardrails/human-in-the-loop>` before it changes anything in Outlook Mail.
 
-**As an App Action.** Drop **App Action** on the canvas, pick **Outlook Mail**, then **Send an email**, and fill in the inputs above. It runs every time the flow reaches it. A canvas run skips it unless **Write when run from the canvas** is on.
+Need it on every run?
+---------------------
+
+To run **Send an email** every time a flow reaches it, without the agent deciding, use the :doc:`Send an email App Action </agentic-ai-guide/tools-integrations/app-action-apps/outlook-mail/message-send>`.
 
 Other Message tools
 -------------------

@@ -16,8 +16,8 @@ Reply to a message
      <dl class="tool-facts">
      <div><dt>Connector</dt><dd>Email (IMAP and SMTP)</dd></div>
      <div><dt>Resource</dt><dd>Message</dd></div>
-     <div><dt>Type</dt><dd>Write · approval-gated</dd></div>
-     <div><dt>Available as</dt><dd>Agent tool only</dd></div>
+     <div><dt>Type</dt><dd>Write · asks for approval</dd></div>
+     <div><dt>Tool name</dt><dd><code>mail_tools_message_reply</code></dd></div>
      </dl>
    </div>
 
@@ -25,16 +25,25 @@ Reply to a message
 
    Sends a plain-text reply to the sender of one message, threaded with In-Reply-To and References, and returns sent. Only the original sender receives it (there is no reply-all), and the subject gets a Re: prefix unless one is given.
 
-Prerequisites
--------------
+Before you start
+----------------
 
-* **Connection:** Email (IMAP and SMTP) connection. See :doc:`the Email (IMAP and SMTP) prerequisites <../email-imap-smtp>`.
-* The connection's account must be allowed to change this data in Email (IMAP and SMTP).
+* A Email (IMAP and SMTP) connection. See :doc:`how to set one up <../email-imap-smtp>`.
+* The account behind the connection must be allowed to change this data in the mailbox.
 
-Parameters
-----------
+Add it to your agent
+--------------------
 
-As an agent tool, the model fills in each parameter unless you fix it under **Fixed settings**.
+#. In Agent Studio, open the **Tools** group and click **Add tools**, or click **+ Tool** on an Agent Node.
+#. Choose **Email, IMAP and SMTP** under **Connectors** and connect your Email (IMAP and SMTP) connection.
+#. Tick **reply** in the **Message** row, then click **Add to agent**.
+
+The agent now sees ``mail_tools_message_reply`` and calls it when a request needs it.
+
+What the agent fills in
+-----------------------
+
+The agent fills these in from each request. To pin a value so the agent cannot change it, set it under **Fixed settings**.
 
 .. list-table::
    :header-rows: 1
@@ -44,7 +53,7 @@ As an agent tool, the model fills in each parameter unless you fix it under **Fi
    * - Parameter
      - Type
      - Required
-     - Description
+     - What it means
    * - ``messageId``
      - text
      - Yes
@@ -71,10 +80,9 @@ As an agent tool, the model fills in each parameter unless you fix it under **Fi
      - No
      - The From address, which the SMTP server may refuse unless it is the mailbox's own; blank uses the mailbox's login. Example: finance@acme.com.
 
-Use it
-------
+.. note::
 
-**As an agent tool.** Open the Agent Node's **+ Tool**, choose **Email, IMAP and SMTP**, connect, and tick **reply** in the **Message** row. The model sees it as ``mail_tools_message_reply``. Each call waits for human approval before it changes anything.
+   Each call waits for :doc:`your approval </agentic-ai-guide/safety-guardrails/human-in-the-loop>` before it changes anything in the mailbox.
 
 Other Message tools
 -------------------

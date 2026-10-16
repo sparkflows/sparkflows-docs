@@ -16,8 +16,8 @@ Update an issue
      <dl class="tool-facts">
      <div><dt>Connector</dt><dd>GitHub</dd></div>
      <div><dt>Resource</dt><dd>Issue</dd></div>
-     <div><dt>Type</dt><dd>Write · approval-gated</dd></div>
-     <div><dt>Available as</dt><dd>Agent tool only</dd></div>
+     <div><dt>Type</dt><dd>Write · asks for approval</dd></div>
+     <div><dt>Tool name</dt><dd><code>github_issue_update</code></dd></div>
      </dl>
    </div>
 
@@ -25,16 +25,25 @@ Update an issue
 
    Changes an issue's title, body, state, labels, assignees or milestone and returns the updated issue; labels and assignees replace the current lists. Use it to close or reopen an issue; Issue addLabels adds labels without removing any.
 
-Prerequisites
--------------
+Before you start
+----------------
 
-* **Connection:** GitHub connection. See :doc:`the GitHub prerequisites <../github>`.
-* The connection's account must be allowed to change this data in GitHub.
+* A GitHub connection. See :doc:`how to set one up <../github>`.
+* The account behind the connection must be allowed to change this data in GitHub.
 
-Parameters
-----------
+Add it to your agent
+--------------------
 
-As an agent tool, the model fills in each parameter unless you fix it under **Fixed settings**.
+#. In Agent Studio, open the **Tools** group and click **Add tools**, or click **+ Tool** on an Agent Node.
+#. Choose **GitHub** under **Connectors** and connect your GitHub connection.
+#. Tick **update** in the **Issue** row, then click **Add to agent**.
+
+The agent now sees ``github_issue_update`` and calls it when a request needs it.
+
+What the agent fills in
+-----------------------
+
+The agent fills these in from each request. To pin a value so the agent cannot change it, set it under **Fixed settings**.
 
 .. list-table::
    :header-rows: 1
@@ -44,7 +53,7 @@ As an agent tool, the model fills in each parameter unless you fix it under **Fi
    * - Parameter
      - Type
      - Required
-     - Description
+     - What it means
    * - ``repository``
      - text
      - Yes
@@ -82,10 +91,9 @@ As an agent tool, the model fills in each parameter unless you fix it under **Fi
      - No
      - The number of the milestone to put the issue in. Example: 3.
 
-Use it
-------
+.. note::
 
-**As an agent tool.** Open the Agent Node's **+ Tool**, choose **GitHub**, connect, and tick **update** in the **Issue** row. The model sees it as ``github_issue_update``. Each call waits for human approval before it changes anything.
+   Each call waits for :doc:`your approval </agentic-ai-guide/safety-guardrails/human-in-the-loop>` before it changes anything in GitHub.
 
 Other Issue tools
 -----------------

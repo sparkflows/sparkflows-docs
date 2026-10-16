@@ -16,8 +16,8 @@ Insert a row
      <dl class="tool-facts">
      <div><dt>Connector</dt><dd>PostgreSQL</dd></div>
      <div><dt>Resource</dt><dd>Table</dd></div>
-     <div><dt>Type</dt><dd>Write · approval-gated</dd></div>
-     <div><dt>Available as</dt><dd>Agent tool · <a href="../../app-action-apps/postgresql.html">App Action</a></dd></div>
+     <div><dt>Type</dt><dd>Write · asks for approval</dd></div>
+     <div><dt>Tool name</dt><dd><code>postgresql_table_insert</code></dd></div>
      </dl>
    </div>
 
@@ -25,49 +25,56 @@ Insert a row
 
    Adds one row to a table and returns how many rows were written. Use Table update to change an existing row, or Table upsert when the row may already exist.
 
-Prerequisites
--------------
+Before you start
+----------------
 
-* **Connection:** PostgreSQL connection connection. See :doc:`the PostgreSQL prerequisites <../postgresql>`.
-* The connection's account must be allowed to change this data in PostgreSQL.
+* A PostgreSQL connection. See :doc:`how to set one up <../postgresql>`.
+* The account behind the connection must be allowed to change this data in PostgreSQL.
 
-Parameters
-----------
+Add it to your agent
+--------------------
 
-As an agent tool, the model fills in each parameter unless you fix it under **Fixed settings**, and in an App Action each one is a box on the **Details** step.
+#. In Agent Studio, open the **Tools** group and click **Add tools**, or click **+ Tool** on an Agent Node.
+#. Choose **PostgreSQL** under **Connectors** and connect your PostgreSQL connection.
+#. Tick **insert** in the **Table** row, then click **Add to agent**.
+
+The agent now sees ``postgresql_table_insert`` and calls it when a request needs it.
+
+What the agent fills in
+-----------------------
+
+The agent fills these in from each request. To pin a value so the agent cannot change it, set it under **Fixed settings**.
 
 .. list-table::
    :header-rows: 1
-   :widths: 18 17 11 12 42
+   :widths: 22 14 12 52
    :class: tool-params
 
    * - Parameter
-     - App Action input
      - Type
      - Required
-     - Description
+     - What it means
    * - ``table``
-     - Table
      - text
      - Yes
      - The table name as Table listTables returns it, for example customers or, with its schema, sales.customers, in letters, digits, underscore, dot and $ only (quoted names are refused, and PostgreSQL folds it to lower case).
    * - ``row``
-     - Row
      - JSON object
      - Yes
      - The new row as one JSON object of column name to value, columns left out taking their default; the columns depend on the table, so they come as one object rather than as separate fields, and Table describe lists them. Example: {"name": "Acme Ltd", "city": "Pune", "status": "active"}.
    * - ``schema``
-     - Schema
      - text
      - No
      - The schema that holds the table, for example sales; blank uses the connection's search path, usually public.
 
-Use it
-------
+.. note::
 
-**As an agent tool.** Open the Agent Node's **+ Tool**, choose **PostgreSQL**, connect, and tick **insert** in the **Table** row. The model sees it as ``postgresql_table_insert``. Each call waits for human approval before it changes anything.
+   Each call waits for :doc:`your approval </agentic-ai-guide/safety-guardrails/human-in-the-loop>` before it changes anything in PostgreSQL.
 
-**As an App Action.** Drop **App Action** on the canvas, pick **PostgreSQL**, then **Insert a row**, and fill in the inputs above. It runs every time the flow reaches it. A canvas run skips it unless **Write when run from the canvas** is on.
+Need it on every run?
+---------------------
+
+To run **Insert a row** every time a flow reaches it, without the agent deciding, use the :doc:`Insert a row App Action </agentic-ai-guide/tools-integrations/app-action-apps/postgresql/table-insert>`.
 
 Other Table tools
 -----------------

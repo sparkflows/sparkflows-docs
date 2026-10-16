@@ -93,7 +93,7 @@ Document
 Use Google Docs as an App Action
 --------------------------------
 
-The same 4 operations are also a fixed workflow step. Drop **App Action** on the canvas, pick **Google Docs**, choose the action and fill in its details. It runs every time the flow reaches it, exactly as set; no model decides. Use it for the steps that must always happen, such as saving an approved result, and keep the agent tool for what the model should choose. See :doc:`Google Docs App Actions </agentic-ai-guide/tools-integrations/app-action-apps/google-docs>` for every action, its inputs and the trigger events.
+Google Docs also has 4 App Actions, fixed workflow steps for the same work. Drop **App Action** on the canvas, pick **Google Docs**, choose the action and fill in its details. It runs every time the flow reaches it, exactly as set; no model decides. Use it for the steps that must always happen, such as saving an approved result, and keep the agent tool for what the model should choose. See :doc:`Google Docs App Actions </agentic-ai-guide/tools-integrations/app-action-apps/google-docs>` for every action, its inputs and the trigger events.
 
 Good to know
 ------------

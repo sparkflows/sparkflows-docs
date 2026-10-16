@@ -16,8 +16,8 @@ Copy a file
      <dl class="tool-facts">
      <div><dt>Connector</dt><dd>Google Drive</dd></div>
      <div><dt>Resource</dt><dd>File</dd></div>
-     <div><dt>Type</dt><dd>Write · approval-gated</dd></div>
-     <div><dt>Available as</dt><dd>Agent tool · <a href="../../app-action-apps/google-drive.html">App Action</a></dd></div>
+     <div><dt>Type</dt><dd>Write · asks for approval</dd></div>
+     <div><dt>Tool name</dt><dd><code>google_drive_file_copy</code></dd></div>
      </dl>
    </div>
 
@@ -25,59 +25,64 @@ Copy a file
 
    Makes a copy of a file, optionally into another folder, and returns the new file's id, name and web link. Folders cannot be copied.
 
-Prerequisites
--------------
+Before you start
+----------------
 
-* **Connection:** Google connection. See :doc:`the Google Drive prerequisites <../google-drive>`.
-* The connection's account must be allowed to change this data in Google Drive.
+* A Google connection. See :doc:`how to set one up <../google-drive>`.
+* The account behind the connection must be allowed to change this data in Google Drive.
 
-Parameters
-----------
+Add it to your agent
+--------------------
 
-As an agent tool, the model fills in each parameter unless you fix it under **Fixed settings**, and in an App Action each one is a box on the **Details** step.
+#. In Agent Studio, open the **Tools** group and click **Add tools**, or click **+ Tool** on an Agent Node.
+#. Choose **Google Drive** under **Connectors** and connect your Google connection.
+#. Tick **copy** in the **File** row, then click **Add to agent**.
+
+The agent now sees ``google_drive_file_copy`` and calls it when a request needs it.
+
+What the agent fills in
+-----------------------
+
+The agent fills these in from each request. To pin a value so the agent cannot change it, set it under **Fixed settings**.
 
 .. list-table::
    :header-rows: 1
-   :widths: 18 17 11 12 42
+   :widths: 22 14 12 52
    :class: tool-params
 
    * - Parameter
-     - App Action input
      - Type
      - Required
-     - Description
+     - What it means
    * - ``fileId``
-     - File id
      - text
      - Yes
      - The file's id, from Search files or List files, never its name. Example: 1Q2w3E4r5T6y7U8i9O0pAsDfGhJkLzXcVb.
    * - ``name``
-     - Name of the copy
      - text
      - Yes
      - The copy's name. Example: Copy of Q3 Report.
    * - ``parents``
-     - Into folder
      - list of text
      - No
      - The folder to put the copy in, as a one-item list of folder ids; blank keeps the original's folder. Example: ["1Hh5TzqLmN0pQrS7uVwXyZ2aBcDeFgHiJ"].
    * - ``description``
-     - Description
      - text
      - No
      - A description for the copy. Example: Working copy for the October review..
    * - ``supportsAllDrives``
-     - Reach shared drives
      - true or false
      - No
      - true lets the call reach files that live in shared drives as well as My Drive; keep it on. Default: True.
 
-Use it
-------
+.. note::
 
-**As an agent tool.** Open the Agent Node's **+ Tool**, choose **Google Drive**, connect, and tick **copy** in the **File** row. The model sees it as ``google_drive_file_copy``. Each call waits for human approval before it changes anything.
+   Each call waits for :doc:`your approval </agentic-ai-guide/safety-guardrails/human-in-the-loop>` before it changes anything in Google Drive.
 
-**As an App Action.** Drop **App Action** on the canvas, pick **Google Drive**, then **Copy a file**, and fill in the inputs above. It runs every time the flow reaches it. A canvas run skips it unless **Write when run from the canvas** is on.
+Need it on every run?
+---------------------
+
+To run **Copy a file** every time a flow reaches it, without the agent deciding, use the :doc:`Copy a file App Action </agentic-ai-guide/tools-integrations/app-action-apps/google-drive/file-copy>`.
 
 Other File tools
 ----------------

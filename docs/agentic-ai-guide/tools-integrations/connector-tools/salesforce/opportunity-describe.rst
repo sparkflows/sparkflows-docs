@@ -17,7 +17,7 @@ Describe opportunity fields
      <div><dt>Connector</dt><dd>Salesforce</dd></div>
      <div><dt>Resource</dt><dd>Opportunity</dd></div>
      <div><dt>Type</dt><dd>Read</dd></div>
-     <div><dt>Available as</dt><dd>Agent tool · <a href="../../app-action-apps/salesforce.html">App Action</a></dd></div>
+     <div><dt>Tool name</dt><dd><code>salesforce_opportunity_describe</code></dd></div>
      </dl>
    </div>
 
@@ -25,22 +25,29 @@ Describe opportunity fields
 
    Lists every field on the Opportunity object, one row per field with its API name, label, type, length and whether it can be blank or updated. Use it to learn the org's exact field names, custom \_\_c fields included, before a create, update or query.
 
-Prerequisites
--------------
+Before you start
+----------------
 
-* **Connection:** Salesforce connection. See :doc:`the Salesforce prerequisites <../salesforce>`.
+* A Salesforce connection. See :doc:`how to set one up <../salesforce>`.
 
-Parameters
-----------
+Add it to your agent
+--------------------
 
-This tool takes no parameters.
+#. In Agent Studio, open the **Tools** group and click **Add tools**, or click **+ Tool** on an Agent Node.
+#. Choose **Salesforce** under **Connectors** and connect your Salesforce connection.
+#. Tick **describe** in the **Opportunity** row, then click **Add to agent**.
 
-Use it
-------
+The agent now sees ``salesforce_opportunity_describe`` and calls it when a request needs it.
 
-**As an agent tool.** Open the Agent Node's **+ Tool**, choose **Salesforce**, connect, and tick **describe** in the **Opportunity** row. The model sees it as ``salesforce_opportunity_describe``.
+What the agent fills in
+-----------------------
 
-**As an App Action.** Drop **App Action** on the canvas, pick **Salesforce**, then **Describe opportunity fields**, and fill in the inputs above. It runs every time the flow reaches it.
+Nothing. The agent calls it as it is.
+
+Need it on every run?
+---------------------
+
+To run **Describe opportunity fields** every time a flow reaches it, without the agent deciding, use the :doc:`Describe opportunity fields App Action </agentic-ai-guide/tools-integrations/app-action-apps/salesforce/opportunity-describe>`.
 
 Other Opportunity tools
 -----------------------

@@ -17,7 +17,7 @@ List rows
      <div><dt>Connector</dt><dd>MySQL</dd></div>
      <div><dt>Resource</dt><dd>Table</dd></div>
      <div><dt>Type</dt><dd>Read</dd></div>
-     <div><dt>Available as</dt><dd>Agent tool · <a href="../../app-action-apps/mysql.html">App Action</a></dd></div>
+     <div><dt>Tool name</dt><dd><code>mysql_table_getmany</code></dd></div>
      </dl>
    </div>
 
@@ -25,63 +25,63 @@ List rows
 
    Reads rows from one table, with an optional where filter, sort order and column list, and returns at most limit rows; the limit is part of the SQL (LIMIT), so a large table is never read whole. Use it to browse or filter one table; use Table get for one row by key and Query run for joins or grouping.
 
-Prerequisites
--------------
+Before you start
+----------------
 
-* **Connection:** MySQL connection connection. See :doc:`the MySQL prerequisites <../mysql>`.
+* A MySQL connection. See :doc:`how to set one up <../mysql>`.
 
-Parameters
-----------
+Add it to your agent
+--------------------
 
-As an agent tool, the model fills in each parameter unless you fix it under **Fixed settings**, and in an App Action each one is a box on the **Details** step.
+#. In Agent Studio, open the **Tools** group and click **Add tools**, or click **+ Tool** on an Agent Node.
+#. Choose **MySQL** under **Connectors** and connect your MySQL connection.
+#. Tick **list** in the **Table** row, then click **Add to agent**.
+
+The agent now sees ``mysql_table_getmany`` and calls it when a request needs it.
+
+What the agent fills in
+-----------------------
+
+The agent fills these in from each request. To pin a value so the agent cannot change it, set it under **Fixed settings**.
 
 .. list-table::
    :header-rows: 1
-   :widths: 18 17 11 12 42
+   :widths: 22 14 12 52
    :class: tool-params
 
    * - Parameter
-     - App Action input
      - Type
      - Required
-     - Description
+     - What it means
    * - ``table``
-     - Table
      - text
      - Yes
      - The table name as Table listTables returns it, for example customers or, with its schema, sales.customers, in letters, digits, underscore, dot and $ only (quoted names are refused).
    * - ``schema``
-     - Schema
      - text
      - No
      - The database (MySQL's word for a schema) that holds the table, when it is not the connection's default. Example: sales.
    * - ``where``
-     - Where
      - text
      - No
      - A MySQL condition without the word WHERE, used as written as one condition, so a semicolon or a comment outside quoted text is refused, for example status = 'open' AND created\_at >= NOW() - INTERVAL 7 DAY.
    * - ``orderBy``
-     - Order by
      - text
      - No
      - Columns to sort by, separated by commas, each optionally followed by asc or desc. Example: created\_at desc.
    * - ``fields``
-     - Columns to return
      - list of text
      - No
      - Column names to return; blank returns every column. Example: ["id", "name", "email"].
    * - ``limit``
-     - Limit
      - whole number
      - No
      - How many rows at most. Default: 50.
 
-Use it
-------
+Need it on every run?
+---------------------
 
-**As an agent tool.** Open the Agent Node's **+ Tool**, choose **MySQL**, connect, and tick **list** in the **Table** row. The model sees it as ``mysql_table_getmany``.
-
-**As an App Action.** Drop **App Action** on the canvas, pick **MySQL**, then **List rows**, and fill in the inputs above. It runs every time the flow reaches it.
+To run **List rows** every time a flow reaches it, without the agent deciding, use the :doc:`List rows App Action </agentic-ai-guide/tools-integrations/app-action-apps/mysql/table-getmany>`.
 
 Other Table tools
 -----------------

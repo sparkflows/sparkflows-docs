@@ -16,8 +16,8 @@ Delete a tab
      <dl class="tool-facts">
      <div><dt>Connector</dt><dd>Google Sheets</dd></div>
      <div><dt>Resource</dt><dd>Sheet</dd></div>
-     <div><dt>Type</dt><dd>Delete · approval-gated</dd></div>
-     <div><dt>Available as</dt><dd>Agent tool · <a href="../../app-action-apps/google-sheets.html">App Action</a></dd></div>
+     <div><dt>Type</dt><dd>Delete · asks for approval</dd></div>
+     <div><dt>Tool name</dt><dd><code>google_sheets_sheet_delete</code></dd></div>
      </dl>
    </div>
 
@@ -25,44 +25,52 @@ Delete a tab
 
    Deletes a tab and everything on it from a spreadsheet. The tab is named by its numeric sheetId, which List tabs returns; only the version history can bring it back.
 
-Prerequisites
--------------
+Before you start
+----------------
 
-* **Connection:** Google connection. See :doc:`the Google Sheets prerequisites <../google-sheets>`.
-* The connection's account must be allowed to change this data in Google Sheets.
+* A Google connection. See :doc:`how to set one up <../google-sheets>`.
+* The account behind the connection must be allowed to change this data in Google Sheets.
 
-Parameters
-----------
+Add it to your agent
+--------------------
 
-As an agent tool, the model fills in each parameter unless you fix it under **Fixed settings**, and in an App Action each one is a box on the **Details** step.
+#. In Agent Studio, open the **Tools** group and click **Add tools**, or click **+ Tool** on an Agent Node.
+#. Choose **Google Sheets** under **Connectors** and connect your Google connection.
+#. Tick **delete** in the **Sheet** row, then click **Add to agent**.
+
+The agent now sees ``google_sheets_sheet_delete`` and calls it when a request needs it.
+
+What the agent fills in
+-----------------------
+
+The agent fills these in from each request. To pin a value so the agent cannot change it, set it under **Fixed settings**.
 
 .. list-table::
    :header-rows: 1
-   :widths: 18 17 11 12 42
+   :widths: 22 14 12 52
    :class: tool-params
 
    * - Parameter
-     - App Action input
      - Type
      - Required
-     - Description
+     - What it means
    * - ``spreadsheet``
-     - Spreadsheet
      - text
      - Yes
      - The spreadsheet's id (the long key in its URL, between /d/ and /edit) or its exact name, which is looked up among the spreadsheets pinned on this tool and then in Google Drive. Example: 1BxiMVs0XRA5nFMdKvBdBZjgmUUqptlbs74OgvE2upms.
    * - ``sheetId``
-     - Tab id
      - whole number
      - Yes
      - The tab's numeric sheetId, not its name, from List tabs (properties.sheetId) or Add a tab. Example: 1843561202.
 
-Use it
-------
+.. note::
 
-**As an agent tool.** Open the Agent Node's **+ Tool**, choose **Google Sheets**, connect, and tick **delete** in the **Sheet** row. The model sees it as ``google_sheets_sheet_delete``. Each call waits for human approval before it changes anything.
+   Each call waits for :doc:`your approval </agentic-ai-guide/safety-guardrails/human-in-the-loop>` before it changes anything in Google Sheets.
 
-**As an App Action.** Drop **App Action** on the canvas, pick **Google Sheets**, then **Delete a tab**, and fill in the inputs above. It runs every time the flow reaches it. A canvas run skips it unless **Write when run from the canvas** is on.
+Need it on every run?
+---------------------
+
+To run **Delete a tab** every time a flow reaches it, without the agent deciding, use the :doc:`Delete a tab App Action </agentic-ai-guide/tools-integrations/app-action-apps/google-sheets/sheet-delete>`.
 
 Other Sheet tools
 -----------------

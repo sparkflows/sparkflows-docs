@@ -16,8 +16,8 @@ Set a channel topic
      <dl class="tool-facts">
      <div><dt>Connector</dt><dd>Slack</dd></div>
      <div><dt>Resource</dt><dd>Channel</dd></div>
-     <div><dt>Type</dt><dd>Write · approval-gated</dd></div>
-     <div><dt>Available as</dt><dd>Agent tool · <a href="../../app-action-apps/slack.html">App Action</a></dd></div>
+     <div><dt>Type</dt><dd>Write · asks for approval</dd></div>
+     <div><dt>Tool name</dt><dd><code>slack_channel_settopic</code></dd></div>
      </dl>
    </div>
 
@@ -25,44 +25,52 @@ Set a channel topic
 
    Sets the topic shown in the channel header and returns the channel. The topic is plain text up to 250 characters; the channel's description is set with Channel setPurpose.
 
-Prerequisites
--------------
+Before you start
+----------------
 
-* **Connection:** Slack connection. See :doc:`the Slack prerequisites <../slack>`.
-* The connection's account must be allowed to change this data in Slack.
+* A Slack connection. See :doc:`how to set one up <../slack>`.
+* The account behind the connection must be allowed to change this data in Slack.
 
-Parameters
-----------
+Add it to your agent
+--------------------
 
-As an agent tool, the model fills in each parameter unless you fix it under **Fixed settings**, and in an App Action each one is a box on the **Details** step.
+#. In Agent Studio, open the **Tools** group and click **Add tools**, or click **+ Tool** on an Agent Node.
+#. Choose **Slack** under **Connectors** and connect your Slack connection.
+#. Tick **setTopic** in the **Channel** row, then click **Add to agent**.
+
+The agent now sees ``slack_channel_settopic`` and calls it when a request needs it.
+
+What the agent fills in
+-----------------------
+
+The agent fills these in from each request. To pin a value so the agent cannot change it, set it under **Fixed settings**.
 
 .. list-table::
    :header-rows: 1
-   :widths: 18 17 11 12 42
+   :widths: 22 14 12 52
    :class: tool-params
 
    * - Parameter
-     - App Action input
      - Type
      - Required
-     - Description
+     - What it means
    * - ``channel``
-     - Channel
      - text
      - Yes
      - The channel ID, for example C0123ABC; Channel getMany finds it from the channel's name.
    * - ``topic``
-     - Topic
      - text
      - Yes
      - The new topic, plain text up to 250 characters. Example: Launch day: Oct 14.
 
-Use it
-------
+.. note::
 
-**As an agent tool.** Open the Agent Node's **+ Tool**, choose **Slack**, connect, and tick **setTopic** in the **Channel** row. The model sees it as ``slack_channel_settopic``. Each call waits for human approval before it changes anything.
+   Each call waits for :doc:`your approval </agentic-ai-guide/safety-guardrails/human-in-the-loop>` before it changes anything in Slack.
 
-**As an App Action.** Drop **App Action** on the canvas, pick **Slack**, then **Set a channel topic**, and fill in the inputs above. It runs every time the flow reaches it. A canvas run skips it unless **Write when run from the canvas** is on.
+Need it on every run?
+---------------------
+
+To run **Set a channel topic** every time a flow reaches it, without the agent deciding, use the :doc:`Set a channel topic App Action </agentic-ai-guide/tools-integrations/app-action-apps/slack/channel-settopic>`.
 
 Other Channel tools
 -------------------

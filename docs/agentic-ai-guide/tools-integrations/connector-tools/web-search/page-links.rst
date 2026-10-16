@@ -17,7 +17,7 @@ List the links on a page
      <div><dt>Connector</dt><dd>Web Search</dd></div>
      <div><dt>Resource</dt><dd>Page</dd></div>
      <div><dt>Type</dt><dd>Read</dd></div>
-     <div><dt>Available as</dt><dd>Agent tool · <a href="../../app-action-apps/web-search.html">App Action</a></dd></div>
+     <div><dt>Tool name</dt><dd><code>web_tools_page_links</code></dd></div>
      </dl>
    </div>
 
@@ -25,48 +25,51 @@ List the links on a page
 
    Fetches a page and returns the unique links in it as absolute URLs with their host, capped at limit; by default only links to the page's own host. Relative links are resolved the way a browser does.
 
-Prerequisites
--------------
+Before you start
+----------------
 
-* **Connection:** Serper (searches only) connection. See :doc:`the Web Search prerequisites <../web-search>`.
+* A Serper (searches only) connection. See :doc:`how to set one up <../web-search>`.
 
-Parameters
-----------
+Add it to your agent
+--------------------
 
-As an agent tool, the model fills in each parameter unless you fix it under **Fixed settings**, and in an App Action each one is a box on the **Details** step.
+#. In Agent Studio, open the **Tools** group and click **Add tools**, or click **+ Tool** on an Agent Node.
+#. Choose **Web Search** under **Connectors** and connect your Serper (searches only) connection.
+#. Tick **links** in the **Page** row, then click **Add to agent**.
+
+The agent now sees ``web_tools_page_links`` and calls it when a request needs it.
+
+What the agent fills in
+-----------------------
+
+The agent fills these in from each request. To pin a value so the agent cannot change it, set it under **Fixed settings**.
 
 .. list-table::
    :header-rows: 1
-   :widths: 18 17 11 12 42
+   :widths: 22 14 12 52
    :class: tool-params
 
    * - Parameter
-     - App Action input
      - Type
      - Required
-     - Description
+     - What it means
    * - ``url``
-     - URL
      - text
      - Yes
      - The page's address; https:// is added when no scheme is given, and cloud metadata and link-local addresses such as 169.254.169.254 are refused. Example: https://www.sparkflows.io/.
    * - ``sameHostOnly``
-     - Same host only
      - true or false
      - No
      - true keeps links to the page's own host only. Default: True.
    * - ``limit``
-     - Limit
      - whole number
      - No
      - How many links at most. Default: 50.
 
-Use it
-------
+Need it on every run?
+---------------------
 
-**As an agent tool.** Open the Agent Node's **+ Tool**, choose **Web Search**, connect, and tick **links** in the **Page** row. The model sees it as ``web_tools_page_links``.
-
-**As an App Action.** Drop **App Action** on the canvas, pick **Web Search**, then **List the links on a page**, and fill in the inputs above. It runs every time the flow reaches it.
+To run **List the links on a page** every time a flow reaches it, without the agent deciding, use the :doc:`List the links on a page App Action </agentic-ai-guide/tools-integrations/app-action-apps/web-search/page-links>`.
 
 Other Page tools
 ----------------

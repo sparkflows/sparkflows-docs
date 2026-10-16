@@ -17,7 +17,7 @@ Get a document
      <div><dt>Connector</dt><dd>Google Docs</dd></div>
      <div><dt>Resource</dt><dd>Document</dd></div>
      <div><dt>Type</dt><dd>Read</dd></div>
-     <div><dt>Available as</dt><dd>Agent tool · <a href="../../app-action-apps/google-docs.html">App Action</a></dd></div>
+     <div><dt>Tool name</dt><dd><code>google_docs_document_get</code></dd></div>
      </dl>
    </div>
 
@@ -25,38 +25,43 @@ Get a document
 
    Returns a document's full structure: title, revision id and body content with the start and end index of every paragraph, table and text run. Use it only when those indices are needed to edit at a given position; Read a document as text is far smaller for reading.
 
-Prerequisites
--------------
+Before you start
+----------------
 
-* **Connection:** Google connection. See :doc:`the Google Docs prerequisites <../google-docs>`.
+* A Google connection. See :doc:`how to set one up <../google-docs>`.
 
-Parameters
-----------
+Add it to your agent
+--------------------
 
-As an agent tool, the model fills in each parameter unless you fix it under **Fixed settings**, and in an App Action each one is a box on the **Details** step.
+#. In Agent Studio, open the **Tools** group and click **Add tools**, or click **+ Tool** on an Agent Node.
+#. Choose **Google Docs** under **Connectors** and connect your Google connection.
+#. Tick **get** in the **Document** row, then click **Add to agent**.
+
+The agent now sees ``google_docs_document_get`` and calls it when a request needs it.
+
+What the agent fills in
+-----------------------
+
+The agent fills these in from each request. To pin a value so the agent cannot change it, set it under **Fixed settings**.
 
 .. list-table::
    :header-rows: 1
-   :widths: 18 17 11 12 42
+   :widths: 22 14 12 52
    :class: tool-params
 
    * - Parameter
-     - App Action input
      - Type
      - Required
-     - Description
+     - What it means
    * - ``document``
-     - Document
      - text
      - Yes
      - The document's id, its full URL (https://docs.google.com/document/d/...), or its exact title, which is looked up among the documents pinned on this tool and then in Google Drive. Example: 1mXqB4f0nW8uYt2VZkqzJ3cHd9L5rPoA7sE6gTiKwUbN.
 
-Use it
-------
+Need it on every run?
+---------------------
 
-**As an agent tool.** Open the Agent Node's **+ Tool**, choose **Google Docs**, connect, and tick **get** in the **Document** row. The model sees it as ``google_docs_document_get``.
-
-**As an App Action.** Drop **App Action** on the canvas, pick **Google Docs**, then **Get a document**, and fill in the inputs above. It runs every time the flow reaches it.
+To run **Get a document** every time a flow reaches it, without the agent deciding, use the :doc:`Get a document App Action </agentic-ai-guide/tools-integrations/app-action-apps/google-docs/document-get>`.
 
 Other Document tools
 --------------------

@@ -16,8 +16,8 @@ Send a PATCH request
      <dl class="tool-facts">
      <div><dt>Connector</dt><dd>Web Search</dd></div>
      <div><dt>Resource</dt><dd>Request</dd></div>
-     <div><dt>Type</dt><dd>Write · approval-gated</dd></div>
-     <div><dt>Available as</dt><dd>Agent tool · <a href="../../app-action-apps/web-search.html">App Action</a></dd></div>
+     <div><dt>Type</dt><dd>Write · asks for approval</dd></div>
+     <div><dt>Tool name</dt><dd><code>web_tools_request_patch</code></dd></div>
      </dl>
    </div>
 
@@ -25,54 +25,60 @@ Send a PATCH request
 
    Sends an HTTP PATCH with a JSON body to a URL, usually to change part of a resource, and returns the response as JSON text (json) or as text (body). The HTTP code comes back as httpStatus, and a 4xx or 5xx answer reads as failed.
 
-Prerequisites
--------------
+Before you start
+----------------
 
-* **Connection:** Serper (searches only) connection. See :doc:`the Web Search prerequisites <../web-search>`.
-* The connection's account must be allowed to change this data in Web Search.
+* A Serper (searches only) connection. See :doc:`how to set one up <../web-search>`.
+* The account behind the connection must be allowed to change this data in Web Search.
 
-Parameters
-----------
+Add it to your agent
+--------------------
 
-As an agent tool, the model fills in each parameter unless you fix it under **Fixed settings**, and in an App Action each one is a box on the **Details** step.
+#. In Agent Studio, open the **Tools** group and click **Add tools**, or click **+ Tool** on an Agent Node.
+#. Choose **Web Search** under **Connectors** and connect your Serper (searches only) connection.
+#. Tick **patch** in the **Request** row, then click **Add to agent**.
+
+The agent now sees ``web_tools_request_patch`` and calls it when a request needs it.
+
+What the agent fills in
+-----------------------
+
+The agent fills these in from each request. To pin a value so the agent cannot change it, set it under **Fixed settings**.
 
 .. list-table::
    :header-rows: 1
-   :widths: 18 17 11 12 42
+   :widths: 22 14 12 52
    :class: tool-params
 
    * - Parameter
-     - App Action input
      - Type
      - Required
-     - Description
+     - What it means
    * - ``url``
-     - URL
      - text
      - Yes
      - The address to request, with any query parameters in it; https:// is added when no scheme is given, and cloud metadata and link-local addresses such as 169.254.169.254 are refused. Example: https://api.example.com/v1/orders?status=open.
    * - ``body``
-     - Body
      - JSON object
      - No
      - The JSON body to send. Example: {"name": "Acme", "plan": "pro"}.
    * - ``headers``
-     - Headers
      - JSON object
      - No
      - Extra request headers as a JSON object, such as Authorization, sent beside a Sparkflows User-Agent; a JSON body goes with Content-Type: application/json unless a Content-Type is set here. Example: {"Authorization": "Bearer <token>", "Accept": "application/json"}.
    * - ``maxChars``
-     - Characters kept
      - whole number
      - No
      - The most characters of the response kept. Default: 60000.
 
-Use it
-------
+.. note::
 
-**As an agent tool.** Open the Agent Node's **+ Tool**, choose **Web Search**, connect, and tick **patch** in the **Request** row. The model sees it as ``web_tools_request_patch``. Each call waits for human approval before it changes anything.
+   Each call waits for :doc:`your approval </agentic-ai-guide/safety-guardrails/human-in-the-loop>` before it changes anything in Web Search.
 
-**As an App Action.** Drop **App Action** on the canvas, pick **Web Search**, then **Send a PATCH request**, and fill in the inputs above. It runs every time the flow reaches it. A canvas run skips it unless **Write when run from the canvas** is on.
+Need it on every run?
+---------------------
+
+To run **Send a PATCH request** every time a flow reaches it, without the agent deciding, use the :doc:`Send a PATCH request App Action </agentic-ai-guide/tools-integrations/app-action-apps/web-search/request-patch>`.
 
 Other Request tools
 -------------------

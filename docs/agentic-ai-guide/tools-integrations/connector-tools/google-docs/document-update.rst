@@ -16,8 +16,8 @@ Update a document
      <dl class="tool-facts">
      <div><dt>Connector</dt><dd>Google Docs</dd></div>
      <div><dt>Resource</dt><dd>Document</dd></div>
-     <div><dt>Type</dt><dd>Write · approval-gated</dd></div>
-     <div><dt>Available as</dt><dd>Agent tool · <a href="../../app-action-apps/google-docs.html">App Action</a></dd></div>
+     <div><dt>Type</dt><dd>Write · asks for approval</dd></div>
+     <div><dt>Tool name</dt><dd><code>google_docs_document_update</code></dd></div>
      </dl>
    </div>
 
@@ -25,56 +25,62 @@ Update a document
 
    Edits a document through the Docs batchUpdate API and returns the document id and its new revision. Give text, and optionally index, to insert text; give requests for any other edit, such as appending at the end, replacing placeholder text, formatting or deleting a range.
 
-Prerequisites
--------------
+Before you start
+----------------
 
-* **Connection:** Google connection. See :doc:`the Google Docs prerequisites <../google-docs>`.
-* The connection's account must be allowed to change this data in Google Docs.
+* A Google connection. See :doc:`how to set one up <../google-docs>`.
+* The account behind the connection must be allowed to change this data in Google Docs.
 
-Parameters
-----------
+Add it to your agent
+--------------------
 
-As an agent tool, the model fills in each parameter unless you fix it under **Fixed settings**, and in an App Action each one is a box on the **Details** step.
+#. In Agent Studio, open the **Tools** group and click **Add tools**, or click **+ Tool** on an Agent Node.
+#. Choose **Google Docs** under **Connectors** and connect your Google connection.
+#. Tick **update** in the **Document** row, then click **Add to agent**.
+
+The agent now sees ``google_docs_document_update`` and calls it when a request needs it.
+
+What the agent fills in
+-----------------------
+
+The agent fills these in from each request. To pin a value so the agent cannot change it, set it under **Fixed settings**.
 
 .. list-table::
    :header-rows: 1
-   :widths: 18 17 11 12 42
+   :widths: 22 14 12 52
    :class: tool-params
 
    * - Parameter
-     - App Action input
      - Type
      - Required
-     - Description
+     - What it means
    * - ``document``
-     - Document
      - text
      - Yes
      - The document's id, its full URL (https://docs.google.com/document/d/...), or its exact title, which is looked up among the documents pinned on this tool and then in Google Drive. Example: 1mXqB4f0nW8uYt2VZkqzJ3cHd9L5rPoA7sE6gTiKwUbN.
    * - ``text``
-     - Text to insert
      - text
      - No
      - The text to insert at index, with a newline character wherever a new paragraph should start. Example: Action items
        Asha to send the revised quote by Friday.
        .
    * - ``index``
-     - Insert at index
      - whole number
      - No
      - The position to insert text at: 1 is the very start of the body, and other positions are the startIndex values Get a document returns. Default: 1.
    * - ``requests``
-     - Docs API requests
      - JSON object
      - No
      - One Docs API request, or {"requests": [...]} for several applied in order, such as {"replaceAllText": {"containsText": {"text": "{{client}}", "matchCase": true}, "replaceText": "Acme"}}; when it is given, text and index are ignored. Example: {"insertText": {"endOfSegmentLocation": {}, "text": "\\nNext review on 14 Oct."}}.
 
-Use it
-------
+.. note::
 
-**As an agent tool.** Open the Agent Node's **+ Tool**, choose **Google Docs**, connect, and tick **update** in the **Document** row. The model sees it as ``google_docs_document_update``. Each call waits for human approval before it changes anything.
+   Each call waits for :doc:`your approval </agentic-ai-guide/safety-guardrails/human-in-the-loop>` before it changes anything in Google Docs.
 
-**As an App Action.** Drop **App Action** on the canvas, pick **Google Docs**, then **Update a document**, and fill in the inputs above. It runs every time the flow reaches it. A canvas run skips it unless **Write when run from the canvas** is on.
+Need it on every run?
+---------------------
+
+To run **Update a document** every time a flow reaches it, without the agent deciding, use the :doc:`Update a document App Action </agentic-ai-guide/tools-integrations/app-action-apps/google-docs/document-update>`.
 
 Other Document tools
 --------------------

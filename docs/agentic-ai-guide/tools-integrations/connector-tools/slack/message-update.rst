@@ -16,8 +16,8 @@ Update a message
      <dl class="tool-facts">
      <div><dt>Connector</dt><dd>Slack</dd></div>
      <div><dt>Resource</dt><dd>Message</dd></div>
-     <div><dt>Type</dt><dd>Write · approval-gated</dd></div>
-     <div><dt>Available as</dt><dd>Agent tool · <a href="../../app-action-apps/slack.html">App Action</a></dd></div>
+     <div><dt>Type</dt><dd>Write · asks for approval</dd></div>
+     <div><dt>Tool name</dt><dd><code>slack_message_update</code></dd></div>
      </dl>
    </div>
 
@@ -25,54 +25,60 @@ Update a message
 
    Changes the text of a message the app posted earlier and returns the updated message. A bot token can edit only the app's own messages; to post a new message instead use Message send.
 
-Prerequisites
--------------
+Before you start
+----------------
 
-* **Connection:** Slack connection. See :doc:`the Slack prerequisites <../slack>`.
-* The connection's account must be allowed to change this data in Slack.
+* A Slack connection. See :doc:`how to set one up <../slack>`.
+* The account behind the connection must be allowed to change this data in Slack.
 
-Parameters
-----------
+Add it to your agent
+--------------------
 
-As an agent tool, the model fills in each parameter unless you fix it under **Fixed settings**, and in an App Action each one is a box on the **Details** step.
+#. In Agent Studio, open the **Tools** group and click **Add tools**, or click **+ Tool** on an Agent Node.
+#. Choose **Slack** under **Connectors** and connect your Slack connection.
+#. Tick **update** in the **Message** row, then click **Add to agent**.
+
+The agent now sees ``slack_message_update`` and calls it when a request needs it.
+
+What the agent fills in
+-----------------------
+
+The agent fills these in from each request. To pin a value so the agent cannot change it, set it under **Fixed settings**.
 
 .. list-table::
    :header-rows: 1
-   :widths: 18 17 11 12 42
+   :widths: 22 14 12 52
    :class: tool-params
 
    * - Parameter
-     - App Action input
      - Type
      - Required
-     - Description
+     - What it means
    * - ``channel``
-     - Channel
      - text
      - Yes
      - The ID of the channel that holds the message, for example C0123ABC.
    * - ``messageTs``
-     - Message ts
      - text
      - Yes
      - The ts of the message to change, for example 1712345678.000100; Message send returns it and Channel history lists it.
    * - ``text``
-     - New text
      - text
      - Yes
      - The message text in Slack mrkdwn: \*bold\*, \_italic\_, \`code\`, <https://example.com\|a link>, <@U0123ABC> to mention someone. Example: Build 42 finished: 2 tests failed..
    * - ``blocks``
-     - Blocks
      - list of JSON object
      - No
      - Block Kit layout blocks for a formatted message, for example [{"type": "section", "text": {"type": "mrkdwn", "text": "\*Deploy done\*"}}]; text is then the notification fallback.
 
-Use it
-------
+.. note::
 
-**As an agent tool.** Open the Agent Node's **+ Tool**, choose **Slack**, connect, and tick **update** in the **Message** row. The model sees it as ``slack_message_update``. Each call waits for human approval before it changes anything.
+   Each call waits for :doc:`your approval </agentic-ai-guide/safety-guardrails/human-in-the-loop>` before it changes anything in Slack.
 
-**As an App Action.** Drop **App Action** on the canvas, pick **Slack**, then **Update a message**, and fill in the inputs above. It runs every time the flow reaches it. A canvas run skips it unless **Write when run from the canvas** is on.
+Need it on every run?
+---------------------
+
+To run **Update a message** every time a flow reaches it, without the agent deciding, use the :doc:`Update a message App Action </agentic-ai-guide/tools-integrations/app-action-apps/slack/message-update>`.
 
 Other Message tools
 -------------------

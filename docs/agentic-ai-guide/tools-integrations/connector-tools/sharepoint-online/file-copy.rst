@@ -16,8 +16,8 @@ Copy a file
      <dl class="tool-facts">
      <div><dt>Connector</dt><dd>SharePoint Online</dd></div>
      <div><dt>Resource</dt><dd>File</dd></div>
-     <div><dt>Type</dt><dd>Write · approval-gated</dd></div>
-     <div><dt>Available as</dt><dd>Agent tool · <a href="../../app-action-apps/sharepoint-online.html">App Action</a></dd></div>
+     <div><dt>Type</dt><dd>Write · asks for approval</dd></div>
+     <div><dt>Tool name</dt><dd><code>sharepoint_online_file_copy</code></dd></div>
      </dl>
    </div>
 
@@ -25,59 +25,64 @@ Copy a file
 
    Copies a file or folder into another folder, optionally under a new name. SharePoint makes the copy in the background, so the new item's id is not returned; list the destination folder afterwards to find it.
 
-Prerequisites
--------------
+Before you start
+----------------
 
-* **Connection:** Microsoft Graph or SharePoint connection. See :doc:`the SharePoint Online prerequisites <../sharepoint-online>`.
-* The connection's account must be allowed to change this data in SharePoint Online.
+* A Microsoft Graph or SharePoint connection. See :doc:`how to set one up <../sharepoint-online>`.
+* The account behind the connection must be allowed to change this data in SharePoint Online.
 
-Parameters
-----------
+Add it to your agent
+--------------------
 
-As an agent tool, the model fills in each parameter unless you fix it under **Fixed settings**, and in an App Action each one is a box on the **Details** step.
+#. In Agent Studio, open the **Tools** group and click **Add tools**, or click **+ Tool** on an Agent Node.
+#. Choose **SharePoint Online** under **Connectors** and connect your Microsoft Graph or SharePoint connection.
+#. Tick **copy** in the **File** row, then click **Add to agent**.
+
+The agent now sees ``sharepoint_online_file_copy`` and calls it when a request needs it.
+
+What the agent fills in
+-----------------------
+
+The agent fills these in from each request. To pin a value so the agent cannot change it, set it under **Fixed settings**.
 
 .. list-table::
    :header-rows: 1
-   :widths: 18 17 11 12 42
+   :widths: 22 14 12 52
    :class: tool-params
 
    * - Parameter
-     - App Action input
      - Type
      - Required
-     - Description
+     - What it means
    * - ``file``
-     - File or folder
      - text
      - Yes
      - The file or folder to copy, as a path such as Templates/budget.xlsx or its item id.
    * - ``site``
-     - Site
      - text
      - No
      - The site as its URL, name or id; blank uses the site on the connection. Example: https://contoso.sharepoint.com/sites/Finance.
    * - ``destinationFolderId``
-     - Into folder (id)
      - text
      - No
      - The item id of the folder to copy into, from the id column of File getMany or File get; blank copies into the same folder. Example: 01BYE5RZ6QN3ZWBTUFOFD3GSPGOHDJD36K.
    * - ``destinationDriveId``
-     - Into library (id)
      - text
      - No
      - The id of the library that holds the destination folder, from Drive getMany; needed when copying into another library. Example: b!-RIj2DuyvEyV1T4NlOaMHk8XkS\_I8MdFlUCq1BlcjgmhRfAj3-Z8RY2VpuvV\_tpd.
    * - ``newName``
-     - Name of the copy
      - text
      - No
      - The copy's name; needed when copying into the same folder. Example: budget-2027.xlsx.
 
-Use it
-------
+.. note::
 
-**As an agent tool.** Open the Agent Node's **+ Tool**, choose **SharePoint Online**, connect, and tick **copy** in the **File** row. The model sees it as ``sharepoint_online_file_copy``. Each call waits for human approval before it changes anything.
+   Each call waits for :doc:`your approval </agentic-ai-guide/safety-guardrails/human-in-the-loop>` before it changes anything in SharePoint Online.
 
-**As an App Action.** Drop **App Action** on the canvas, pick **SharePoint**, then **Copy a file**, and fill in the inputs above. It runs every time the flow reaches it. A canvas run skips it unless **Write when run from the canvas** is on.
+Need it on every run?
+---------------------
+
+To run **Copy a file** every time a flow reaches it, without the agent deciding, use the :doc:`Copy a file App Action </agentic-ai-guide/tools-integrations/app-action-apps/sharepoint-online/file-copy>`.
 
 Other File tools
 ----------------

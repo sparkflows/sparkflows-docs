@@ -10,7 +10,7 @@ SQL Server Tools
    <div class="tool-hero">
      <img class="tool-hero-logo" src="../../../_static/img/tools/sqlserver.svg" alt="SQL Server logo">
      <dl class="tool-facts">
-     <div><dt>Connection</dt><dd>SQL Server connection</dd></div>
+     <div><dt>Connection</dt><dd>SQL Server</dd></div>
      <div><dt>Tools</dt><dd>11 across 2 resources</dd></div>
      <div><dt>Reads / writes</dt><dd>6 / 5</dd></div>
      <div><dt>Available as</dt><dd>Agent tool · App Action</dd></div>
@@ -39,7 +39,7 @@ Add SQL Server to an agent
 
 #. In Agent Studio, open the **Tools** group and click **Add tools**, or click **+ Tool** on an Agent Node on the canvas.
 #. Choose **SQL Server** under **Connectors**, or type ``sql server`` in the search box.
-#. **Connect.** Choose your SQL Server connection connection and click **Test connection**. The rest of the screen unlocks when it shows **Connected**.
+#. **Connect.** Choose your SQL Server connection and click **Test connection**. The rest of the screen unlocks when it shows **Connected**.
 #. **How the agent sees it.** Keep **A separate tool for each one**, so the agent picks each operation by name.
 #. **Tick the operations.** The grid opens with the **Look things up** pack: reads only. Add each write the agent needs; every write waits for approval when it runs.
 #. Click **Add to agent**. The ticked operations arrive as one SQL Server node, joined to the Agent Node by a dashed tool link.
@@ -126,7 +126,7 @@ Query
 Use SQL Server as an App Action
 -------------------------------
 
-The same 11 operations are also a fixed workflow step. Drop **App Action** on the canvas, pick **SQL Server**, choose the action and fill in its details. It runs every time the flow reaches it, exactly as set; no model decides. Use it for the steps that must always happen, such as saving an approved result, and keep the agent tool for what the model should choose. See :doc:`SQL Server App Actions </agentic-ai-guide/tools-integrations/app-action-apps/sql-server>` for every action, its inputs and the trigger events.
+SQL Server also has 11 App Actions, fixed workflow steps for the same work. Drop **App Action** on the canvas, pick **SQL Server**, choose the action and fill in its details. It runs every time the flow reaches it, exactly as set; no model decides. Use it for the steps that must always happen, such as saving an approved result, and keep the agent tool for what the model should choose. See :doc:`SQL Server App Actions </agentic-ai-guide/tools-integrations/app-action-apps/sql-server>` for every action, its inputs and the trigger events.
 
 Good to know
 ------------

@@ -16,8 +16,8 @@ Convert a lead
      <dl class="tool-facts">
      <div><dt>Connector</dt><dd>Salesforce</dd></div>
      <div><dt>Resource</dt><dd>Lead</dd></div>
-     <div><dt>Type</dt><dd>Write · approval-gated</dd></div>
-     <div><dt>Available as</dt><dd>Agent tool · <a href="../../app-action-apps/salesforce.html">App Action</a></dd></div>
+     <div><dt>Type</dt><dd>Write · asks for approval</dd></div>
+     <div><dt>Tool name</dt><dd><code>salesforce_lead_convert</code></dd></div>
      </dl>
    </div>
 
@@ -25,49 +25,56 @@ Convert a lead
 
    Converts a lead into an account and a contact, plus an opportunity unless doNotCreateOpportunity is true, and returns Salesforce's answer. Use it once a lead is qualified; a converted lead can no longer be edited.
 
-Prerequisites
--------------
+Before you start
+----------------
 
-* **Connection:** Salesforce connection. See :doc:`the Salesforce prerequisites <../salesforce>`.
-* The connection's account must be allowed to change this data in Salesforce.
+* A Salesforce connection. See :doc:`how to set one up <../salesforce>`.
+* The account behind the connection must be allowed to change this data in Salesforce.
 
-Parameters
-----------
+Add it to your agent
+--------------------
 
-As an agent tool, the model fills in each parameter unless you fix it under **Fixed settings**, and in an App Action each one is a box on the **Details** step.
+#. In Agent Studio, open the **Tools** group and click **Add tools**, or click **+ Tool** on an Agent Node.
+#. Choose **Salesforce** under **Connectors** and connect your Salesforce connection.
+#. Tick **convert** in the **Lead** row, then click **Add to agent**.
+
+The agent now sees ``salesforce_lead_convert`` and calls it when a request needs it.
+
+What the agent fills in
+-----------------------
+
+The agent fills these in from each request. To pin a value so the agent cannot change it, set it under **Fixed settings**.
 
 .. list-table::
    :header-rows: 1
-   :widths: 18 17 11 12 42
+   :widths: 22 14 12 52
    :class: tool-params
 
    * - Parameter
-     - App Action input
      - Type
      - Required
-     - Description
+     - What it means
    * - ``leadId``
-     - Lead Id
      - text
      - Yes
      - The lead's Salesforce Id, 15 or 18 characters starting 00Q, for example 00QXX000001Bc3K; List leads returns it.
    * - ``convertedStatus``
-     - Converted status
      - text
      - No
      - A lead status that this org marks as converted, for example Closed - Converted; blank sends Qualified.
    * - ``doNotCreateOpportunity``
-     - Skip the opportunity
      - true or false
      - No
      - true converts the lead without creating an opportunity. Example: false.
 
-Use it
-------
+.. note::
 
-**As an agent tool.** Open the Agent Node's **+ Tool**, choose **Salesforce**, connect, and tick **convert** in the **Lead** row. The model sees it as ``salesforce_lead_convert``. Each call waits for human approval before it changes anything.
+   Each call waits for :doc:`your approval </agentic-ai-guide/safety-guardrails/human-in-the-loop>` before it changes anything in Salesforce.
 
-**As an App Action.** Drop **App Action** on the canvas, pick **Salesforce**, then **Convert a lead**, and fill in the inputs above. It runs every time the flow reaches it. A canvas run skips it unless **Write when run from the canvas** is on.
+Need it on every run?
+---------------------
+
+To run **Convert a lead** every time a flow reaches it, without the agent deciding, use the :doc:`Convert a lead App Action </agentic-ai-guide/tools-integrations/app-action-apps/salesforce/lead-convert>`.
 
 Other Lead tools
 ----------------

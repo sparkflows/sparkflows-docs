@@ -16,8 +16,8 @@ Create or update a custom object record by external id
      <dl class="tool-facts">
      <div><dt>Connector</dt><dd>Salesforce</dd></div>
      <div><dt>Resource</dt><dd>Custom Object</dd></div>
-     <div><dt>Type</dt><dd>Write · approval-gated</dd></div>
-     <div><dt>Available as</dt><dd>Agent tool · <a href="../../app-action-apps/salesforce.html">App Action</a></dd></div>
+     <div><dt>Type</dt><dd>Write · asks for approval</dd></div>
+     <div><dt>Tool name</dt><dd><code>salesforce_custom_object_upsert</code></dd></div>
      </dl>
    </div>
 
@@ -25,49 +25,56 @@ Create or update a custom object record by external id
 
    Creates a record of the custom object, or updates the one whose external id field already holds the same value, so a repeated sync never makes duplicates; returns the external id. Use Create a custom object record or Update a custom object record when there is no external id.
 
-Prerequisites
--------------
+Before you start
+----------------
 
-* **Connection:** Salesforce connection. See :doc:`the Salesforce prerequisites <../salesforce>`.
-* The connection's account must be allowed to change this data in Salesforce.
+* A Salesforce connection. See :doc:`how to set one up <../salesforce>`.
+* The account behind the connection must be allowed to change this data in Salesforce.
 
-Parameters
-----------
+Add it to your agent
+--------------------
 
-As an agent tool, the model fills in each parameter unless you fix it under **Fixed settings**, and in an App Action each one is a box on the **Details** step.
+#. In Agent Studio, open the **Tools** group and click **Add tools**, or click **+ Tool** on an Agent Node.
+#. Choose **Salesforce** under **Connectors** and connect your Salesforce connection.
+#. Tick **upsert** in the **Custom Object** row, then click **Add to agent**.
+
+The agent now sees ``salesforce_custom_object_upsert`` and calls it when a request needs it.
+
+What the agent fills in
+-----------------------
+
+The agent fills these in from each request. To pin a value so the agent cannot change it, set it under **Fixed settings**.
 
 .. list-table::
    :header-rows: 1
-   :widths: 18 17 11 12 42
+   :widths: 22 14 12 52
    :class: tool-params
 
    * - Parameter
-     - App Action input
      - Type
      - Required
-     - Description
+     - What it means
    * - ``objectApiName``
-     - Custom object
      - text
      - Yes
      - The custom object's API name, ending in \_\_c, for example Invoice\_\_c.
    * - ``externalIdField``
-     - External id field
      - text
      - Yes
      - The API name of a field on the object marked External ID, for example Invoice\_Number\_\_c; its value goes in fields.
    * - ``fields``
-     - Fields
      - JSON object
      - Yes
      - The record's fields as API name to value, including the external id field with its value and, in case the record is new, its required fields, for example {"Invoice\_Number\_\_c": "INV-1001", "Amount\_\_c": 2500}. Example: {"Invoice\_Number\_\_c": "INV-1001", "Amount\_\_c": 2500, "Status\_\_c": "Open"}.
 
-Use it
-------
+.. note::
 
-**As an agent tool.** Open the Agent Node's **+ Tool**, choose **Salesforce**, connect, and tick **upsert** in the **Custom Object** row. The model sees it as ``salesforce_custom_object_upsert``. Each call waits for human approval before it changes anything.
+   Each call waits for :doc:`your approval </agentic-ai-guide/safety-guardrails/human-in-the-loop>` before it changes anything in Salesforce.
 
-**As an App Action.** Drop **App Action** on the canvas, pick **Salesforce**, then **Create or update a custom object record by external id**, and fill in the inputs above. It runs every time the flow reaches it. A canvas run skips it unless **Write when run from the canvas** is on.
+Need it on every run?
+---------------------
+
+To run **Create or update a custom object record by external id** every time a flow reaches it, without the agent deciding, use the :doc:`Create or update a custom object record by external id App Action </agentic-ai-guide/tools-integrations/app-action-apps/salesforce/custom-object-upsert>`.
 
 Other Custom Object tools
 -------------------------

@@ -17,7 +17,7 @@ List channels
      <div><dt>Connector</dt><dd>Slack</dd></div>
      <div><dt>Resource</dt><dd>Channel</dd></div>
      <div><dt>Type</dt><dd>Read</dd></div>
-     <div><dt>Available as</dt><dd>Agent tool · <a href="../../app-action-apps/slack.html">App Action</a></dd></div>
+     <div><dt>Tool name</dt><dd><code>slack_channel_getmany</code></dd></div>
      </dl>
    </div>
 
@@ -25,53 +25,55 @@ List channels
 
    Lists the workspace's channels with id, name, is\_private, is\_archived, topic, purpose and num\_members. Use it to find a channel ID from its name; only public channels are listed unless types says otherwise, and private ones only where the app is a member.
 
-Prerequisites
--------------
+Before you start
+----------------
 
-* **Connection:** Slack connection. See :doc:`the Slack prerequisites <../slack>`.
+* A Slack connection. See :doc:`how to set one up <../slack>`.
 
-Parameters
-----------
+Add it to your agent
+--------------------
 
-As an agent tool, the model fills in each parameter unless you fix it under **Fixed settings**, and in an App Action each one is a box on the **Details** step.
+#. In Agent Studio, open the **Tools** group and click **Add tools**, or click **+ Tool** on an Agent Node.
+#. Choose **Slack** under **Connectors** and connect your Slack connection.
+#. Tick **list** in the **Channel** row, then click **Add to agent**.
+
+The agent now sees ``slack_channel_getmany`` and calls it when a request needs it.
+
+What the agent fills in
+-----------------------
+
+The agent fills these in from each request. To pin a value so the agent cannot change it, set it under **Fixed settings**.
 
 .. list-table::
    :header-rows: 1
-   :widths: 18 17 11 12 42
+   :widths: 22 14 12 52
    :class: tool-params
 
    * - Parameter
-     - App Action input
      - Type
      - Required
-     - Description
+     - What it means
    * - ``types``
-     - Channel types
      - text
      - No
      - Comma-separated kinds to list: public\_channel, private\_channel, mpim (group direct messages), im (direct messages). Default public\_channel. Example: public\_channel,private\_channel.
    * - ``excludeArchived``
-     - Leave out archived
      - true or false
      - No
      - true leaves archived channels out.
    * - ``fields``
-     - Columns to return
      - list of text
      - No
      - Columns to keep, for example ["text", "user"]; a dotted name reaches inside an object, such as profile.email. Blank keeps them all. Example: id,name,is\_private,num\_members.
    * - ``limit``
-     - Limit
      - whole number
      - No
      - How many channels at most; raise it to find one channel by name in a large workspace. Default: 50.
 
-Use it
-------
+Need it on every run?
+---------------------
 
-**As an agent tool.** Open the Agent Node's **+ Tool**, choose **Slack**, connect, and tick **list** in the **Channel** row. The model sees it as ``slack_channel_getmany``.
-
-**As an App Action.** Drop **App Action** on the canvas, pick **Slack**, then **List channels**, and fill in the inputs above. It runs every time the flow reaches it.
+To run **List channels** every time a flow reaches it, without the agent deciding, use the :doc:`List channels App Action </agentic-ai-guide/tools-integrations/app-action-apps/slack/channel-getmany>`.
 
 Other Channel tools
 -------------------

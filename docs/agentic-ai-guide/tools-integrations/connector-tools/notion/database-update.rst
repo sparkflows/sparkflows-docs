@@ -16,8 +16,8 @@ Update a database
      <dl class="tool-facts">
      <div><dt>Connector</dt><dd>Notion</dd></div>
      <div><dt>Resource</dt><dd>Database</dd></div>
-     <div><dt>Type</dt><dd>Write · approval-gated</dd></div>
-     <div><dt>Available as</dt><dd>Agent tool only</dd></div>
+     <div><dt>Type</dt><dd>Write · asks for approval</dd></div>
+     <div><dt>Tool name</dt><dd><code>notion_database_update</code></dd></div>
      </dl>
    </div>
 
@@ -25,16 +25,25 @@ Update a database
 
    Changes a database's title, description or columns and returns the updated database. Rows are changed with Page update instead.
 
-Prerequisites
--------------
+Before you start
+----------------
 
-* **Connection:** Notion connection. See :doc:`the Notion prerequisites <../notion>`.
-* The connection's account must be allowed to change this data in Notion.
+* A Notion connection. See :doc:`how to set one up <../notion>`.
+* The account behind the connection must be allowed to change this data in Notion.
 
-Parameters
-----------
+Add it to your agent
+--------------------
 
-As an agent tool, the model fills in each parameter unless you fix it under **Fixed settings**.
+#. In Agent Studio, open the **Tools** group and click **Add tools**, or click **+ Tool** on an Agent Node.
+#. Choose **Notion** under **Connectors** and connect your Notion connection.
+#. Tick **update** in the **Database** row, then click **Add to agent**.
+
+The agent now sees ``notion_database_update`` and calls it when a request needs it.
+
+What the agent fills in
+-----------------------
+
+The agent fills these in from each request. To pin a value so the agent cannot change it, set it under **Fixed settings**.
 
 .. list-table::
    :header-rows: 1
@@ -44,7 +53,7 @@ As an agent tool, the model fills in each parameter unless you fix it under **Fi
    * - Parameter
      - Type
      - Required
-     - Description
+     - What it means
    * - ``databaseId``
      - text
      - Yes
@@ -62,10 +71,9 @@ As an agent tool, the model fills in each parameter unless you fix it under **Fi
      - No
      - Columns to change by name: a definition adds or changes one, {"name": "New name"} renames one and null removes one. Example: {"Owner": {"people": {}}, "Old column": null}.
 
-Use it
-------
+.. note::
 
-**As an agent tool.** Open the Agent Node's **+ Tool**, choose **Notion**, connect, and tick **update** in the **Database** row. The model sees it as ``notion_database_update``. Each call waits for human approval before it changes anything.
+   Each call waits for :doc:`your approval </agentic-ai-guide/safety-guardrails/human-in-the-loop>` before it changes anything in Notion.
 
 Other Database tools
 --------------------

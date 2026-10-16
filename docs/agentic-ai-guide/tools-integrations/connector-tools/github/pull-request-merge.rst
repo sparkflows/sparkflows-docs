@@ -16,8 +16,8 @@ Merge a pull request
      <dl class="tool-facts">
      <div><dt>Connector</dt><dd>GitHub</dd></div>
      <div><dt>Resource</dt><dd>Pull Request</dd></div>
-     <div><dt>Type</dt><dd>Write · approval-gated</dd></div>
-     <div><dt>Available as</dt><dd>Agent tool only</dd></div>
+     <div><dt>Type</dt><dd>Write · asks for approval</dd></div>
+     <div><dt>Tool name</dt><dd><code>github_pull_request_merge</code></dd></div>
      </dl>
    </div>
 
@@ -25,16 +25,25 @@ Merge a pull request
 
    Merges a pull request into its base branch and returns the merge commit SHA and a message. GitHub refuses when the pull request cannot be merged, for example with conflicts, failing required checks or missing approvals.
 
-Prerequisites
--------------
+Before you start
+----------------
 
-* **Connection:** GitHub connection. See :doc:`the GitHub prerequisites <../github>`.
-* The connection's account must be allowed to change this data in GitHub.
+* A GitHub connection. See :doc:`how to set one up <../github>`.
+* The account behind the connection must be allowed to change this data in GitHub.
 
-Parameters
-----------
+Add it to your agent
+--------------------
 
-As an agent tool, the model fills in each parameter unless you fix it under **Fixed settings**.
+#. In Agent Studio, open the **Tools** group and click **Add tools**, or click **+ Tool** on an Agent Node.
+#. Choose **GitHub** under **Connectors** and connect your GitHub connection.
+#. Tick **merge** in the **Pull Request** row, then click **Add to agent**.
+
+The agent now sees ``github_pull_request_merge`` and calls it when a request needs it.
+
+What the agent fills in
+-----------------------
+
+The agent fills these in from each request. To pin a value so the agent cannot change it, set it under **Fixed settings**.
 
 .. list-table::
    :header-rows: 1
@@ -44,7 +53,7 @@ As an agent tool, the model fills in each parameter unless you fix it under **Fi
    * - Parameter
      - Type
      - Required
-     - Description
+     - What it means
    * - ``repository``
      - text
      - Yes
@@ -70,10 +79,9 @@ As an agent tool, the model fills in each parameter unless you fix it under **Fi
      - No
      - The head commit the pull request must still point to; the merge is refused if newer commits were pushed. Example: 6dcb09b5b57875f334f61aebed695e2e4193db5e.
 
-Use it
-------
+.. note::
 
-**As an agent tool.** Open the Agent Node's **+ Tool**, choose **GitHub**, connect, and tick **merge** in the **Pull Request** row. The model sees it as ``github_pull_request_merge``. Each call waits for human approval before it changes anything.
+   Each call waits for :doc:`your approval </agentic-ai-guide/safety-guardrails/human-in-the-loop>` before it changes anything in GitHub.
 
 Other Pull Request tools
 ------------------------

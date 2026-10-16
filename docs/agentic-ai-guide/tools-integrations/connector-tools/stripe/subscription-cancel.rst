@@ -16,8 +16,8 @@ Cancel a subscription
      <dl class="tool-facts">
      <div><dt>Connector</dt><dd>Stripe</dd></div>
      <div><dt>Resource</dt><dd>Subscription</dd></div>
-     <div><dt>Type</dt><dd>Delete · approval-gated</dd></div>
-     <div><dt>Available as</dt><dd>Agent tool only</dd></div>
+     <div><dt>Type</dt><dd>Delete · asks for approval</dd></div>
+     <div><dt>Tool name</dt><dd><code>stripe_subscription_cancel</code></dd></div>
      </dl>
    </div>
 
@@ -25,16 +25,25 @@ Cancel a subscription
 
    Cancels a subscription immediately and returns it with status canceled; billing stops and the subscription cannot be reactivated. Use it only when the customer must lose the plan now, since ending it at the period end is a subscription update this connector does not offer.
 
-Prerequisites
--------------
+Before you start
+----------------
 
-* **Connection:** Stripe connection. See :doc:`the Stripe prerequisites <../stripe>`.
-* The connection's account must be allowed to change this data in Stripe.
+* A Stripe connection. See :doc:`how to set one up <../stripe>`.
+* The account behind the connection must be allowed to change this data in Stripe.
 
-Parameters
-----------
+Add it to your agent
+--------------------
 
-As an agent tool, the model fills in each parameter unless you fix it under **Fixed settings**.
+#. In Agent Studio, open the **Tools** group and click **Add tools**, or click **+ Tool** on an Agent Node.
+#. Choose **Stripe** under **Connectors** and connect your Stripe connection.
+#. Tick **cancel** in the **Subscription** row, then click **Add to agent**.
+
+The agent now sees ``stripe_subscription_cancel`` and calls it when a request needs it.
+
+What the agent fills in
+-----------------------
+
+The agent fills these in from each request. To pin a value so the agent cannot change it, set it under **Fixed settings**.
 
 .. list-table::
    :header-rows: 1
@@ -44,7 +53,7 @@ As an agent tool, the model fills in each parameter unless you fix it under **Fi
    * - Parameter
      - Type
      - Required
-     - Description
+     - What it means
    * - ``subscriptionId``
      - text
      - Yes
@@ -66,10 +75,9 @@ As an agent tool, the model fills in each parameter unless you fix it under **Fi
      - No
      - The reason the customer gave for canceling. One of: customer\_service, low\_quality, missing\_features, other, switched\_service, too\_complex, too\_expensive, unused.
 
-Use it
-------
+.. note::
 
-**As an agent tool.** Open the Agent Node's **+ Tool**, choose **Stripe**, connect, and tick **cancel** in the **Subscription** row. The model sees it as ``stripe_subscription_cancel``. Each call waits for human approval before it changes anything.
+   Each call waits for :doc:`your approval </agentic-ai-guide/safety-guardrails/human-in-the-loop>` before it changes anything in Stripe.
 
 Other Subscription tools
 ------------------------

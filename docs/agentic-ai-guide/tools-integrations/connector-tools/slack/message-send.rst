@@ -16,8 +16,8 @@ Send a message
      <dl class="tool-facts">
      <div><dt>Connector</dt><dd>Slack</dd></div>
      <div><dt>Resource</dt><dd>Message</dd></div>
-     <div><dt>Type</dt><dd>Write · approval-gated</dd></div>
-     <div><dt>Available as</dt><dd>Agent tool · <a href="../../app-action-apps/slack.html">App Action</a></dd></div>
+     <div><dt>Type</dt><dd>Write · asks for approval</dd></div>
+     <div><dt>Tool name</dt><dd><code>slack_message_send</code></dd></div>
      </dl>
    </div>
 
@@ -25,59 +25,64 @@ Send a message
 
    Posts a message to a channel, a private channel or a person's direct message with the app, and returns the posted message with its ts, the id later operations use. Set threadTs to reply in a thread; to change a posted message use Message update, and to show a message to one member only use Message sendEphemeral.
 
-Prerequisites
--------------
+Before you start
+----------------
 
-* **Connection:** Slack connection. See :doc:`the Slack prerequisites <../slack>`.
-* The connection's account must be allowed to change this data in Slack.
+* A Slack connection. See :doc:`how to set one up <../slack>`.
+* The account behind the connection must be allowed to change this data in Slack.
 
-Parameters
-----------
+Add it to your agent
+--------------------
 
-As an agent tool, the model fills in each parameter unless you fix it under **Fixed settings**, and in an App Action each one is a box on the **Details** step.
+#. In Agent Studio, open the **Tools** group and click **Add tools**, or click **+ Tool** on an Agent Node.
+#. Choose **Slack** under **Connectors** and connect your Slack connection.
+#. Tick **send** in the **Message** row, then click **Add to agent**.
+
+The agent now sees ``slack_message_send`` and calls it when a request needs it.
+
+What the agent fills in
+-----------------------
+
+The agent fills these in from each request. To pin a value so the agent cannot change it, set it under **Fixed settings**.
 
 .. list-table::
    :header-rows: 1
-   :widths: 18 17 11 12 42
+   :widths: 22 14 12 52
    :class: tool-params
 
    * - Parameter
-     - App Action input
      - Type
      - Required
-     - Description
+     - What it means
    * - ``channel``
-     - Channel
      - text
      - Yes
      - Where to post: a channel ID (C0123ABC), a channel name such as #general, or a user ID (U0123ABC) for a direct message from the app.
    * - ``text``
-     - Message
      - text
      - Yes
      - The message text in Slack mrkdwn: \*bold\*, \_italic\_, \`code\`, <https://example.com\|a link>, <@U0123ABC> to mention someone. Example: Build 42 finished: all tests passed..
    * - ``threadTs``
-     - Reply in thread
      - text
      - No
      - The ts of the parent message, to post this as a reply in its thread; Channel history and Message search return it. Example: 1712345678.000100.
    * - ``replyBroadcast``
-     - Also send to channel
      - true or false
      - No
      - With threadTs, true also shows the reply in the channel itself.
    * - ``blocks``
-     - Blocks
      - list of JSON object
      - No
      - Block Kit layout blocks for a formatted message, for example [{"type": "section", "text": {"type": "mrkdwn", "text": "\*Deploy done\*"}}]; text is then the notification fallback.
 
-Use it
-------
+.. note::
 
-**As an agent tool.** Open the Agent Node's **+ Tool**, choose **Slack**, connect, and tick **send** in the **Message** row. The model sees it as ``slack_message_send``. Each call waits for human approval before it changes anything.
+   Each call waits for :doc:`your approval </agentic-ai-guide/safety-guardrails/human-in-the-loop>` before it changes anything in Slack.
 
-**As an App Action.** Drop **App Action** on the canvas, pick **Slack**, then **Send a message**, and fill in the inputs above. It runs every time the flow reaches it. A canvas run skips it unless **Write when run from the canvas** is on.
+Need it on every run?
+---------------------
+
+To run **Send a message** every time a flow reaches it, without the agent deciding, use the :doc:`Send a message App Action </agentic-ai-guide/tools-integrations/app-action-apps/slack/message-send>`.
 
 Other Message tools
 -------------------

@@ -17,7 +17,7 @@ Search files
      <div><dt>Connector</dt><dd>Google Drive</dd></div>
      <div><dt>Resource</dt><dd>File</dd></div>
      <div><dt>Type</dt><dd>Read</dd></div>
-     <div><dt>Available as</dt><dd>Agent tool · <a href="../../app-action-apps/google-drive.html">App Action</a></dd></div>
+     <div><dt>Tool name</dt><dd><code>google_drive_file_search</code></dd></div>
      </dl>
    </div>
 
@@ -25,73 +25,71 @@ Search files
 
    Finds files and folders that match a Drive query and returns their name, type, size, dates and web link. Use it to find a file's id by name, type, folder or date; trashed files match too unless the query says trashed = false.
 
-Prerequisites
--------------
+Before you start
+----------------
 
-* **Connection:** Google connection. See :doc:`the Google Drive prerequisites <../google-drive>`.
+* A Google connection. See :doc:`how to set one up <../google-drive>`.
 
-Parameters
-----------
+Add it to your agent
+--------------------
 
-As an agent tool, the model fills in each parameter unless you fix it under **Fixed settings**, and in an App Action each one is a box on the **Details** step.
+#. In Agent Studio, open the **Tools** group and click **Add tools**, or click **+ Tool** on an Agent Node.
+#. Choose **Google Drive** under **Connectors** and connect your Google connection.
+#. Tick **search** in the **File** row, then click **Add to agent**.
+
+The agent now sees ``google_drive_file_search`` and calls it when a request needs it.
+
+What the agent fills in
+-----------------------
+
+The agent fills these in from each request. To pin a value so the agent cannot change it, set it under **Fixed settings**.
 
 .. list-table::
    :header-rows: 1
-   :widths: 18 17 11 12 42
+   :widths: 22 14 12 52
    :class: tool-params
 
    * - Parameter
-     - App Action input
      - Type
      - Required
-     - Description
+     - What it means
    * - ``query``
-     - Drive query
      - text
      - No
      - A Drive v3 query such as name contains 'invoice' and mimeType = 'application/pdf' and trashed = false, built from name, fullText, mimeType, modifiedTime, createdTime, starred, trashed and '<folder id>' in parents joined with and/or, and using name, never title. Example: name contains 'invoice' and modifiedTime > '2026-09-01T00:00:00' and trashed = false.
    * - ``limit``
-     - Limit
      - whole number
      - No
      - How many files at most. Example: 50. Default: 50.
    * - ``orderBy``
-     - Sort by
      - text
      - No
      - Sort keys separated by commas, each optionally followed by desc, from createdTime, modifiedTime, name, folder, starred, viewedByMeTime and quotaBytesUsed, for example modifiedTime desc.
    * - ``fields``
-     - Fields to return
      - list of text
      - No
      - File fields to return, for example ["id", "name", "mimeType", "webViewLink", "modifiedTime"]; blank returns id, name, mimeType, created and modified time, size, webViewLink and parents.
    * - ``corpora``
-     - Search in
      - text
      - No
      - Which files to look through: user (My Drive and files shared with the account, the default), drive (one shared drive, named in driveId), domain, or allDrives (everything, slowest). One of: user, drive, domain, allDrives.
    * - ``driveId``
-     - Shared drive id
      - text
      - No
      - The shared drive to look in when corpora is drive, from List shared drives. Example: 0AHq3nLpQx7fUUk9PVA.
    * - ``includeItemsFromAllDrives``
-     - Include shared drives
      - true or false
      - No
      - true includes files that live in shared drives in the results; false keeps to My Drive and files shared with the account. Default: True.
    * - ``supportsAllDrives``
-     - Reach shared drives
      - true or false
      - No
      - true lets the call reach files that live in shared drives as well as My Drive; keep it on. Default: True.
 
-Use it
-------
+Need it on every run?
+---------------------
 
-**As an agent tool.** Open the Agent Node's **+ Tool**, choose **Google Drive**, connect, and tick **search** in the **File** row. The model sees it as ``google_drive_file_search``.
-
-**As an App Action.** Drop **App Action** on the canvas, pick **Google Drive**, then **Search files**, and fill in the inputs above. It runs every time the flow reaches it.
+To run **Search files** every time a flow reaches it, without the agent deciding, use the :doc:`Search files App Action </agentic-ai-guide/tools-integrations/app-action-apps/google-drive/file-search>`.
 
 Other File tools
 ----------------

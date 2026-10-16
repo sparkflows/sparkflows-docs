@@ -17,7 +17,7 @@ Run a SOQL query
      <div><dt>Connector</dt><dd>Salesforce</dd></div>
      <div><dt>Resource</dt><dd>Search</dd></div>
      <div><dt>Type</dt><dd>Read</dd></div>
-     <div><dt>Available as</dt><dd>Agent tool · <a href="../../app-action-apps/salesforce.html">App Action</a></dd></div>
+     <div><dt>Tool name</dt><dd><code>salesforce_search_soql</code></dd></div>
      </dl>
    </div>
 
@@ -25,35 +25,40 @@ Run a SOQL query
 
    Runs any SOQL statement and returns every matching row, following Salesforce's paging, with relationship fields nested. Use it for joins, subqueries, GROUP BY or objects the other operations do not cover; put a LIMIT in the statement, because nothing else caps the rows.
 
-Prerequisites
--------------
+Before you start
+----------------
 
-* **Connection:** Salesforce connection. See :doc:`the Salesforce prerequisites <../salesforce>`.
+* A Salesforce connection. See :doc:`how to set one up <../salesforce>`.
 
-Parameters
-----------
+Add it to your agent
+--------------------
 
-As an agent tool, the model fills in each parameter unless you fix it under **Fixed settings**, and in an App Action each one is a box on the **Details** step.
+#. In Agent Studio, open the **Tools** group and click **Add tools**, or click **+ Tool** on an Agent Node.
+#. Choose **Salesforce** under **Connectors** and connect your Salesforce connection.
+#. Tick **soql** in the **Search** row, then click **Add to agent**.
+
+The agent now sees ``salesforce_search_soql`` and calls it when a request needs it.
+
+What the agent fills in
+-----------------------
+
+The agent fills these in from each request. To pin a value so the agent cannot change it, set it under **Fixed settings**.
 
 .. list-table::
    :header-rows: 1
-   :widths: 18 17 11 12 42
+   :widths: 22 14 12 52
    :class: tool-params
 
    * - Parameter
-     - App Action input
      - Type
      - Required
-     - Description
+     - What it means
    * - ``soql``
-     - SOQL query
      - text
      - Yes
      - A complete SOQL statement, for example SELECT Id, Name, Account.Name FROM Opportunity WHERE StageName = 'Closed Won' AND CloseDate = THIS\_YEAR LIMIT 200. Example: SELECT Id, Name, Industry FROM Account WHERE Industry = 'Energy' LIMIT 100.
 
-Use it
-------
+Need it on every run?
+---------------------
 
-**As an agent tool.** Open the Agent Node's **+ Tool**, choose **Salesforce**, connect, and tick **soql** in the **Search** row. The model sees it as ``salesforce_search_soql``.
-
-**As an App Action.** Drop **App Action** on the canvas, pick **Salesforce**, then **Run a SOQL query**, and fill in the inputs above. It runs every time the flow reaches it.
+To run **Run a SOQL query** every time a flow reaches it, without the agent deciding, use the :doc:`Run a SOQL query App Action </agentic-ai-guide/tools-integrations/app-action-apps/salesforce/search-soql>`.

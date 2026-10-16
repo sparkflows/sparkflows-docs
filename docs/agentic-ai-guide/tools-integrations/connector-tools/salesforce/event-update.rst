@@ -16,8 +16,8 @@ Update an event
      <dl class="tool-facts">
      <div><dt>Connector</dt><dd>Salesforce</dd></div>
      <div><dt>Resource</dt><dd>Event</dd></div>
-     <div><dt>Type</dt><dd>Write · approval-gated</dd></div>
-     <div><dt>Available as</dt><dd>Agent tool · <a href="../../app-action-apps/salesforce.html">App Action</a></dd></div>
+     <div><dt>Type</dt><dd>Write · asks for approval</dd></div>
+     <div><dt>Tool name</dt><dd><code>salesforce_event_update</code></dd></div>
      </dl>
    </div>
 
@@ -25,64 +25,68 @@ Update an event
 
    Changes the given fields on an existing event and leaves the others as they are; returns the event's Id. The event is named by its Salesforce Id, which List events returns.
 
-Prerequisites
--------------
+Before you start
+----------------
 
-* **Connection:** Salesforce connection. See :doc:`the Salesforce prerequisites <../salesforce>`.
-* The connection's account must be allowed to change this data in Salesforce.
+* A Salesforce connection. See :doc:`how to set one up <../salesforce>`.
+* The account behind the connection must be allowed to change this data in Salesforce.
 
-Parameters
-----------
+Add it to your agent
+--------------------
 
-As an agent tool, the model fills in each parameter unless you fix it under **Fixed settings**, and in an App Action each one is a box on the **Details** step.
+#. In Agent Studio, open the **Tools** group and click **Add tools**, or click **+ Tool** on an Agent Node.
+#. Choose **Salesforce** under **Connectors** and connect your Salesforce connection.
+#. Tick **update** in the **Event** row, then click **Add to agent**.
+
+The agent now sees ``salesforce_event_update`` and calls it when a request needs it.
+
+What the agent fills in
+-----------------------
+
+The agent fills these in from each request. To pin a value so the agent cannot change it, set it under **Fixed settings**.
 
 .. list-table::
    :header-rows: 1
-   :widths: 18 17 11 12 42
+   :widths: 22 14 12 52
    :class: tool-params
 
    * - Parameter
-     - App Action input
      - Type
      - Required
-     - Description
+     - What it means
    * - ``eventId``
-     - Event Id
      - text
      - Yes
      - The Salesforce Id of the event to change, starting 00U, for example 00UXX000001XyZa; List events returns it.
    * - ``subject``
-     - Subject
      - text
      - No
      - The event's title. Example: Quarterly business review.
    * - ``startDateTime``
-     - Starts
      - text
      - No
      - When the event starts, as ISO 8601 with a zone, for example 2026-10-06T10:00:00Z.
    * - ``endDateTime``
-     - Ends
      - text
      - No
      - When the event ends, in the same format as the start. Example: 2026-10-06T11:00:00Z.
    * - ``location``
-     - Location
      - text
      - No
      - Where the event takes place. Example: Acme Energy, Pune office.
    * - ``description``
-     - Description
      - text
      - No
      - Notes or an agenda for the event. Example: Agenda: Q3 usage and renewal options..
 
-Use it
-------
+.. note::
 
-**As an agent tool.** Open the Agent Node's **+ Tool**, choose **Salesforce**, connect, and tick **update** in the **Event** row. The model sees it as ``salesforce_event_update``. Each call waits for human approval before it changes anything.
+   Each call waits for :doc:`your approval </agentic-ai-guide/safety-guardrails/human-in-the-loop>` before it changes anything in Salesforce.
 
-**As an App Action.** Drop **App Action** on the canvas, pick **Salesforce**, then **Update an event**, and fill in the inputs above. It runs every time the flow reaches it. A canvas run skips it unless **Write when run from the canvas** is on.
+Need it on every run?
+---------------------
+
+To run **Update an event** every time a flow reaches it, without the agent deciding, use the :doc:`Update an event App Action </agentic-ai-guide/tools-integrations/app-action-apps/salesforce/event-update>`.
 
 Other Event tools
 -----------------

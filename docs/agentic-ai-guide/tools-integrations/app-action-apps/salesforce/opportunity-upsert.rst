@@ -1,0 +1,115 @@
+:orphan:
+
+.. rst-class:: agentic-tutorial
+
+.. raw:: html
+
+   <p class="tool-crumbs"><a href="../index.html">App Action Apps</a> › <a href="../salesforce.html">Salesforce</a> › Opportunity</p>
+
+Create or update an opportunity by external id
+==============================================
+
+.. raw:: html
+
+   <div class="tool-hero">
+     <img class="tool-hero-logo" src="../../../../_static/img/tools/salesforce.svg" alt="Salesforce logo">
+     <dl class="tool-facts">
+     <div><dt>App</dt><dd>Salesforce</dd></div>
+     <div><dt>Resource</dt><dd>Opportunity</dd></div>
+     <div><dt>Type</dt><dd>Changes data</dd></div>
+     <div><dt>Passes on</dt><dd>Your rows, with the result of each write</dd></div>
+     </dl>
+   </div>
+
+.. container:: tutorial-intro
+
+   Creates an opportunity, or updates the one whose external id field already holds the same value, so a repeated sync never makes duplicates; returns the external id.
+
+Before you start
+----------------
+
+* A Salesforce connection. See :doc:`how to set one up </agentic-ai-guide/tools-integrations/connector-tools/salesforce>`.
+* The account behind the connection must be allowed to change this data in Salesforce.
+
+Add this step
+-------------
+
+#. Drag **App Action** from **Commonly used** onto the canvas and connect it where the step belongs.
+#. **App:** choose **Salesforce**.
+#. **Action:** under **Opportunity**, choose **Create or update an opportunity by external id**.
+#. **Details:** choose your Salesforce connection, click **Test**, then fill in the boxes below.
+#. Click **Save action**.
+
+Fill in the details
+-------------------
+
+Type a value, or click a field under **What arrives here** to put a value from an earlier step into the box.
+
+.. list-table::
+   :header-rows: 1
+   :widths: 26 12 62
+   :class: tool-params
+
+   * - Box
+     - Required
+     - What to enter
+   * - **External Id field**
+     - No
+     - The field an upsert matches an existing record on. For example ``External_Id__c``.
+
+Under **Advanced settings**:
+
+.. list-table::
+   :header-rows: 1
+   :widths: 26 12 62
+   :class: tool-params
+
+   * - Box
+     - Required
+     - What to enter
+   * - **If a row is rejected**
+     - No
+     - What happens when a row cannot be written.
+
+       * ``stop`` (default): The run stops at the first row that fails.
+       * ``continue``: The other rows are still written. The failed row is marked ``failed`` in ``result_status``, with the reason in ``result_error``.
+   * - **Use the Bulk API from this many rows**
+     - No
+     - Below this many rows each row is one REST call; from this many the whole set goes as one Bulk API job. 0 never uses the Bulk API. Default: ``200``.
+
+What it passes on
+-----------------
+
+Every row comes out with three columns added, so the next step can route on them:
+
+.. list-table::
+   :header-rows: 1
+   :widths: 26 74
+   :class: tool-table
+
+   * - Column
+     - Value
+   * - ``result_status``
+     - ``ok``, ``failed`` or ``skipped``
+   * - ``result_id``
+     - The id Salesforce gave the record
+   * - ``result_error``
+     - Why the row failed, if it did
+
+Add a **Filter** on ``result_status = 'failed'`` to collect the rows that failed.
+
+.. important::
+
+   Running from the canvas is a preview: the write is skipped and ``result_status`` is ``skipped``. A full or scheduled run writes for real.
+
+Let an agent decide instead
+---------------------------
+
+To let an agent call **Create or update an opportunity by external id** only when a request needs it, add the :doc:`Create or update an opportunity by external id tool </agentic-ai-guide/tools-integrations/connector-tools/salesforce/opportunity-upsert>` to an Agent Node.
+
+Other Opportunity actions
+-------------------------
+
+.. raw:: html
+
+   <div class="tool-related"><a href="opportunity-get.html">Get an opportunity</a><a href="opportunity-getmany.html">List opportunities</a><a href="opportunity-create.html">Create an opportunity</a><a href="opportunity-update.html">Update an opportunity</a><a href="opportunity-delete.html">Delete an opportunity</a><a href="opportunity-describe.html">Describe opportunity fields</a><a href="opportunity-addnote.html">Add a note to an opportunity</a></div>

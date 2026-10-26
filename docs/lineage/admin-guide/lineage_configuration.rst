@@ -2,6 +2,11 @@ Lineage Configuration
 =====
 This document outlines the steps to configure Lineage in Sparkflows.
 
+.. note::
+
+   Before configuring lineage in Sparkflows, ensure that **Marquez** is installed and running. If you have not set up Marquez yet, refer to the :doc:`/lineage/admin-guide/marquez_installation` guide.
+
+
 Step 1 : Log In and Navigate to the Configurations Page
 ----------------------------------
 

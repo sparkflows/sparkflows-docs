@@ -5,6 +5,12 @@ Lineage Admin Guide
     :container: container-lg pb-3
     :column: text-center col-lg-6 col-md-6 col-sm-6 col-xs-12 p-2
 
+    :doc:`/lineage/admin-guide/marquez_installation`
+
+    Marquez Installation.
+
+    ---
+
     :doc:`/lineage/admin-guide/lineage_configuration`
 
     Lineage Configuration.
@@ -14,4 +20,5 @@ Lineage Admin Guide
 .. toctree::
    :hidden:
    
+   marquez_installation.rst
    lineage_configuration.rst
